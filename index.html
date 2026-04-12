@@ -58,12 +58,19 @@
 <div id="app">
   <div class="hdr">
     <h1>Elecciones Generales Perú 2026 — Congreso Bicameral</h1>
-    <div class="byline">Por Mathieu Rojas @KhamaRamaq </div>
+    <div class="byline" style="font-size:11px;color:var(--muted);margin-top:4px;">
+      Por <a href="https://x.com/KhamaRamaq" target="_blank" style="color:var(--text);font-weight:600;text-decoration:none;">@KhamaRamaq</a>
+      · <a href="https://www.linkedin.com/in/mathieu-rojas-egoavil-889a64293/" target="_blank" style="color:var(--text);text-decoration:none;">LinkedIn</a>
+      · <span style="cursor:pointer;text-decoration:underline;color:var(--muted);" onclick="document.getElementById('yape-modal').style.display='flex'">☕ Yape</span>
+    </div>
     <div class="escrutinio-bar">
       <div class="e-pill">Senado: <span id="sen-pct-display">—</span>% escrutado</div>
       <div class="e-pill">Diputados: <span id="dip-pct-display">—</span>% escrutado</div>
     </div>
     <div class="update-time" id="update-time">Cargando datos...</div>
+    <div style="font-size:10px;color:var(--muted);margin-top:6px;max-width:420px;margin-left:auto;margin-right:auto;line-height:1.5;">
+      Por ahora, esta página muestra los resultados de las Elecciones Generales 2021. Mañana, en cuanto ONPE publique los primeros resultados, esta página se actualizará automáticamente cada 5 minutos con la composición en vivo de ambas cámaras.
+    </div>
   </div>
   <div class="upload" id="dz">
     <p>Cargando datos... o sube un CSV manualmente:</p>
@@ -594,5 +601,12 @@ function setTab(tab,el){
   });
 }
 </script>
+<div id="yape-modal" onclick="this.style.display='none'" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,0.6);z-index:999;align-items:center;justify-content:center;">
+  <div onclick="event.stopPropagation()" style="background:var(--surface);border-radius:16px;padding:20px;text-align:center;max-width:280px;">
+    <div style="font-size:13px;font-weight:600;margin-bottom:8px;">¡Gracias por el apoyo! 🙏</div>
+    <img src="yape.jpg" style="width:220px;border-radius:8px;">
+    <div style="font-size:10px;color:var(--muted);margin-top:8px;">Toca fuera para cerrar</div>
+  </div>
+</div>
 </body>
 </html>
