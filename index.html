@@ -94,6 +94,7 @@
       <div class="tab" onclick="setTab('diputados',this)">Diputados</div>
       <div class="tab" onclick="setTab('mapa',this)">Mapa</div>
       <div class="tab" onclick="setTab('umbrales',this)">Umbrales</div>
+      <div class="tab" onclick="setTab('margenes',this)">Márgenes</div>
     </div>
     <div id="v-ambas">
       <div class="two-col">
@@ -111,6 +112,13 @@
       <div class="card"><div class="map-legend" id="map-legend"></div></div>
     </div>
     <div id="v-umbrales" style="display:none"><div class="card"><h2>Análisis de umbrales</h2><div id="thr-content"></div></div></div>
+    <div id="v-margenes" style="display:none">
+      <div class="card">
+        <h2>Escaños más disputados</h2>
+        <div class="sub-info">Los asientos donde el margen entre ganar y perder fue más estrecho</div>
+        <div id="margenes-content" style="margin-top:8px;"></div>
+    </div>
+</div>
     <div class="note" id="note"></div>
     <div class="status" id="status"></div>
   </div>
@@ -567,6 +575,106 @@ function renderThr(sd,dd){
   el.innerHTML=`<table class="thr-tbl"><thead><tr><th>Partido</th><th>Senado</th><th>Diputados</th></tr></thead><tbody>${rows}</tbody></table>`;
 }
 
+  function computeMargins(rows, cargo, seatThr) {
+  const res = computeChamber(rows, cargo, seatThr);
+  const margins = [];
+  const normD = d => (d === 'Lima' || d === 'LIMA') ? 'Lima Metropolitana' : d;
+  const valid = rows.filter(r => r.cargo === cargo && !EXCL.has(r.party));
+  const tv = {};
+  for (const r of valid) tv[r.party] = (tv[r.party] || 0) + parseInt(r.votes || 0);
+
+  // Rebuild per-dept filtered votes (qualified parties only)
+  const cs = {};
+  for (const r of valid) {
+    const d = normD(r.dept);
+    if (!cs[d]) cs[d] = { seats: parseInt(r.seats), votes: {} };
+    cs[d].votes[r.party] = (cs[d].votes[r.party] || 0) + parseInt(r.votes || 0);
+  }
+
+  for (const [dept, data] of Object.entries(cs)) {
+    const fv = {};
+    for (const [p, v] of Object.entries(data.votes)) if (res.qual.has(p)) fv[p] = v;
+    const ps = Object.keys(fv).filter(p => fv[p] > 0);
+    if (!ps.length) continue;
+
+    // Build all quotients
+    const qs = [];
+    for (const p of ps)
+      for (let d = 1; d <= data.seats + 1; d++)
+        qs.push({ p, q: fv[p] / d, d });
+    qs.sort((a, b) => b.q - a.q);
+
+    // The last winning quotient and first losing quotient
+    const winner = qs[data.seats - 1];
+    const loser  = qs[data.seats];
+    if (!winner || !loser) continue;
+
+    const margin = Math.round(winner.q - loser.q);
+    margins.push({
+      dept,
+      seats: data.seats,
+      seatN: data.seats,
+      winner: winner.p,
+      winnerSeat: winner.d,
+      loser: loser.p,
+      loserSeat: loser.d,
+      margin,
+      winnerQ: Math.round(winner.q),
+      loserQ: Math.round(loser.q),
+    });
+  }
+
+  margins.sort((a, b) => a.margin - b.margin);
+  return { margins, cargo: cargo === 'senador' ? 'Senado' : 'Diputados' };
+}
+
+function renderMargins(rows) {
+  const el = document.getElementById('margenes-content');
+  if (!el) return;
+
+  const sen = computeMargins(rows, 'senador', 3);
+  const dip = computeMargins(rows, 'diputado', 7);
+  const top = 8;
+
+  function cards(data) {
+    return data.margins.slice(0, top).map((m, i) => {
+      const wPct = m.winnerQ / (m.winnerQ + m.loserQ) * 100;
+      const lPct = 100 - wPct;
+      return `
+        <div style="background:var(--bg);border-radius:10px;padding:8px 10px;margin-bottom:6px;border:0.5px solid var(--border-light);">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:5px;">
+            <div style="font-size:10px;font-weight:600;color:var(--text);">${m.dept}</div>
+            <div style="font-size:9px;color:var(--muted);">Escaño ${m.seatN}/${m.seatN} · ${data.cargo}</div>
+          </div>
+          <div style="display:flex;gap:4px;align-items:center;margin-bottom:5px;">
+            <div style="width:9px;height:9px;border-radius:50%;background:${col(m.winner)};flex-shrink:0"></div>
+            <div style="font-size:9px;color:var(--text);flex:1;">${sh(m.winner)}</div>
+            <div style="font-size:9px;color:var(--muted);">${m.winnerQ.toLocaleString('es-PE')} (÷${m.winnerSeat})</div>
+          </div>
+          <div style="height:5px;border-radius:3px;overflow:hidden;display:flex;margin-bottom:5px;gap:1px;">
+            <div style="width:${wPct.toFixed(1)}%;background:${col(m.winner)};border-radius:3px 0 0 3px;opacity:0.85;"></div>
+            <div style="width:${lPct.toFixed(1)}%;background:${col(m.loser)};border-radius:0 3px 3px 0;opacity:0.85;"></div>
+          </div>
+          <div style="display:flex;gap:4px;align-items:center;">
+            <div style="width:9px;height:9px;border-radius:50%;background:${col(m.loser)};flex-shrink:0;opacity:0.5;"></div>
+            <div style="font-size:9px;color:var(--muted);flex:1;">${sh(m.loser)}</div>
+            <div style="font-size:9px;color:var(--muted);">${m.loserQ.toLocaleString('es-PE')} (÷${m.loserSeat})</div>
+          </div>
+          <div style="margin-top:5px;padding-top:4px;border-top:0.5px solid var(--border-light);font-size:9px;color:var(--faint);text-align:right;">
+            Margen: <span style="color:${i<3?'#dc2626':'var(--text)'};font-weight:600;">${m.margin.toLocaleString('es-PE')} votos</span>
+          </div>
+        </div>`;
+    }).join('');
+  }
+
+  el.innerHTML = `
+    <div style="font-size:10px;font-weight:600;color:var(--muted);margin-bottom:5px;text-transform:uppercase;letter-spacing:0.05em;">Senado</div>
+    ${cards(sen)}
+    <div style="font-size:10px;font-weight:600;color:var(--muted);margin:10px 0 5px;text-transform:uppercase;letter-spacing:0.05em;">Diputados</div>
+    ${cards(dip)}
+  `;
+}
+  
 // ── MAIN RENDER ───────────────────────────────────────────────────────────────
 let SD,DD;
 function render(rows){
@@ -584,6 +692,7 @@ function render(rows){
   ['ds1','ds2'].forEach(id=>document.getElementById(id).textContent=`${DD.tot} escaños · ${DD.qual.size} partidos`);
   document.getElementById('note').textContent='Umbral: ≥5% votos válidos nacionales Y ≥3 escaños (Senado) / ≥7 escaños (Diputados) en 1ª ronda D\'Hondt. Actualización automática cada 5 min.';
   document.getElementById('status').textContent=`Senado: ${SD.tot}/60 · Diputados: ${DD.tot}/130`;
+  renderMargins(rows);
   document.getElementById('dz').style.display='none';
   document.getElementById('dash').style.display='block';
 }
@@ -604,7 +713,7 @@ dz.addEventListener('drop',e=>{
 function setTab(tab,el){
   document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
   el.classList.add('active');
-  ['ambas','senado','diputados','mapa','umbrales'].forEach(v=>{
+  ['ambas','senado','diputados','mapa','umbrales','margenes'].forEach(v=>{
     document.getElementById('v-'+v).style.display=v===tab?'':'none';
   });
 }
