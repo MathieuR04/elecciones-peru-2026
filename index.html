@@ -738,7 +738,7 @@ function renderEvolucion(histRows) {
 
     const datasets = parties.map(p => ({
       label: sh(p),
-      data: partySeats[p],
+      data: partySeats[p].map((seats, i) => ({ x: snapshots[i], y: seats })),
       borderColor: col(p),
       backgroundColor: col(p) + '22',
       borderWidth: 2,
@@ -747,7 +747,7 @@ function renderEvolucion(histRows) {
       fill: false,
     }));
 
-    const labels = snapshots.map(p => p.toFixed(1) + '%');
+    const labels = snapshots;
     const canvasId = cargo === 'senador' ? 'evo-sen' : 'evo-dip';
     const chartRef = cargo === 'senador' ? 'evoSenChart' : 'evoDipChart';
 
@@ -769,9 +769,10 @@ function renderEvolucion(histRows) {
         },
         scales: {
           x: {
+            type: 'linear',
             title: { display: true, text: '% actas contabilizadas', font: { size: 11 }, color: '#88878099' },
             grid: { color: '#88878022' },
-            ticks: { color: '#888780', font: { size: 10 } }
+            ticks: { color: '#888780', font: { size: 10 }, callback: v => v + '%' }
           },
           y: {
             title: { display: true, text: 'Escaños', font: { size: 11 }, color: '#88878099' },
