@@ -764,7 +764,7 @@ function renderEvolucion(histRows) {
           tooltip: {
             callbacks: {
               title: items => `${items[0].label} escrutado`,
-              label: item => `${item.dataset.label}: ${item.raw} escaños`
+              label: item => `${item.dataset.label}: ${item.raw.y} escaños`
             }
           }
         },
