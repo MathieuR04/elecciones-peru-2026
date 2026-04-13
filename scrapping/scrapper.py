@@ -314,21 +314,17 @@ def append_historico(pct, cargo, all_rows):
             print(f"  [SKIP] {cargo} pct unchanged ({pct}%)")
             return
 
-    # Aggregate total votes per party for this cargo
-    votes_by_party = {}
-    for row in all_rows:
-        if row["cargo"] == cargo:
-            p = row["party"]
-            votes_by_party[p] = votes_by_party.get(p, 0) + int(row["votes"])
+    # Write one row per (dept, party) so frontend can run D'Hondt per circumscription
+    cargo_rows = [r for r in all_rows if r["cargo"] == cargo]
 
     write_header = not HISTORICO.exists() or HISTORICO.stat().st_size == 0
     with open(HISTORICO, "a", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
         if write_header:
-            writer.writerow(["pct_escrutado", "cargo", "partido", "votes"])
-        for party, votes in votes_by_party.items():
-            writer.writerow([pct, cargo, party, votes])
-    print(f"  ✓ Appended {cargo} snapshot at {pct}%")
+            writer.writerow(["pct_escrutado", "cargo", "dept", "seats", "partido", "votes"])
+        for row in cargo_rows:
+            writer.writerow([pct, cargo, row["dept"], row["seats"], row["party"], row["votes"]])
+    print(f"  ✓ Appended {cargo} snapshot at {pct}% ({len(cargo_rows)} rows)")
 
 
 # ── Main ──────────────────────────────────────────────────────────────────────
