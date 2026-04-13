@@ -1,31 +1,24 @@
 """
 scrapper.py
 -----------
-Two separate processes:
+Calls ONPE's JSON API directly.
 
-1. Scrape all circumscriptions from scrapping/resultados_scrapping.csv
-   -> writes data/resultados.csv
+Three data sources:
+  - Diputados regional (27 districts, idEleccion=13)
+  - Senadores regional (27 districts, idEleccion=14)
+  - Senadores nacional (1 circumscription, idEleccion=15)
 
-2. Scrape % actas contabilizadas from scrapping/contabilizado.csv
-   -> writes data/config.json  (sen_pct, dip_pct, updated_at)
+Writes:
+  - data/resultados.csv
+  - data/config.json  (weighted % contabilizado)
+  - data/historico.csv (appends snapshot only if pct changed)
 
-Usage
------
-  # Live (production):
+Usage:
   python3 scrapping/scrapper.py
-
-  # Local test (reads HTML files from a folder instead of fetching URLs):
-  python3 scrapping/scrapper.py --local /path/to/onpe_capturas
-
-  In local mode the filename is derived from the last URL segment:
-    https://.../ReCng/D44001  ->  D44001.html
-    https://.../GenRl         ->  GenRl.html
 """
 
-import argparse
 import csv
 import json
-import re
 import sys
 import time
 from datetime import datetime
@@ -33,252 +26,300 @@ from pathlib import Path
 
 import pandas as pd
 import requests
-from bs4 import BeautifulSoup
 
 # ── Paths ─────────────────────────────────────────────────────────────────────
-SCRAPPING_CSV    = Path("scrapping/resultados_scrapping.csv")
-CONTABILIZADO_CSV = Path("scrapping/contabilizado.csv")
-OUTPUT_CSV       = Path("data/resultados.csv")
-OUTPUT_JSON      = Path("data/config.json")
+SCRAPPING_CSV = Path("scrapping/resultados_scrapping.csv")
+OUTPUT_CSV    = Path("data/resultados.csv")
+OUTPUT_JSON   = Path("data/config.json")
+HISTORICO     = Path("data/historico.csv")
 
+BASE = "https://resultadoelectoral.onpe.gob.pe/presentacion-backend"
 HEADERS = {
-    "User-Agent": (
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-        "AppleWebKit/537.36 (KHTML, like Gecko) "
-        "Chrome/124.0.0.0 Safari/537.36"
-    )
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+    "Referer": "https://resultadoelectoral.onpe.gob.pe/",
+    "Origin": "https://resultadoelectoral.onpe.gob.pe",
 }
-REQUEST_DELAY   = 1.5
-REQUEST_TIMEOUT = 30
+DELAY = 0.5
+
+ID_DIPUTADOS       = 13
+ID_SEN_REGIONAL    = 14
+ID_SEN_NACIONAL    = 15
 
 
-# ── Fetch / load ──────────────────────────────────────────────────────────────
+# ── HTTP helper ───────────────────────────────────────────────────────────────
 
-def load_local(url, local_dir):
-    filename = url.rstrip("/").split("/")[-1] + ".html"
-    filepath = local_dir / filename
-    if not filepath.exists():
-        print(f"  [ERROR] Local file not found: {filepath}", file=sys.stderr)
-        return None
-    with open(filepath, "r", encoding="utf-8", errors="ignore") as f:
-        return BeautifulSoup(f, "html.parser")
-
-
-def fetch_remote(url):
-    try:
-        resp = requests.get(url, headers=HEADERS, timeout=REQUEST_TIMEOUT)
-        resp.raise_for_status()
-        return BeautifulSoup(resp.text, "html.parser")
-    except Exception as exc:
-        print(f"  [ERROR] Could not fetch {url}: {exc}", file=sys.stderr)
-        return None
-
-
-def get_soup(url, local_dir, delay=True):
-    if local_dir:
-        return load_local(url, local_dir)
-    else:
-        soup = fetch_remote(url)
-        if delay:
-            time.sleep(REQUEST_DELAY)
-        return soup
-
-
-# ── Vote parsing ──────────────────────────────────────────────────────────────
-
-def parse_votes(raw):
-    cleaned = raw.replace(",", "").replace(".", "").strip()
-    try:
-        return int(cleaned)
-    except ValueError:
-        return 0
-
-
-# ── Scrapers: resultados ──────────────────────────────────────────────────────
-
-def scrape_regional(soup, cargo, dept, seats):
-    table = soup.find("table", id="tableRes")
-    if not table:
-        print(f"  [WARN] table#tableRes not found for {cargo}/{dept}", file=sys.stderr)
-        return []
-
-    SKIP = {"TOTAL DE VOTOS VÁLIDOS", "TOTAL DE VOTOS EMITIDOS"}
-    RENAME = {
-        "VOTOS BLANCOS": "VOTOS EN BLANCO",
-        "VOTOS NULOS":   "VOTOS NULOS",
-    }
-
-    rows = []
-    for tr in table.find_all("tr"):
-        cells = [td.get_text(strip=True) for td in tr.find_all(["td", "th"])]
-        if not cells or len(cells) < 3:
-            continue
-        if "ORGANIZACIONES" in " ".join(cells):
-            continue
-        party_raw = cells[1].strip()
-        if not party_raw or party_raw in SKIP:
-            continue
-        party = RENAME.get(party_raw, party_raw)
-        votes = parse_votes(cells[2])
-        rows.append({"cargo": cargo, "dept": dept, "seats": seats,
-                     "party": party, "votes": votes})
-    return rows
-
-
-def scrape_nacional(soup, cargo, dept, seats):
-    table = soup.find("table", id="table1")
-    if not table:
-        print(f"  [WARN] table#table1 not found for {cargo}/{dept}", file=sys.stderr)
-        return []
-
-    rows = []
-    for tr in table.find_all("tr"):
-        cells = [td.get_text(strip=True) for td in tr.find_all(["td", "th"])]
-        if not cells or len(cells) < 3:
-            continue
-        if "ORGANIZACIÓN" in " ".join(cells) or "VOTOS" in cells[0]:
-            continue
-        party = cells[1].strip()
-        if not party:
-            continue
-        votes = parse_votes(cells[2])
-        rows.append({"cargo": cargo, "dept": dept, "seats": seats,
-                     "party": party, "votes": votes})
-    return rows
-
-
-# ── Scraper: % contabilizado ──────────────────────────────────────────────────
-
-def extract_pct_contabilizado(soup):
-    """Read % from <li>ACTAS CONTABILIZADAS: X%</li>"""
-    for li in soup.find_all("li"):
-        text = li.get_text(strip=True)
-        m = re.match(r"ACTAS CONTABILIZADAS[:\s]+([\d.,]+)%", text, re.IGNORECASE)
-        if m:
-            return float(m.group(1).replace(",", "."))
+def get(url, retries=3):
+    for i in range(retries):
+        try:
+            r = requests.get(url, headers=HEADERS, timeout=20)
+            r.raise_for_status()
+            return r.json()
+        except Exception as e:
+            print(f"  [WARN] Attempt {i+1} failed for {url.split('?')[0]}: {e}")
+            time.sleep(1)
+    print(f"  [ERROR] Failed: {url}")
     return None
+
+
+# ── District list ─────────────────────────────────────────────────────────────
+
+def fetch_districts():
+    url = f"{BASE}/eleccion-diputado/distritos?idEleccion={ID_DIPUTADOS}&tipoFiltro=distrito_electoral"
+    data = get(url)
+    if data and data.get("success"):
+        return [(d["codigo"], d["nombre"]) for d in data["data"]]
+    # Hardcoded fallback from DevTools
+    return [
+        (1,"AMAZONAS"),(2,"ÁNCASH"),(3,"APURÍMAC"),(4,"AREQUIPA"),
+        (5,"AYACUCHO"),(6,"CAJAMARCA"),(7,"CALLAO"),(8,"CUSCO"),
+        (9,"HUANCAVELICA"),(10,"HUÁNUCO"),(11,"ICA"),(12,"JUNÍN"),
+        (13,"LA LIBERTAD"),(14,"LAMBAYEQUE"),(15,"LIMA METROPOLITANA"),
+        (16,"LIMA PROVINCIAS"),(17,"LORETO"),(18,"MADRE DE DIOS"),
+        (19,"MOQUEGUA"),(20,"PASCO"),(21,"PIURA"),(22,"PUNO"),
+        (23,"SAN MARTÍN"),(24,"TACNA"),(25,"TUMBES"),(26,"UCAYALI"),
+        (27,"PERUANOS RESIDENTES EN EL EXTRANJERO"),
+    ]
+
+
+# ── Dept name normalizer ──────────────────────────────────────────────────────
+
+DEPT_MAP = {
+    "LIMA METROPOLITANA": "Lima",
+    "LIMA PROVINCIAS": "Lima Provincias",
+    "PERUANOS RESIDENTES EN EL EXTRANJERO": "PEX",
+    "ÁNCASH": "Áncash", "APURÍMAC": "Apurímac", "AREQUIPA": "Arequipa",
+    "AYACUCHO": "Ayacucho", "CAJAMARCA": "Cajamarca", "CALLAO": "Callao",
+    "CUSCO": "Cusco", "HUANCAVELICA": "Huancavelica", "HUÁNUCO": "Huánuco",
+    "ICA": "Ica", "JUNÍN": "Junín", "LA LIBERTAD": "La Libertad",
+    "LAMBAYEQUE": "Lambayeque", "LORETO": "Loreto", "MADRE DE DIOS": "Madre de Dios",
+    "MOQUEGUA": "Moquegua", "PASCO": "Pasco", "PIURA": "Piura", "PUNO": "Puno",
+    "SAN MARTÍN": "San Martín", "TACNA": "Tacna", "TUMBES": "Tumbes",
+    "UCAYALI": "Ucayali", "AMAZONAS": "Amazonas",
+}
+
+def norm(nombre):
+    return DEPT_MAP.get(nombre, nombre.title())
+
+
+# ── Seats loader ──────────────────────────────────────────────────────────────
+
+def load_seats():
+    df = pd.read_csv(SCRAPPING_CSV)
+    url_col = next((c for c in df.columns if c.lower()=="url" or c.startswith("Unnamed")), None)
+    if url_col:
+        df = df.drop(columns=[url_col])
+    return {(str(r["cargo"]).strip(), str(r["dept"]).strip()): int(r["seats"])
+            for _, r in df.iterrows()}
+
+
+# ── Vote fetchers ─────────────────────────────────────────────────────────────
+
+def fetch_votes(url):
+    data = get(url)
+    if not data or not data.get("success"):
+        return []
+    return [
+        {"party": p.get("nombreAgrupacionPolitica","").strip(),
+         "votes": int(p.get("totalVotosValidos", 0) or 0)}
+        for p in data.get("data", [])
+        if p.get("nombreAgrupacionPolitica","").strip()
+    ]
+
+
+def fetch_diputados_votes(dist_id):
+    return fetch_votes(
+        f"{BASE}/eleccion-diputado/participantes-ubicacion-geografica-nombre"
+        f"?idEleccion={ID_DIPUTADOS}&tipoFiltro=distrito_electoral&idDistritoElectoral={dist_id}"
+    )
+
+
+def fetch_sen_regional_votes(dist_id):
+    return fetch_votes(
+        f"{BASE}/senadores-distrital-multiple/participantes-ubicacion-geografica"
+        f"?idDistritoElectoral={dist_id}&idEleccion={ID_SEN_REGIONAL}&tipoFiltro=distrito_electoral"
+    )
+
+
+def fetch_sen_nacional_votes():
+    return fetch_votes(
+        f"{BASE}/senadores-distrito-unico/participantes-ubicacion-geografica-nombre"
+        f"?idEleccion={ID_SEN_NACIONAL}&tipoFiltro=eleccion"
+    )
+
+
+# ── Actas fetchers ────────────────────────────────────────────────────────────
+
+def fetch_actas_regional(dist_id, id_eleccion):
+    """Returns (contabilizadas, totalActas) for a regional district."""
+    url = (f"{BASE}/resumen-general/totales"
+           f"?idEleccion={id_eleccion}&tipoFiltro=distrito_electoral&idDistritoElectoral={dist_id}")
+    data = get(url)
+    if not data or not data.get("success"):
+        return 0, 0
+    d = data.get("data", {})
+    return int(d.get("contabilizadas", 0) or 0), int(d.get("totalActas", 0) or 0)
+
+
+def fetch_actas_nacional():
+    """Returns (contabilizadas, totalActas) for nacional senadores."""
+    url = (f"{BASE}/resumen-general/totales"
+           f"?idEleccion={ID_SEN_NACIONAL}&tipoFiltro=eleccion")
+    data = get(url)
+    if not data or not data.get("success"):
+        return 0, 0
+    d = data.get("data", {})
+    return int(d.get("contabilizadas", 0) or 0), int(d.get("totalActas", 0) or 0)
 
 
 # ── Process 1: resultados.csv ─────────────────────────────────────────────────
 
-def process_resultados(df, local_dir):
+def process_resultados(districts, seats):
     print("=" * 60)
-    print("PROCESS 1: Scraping resultados")
+    print("PROCESS 1: Scraping votes")
     print("=" * 60)
-
     all_rows = []
-    total = len(df)
 
-    for i, row in df.iterrows():
-        cargo = str(row["cargo"]).strip()
-        dept  = str(row["dept"]).strip()
-        seats = int(row["seats"])
-        url   = str(row["url"]).strip()
+    # Diputados regional
+    for dist_id, dist_name in districts:
+        dept = norm(dist_name)
+        seat_count = seats.get(("diputado", dept), 0)
+        print(f"  diputado / {dept} (id={dist_id}, seats={seat_count})")
+        for v in fetch_diputados_votes(dist_id):
+            all_rows.append({"cargo":"diputado","dept":dept,"seats":seat_count,
+                             "party":v["party"],"votes":v["votes"]})
+        time.sleep(DELAY)
 
-        print(f"[{i+1}/{total}] {cargo:10} / {dept:20} -> {url.split('/')[-1]}")
-
-        soup = get_soup(url, local_dir)
-        if soup is None:
-            print("  [SKIP]")
+    # Senadores regional
+    for dist_id, dist_name in districts:
+        dept = norm(dist_name)
+        seat_count = seats.get(("senador", dept), 0)
+        if seat_count == 0:
             continue
+        print(f"  senador  / {dept} (id={dist_id}, seats={seat_count})")
+        for v in fetch_sen_regional_votes(dist_id):
+            all_rows.append({"cargo":"senador","dept":dept,"seats":seat_count,
+                             "party":v["party"],"votes":v["votes"]})
+        time.sleep(DELAY)
 
-        is_nacional = "GenRl" in url or dept.lower() == "nacional"
-
-        if is_nacional:
-            rows = scrape_nacional(soup, cargo, dept, seats)
-        else:
-            rows = scrape_regional(soup, cargo, dept, seats)
-
-        print(f"  -> {len(rows)} parties")
-        all_rows.extend(rows)
+    # Senadores nacional
+    seat_count = seats.get(("senador", "Nacional"), 30)
+    print(f"  senador  / Nacional (seats={seat_count})")
+    for v in fetch_sen_nacional_votes():
+        all_rows.append({"cargo":"senador","dept":"Nacional","seats":seat_count,
+                         "party":v["party"],"votes":v["votes"]})
 
     OUTPUT_CSV.parent.mkdir(parents=True, exist_ok=True)
-    fieldnames = ["cargo", "dept", "seats", "party", "votes"]
     with open(OUTPUT_CSV, "w", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        writer = csv.DictWriter(f, fieldnames=["cargo","dept","seats","party","votes"])
         writer.writeheader()
         writer.writerows(all_rows)
-
-    print(f"\nWrote {len(all_rows)} rows -> {OUTPUT_CSV}\n")
+    print(f"\n✓ Wrote {len(all_rows)} rows -> {OUTPUT_CSV}")
+    return all_rows
 
 
 # ── Process 2: config.json ────────────────────────────────────────────────────
 
-def process_contabilizado(df_cont, local_dir):
+def process_contabilizado(districts):
     print("=" * 60)
-    print("PROCESS 2: Scraping % contabilizado")
+    print("PROCESS 2: Computing % contabilizado")
     print("=" * 60)
 
-    pct = {"diputado": None, "senador": None}
-
-    for _, row in df_cont.iterrows():
-        cargo = str(row["cargo"]).strip().lower()
-        url   = str(row["url"]).strip()
-
-        print(f"  {cargo:10} -> {url.split('/')[-1]}")
-
-        soup = get_soup(url, local_dir, delay=False)
-        if soup is None:
-            print("  [SKIP]")
+    # Diputados: weighted sum across regional districts (skip PEX=27, no mesa endpoint)
+    total_cont_dip, total_actas_dip = 0, 0
+    for dist_id, dist_name in districts:
+        if dist_id == 27:
             continue
+        cont, total = fetch_actas_regional(dist_id, ID_DIPUTADOS)
+        total_cont_dip += cont
+        total_actas_dip += total
+        time.sleep(DELAY)
+    dip_pct = round(total_cont_dip / total_actas_dip * 100, 3) if total_actas_dip > 0 else None
+    print(f"  Diputados: {total_cont_dip}/{total_actas_dip} = {dip_pct}%")
 
-        val = extract_pct_contabilizado(soup)
-        print(f"  -> % contabilizadas: {val}")
+    # Senadores regional: same districts (skip PEX=27)
+    total_cont_sen, total_actas_sen = 0, 0
+    for dist_id, dist_name in districts:
+        if dist_id == 27:
+            continue
+        cont, total = fetch_actas_regional(dist_id, ID_SEN_REGIONAL)
+        total_cont_sen += cont
+        total_actas_sen += total
+        time.sleep(DELAY)
 
-        if cargo in pct:
-            pct[cargo] = val
+    # Senadores nacional: add nacional actas
+    cont_nac, total_nac = fetch_actas_nacional()
+    total_cont_sen += cont_nac
+    total_actas_sen += total_nac
+    sen_pct = round(total_cont_sen / total_actas_sen * 100, 3) if total_actas_sen > 0 else None
+    print(f"  Senadores: {total_cont_sen}/{total_actas_sen} = {sen_pct}%")
 
     OUTPUT_JSON.parent.mkdir(parents=True, exist_ok=True)
     config = {
-        "sen_pct":    round(pct["senador"],  3) if pct["senador"]  is not None else None,
-        "dip_pct":    round(pct["diputado"], 3) if pct["diputado"] is not None else None,
+        "sen_pct": sen_pct,
+        "dip_pct": dip_pct,
         "updated_at": datetime.now().strftime("%H:%M"),
     }
     with open(OUTPUT_JSON, "w", encoding="utf-8") as f:
         json.dump(config, f, ensure_ascii=False, indent=2)
+    print(f"✓ Wrote {OUTPUT_JSON}: {config}")
+    return dip_pct, sen_pct
 
-    print(f"\nWrote config -> {OUTPUT_JSON}: {config}\n")
+
+# ── Process 3: historico.csv ──────────────────────────────────────────────────
+
+def append_historico(pct, cargo, all_rows):
+    if pct is None:
+        return
+
+    HISTORICO.parent.mkdir(parents=True, exist_ok=True)
+
+    # Check last pct for this cargo — skip if unchanged
+    if HISTORICO.exists():
+        last_pct = None
+        with open(HISTORICO, "r") as f:
+            for line in reversed(f.readlines()[1:]):
+                parts = line.split(",")
+                if len(parts) >= 2 and parts[1].strip() == cargo:
+                    try:
+                        last_pct = float(parts[0])
+                    except ValueError:
+                        pass
+                    break
+        if last_pct == pct:
+            print(f"  [SKIP] {cargo} pct unchanged ({pct}%)")
+            return
+
+    # Aggregate total votes per party for this cargo
+    votes_by_party = {}
+    for row in all_rows:
+        if row["cargo"] == cargo:
+            p = row["party"]
+            votes_by_party[p] = votes_by_party.get(p, 0) + int(row["votes"])
+
+    write_header = not HISTORICO.exists() or HISTORICO.stat().st_size == 0
+    with open(HISTORICO, "a", newline="", encoding="utf-8") as f:
+        writer = csv.writer(f)
+        if write_header:
+            writer.writerow(["pct_escrutado", "cargo", "partido", "votes"])
+        for party, votes in votes_by_party.items():
+            writer.writerow([pct, cargo, party, votes])
+    print(f"  ✓ Appended {cargo} snapshot at {pct}%")
 
 
 # ── Main ──────────────────────────────────────────────────────────────────────
 
 def main():
-    parser = argparse.ArgumentParser(description="ONPE results scraper")
-    parser.add_argument(
-        "--local",
-        metavar="DIR",
-        default=None,
-        help="Read HTML files from this local directory instead of fetching live URLs.",
-    )
-    args = parser.parse_args()
+    print("Mode: LIVE\n")
+    districts = fetch_districts()
+    print(f"Districts: {len(districts)}")
+    seats = load_seats()
 
-    local_dir = Path(args.local) if args.local else None
-    if local_dir and not local_dir.is_dir():
-        sys.exit(f"[FATAL] --local path is not a directory: {local_dir}")
-
-    print(f"Mode: {'LOCAL (' + str(local_dir) + ')' if local_dir else 'LIVE'}\n")
-
-    # Load resultados_scrapping.csv
-    if not SCRAPPING_CSV.exists():
-        sys.exit(f"[FATAL] {SCRAPPING_CSV} not found. Run from repo root.")
-    df = pd.read_csv(SCRAPPING_CSV)
-    url_col = next(
-        (c for c in df.columns if c.lower() == "url" or c.startswith("Unnamed")), None
-    )
-    if url_col is None:
-        sys.exit("[FATAL] No URL column found in resultados_scrapping.csv")
-    df = df.rename(columns={url_col: "url"})
-    df["url"] = df["url"].str.strip()
-
-    # Load contabilizado.csv
-    if not CONTABILIZADO_CSV.exists():
-        sys.exit(f"[FATAL] {CONTABILIZADO_CSV} not found. Run from repo root.")
-    df_cont = pd.read_csv(CONTABILIZADO_CSV)
-    df_cont.columns = [c.strip().lower() for c in df_cont.columns]
-
-    # Run both processes
-    process_resultados(df, local_dir)
-    process_contabilizado(df_cont, local_dir)
+    all_rows = process_resultados(districts, seats)
+    print()
+    dip_pct, sen_pct = process_contabilizado(districts)
+    print()
+    append_historico(dip_pct, "diputado", all_rows)
+    append_historico(sen_pct, "senador", all_rows)
 
 
 if __name__ == "__main__":
