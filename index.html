@@ -94,6 +94,7 @@
       <div class="tab" onclick="setTab('mapa',this)">Mapa</div>
       <div class="tab" onclick="setTab('umbrales',this)">Umbrales</div>
       <div class="tab" onclick="setTab('margenes',this)">Márgenes</div>
+      <div class="tab" onclick="setTab('evolucion',this)">Evolución</div>
     </div>
     <div id="v-ambas">
       <div class="two-col">
@@ -112,6 +113,22 @@
     </div>
     <div id="v-umbrales" style="display:none"><div class="card"><h2>Análisis de umbrales</h2><div id="thr-content"></div></div></div>
     <div id="v-margenes" style="display:none">
+    <div id="v-evolucion" style="display:none">
+  <div class="card">
+    <h2>Evolución de escaños — Senado</h2>
+    <div class="sub-info">Escaños proyectados según votos escrutados</div>
+    <div style="position:relative;width:100%;height:280px;margin-top:8px;">
+      <canvas id="evo-sen" role="img" aria-label="Evolución de escaños en el Senado">Evolución de escaños por partido en el Senado.</canvas>
+    </div>
+  </div>
+  <div class="card">
+    <h2>Evolución de escaños — Diputados</h2>
+    <div class="sub-info">Escaños proyectados según votos escrutados</div>
+    <div style="position:relative;width:100%;height:280px;margin-top:8px;">
+      <canvas id="evo-dip" role="img" aria-label="Evolución de escaños en Diputados">Evolución de escaños por partido en Diputados.</canvas>
+    </div>
+  </div>
+</div>
       <div class="card" style="max-width:560px;margin-left:auto;margin-right:auto;">
         <h2>Escaños más disputados</h2>
         <div class="sub-info">Los asientos donde el margen entre ganar y perder es más estrecho</div>
@@ -674,6 +691,99 @@ function renderMargins(rows) {
     ${cards(dip)}
   `;
 }
+
+// ── EVOLUCIÓN ─────────────────────────────────────────────────────────────────
+let evoSenChart = null, evoDipChart = null;
+
+async function fetchAndRenderEvolucion() {
+  const el = document.getElementById('v-evolucion');
+  if (!el || el.style.display === 'none') return;
+  try {
+    const ts = Date.now();
+    const res = await fetch(`${DATA_BASE}/historico.csv?t=${ts}`);
+    if (!res.ok) return;
+    const text = await res.text();
+    const rows = parseCSV(text);
+    if (!rows.length) return;
+    renderEvolucion(rows);
+  } catch(e) { console.log('Evo fetch:', e.message); }
+}
+
+function renderEvolucion(histRows) {
+  ['senador','diputado'].forEach(cargo => {
+    const seatThr = cargo === 'senador' ? 3 : 7;
+    const snapshots = [...new Set(histRows.filter(r=>r.cargo===cargo).map(r=>parseFloat(r.pct_escrutado)))].sort((a,b)=>a-b);
+    if (!snapshots.length) return;
+
+    // For each snapshot, run D'Hondt and get seat counts
+    const partySeats = {}; // party -> [seats at each snapshot]
+    snapshots.forEach(pct => {
+      const snapRows = histRows.filter(r => r.cargo === cargo && parseFloat(r.pct_escrutado) === pct)
+        .map(r => ({cargo: r.cargo, dept: r.dept, seats: r.seats, party: r.partido, votes: r.votes}));
+      const result = computeChamber(snapRows, cargo, seatThr);
+      Object.keys(result.final).forEach(p => {
+        if (!partySeats[p]) partySeats[p] = new Array(snapshots.length).fill(0);
+      });
+      Object.entries(result.final).forEach(([p, s]) => {
+        if (partySeats[p]) partySeats[p][snapshots.indexOf(pct)] = s;
+      });
+    });
+
+    // Only show parties with seats in the final snapshot
+    const lastIdx = snapshots.length - 1;
+    const parties = Object.keys(partySeats)
+      .filter(p => partySeats[p][lastIdx] > 0)
+      .sort((a, b) => partySeats[b][lastIdx] - partySeats[a][lastIdx])
+      .slice(0, 10);
+
+    const datasets = parties.map(p => ({
+      label: sh(p),
+      data: partySeats[p],
+      borderColor: col(p),
+      backgroundColor: col(p) + '22',
+      borderWidth: 2,
+      pointRadius: snapshots.length > 1 ? 3 : 5,
+      tension: 0.3,
+      fill: false,
+    }));
+
+    const labels = snapshots.map(p => p.toFixed(1) + '%');
+    const canvasId = cargo === 'senador' ? 'evo-sen' : 'evo-dip';
+    const chartRef = cargo === 'senador' ? 'evoSenChart' : 'evoDipChart';
+
+    if (window[chartRef]) window[chartRef].destroy();
+    window[chartRef] = new Chart(document.getElementById(canvasId), {
+      type: 'line',
+      data: { labels, datasets },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: { display: false },
+          tooltip: {
+            callbacks: {
+              title: items => `${items[0].label} escrutado`,
+              label: item => `${item.dataset.label}: ${item.raw} escaños`
+            }
+          }
+        },
+        scales: {
+          x: {
+            title: { display: true, text: '% actas contabilizadas', font: { size: 11 }, color: '#88878099' },
+            grid: { color: '#88878022' },
+            ticks: { color: '#888780', font: { size: 10 } }
+          },
+          y: {
+            title: { display: true, text: 'Escaños', font: { size: 11 }, color: '#88878099' },
+            grid: { color: '#88878022' },
+            ticks: { color: '#888780', font: { size: 10 }, stepSize: 1 },
+            beginAtZero: true
+          }
+        }
+      }
+    });
+  });
+}
   
 // ── MAIN RENDER ───────────────────────────────────────────────────────────────
 let SD,DD;
@@ -713,9 +823,10 @@ dz.addEventListener('drop',e=>{
 function setTab(tab,el){
   document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
   el.classList.add('active');
-  ['ambas','senado','diputados','mapa','umbrales','margenes'].forEach(v=>{
+  ['ambas','senado','diputados','mapa','umbrales','margenes','evolucion'].forEach(v=>{
     document.getElementById('v-'+v).style.display=v===tab?'':'none';
   });
+  if(tab==='evolucion') fetchAndRenderEvolucion();
 }
 </script>
 <div id="yape-modal" onclick="this.style.display='none'" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,0.6);z-index:999;align-items:center;justify-content:center;">
@@ -725,5 +836,6 @@ function setTab(tab,el){
     <div style="font-size:10px;color:var(--muted);margin-top:8px;">Toca fuera para cerrar</div>
   </div>
 </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
 </body>
 </html>
