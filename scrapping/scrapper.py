@@ -35,9 +35,19 @@ HISTORICO     = Path("data/historico.csv")
 
 BASE = "https://resultadoelectoral.onpe.gob.pe/presentacion-backend"
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
-    "Referer": "https://resultadoelectoral.onpe.gob.pe/",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+    "Referer": "https://resultadoelectoral.onpe.gob.pe/main/diputados",
     "Origin": "https://resultadoelectoral.onpe.gob.pe",
+    "Accept": "application/json, text/plain, */*",
+    "Accept-Language": "es-PE,es;q=0.9,en;q=0.8",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive",
+    "sec-ch-ua": '"Chromium";v="124", "Google Chrome";v="124"',
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": '"Windows"',
+    "Sec-Fetch-Dest": "empty",
+    "Sec-Fetch-Mode": "cors",
+    "Sec-Fetch-Site": "same-origin",
 }
 DELAY = 0.5
 
@@ -48,17 +58,32 @@ ID_SEN_NACIONAL    = 15
 
 # ── HTTP helper ───────────────────────────────────────────────────────────────
 
+# Use a session to persist cookies across requests
+SESSION = requests.Session()
+SESSION.headers.update(HEADERS)
+
 def get(url, retries=3):
     for i in range(retries):
         try:
-            r = requests.get(url, headers=HEADERS, timeout=20)
+            r = SESSION.get(url, timeout=20)
             r.raise_for_status()
+            if not r.content:
+                raise ValueError("Empty response")
             return r.json()
         except Exception as e:
             print(f"  [WARN] Attempt {i+1} failed for {url.split('?')[0]}: {e}")
-            time.sleep(1)
+            time.sleep(2)
     print(f"  [ERROR] Failed: {url}")
     return None
+
+def warm_up_session():
+    """Visit the main page first to get cookies."""
+    try:
+        SESSION.get("https://resultadoelectoral.onpe.gob.pe/main/diputados", timeout=20)
+        time.sleep(1)
+        print("  Session warmed up")
+    except Exception as e:
+        print(f"  [WARN] Session warmup failed: {e}")
 
 
 # ── District list ─────────────────────────────────────────────────────────────
@@ -310,6 +335,8 @@ def append_historico(pct, cargo, all_rows):
 
 def main():
     print("Mode: LIVE\n")
+    print("Warming up session...")
+    warm_up_session()
     districts = fetch_districts()
     print(f"Districts: {len(districts)}")
     seats = load_seats()
