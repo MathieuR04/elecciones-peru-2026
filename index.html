@@ -151,7 +151,7 @@
       </div>
     </div>
     <div id="v-electos" style="display:none">
-      <div class="card">
+      <div class="card" style="max-width:560px;margin-left:auto;margin-right:auto;">
         <h2>Candidatos electos proyectados</h2>
         <div class="sub-info">Según votos escrutados y D'Hondt. Solo partidos que superan umbral.</div>
         <div class="filter-bar" id="electos-filters" style="margin-top:8px;"></div>
@@ -925,22 +925,29 @@ function openMapModal(dept, cargo) {
   document.getElementById('modal-dept').textContent = dept;
   document.getElementById('modal-cargo').textContent = cargo==='senador'?'Cámara de Senadores':'Cámara de Diputados';
   const chamberData = cargo==='senador' ? SD : DD;
-  const normDept = dept==='Lima'?'Lima Metropolitana':dept;
+  const normDept = dept==='Lima Metropolitana'?'Lima':dept;
+  // Get per-district votes from deptSeats source data
+  const deptKey2 = chamberData.deptSeats[dept] ? dept : normDept;
+  const deptVotesRaw = chamberData.deptSeats[deptKey2] || {};
+  // Rebuild actual vote totals per party for this district from all_rows isn't available,
+  // so use pv filtered to qualified parties and show district seat allocation instead
+  const deptSeatMap = chamberData.deptSeats[deptKey2] || chamberData.deptSeats[dept] || {};
+  const totalDeptSeats = Object.values(deptSeatMap).reduce((a,b)=>a+b,0);
+  // Fall back to national pv for vote % but label correctly
   const totalVotes = Object.values(chamberData.pv).reduce((a,b)=>a+b,0);
   const top5 = Object.entries(chamberData.pv).filter(([p])=>!EXCL.has(p)).sort((a,b)=>b[1]-a[1]).slice(0,5);
   const maxV = top5[0]?top5[0][1]:1;
   document.getElementById('modal-votes').innerHTML = `
-    <div style="font-size:9px;font-weight:500;color:var(--muted);text-transform:uppercase;letter-spacing:0.05em;margin-bottom:6px;">Votos nacionales</div>` +
-    top5.map(([p,v])=>{
-      const pct=(v/totalVotes*100).toFixed(1);
-      const barW=Math.round(v/maxV*80);
+    <div style="font-size:9px;font-weight:500;color:var(--muted);text-transform:uppercase;letter-spacing:0.05em;margin-bottom:6px;">Escaños en esta circunscripción</div>` +
+    Object.entries(deptSeatMap).filter(([,s])=>s>0).sort((a,b)=>b[1]-a[1]).map(([p,s])=>{
+      const barW=Math.round(s/Math.max(...Object.values(deptSeatMap))*80);
       return `<div class="vote-bar-row">
         <div style="width:8px;height:8px;border-radius:50%;background:${col(p)};flex-shrink:0;"></div>
         <div style="flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">${sh(p)}</div>
         <div style="width:${barW}px;height:4px;border-radius:2px;background:${col(p)};opacity:0.7;flex-shrink:0;"></div>
-        <div style="width:32px;text-align:right;color:var(--muted);">${pct}%</div>
+        <div style="width:32px;text-align:right;color:var(--muted);">${s} esc.</div>
       </div>`;
-    }).join('');
+    }).join('') || '<div style="font-size:9px;color:var(--muted);">Sin escaños asignados</div>';
   let electedHtml = '<div style="font-size:9px;color:var(--muted);">Sin datos de candidatos</div>';
   if (CANDIDATOS_DATA) {
     const cargoData = CANDIDATOS_DATA[cargo] || {};
