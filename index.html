@@ -652,6 +652,7 @@ function renderThr(sd,dd){
     const winner = qs[data.seats - 1];
     const loser  = qs[data.seats];
     if (!winner || !loser) continue;
+    if (winner.p === loser.p) continue;
 
     const margin = Math.round(winner.q - loser.q);
     margins.push({
