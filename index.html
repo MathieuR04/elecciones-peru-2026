@@ -52,6 +52,20 @@
     .pass { color: #16a34a; font-weight: 500; } .fail { color: #dc2626; }
     .note { font-size: 8.5px; color: var(--faint); text-align: center; margin-top: 6px; line-height: 1.4; }
     .status { font-size: 9px; color: var(--muted); text-align: center; margin-top: 4px; }
+    .modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,0.55);z-index:200;display:flex;align-items:center;justify-content:center;padding:16px;}
+    .modal-box{background:var(--surface);border-radius:16px;padding:14px;max-width:400px;width:100%;max-height:82vh;overflow-y:auto;box-shadow:0 20px 60px rgba(0,0,0,0.3);}
+    .modal-box h3{font-size:13px;font-weight:600;margin-bottom:2px;}
+    .modal-close{float:right;cursor:pointer;font-size:18px;line-height:1;color:var(--muted);margin-left:8px;}
+    .elected-row{display:flex;align-items:center;gap:6px;padding:5px 0;border-bottom:0.5px solid var(--border-light);}
+    .elected-row:last-child{border-bottom:none;}
+    .party-section{margin-bottom:10px;}
+    .party-header{display:flex;align-items:center;gap:6px;padding:6px 0 4px;border-bottom:0.5px solid var(--border);}
+    .rank-badge{font-size:8px;font-weight:700;background:var(--bg);border-radius:4px;padding:1px 4px;color:var(--muted);min-width:18px;text-align:center;flex-shrink:0;}
+    .filter-bar{display:flex;gap:5px;margin-bottom:8px;flex-wrap:wrap;}
+    .filter-btn{font-size:9px;padding:2px 8px;border:0.5px solid var(--border);border-radius:12px;cursor:pointer;background:var(--surface);color:var(--muted);}
+    .filter-btn.active{background:var(--text);color:var(--bg);border-color:var(--text);}
+    .vote-bar-row{display:flex;align-items:center;gap:6px;margin-bottom:4px;font-size:9px;}
+    .vote-bar{height:4px;border-radius:2px;}
   </style>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-3JSZYW7EB3"></script>
 <script>
@@ -95,6 +109,7 @@
       <div class="tab" onclick="setTab('umbrales',this)">Umbrales</div>
       <div class="tab" onclick="setTab('margenes',this)">Márgenes</div>
       <div class="tab" onclick="setTab('evolucion',this)">Evolución</div>
+      <div class="tab" onclick="setTab('electos',this)">Electos</div>
     </div>
     <div id="v-ambas">
       <div class="two-col">
@@ -133,6 +148,14 @@
         <div style="position:relative;width:100%;height:280px;margin-top:8px;">
           <canvas id="evo-dip" role="img" aria-label="Evolución de escaños en Diputados">Evolución de escaños por partido en Diputados.</canvas>
         </div>
+      </div>
+    </div>
+    <div id="v-electos" style="display:none">
+      <div class="card">
+        <h2>Candidatos electos proyectados</h2>
+        <div class="sub-info">Según votos escrutados y D'Hondt. Solo partidos que superan umbral.</div>
+        <div class="filter-bar" id="electos-filters" style="margin-top:8px;"></div>
+        <div id="electos-content"></div>
       </div>
     </div>
     <div class="note" id="note"></div>
@@ -562,6 +585,9 @@ function drawMap(svgId,dotsPos,deptSeats,deptTopVoted){
     c.setAttribute('cx',x.toFixed(1));c.setAttribute('cy',y.toFixed(1));
     c.setAttribute('r','4');c.setAttribute('fill',party?col(party):'#94A3B8');
     c.setAttribute('stroke','#fff');c.setAttribute('stroke-width','0.7');c.setAttribute('opacity','0.95');
+    c.style.cursor='pointer';
+    const svgCargo=svgId.includes('sen')?'senador':'diputado';
+    c.addEventListener('click',()=>openMapModal(dept,svgCargo));
     const t=document.createElementNS(NS,'title');t.textContent=`${dept}: ${party?sh(party):'?'}`;c.appendChild(t);
     svg.appendChild(c);
   }
@@ -825,10 +851,128 @@ dz.addEventListener('drop',e=>{
 function setTab(tab,el){
   document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
   el.classList.add('active');
-  ['ambas','senado','diputados','mapa','umbrales','margenes','evolucion'].forEach(v=>{
+  ['ambas','senado','diputados','mapa','umbrales','margenes','evolucion','electos'].forEach(v=>{
     document.getElementById('v-'+v).style.display=v===tab?'':'none';
   });
   if(tab==='evolucion') fetchAndRenderEvolucion();
+  if(tab==='electos') renderElectos();
+}
+// ── CANDIDATOS ────────────────────────────────────────────────────────────────
+let CANDIDATOS_DATA = null;
+let electosCargo = 'senador';
+
+async function fetchCandidatos() {
+  try {
+    const res = await fetch(`${DATA_BASE}/candidatos.json?t=${Date.now()}`);
+    if (res.ok) CANDIDATOS_DATA = await res.json();
+  } catch(e) {}
+}
+fetchCandidatos();
+setInterval(fetchCandidatos, 3 * 60 * 1000);
+
+function renderElectos() {
+  if (!CANDIDATOS_DATA) {
+    document.getElementById('electos-content').innerHTML = '<div style="font-size:10px;color:var(--muted);text-align:center;padding:20px;">Cargando candidatos...</div>';
+    setTimeout(renderElectos, 1500);
+    return;
+  }
+  const filtersEl = document.getElementById('electos-filters');
+  filtersEl.innerHTML = ['senador','diputado'].map(c =>
+    `<button class="filter-btn${electosCargo===c?' active':''}" onclick="electosCargo='${c}';renderElectos()">${c==='senador'?'Senado':'Diputados'}</button>`
+  ).join('');
+  const cargoData = CANDIDATOS_DATA[electosCargo] || {};
+  const allElected = [];
+  for (const [dept, parties] of Object.entries(cargoData)) {
+    for (const [party, info] of Object.entries(parties)) {
+      if (!info.seats_won) continue;
+      info.candidates.filter(c => c.elected).forEach(c => {
+        allElected.push({ name: c.name, votes: c.votes, lista: c.lista, party, dept });
+      });
+    }
+  }
+  if (!allElected.length) {
+    document.getElementById('electos-content').innerHTML = '<div style="font-size:10px;color:var(--muted);text-align:center;padding:20px;">Sin electos aún</div>';
+    return;
+  }
+  const byParty = {};
+  for (const e of allElected) {
+    if (!byParty[e.party]) byParty[e.party] = [];
+    byParty[e.party].push(e);
+  }
+  const sortedParties = Object.keys(byParty).sort((a,b) => byParty[b].length - byParty[a].length);
+  const html = sortedParties.map(party => {
+    const candidates = byParty[party].sort((a,b) => b.votes - a.votes);
+    const rows = candidates.map((c,i) => `
+      <div class="elected-row">
+        <span class="rank-badge">${i+1}</span>
+        <div style="flex:1;min-width:0;">
+          <div style="font-size:9.5px;font-weight:500;color:var(--text);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">${c.name}</div>
+          <div style="font-size:8px;color:var(--muted);">${c.dept}${c.lista?' · Lista '+c.lista:''}</div>
+        </div>
+        <div style="font-size:9px;color:var(--muted);white-space:nowrap;">${c.votes.toLocaleString('es-PE')} pref.</div>
+      </div>`).join('');
+    return `<div class="party-section">
+      <div class="party-header">
+        <div style="width:10px;height:10px;border-radius:50%;background:${col(party)};flex-shrink:0;"></div>
+        <span style="font-size:10px;font-weight:600;color:var(--text);">${sh(party)}</span>
+        <span style="font-size:9px;color:var(--muted);margin-left:auto;">${candidates.length} escaño${candidates.length!==1?'s':''}</span>
+      </div>${rows}</div>`;
+  }).join('');
+  document.getElementById('electos-content').innerHTML = html;
+}
+
+function openMapModal(dept, cargo) {
+  document.getElementById('modal-dept').textContent = dept;
+  document.getElementById('modal-cargo').textContent = cargo==='senador'?'Cámara de Senadores':'Cámara de Diputados';
+  const chamberData = cargo==='senador' ? SD : DD;
+  const normDept = dept==='Lima'?'Lima Metropolitana':dept;
+  const totalVotes = Object.values(chamberData.pv).reduce((a,b)=>a+b,0);
+  const top5 = Object.entries(chamberData.pv).filter(([p])=>!EXCL.has(p)).sort((a,b)=>b[1]-a[1]).slice(0,5);
+  const maxV = top5[0]?top5[0][1]:1;
+  document.getElementById('modal-votes').innerHTML = `
+    <div style="font-size:9px;font-weight:500;color:var(--muted);text-transform:uppercase;letter-spacing:0.05em;margin-bottom:6px;">Votos nacionales</div>` +
+    top5.map(([p,v])=>{
+      const pct=(v/totalVotes*100).toFixed(1);
+      const barW=Math.round(v/maxV*80);
+      return `<div class="vote-bar-row">
+        <div style="width:8px;height:8px;border-radius:50%;background:${col(p)};flex-shrink:0;"></div>
+        <div style="flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">${sh(p)}</div>
+        <div style="width:${barW}px;height:4px;border-radius:2px;background:${col(p)};opacity:0.7;flex-shrink:0;"></div>
+        <div style="width:32px;text-align:right;color:var(--muted);">${pct}%</div>
+      </div>`;
+    }).join('');
+  let electedHtml = '<div style="font-size:9px;color:var(--muted);">Sin datos de candidatos</div>';
+  if (CANDIDATOS_DATA) {
+    const cargoData = CANDIDATOS_DATA[cargo] || {};
+    const deptData = cargoData[dept] || cargoData[normDept] || {};
+    const elected = [];
+    for (const [party, info] of Object.entries(deptData)) {
+      if (!info.seats_won) continue;
+      info.candidates.filter(c=>c.elected).forEach(c=>elected.push({...c,party}));
+    }
+    elected.sort((a,b)=>b.votes-a.votes);
+    if (elected.length) {
+      electedHtml = `<div style="font-size:9px;font-weight:500;color:var(--muted);text-transform:uppercase;letter-spacing:0.05em;margin-bottom:6px;">Electos proyectados</div>` +
+        elected.map((c,i)=>`
+        <div class="elected-row">
+          <span class="rank-badge">${i+1}</span>
+          <div style="width:8px;height:8px;border-radius:50%;background:${col(c.party)};flex-shrink:0;"></div>
+          <div style="flex:1;min-width:0;">
+            <div style="font-size:9.5px;font-weight:500;color:var(--text);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">${c.name}</div>
+            <div style="font-size:8px;color:var(--muted);">${sh(c.party)}${c.lista?' · Lista '+c.lista:''}</div>
+          </div>
+          <div style="font-size:9px;color:var(--muted);white-space:nowrap;">${c.votes.toLocaleString('es-PE')}</div>
+        </div>`).join('');
+    } else {
+      electedHtml = '<div style="font-size:9px;color:var(--muted);">Sin electos en esta circunscripción</div>';
+    }
+  }
+  document.getElementById('modal-elected').innerHTML = electedHtml;
+  document.getElementById('map-modal').style.display = 'flex';
+}
+
+function closeMapModal() {
+  document.getElementById('map-modal').style.display = 'none';
 }
 </script>
 <div id="yape-modal" onclick="this.style.display='none'" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,0.6);z-index:999;align-items:center;justify-content:center;">
@@ -839,5 +983,15 @@ function setTab(tab,el){
   </div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<div id="map-modal" style="display:none" class="modal-overlay" onclick="if(event.target===this)closeMapModal()">
+  <div class="modal-box">
+    <div style="display:flex;align-items:flex-start;justify-content:space-between;margin-bottom:10px;">
+      <div><h3 id="modal-dept"></h3><div style="font-size:9px;color:var(--muted);margin-top:2px;" id="modal-cargo"></div></div>
+      <span class="modal-close" onclick="closeMapModal()">✕</span>
+    </div>
+    <div id="modal-votes" style="margin-bottom:12px;"></div>
+    <div id="modal-elected"></div>
+  </div>
+</div>
 </body>
 </html>
