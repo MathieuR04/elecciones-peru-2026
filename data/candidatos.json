@@ -1,35 +1,6 @@
 {
   "diputado": {
     "Amazonas": {
-      "FUERZA POPULAR": {
-        "seats_won": 2,
-        "candidates": [
-          {
-            "name": "ROYSER CASTRO GRANDEZ",
-            "votes": 3803,
-            "lista": 1,
-            "elected": true
-          },
-          {
-            "name": "MERY ELIANA INFANTES CASTAÑEDA",
-            "votes": 1153,
-            "lista": 2,
-            "elected": true
-          },
-          {
-            "name": "JESUS DE LA CRUZ RIOS",
-            "votes": 344,
-            "lista": 3,
-            "elected": false
-          },
-          {
-            "name": "TERESITA SILVA DE TORRES",
-            "votes": 117,
-            "lista": 4,
-            "elected": false
-          }
-        ]
-      },
       "AHORA NACIÓN - AN": {
         "seats_won": 0,
         "candidates": [
@@ -58,6 +29,10 @@
             "elected": false
           }
         ]
+      },
+      "PARTIDO CÍVICO OBRAS": {
+        "seats_won": 0,
+        "candidates": []
       },
       "RENOVACIÓN POPULAR": {
         "seats_won": 0,
@@ -92,10 +67,6 @@
         "seats_won": 0,
         "candidates": []
       },
-      "PARTIDO CÍVICO OBRAS": {
-        "seats_won": 0,
-        "candidates": []
-      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 0,
         "candidates": [
@@ -124,50 +95,38 @@
             "elected": false
           }
         ]
-      }
-    },
-    "Áncash": {
+      },
       "FUERZA POPULAR": {
-        "seats_won": 1,
+        "seats_won": 2,
         "candidates": [
           {
-            "name": "LUZMILA MARIA DEL CARMEN GAMARRA PITA",
-            "votes": 3628,
+            "name": "ROYSER CASTRO GRANDEZ",
+            "votes": 3803,
             "lista": 1,
             "elected": true
           },
           {
-            "name": "LUIS FERNANDO ZAMBRANO ORTIZ",
-            "votes": 1095,
+            "name": "MERY ELIANA INFANTES CASTAÑEDA",
+            "votes": 1153,
             "lista": 2,
-            "elected": false
+            "elected": true
           },
           {
-            "name": "HUBER WILLIAM BUENO CERNA",
-            "votes": 869,
-            "lista": 6,
-            "elected": false
-          },
-          {
-            "name": "CARLOS ALBERTO DOMINGUEZ HERRERA",
-            "votes": 802,
-            "lista": 4,
-            "elected": false
-          },
-          {
-            "name": "MARIA CRISTINA MELGAREJO PAUCAR",
-            "votes": 787,
+            "name": "JESUS DE LA CRUZ RIOS",
+            "votes": 344,
             "lista": 3,
             "elected": false
           },
           {
-            "name": "LILIANA JEANNINE OTERO SALINAS",
-            "votes": 248,
-            "lista": 5,
+            "name": "TERESITA SILVA DE TORRES",
+            "votes": 117,
+            "lista": 4,
             "elected": false
           }
         ]
-      },
+      }
+    },
+    "Áncash": {
       "AHORA NACIÓN - AN": {
         "seats_won": 1,
         "candidates": [
@@ -204,6 +163,47 @@
           {
             "name": "EDYY MARLENI LAURENTE BARRERA",
             "votes": 113,
+            "lista": 6,
+            "elected": false
+          }
+        ]
+      },
+      "PARTIDO CÍVICO OBRAS": {
+        "seats_won": 1,
+        "candidates": [
+          {
+            "name": "EDGAR ADRIAN ALVARON DE LA CRUZ",
+            "votes": 1949,
+            "lista": 1,
+            "elected": true
+          },
+          {
+            "name": "SUSANA ESTHER GARCIA BELTRAN",
+            "votes": 928,
+            "lista": 2,
+            "elected": false
+          },
+          {
+            "name": "FELIX HIPOLITO DAVILA CASTRO",
+            "votes": 507,
+            "lista": 3,
+            "elected": false
+          },
+          {
+            "name": "MANUEL NICANOR MENDOZA HERRERA",
+            "votes": 234,
+            "lista": 5,
+            "elected": false
+          },
+          {
+            "name": "GLADYS JULIA GONZALES ARCE",
+            "votes": 176,
+            "lista": 4,
+            "elected": false
+          },
+          {
+            "name": "STEFANIA KAREN CALDERON QUISPE",
+            "votes": 116,
             "lista": 6,
             "elected": false
           }
@@ -279,47 +279,6 @@
           }
         ]
       },
-      "PARTIDO CÍVICO OBRAS": {
-        "seats_won": 1,
-        "candidates": [
-          {
-            "name": "EDGAR ADRIAN ALVARON DE LA CRUZ",
-            "votes": 1949,
-            "lista": 1,
-            "elected": true
-          },
-          {
-            "name": "SUSANA ESTHER GARCIA BELTRAN",
-            "votes": 928,
-            "lista": 2,
-            "elected": false
-          },
-          {
-            "name": "FELIX HIPOLITO DAVILA CASTRO",
-            "votes": 507,
-            "lista": 3,
-            "elected": false
-          },
-          {
-            "name": "MANUEL NICANOR MENDOZA HERRERA",
-            "votes": 234,
-            "lista": 5,
-            "elected": false
-          },
-          {
-            "name": "GLADYS JULIA GONZALES ARCE",
-            "votes": 176,
-            "lista": 4,
-            "elected": false
-          },
-          {
-            "name": "STEFANIA KAREN CALDERON QUISPE",
-            "votes": 116,
-            "lista": 6,
-            "elected": false
-          }
-        ]
-      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 0,
         "candidates": [
@@ -360,26 +319,50 @@
             "elected": false
           }
         ]
-      }
-    },
-    "Apurímac": {
+      },
       "FUERZA POPULAR": {
-        "seats_won": 0,
+        "seats_won": 1,
         "candidates": [
           {
-            "name": "URIEL CARRION HERRERA",
-            "votes": 1782,
+            "name": "LUZMILA MARIA DEL CARMEN GAMARRA PITA",
+            "votes": 3628,
             "lista": 1,
+            "elected": true
+          },
+          {
+            "name": "LUIS FERNANDO ZAMBRANO ORTIZ",
+            "votes": 1095,
+            "lista": 2,
             "elected": false
           },
           {
-            "name": "HERNAN PALOMINO PILLACA",
-            "votes": 270,
+            "name": "HUBER WILLIAM BUENO CERNA",
+            "votes": 869,
+            "lista": 6,
+            "elected": false
+          },
+          {
+            "name": "CARLOS ALBERTO DOMINGUEZ HERRERA",
+            "votes": 802,
+            "lista": 4,
+            "elected": false
+          },
+          {
+            "name": "MARIA CRISTINA MELGAREJO PAUCAR",
+            "votes": 787,
             "lista": 3,
+            "elected": false
+          },
+          {
+            "name": "LILIANA JEANNINE OTERO SALINAS",
+            "votes": 248,
+            "lista": 5,
             "elected": false
           }
         ]
-      },
+      }
+    },
+    "Apurímac": {
       "AHORA NACIÓN - AN": {
         "seats_won": 0,
         "candidates": [
@@ -398,6 +381,29 @@
           {
             "name": "ANGEL DAMASO CASTILLO CCACHA",
             "votes": 1085,
+            "lista": 4,
+            "elected": false
+          }
+        ]
+      },
+      "PARTIDO CÍVICO OBRAS": {
+        "seats_won": 0,
+        "candidates": [
+          {
+            "name": "EMERSON OJEDA MOSQUEIRA",
+            "votes": 1526,
+            "lista": 2,
+            "elected": false
+          },
+          {
+            "name": "ANICETA OLARTE CCOICCA",
+            "votes": 546,
+            "lista": 3,
+            "elected": false
+          },
+          {
+            "name": "ELISEO CARRION UMERES",
+            "votes": 346,
             "lista": 4,
             "elected": false
           }
@@ -455,29 +461,6 @@
           }
         ]
       },
-      "PARTIDO CÍVICO OBRAS": {
-        "seats_won": 0,
-        "candidates": [
-          {
-            "name": "EMERSON OJEDA MOSQUEIRA",
-            "votes": 1526,
-            "lista": 2,
-            "elected": false
-          },
-          {
-            "name": "ANICETA OLARTE CCOICCA",
-            "votes": 546,
-            "lista": 3,
-            "elected": false
-          },
-          {
-            "name": "ELISEO CARRION UMERES",
-            "votes": 346,
-            "lista": 4,
-            "elected": false
-          }
-        ]
-      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 0,
         "candidates": [
@@ -506,44 +489,26 @@
             "elected": false
           }
         ]
-      }
-    },
-    "Arequipa": {
+      },
       "FUERZA POPULAR": {
         "seats_won": 0,
         "candidates": [
           {
-            "name": "CARLOS RAUL PAREDES PONCE",
-            "votes": 4670,
+            "name": "URIEL CARRION HERRERA",
+            "votes": 1782,
             "lista": 1,
             "elected": false
           },
           {
-            "name": "DIANA PATRICIA ESQUINARILA ANAYA",
-            "votes": 2397,
-            "lista": 2,
-            "elected": false
-          },
-          {
-            "name": "PERCY EMILIO ZUÑIGA NUÑEZ",
-            "votes": 883,
+            "name": "HERNAN PALOMINO PILLACA",
+            "votes": 270,
             "lista": 3,
-            "elected": false
-          },
-          {
-            "name": "YURICO MARGOT OVIEDO RUIZ",
-            "votes": 704,
-            "lista": 4,
-            "elected": false
-          },
-          {
-            "name": "NELLY ELSA LIMA CHAVEZ",
-            "votes": 322,
-            "lista": 6,
             "elected": false
           }
         ]
-      },
+      }
+    },
+    "Arequipa": {
       "AHORA NACIÓN - AN": {
         "seats_won": 1,
         "candidates": [
@@ -569,6 +534,47 @@
             "name": "YSABEL REYNA CASTRO AVENDAÑO DE TINTAYA",
             "votes": 1440,
             "lista": 5,
+            "elected": false
+          }
+        ]
+      },
+      "PARTIDO CÍVICO OBRAS": {
+        "seats_won": 1,
+        "candidates": [
+          {
+            "name": "LUIS AURELIO MASCO CACERES",
+            "votes": 7453,
+            "lista": 1,
+            "elected": true
+          },
+          {
+            "name": "FAUSTINA VICTORIA PAREDES PAREDES",
+            "votes": 4594,
+            "lista": 2,
+            "elected": false
+          },
+          {
+            "name": "ALEXANDER ITALO PAJARES VELANDO",
+            "votes": 3050,
+            "lista": 3,
+            "elected": false
+          },
+          {
+            "name": "MARIELA HUAMAN NUÑONCA",
+            "votes": 2117,
+            "lista": 4,
+            "elected": false
+          },
+          {
+            "name": "MAXIMO REMIGIO INCA CENTENO",
+            "votes": 1385,
+            "lista": 5,
+            "elected": false
+          },
+          {
+            "name": "AMPARO YOLANDA HUANCA ADCO",
+            "votes": 634,
+            "lista": 6,
             "elected": false
           }
         ]
@@ -649,47 +655,6 @@
           }
         ]
       },
-      "PARTIDO CÍVICO OBRAS": {
-        "seats_won": 1,
-        "candidates": [
-          {
-            "name": "LUIS AURELIO MASCO CACERES",
-            "votes": 7453,
-            "lista": 1,
-            "elected": true
-          },
-          {
-            "name": "FAUSTINA VICTORIA PAREDES PAREDES",
-            "votes": 4594,
-            "lista": 2,
-            "elected": false
-          },
-          {
-            "name": "ALEXANDER ITALO PAJARES VELANDO",
-            "votes": 3050,
-            "lista": 3,
-            "elected": false
-          },
-          {
-            "name": "MARIELA HUAMAN NUÑONCA",
-            "votes": 2117,
-            "lista": 4,
-            "elected": false
-          },
-          {
-            "name": "MAXIMO REMIGIO INCA CENTENO",
-            "votes": 1385,
-            "lista": 5,
-            "elected": false
-          },
-          {
-            "name": "AMPARO YOLANDA HUANCA ADCO",
-            "votes": 634,
-            "lista": 6,
-            "elected": false
-          }
-        ]
-      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 2,
         "candidates": [
@@ -730,32 +695,44 @@
             "elected": false
           }
         ]
-      }
-    },
-    "Ayacucho": {
+      },
       "FUERZA POPULAR": {
         "seats_won": 0,
         "candidates": [
           {
-            "name": "JOSE CARLOS ALARCON CARDENAS",
-            "votes": 1833,
+            "name": "CARLOS RAUL PAREDES PONCE",
+            "votes": 4670,
             "lista": 1,
             "elected": false
           },
           {
-            "name": "MARITZA SACCSARA MEZA",
-            "votes": 1392,
+            "name": "DIANA PATRICIA ESQUINARILA ANAYA",
+            "votes": 2397,
             "lista": 2,
             "elected": false
           },
           {
-            "name": "QUINTILIANO DELGADO ANDRADE",
-            "votes": 282,
+            "name": "PERCY EMILIO ZUÑIGA NUÑEZ",
+            "votes": 883,
             "lista": 3,
+            "elected": false
+          },
+          {
+            "name": "YURICO MARGOT OVIEDO RUIZ",
+            "votes": 704,
+            "lista": 4,
+            "elected": false
+          },
+          {
+            "name": "NELLY ELSA LIMA CHAVEZ",
+            "votes": 322,
+            "lista": 6,
             "elected": false
           }
         ]
-      },
+      }
+    },
+    "Ayacucho": {
       "AHORA NACIÓN - AN": {
         "seats_won": 1,
         "candidates": [
@@ -780,6 +757,29 @@
           {
             "name": "BEATRIZ LILIANA AGUILAR CERVANTES",
             "votes": 1664,
+            "lista": 4,
+            "elected": false
+          }
+        ]
+      },
+      "PARTIDO CÍVICO OBRAS": {
+        "seats_won": 0,
+        "candidates": [
+          {
+            "name": "LUIS ALBERTO GARCIA FUENTES",
+            "votes": 4077,
+            "lista": 1,
+            "elected": false
+          },
+          {
+            "name": "CINTHIA LIZETT CANALES GARCIA",
+            "votes": 1952,
+            "lista": 2,
+            "elected": false
+          },
+          {
+            "name": "KELLY ROXANA GARCIA GARIBAY",
+            "votes": 406,
             "lista": 4,
             "elected": false
           }
@@ -831,29 +831,6 @@
           }
         ]
       },
-      "PARTIDO CÍVICO OBRAS": {
-        "seats_won": 0,
-        "candidates": [
-          {
-            "name": "LUIS ALBERTO GARCIA FUENTES",
-            "votes": 4077,
-            "lista": 1,
-            "elected": false
-          },
-          {
-            "name": "CINTHIA LIZETT CANALES GARCIA",
-            "votes": 1952,
-            "lista": 2,
-            "elected": false
-          },
-          {
-            "name": "KELLY ROXANA GARCIA GARIBAY",
-            "votes": 406,
-            "lista": 4,
-            "elected": false
-          }
-        ]
-      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 0,
         "candidates": [
@@ -882,50 +859,32 @@
             "elected": false
           }
         ]
-      }
-    },
-    "Cajamarca": {
+      },
       "FUERZA POPULAR": {
-        "seats_won": 1,
+        "seats_won": 0,
         "candidates": [
           {
-            "name": "SEGUNDO SENOVIO TICLLA RAFAEL",
-            "votes": 6025,
+            "name": "JOSE CARLOS ALARCON CARDENAS",
+            "votes": 1833,
             "lista": 1,
-            "elected": true
+            "elected": false
           },
           {
-            "name": "TANIA ESTEFANY RAMIREZ GARCIA",
-            "votes": 3683,
+            "name": "MARITZA SACCSARA MEZA",
+            "votes": 1392,
             "lista": 2,
             "elected": false
           },
           {
-            "name": "WIDMAN NAPOLEON VIGO GUTIERREZ",
-            "votes": 1657,
-            "lista": 5,
-            "elected": false
-          },
-          {
-            "name": "WILMER AGUILAR MONTENEGRO",
-            "votes": 1276,
+            "name": "QUINTILIANO DELGADO ANDRADE",
+            "votes": 282,
             "lista": 3,
-            "elected": false
-          },
-          {
-            "name": "LUZ MARIELA AREVALO NUÑEZ",
-            "votes": 514,
-            "lista": 4,
-            "elected": false
-          },
-          {
-            "name": "INELDA MABEL BRIONES VALLEJOS",
-            "votes": 222,
-            "lista": 6,
             "elected": false
           }
         ]
-      },
+      }
+    },
+    "Cajamarca": {
       "AHORA NACIÓN - AN": {
         "seats_won": 0,
         "candidates": [
@@ -962,6 +921,47 @@
           {
             "name": "GANI LUCY VASQUEZ HUAMAN",
             "votes": 147,
+            "lista": 6,
+            "elected": false
+          }
+        ]
+      },
+      "PARTIDO CÍVICO OBRAS": {
+        "seats_won": 1,
+        "candidates": [
+          {
+            "name": "VIDELMO ACUÑA MEJIA",
+            "votes": 3930,
+            "lista": 1,
+            "elected": true
+          },
+          {
+            "name": "YESICA MARLENY SANCHEZ CACHI",
+            "votes": 3184,
+            "lista": 2,
+            "elected": false
+          },
+          {
+            "name": "ALFREDO ISAAC PAREDES MARQUINA",
+            "votes": 1155,
+            "lista": 3,
+            "elected": false
+          },
+          {
+            "name": "EDUARDO ALBERTO TERAN TERAN",
+            "votes": 397,
+            "lista": 5,
+            "elected": false
+          },
+          {
+            "name": "ROSALINA AQUINO MOSQUEIRA",
+            "votes": 368,
+            "lista": 4,
+            "elected": false
+          },
+          {
+            "name": "EVELYN JAZMIN FLORES PAREDES",
+            "votes": 261,
             "lista": 6,
             "elected": false
           }
@@ -1009,7 +1009,7 @@
         ]
       },
       "JUNTOS POR EL PERÚ": {
-        "seats_won": 5,
+        "seats_won": 4,
         "candidates": [
           {
             "name": "YENIFER NOELIA PAREDES NAVARRO",
@@ -1039,52 +1039,11 @@
             "name": "LUIS ANGEL JIBAJA RAMOS",
             "votes": 3166,
             "lista": 5,
-            "elected": true
+            "elected": false
           },
           {
             "name": "FLORESMILA ATINELA ALVA FARCEQUE",
             "votes": 1698,
-            "lista": 6,
-            "elected": false
-          }
-        ]
-      },
-      "PARTIDO CÍVICO OBRAS": {
-        "seats_won": 0,
-        "candidates": [
-          {
-            "name": "VIDELMO ACUÑA MEJIA",
-            "votes": 3930,
-            "lista": 1,
-            "elected": false
-          },
-          {
-            "name": "YESICA MARLENY SANCHEZ CACHI",
-            "votes": 3184,
-            "lista": 2,
-            "elected": false
-          },
-          {
-            "name": "ALFREDO ISAAC PAREDES MARQUINA",
-            "votes": 1155,
-            "lista": 3,
-            "elected": false
-          },
-          {
-            "name": "EDUARDO ALBERTO TERAN TERAN",
-            "votes": 397,
-            "lista": 5,
-            "elected": false
-          },
-          {
-            "name": "ROSALINA AQUINO MOSQUEIRA",
-            "votes": 368,
-            "lista": 4,
-            "elected": false
-          },
-          {
-            "name": "EVELYN JAZMIN FLORES PAREDES",
-            "votes": 261,
             "lista": 6,
             "elected": false
           }
@@ -1130,38 +1089,50 @@
             "elected": false
           }
         ]
-      }
-    },
-    "Callao": {
+      },
       "FUERZA POPULAR": {
-        "seats_won": 2,
+        "seats_won": 1,
         "candidates": [
           {
-            "name": "AURISTELA ANA OBANDO MORGAN",
-            "votes": 8618,
+            "name": "SEGUNDO SENOVIO TICLLA RAFAEL",
+            "votes": 6025,
             "lista": 1,
             "elected": true
           },
           {
-            "name": "ANGEL BRUNO BOBADILLA GALINDO",
-            "votes": 3588,
+            "name": "TANIA ESTEFANY RAMIREZ GARCIA",
+            "votes": 3683,
             "lista": 2,
-            "elected": true
+            "elected": false
           },
           {
-            "name": "GRACIELA SONIA VENTOCILLA YAURI",
-            "votes": 1925,
+            "name": "WIDMAN NAPOLEON VIGO GUTIERREZ",
+            "votes": 1657,
+            "lista": 5,
+            "elected": false
+          },
+          {
+            "name": "WILMER AGUILAR MONTENEGRO",
+            "votes": 1276,
             "lista": 3,
             "elected": false
           },
           {
-            "name": "MARCOS ANTONIO PICHILINGUE GOMEZ",
-            "votes": 1740,
+            "name": "LUZ MARIELA AREVALO NUÑEZ",
+            "votes": 514,
             "lista": 4,
+            "elected": false
+          },
+          {
+            "name": "INELDA MABEL BRIONES VALLEJOS",
+            "votes": 222,
+            "lista": 6,
             "elected": false
           }
         ]
-      },
+      }
+    },
+    "Callao": {
       "AHORA NACIÓN - AN": {
         "seats_won": 0,
         "candidates": [
@@ -1187,6 +1158,35 @@
             "name": "NATALY YASMYN VEGA TAFUR",
             "votes": 1502,
             "lista": 3,
+            "elected": false
+          }
+        ]
+      },
+      "PARTIDO CÍVICO OBRAS": {
+        "seats_won": 0,
+        "candidates": [
+          {
+            "name": "ELIZABETH QUISPE GUEVARA",
+            "votes": 3273,
+            "lista": 1,
+            "elected": false
+          },
+          {
+            "name": "GILMAR JOEL BOTELLO CARRION",
+            "votes": 2085,
+            "lista": 2,
+            "elected": false
+          },
+          {
+            "name": "GENOVEVA MALISA CHUMPITAZI VARGAS",
+            "votes": 1041,
+            "lista": 3,
+            "elected": false
+          },
+          {
+            "name": "FRANKLIN ANDRES QUISPE HUAYHUA",
+            "votes": 556,
+            "lista": 4,
             "elected": false
           }
         ]
@@ -1249,35 +1249,6 @@
           }
         ]
       },
-      "PARTIDO CÍVICO OBRAS": {
-        "seats_won": 0,
-        "candidates": [
-          {
-            "name": "ELIZABETH QUISPE GUEVARA",
-            "votes": 3273,
-            "lista": 1,
-            "elected": false
-          },
-          {
-            "name": "GILMAR JOEL BOTELLO CARRION",
-            "votes": 2085,
-            "lista": 2,
-            "elected": false
-          },
-          {
-            "name": "GENOVEVA MALISA CHUMPITAZI VARGAS",
-            "votes": 1041,
-            "lista": 3,
-            "elected": false
-          },
-          {
-            "name": "FRANKLIN ANDRES QUISPE HUAYHUA",
-            "votes": 556,
-            "lista": 4,
-            "elected": false
-          }
-        ]
-      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 1,
         "candidates": [
@@ -1306,44 +1277,38 @@
             "elected": false
           }
         ]
-      }
-    },
-    "Cusco": {
+      },
       "FUERZA POPULAR": {
-        "seats_won": 0,
+        "seats_won": 2,
         "candidates": [
           {
-            "name": "CESAR ARMANDO NAVINTA TACONA",
-            "votes": 2808,
+            "name": "AURISTELA ANA OBANDO MORGAN",
+            "votes": 8618,
             "lista": 1,
-            "elected": false
+            "elected": true
           },
           {
-            "name": "RAUL MATAMOROS ANCHARI",
-            "votes": 1525,
+            "name": "ANGEL BRUNO BOBADILLA GALINDO",
+            "votes": 3588,
+            "lista": 2,
+            "elected": true
+          },
+          {
+            "name": "GRACIELA SONIA VENTOCILLA YAURI",
+            "votes": 1925,
             "lista": 3,
             "elected": false
           },
           {
-            "name": "CLARA ESDENKA RODRIGUEZ CARMONA",
-            "votes": 951,
-            "lista": 2,
-            "elected": false
-          },
-          {
-            "name": "MARYORY YOMIRA VARGAS ALTAMIRANO",
-            "votes": 409,
+            "name": "MARCOS ANTONIO PICHILINGUE GOMEZ",
+            "votes": 1740,
             "lista": 4,
-            "elected": false
-          },
-          {
-            "name": "ROXANA ABARCA LUCANA",
-            "votes": 119,
-            "lista": 6,
             "elected": false
           }
         ]
-      },
+      }
+    },
+    "Cusco": {
       "AHORA NACIÓN - AN": {
         "seats_won": 1,
         "candidates": [
@@ -1374,6 +1339,35 @@
           {
             "name": "EMPERATRIZ ESPINOZA ESPINO",
             "votes": 1413,
+            "lista": 6,
+            "elected": false
+          }
+        ]
+      },
+      "PARTIDO CÍVICO OBRAS": {
+        "seats_won": 1,
+        "candidates": [
+          {
+            "name": "HEBER LOPEZ LETONA",
+            "votes": 7141,
+            "lista": 1,
+            "elected": true
+          },
+          {
+            "name": "CARLOS AGUILAR ORTIZ",
+            "votes": 3492,
+            "lista": 3,
+            "elected": false
+          },
+          {
+            "name": "TOLEMAIDA RHODESIA HUAMAN LIMACO",
+            "votes": 1356,
+            "lista": 4,
+            "elected": false
+          },
+          {
+            "name": "ANEL QUINTANILLA GUTIERREZ",
+            "votes": 553,
             "lista": 6,
             "elected": false
           }
@@ -1461,35 +1455,6 @@
           }
         ]
       },
-      "PARTIDO CÍVICO OBRAS": {
-        "seats_won": 1,
-        "candidates": [
-          {
-            "name": "HEBER LOPEZ LETONA",
-            "votes": 7141,
-            "lista": 1,
-            "elected": true
-          },
-          {
-            "name": "CARLOS AGUILAR ORTIZ",
-            "votes": 3492,
-            "lista": 3,
-            "elected": false
-          },
-          {
-            "name": "TOLEMAIDA RHODESIA HUAMAN LIMACO",
-            "votes": 1356,
-            "lista": 4,
-            "elected": false
-          },
-          {
-            "name": "ANEL QUINTANILLA GUTIERREZ",
-            "votes": 553,
-            "lista": 6,
-            "elected": false
-          }
-        ]
-      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 1,
         "candidates": [
@@ -1530,38 +1495,44 @@
             "elected": false
           }
         ]
-      }
-    },
-    "Huancavelica": {
+      },
       "FUERZA POPULAR": {
         "seats_won": 0,
         "candidates": [
           {
-            "name": "MARCO ANTONIO GÁLVEZ SALDAÑA",
-            "votes": 1618,
+            "name": "CESAR ARMANDO NAVINTA TACONA",
+            "votes": 2808,
             "lista": 1,
             "elected": false
           },
           {
-            "name": "SUSAN ESTELA HUAMAN RAMON",
-            "votes": 408,
-            "lista": 2,
-            "elected": false
-          },
-          {
-            "name": "NILO RICHER ROMERO TAIPE",
-            "votes": 231,
+            "name": "RAUL MATAMOROS ANCHARI",
+            "votes": 1525,
             "lista": 3,
             "elected": false
           },
           {
-            "name": "ROXANA GRACIELA IZARRA ALTEZ",
-            "votes": 90,
+            "name": "CLARA ESDENKA RODRIGUEZ CARMONA",
+            "votes": 951,
+            "lista": 2,
+            "elected": false
+          },
+          {
+            "name": "MARYORY YOMIRA VARGAS ALTAMIRANO",
+            "votes": 409,
             "lista": 4,
+            "elected": false
+          },
+          {
+            "name": "ROXANA ABARCA LUCANA",
+            "votes": 119,
+            "lista": 6,
             "elected": false
           }
         ]
-      },
+      }
+    },
+    "Huancavelica": {
       "AHORA NACIÓN - AN": {
         "seats_won": 0,
         "candidates": [
@@ -1590,6 +1561,10 @@
             "elected": false
           }
         ]
+      },
+      "PARTIDO CÍVICO OBRAS": {
+        "seats_won": 0,
+        "candidates": []
       },
       "RENOVACIÓN POPULAR": {
         "seats_won": 0,
@@ -1649,10 +1624,6 @@
           }
         ]
       },
-      "PARTIDO CÍVICO OBRAS": {
-        "seats_won": 0,
-        "candidates": []
-      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 0,
         "candidates": [
@@ -1681,38 +1652,38 @@
             "elected": false
           }
         ]
-      }
-    },
-    "Huánuco": {
+      },
       "FUERZA POPULAR": {
-        "seats_won": 1,
+        "seats_won": 0,
         "candidates": [
           {
-            "name": "KARINA JULIZA BETETA RUBIN",
-            "votes": 4726,
+            "name": "MARCO ANTONIO GÁLVEZ SALDAÑA",
+            "votes": 1618,
             "lista": 1,
-            "elected": true
+            "elected": false
           },
           {
-            "name": "ANA CECILIA CERPA DEL CASTILLO",
-            "votes": 1255,
+            "name": "SUSAN ESTELA HUAMAN RAMON",
+            "votes": 408,
+            "lista": 2,
+            "elected": false
+          },
+          {
+            "name": "NILO RICHER ROMERO TAIPE",
+            "votes": 231,
             "lista": 3,
             "elected": false
           },
           {
-            "name": "WILSON NAU ARIZA MENDOZA",
-            "votes": 1204,
+            "name": "ROXANA GRACIELA IZARRA ALTEZ",
+            "votes": 90,
             "lista": 4,
-            "elected": false
-          },
-          {
-            "name": "JAVIER DAVID MEZA AYALA",
-            "votes": 1017,
-            "lista": 2,
             "elected": false
           }
         ]
-      },
+      }
+    },
+    "Huánuco": {
       "AHORA NACIÓN - AN": {
         "seats_won": 0,
         "candidates": [
@@ -1738,6 +1709,35 @@
             "name": "DAYANA MELISSA GERONIMO NUÑEZ",
             "votes": 442,
             "lista": 3,
+            "elected": false
+          }
+        ]
+      },
+      "PARTIDO CÍVICO OBRAS": {
+        "seats_won": 0,
+        "candidates": [
+          {
+            "name": "MELVIN RILDO CESPEDES SOBRADO",
+            "votes": 3707,
+            "lista": 1,
+            "elected": false
+          },
+          {
+            "name": "YOLA SANTILLAN VARA",
+            "votes": 1548,
+            "lista": 2,
+            "elected": false
+          },
+          {
+            "name": "RICHARD KRUSHEV CORDOVA CUELLAR",
+            "votes": 1308,
+            "lista": 3,
+            "elected": false
+          },
+          {
+            "name": "BETHYSOL CRUZ VARA",
+            "votes": 278,
+            "lista": 4,
             "elected": false
           }
         ]
@@ -1794,35 +1794,6 @@
           }
         ]
       },
-      "PARTIDO CÍVICO OBRAS": {
-        "seats_won": 0,
-        "candidates": [
-          {
-            "name": "MELVIN RILDO CESPEDES SOBRADO",
-            "votes": 3707,
-            "lista": 1,
-            "elected": false
-          },
-          {
-            "name": "YOLA SANTILLAN VARA",
-            "votes": 1548,
-            "lista": 2,
-            "elected": false
-          },
-          {
-            "name": "RICHARD KRUSHEV CORDOVA CUELLAR",
-            "votes": 1308,
-            "lista": 3,
-            "elected": false
-          },
-          {
-            "name": "BETHYSOL CRUZ VARA",
-            "votes": 278,
-            "lista": 4,
-            "elected": false
-          }
-        ]
-      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 0,
         "candidates": [
@@ -1851,38 +1822,38 @@
             "elected": false
           }
         ]
-      }
-    },
-    "Ica": {
+      },
       "FUERZA POPULAR": {
         "seats_won": 1,
         "candidates": [
           {
-            "name": "CARLOS ALBERTO ZEGARRA SANCHEZ",
-            "votes": 6265,
+            "name": "KARINA JULIZA BETETA RUBIN",
+            "votes": 4726,
             "lista": 1,
             "elected": true
           },
           {
-            "name": "MARIA ROSSANA VERA PARIONA",
-            "votes": 2207,
-            "lista": 2,
-            "elected": false
-          },
-          {
-            "name": "CESAR ANTONIO SEGURA IZQUIERDO",
-            "votes": 1302,
+            "name": "ANA CECILIA CERPA DEL CASTILLO",
+            "votes": 1255,
             "lista": 3,
             "elected": false
           },
           {
-            "name": "YULIANA MELCHORITA ZEVALLOS QUIJAITE",
-            "votes": 660,
+            "name": "WILSON NAU ARIZA MENDOZA",
+            "votes": 1204,
             "lista": 4,
+            "elected": false
+          },
+          {
+            "name": "JAVIER DAVID MEZA AYALA",
+            "votes": 1017,
+            "lista": 2,
             "elected": false
           }
         ]
-      },
+      }
+    },
+    "Ica": {
       "AHORA NACIÓN - AN": {
         "seats_won": 0,
         "candidates": [
@@ -1896,6 +1867,35 @@
             "name": "ALEJANDRO PASCUAL ARCE MARCOVICH",
             "votes": 4229,
             "lista": 1,
+            "elected": false
+          }
+        ]
+      },
+      "PARTIDO CÍVICO OBRAS": {
+        "seats_won": 1,
+        "candidates": [
+          {
+            "name": "JOSE RICARDO YATACO TORREALVA",
+            "votes": 4260,
+            "lista": 1,
+            "elected": true
+          },
+          {
+            "name": "LUZ MARIA RODRIGUEZ ANICAMA",
+            "votes": 1705,
+            "lista": 2,
+            "elected": false
+          },
+          {
+            "name": "JUAN ALEJANDRO SARAVIA MENDOZA",
+            "votes": 1066,
+            "lista": 3,
+            "elected": false
+          },
+          {
+            "name": "LUZ AMPARO REBATTA ASCONA",
+            "votes": 363,
+            "lista": 4,
             "elected": false
           }
         ]
@@ -1958,35 +1958,6 @@
           }
         ]
       },
-      "PARTIDO CÍVICO OBRAS": {
-        "seats_won": 1,
-        "candidates": [
-          {
-            "name": "JOSE RICARDO YATACO TORREALVA",
-            "votes": 4260,
-            "lista": 1,
-            "elected": true
-          },
-          {
-            "name": "LUZ MARIA RODRIGUEZ ANICAMA",
-            "votes": 1705,
-            "lista": 2,
-            "elected": false
-          },
-          {
-            "name": "JUAN ALEJANDRO SARAVIA MENDOZA",
-            "votes": 1066,
-            "lista": 3,
-            "elected": false
-          },
-          {
-            "name": "LUZ AMPARO REBATTA ASCONA",
-            "votes": 363,
-            "lista": 4,
-            "elected": false
-          }
-        ]
-      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 1,
         "candidates": [
@@ -2015,50 +1986,38 @@
             "elected": false
           }
         ]
-      }
-    },
-    "Junín": {
+      },
       "FUERZA POPULAR": {
         "seats_won": 1,
         "candidates": [
           {
-            "name": "ANA BERTHA PATIÑO URCO",
-            "votes": 8592,
+            "name": "CARLOS ALBERTO ZEGARRA SANCHEZ",
+            "votes": 6265,
             "lista": 1,
             "elected": true
           },
           {
-            "name": "ISRAEL TITO LAZO JULCA",
-            "votes": 3252,
+            "name": "MARIA ROSSANA VERA PARIONA",
+            "votes": 2207,
             "lista": 2,
             "elected": false
           },
           {
-            "name": "EMMA CHONG VALLES",
-            "votes": 2069,
+            "name": "CESAR ANTONIO SEGURA IZQUIERDO",
+            "votes": 1302,
             "lista": 3,
             "elected": false
           },
           {
-            "name": "JUANITA LAURETTI CARVO BARRIOS",
-            "votes": 1449,
-            "lista": 5,
-            "elected": false
-          },
-          {
-            "name": "CESAR AUGUSTO CUESTAS MENESES",
-            "votes": 990,
+            "name": "YULIANA MELCHORITA ZEVALLOS QUIJAITE",
+            "votes": 660,
             "lista": 4,
-            "elected": false
-          },
-          {
-            "name": "CARLOS EDUARDO VILCAHUAMAN DE LA CRUZ",
-            "votes": 697,
-            "lista": 6,
             "elected": false
           }
         ]
-      },
+      }
+    },
+    "Junín": {
       "AHORA NACIÓN - AN": {
         "seats_won": 1,
         "candidates": [
@@ -2095,6 +2054,47 @@
           {
             "name": "RAQUEL CONDORI VIVANCO",
             "votes": 1233,
+            "lista": 6,
+            "elected": false
+          }
+        ]
+      },
+      "PARTIDO CÍVICO OBRAS": {
+        "seats_won": 1,
+        "candidates": [
+          {
+            "name": "MAXIMO PERALTA JORPA",
+            "votes": 5663,
+            "lista": 1,
+            "elected": true
+          },
+          {
+            "name": "INGRID PAOLA PERALTA MORALES",
+            "votes": 3203,
+            "lista": 2,
+            "elected": false
+          },
+          {
+            "name": "ALFREDO LEONIDES AYLAS QUINTANILLA",
+            "votes": 1995,
+            "lista": 3,
+            "elected": false
+          },
+          {
+            "name": "FERNANDO LLALLICO ROJAS",
+            "votes": 1254,
+            "lista": 5,
+            "elected": false
+          },
+          {
+            "name": "EDI NELLY MACHUCA ALVARADO",
+            "votes": 736,
+            "lista": 4,
+            "elected": false
+          },
+          {
+            "name": "ROSA JUANA MANYARI AZORZA",
+            "votes": 414,
             "lista": 6,
             "elected": false
           }
@@ -2176,47 +2176,6 @@
           }
         ]
       },
-      "PARTIDO CÍVICO OBRAS": {
-        "seats_won": 1,
-        "candidates": [
-          {
-            "name": "MAXIMO PERALTA JORPA",
-            "votes": 5663,
-            "lista": 1,
-            "elected": true
-          },
-          {
-            "name": "INGRID PAOLA PERALTA MORALES",
-            "votes": 3203,
-            "lista": 2,
-            "elected": false
-          },
-          {
-            "name": "ALFREDO LEONIDES AYLAS QUINTANILLA",
-            "votes": 1995,
-            "lista": 3,
-            "elected": false
-          },
-          {
-            "name": "FERNANDO LLALLICO ROJAS",
-            "votes": 1254,
-            "lista": 5,
-            "elected": false
-          },
-          {
-            "name": "EDI NELLY MACHUCA ALVARADO",
-            "votes": 736,
-            "lista": 4,
-            "elected": false
-          },
-          {
-            "name": "ROSA JUANA MANYARI AZORZA",
-            "votes": 414,
-            "lista": 6,
-            "elected": false
-          }
-        ]
-      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 1,
         "candidates": [
@@ -2257,62 +2216,50 @@
             "elected": false
           }
         ]
-      }
-    },
-    "La Libertad": {
+      },
       "FUERZA POPULAR": {
-        "seats_won": 3,
+        "seats_won": 1,
         "candidates": [
           {
-            "name": "GILMER TRUJILLO ZEGARRA",
-            "votes": 7222,
+            "name": "ANA BERTHA PATIÑO URCO",
+            "votes": 8592,
             "lista": 1,
             "elected": true
           },
           {
-            "name": "LETICIA MARUJA LEIVA BAYLON",
-            "votes": 2471,
+            "name": "ISRAEL TITO LAZO JULCA",
+            "votes": 3252,
             "lista": 2,
-            "elected": true
+            "elected": false
           },
           {
-            "name": "GEANMARCO ANTONIO QUEZADA CASTRO",
-            "votes": 1849,
-            "lista": 5,
-            "elected": true
-          },
-          {
-            "name": "MIGUEL ANGEL VIVANCO REYES",
-            "votes": 1625,
+            "name": "EMMA CHONG VALLES",
+            "votes": 2069,
             "lista": 3,
             "elected": false
           },
           {
-            "name": "MARY LUZ VILCA FLORES",
-            "votes": 962,
+            "name": "JUANITA LAURETTI CARVO BARRIOS",
+            "votes": 1449,
+            "lista": 5,
+            "elected": false
+          },
+          {
+            "name": "CESAR AUGUSTO CUESTAS MENESES",
+            "votes": 990,
             "lista": 4,
             "elected": false
           },
           {
-            "name": "JAVIER EDWART ESTRADA POZO",
-            "votes": 765,
-            "lista": 7,
-            "elected": false
-          },
-          {
-            "name": "EVELYN MARISOL SICCHA RODRIGUEZ",
-            "votes": 565,
+            "name": "CARLOS EDUARDO VILCAHUAMAN DE LA CRUZ",
+            "votes": 697,
             "lista": 6,
-            "elected": false
-          },
-          {
-            "name": "ROSARIO FRANKI PAREDES CHIPANA",
-            "votes": 113,
-            "lista": 8,
             "elected": false
           }
         ]
-      },
+      }
+    },
+    "La Libertad": {
       "AHORA NACIÓN - AN": {
         "seats_won": 0,
         "candidates": [
@@ -2361,6 +2308,59 @@
           {
             "name": "CARMEN ZENAIDA JOSE AGUILAR",
             "votes": 100,
+            "lista": 8,
+            "elected": false
+          }
+        ]
+      },
+      "PARTIDO CÍVICO OBRAS": {
+        "seats_won": 1,
+        "candidates": [
+          {
+            "name": "DEMETRIO FLAVIO VALQUI CALDERON",
+            "votes": 2543,
+            "lista": 1,
+            "elected": true
+          },
+          {
+            "name": "MELISA MANUELA ZAVALETA MINCHOLA",
+            "votes": 1432,
+            "lista": 2,
+            "elected": false
+          },
+          {
+            "name": "JOSE BENJAMIN TERAN TERAN",
+            "votes": 829,
+            "lista": 3,
+            "elected": false
+          },
+          {
+            "name": "PABLO MOISES GARCIA VARAS",
+            "votes": 476,
+            "lista": 5,
+            "elected": false
+          },
+          {
+            "name": "NORA SOLEDAD PEREZ RODRIGUEZ",
+            "votes": 364,
+            "lista": 4,
+            "elected": false
+          },
+          {
+            "name": "SANTOS PORFIRIA CRUZ GALVEZ",
+            "votes": 194,
+            "lista": 6,
+            "elected": false
+          },
+          {
+            "name": "EDILBERTO CUEVA GOMEZ",
+            "votes": 186,
+            "lista": 7,
+            "elected": false
+          },
+          {
+            "name": "TANIA CARLIN LADINES",
+            "votes": 74,
             "lista": 8,
             "elected": false
           }
@@ -2472,59 +2472,6 @@
           }
         ]
       },
-      "PARTIDO CÍVICO OBRAS": {
-        "seats_won": 1,
-        "candidates": [
-          {
-            "name": "DEMETRIO FLAVIO VALQUI CALDERON",
-            "votes": 2543,
-            "lista": 1,
-            "elected": true
-          },
-          {
-            "name": "MELISA MANUELA ZAVALETA MINCHOLA",
-            "votes": 1432,
-            "lista": 2,
-            "elected": false
-          },
-          {
-            "name": "JOSE BENJAMIN TERAN TERAN",
-            "votes": 829,
-            "lista": 3,
-            "elected": false
-          },
-          {
-            "name": "PABLO MOISES GARCIA VARAS",
-            "votes": 476,
-            "lista": 5,
-            "elected": false
-          },
-          {
-            "name": "NORA SOLEDAD PEREZ RODRIGUEZ",
-            "votes": 364,
-            "lista": 4,
-            "elected": false
-          },
-          {
-            "name": "SANTOS PORFIRIA CRUZ GALVEZ",
-            "votes": 194,
-            "lista": 6,
-            "elected": false
-          },
-          {
-            "name": "EDILBERTO CUEVA GOMEZ",
-            "votes": 186,
-            "lista": 7,
-            "elected": false
-          },
-          {
-            "name": "TANIA CARLIN LADINES",
-            "votes": 74,
-            "lista": 8,
-            "elected": false
-          }
-        ]
-      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 1,
         "candidates": [
@@ -2559,50 +2506,62 @@
             "elected": false
           }
         ]
-      }
-    },
-    "Lambayeque": {
+      },
       "FUERZA POPULAR": {
         "seats_won": 3,
         "candidates": [
           {
-            "name": "JOSE MARVIN PALMA MENDOZA",
-            "votes": 18809,
+            "name": "GILMER TRUJILLO ZEGARRA",
+            "votes": 7222,
             "lista": 1,
             "elected": true
           },
           {
-            "name": "JAVIER ALEJANDRO CASTRO CRUZ",
-            "votes": 5663,
-            "lista": 5,
-            "elected": true
-          },
-          {
-            "name": "LILIANA MILAGROS TAKAYAMA JIMENEZ",
-            "votes": 4032,
+            "name": "LETICIA MARUJA LEIVA BAYLON",
+            "votes": 2471,
             "lista": 2,
             "elected": true
           },
           {
-            "name": "RAFAEL ANTONIO AITA CAMPODONICO",
-            "votes": 2295,
+            "name": "GEANMARCO ANTONIO QUEZADA CASTRO",
+            "votes": 1849,
+            "lista": 5,
+            "elected": true
+          },
+          {
+            "name": "MIGUEL ANGEL VIVANCO REYES",
+            "votes": 1625,
             "lista": 3,
             "elected": false
           },
           {
-            "name": "SEGUNDA DALILA BRAVO VALLADOLID",
-            "votes": 1685,
+            "name": "MARY LUZ VILCA FLORES",
+            "votes": 962,
             "lista": 4,
             "elected": false
           },
           {
-            "name": "ALEJANDRINA DEL ROSARIO ORDOÑEZ CONDEZO",
-            "votes": 759,
+            "name": "JAVIER EDWART ESTRADA POZO",
+            "votes": 765,
+            "lista": 7,
+            "elected": false
+          },
+          {
+            "name": "EVELYN MARISOL SICCHA RODRIGUEZ",
+            "votes": 565,
             "lista": 6,
+            "elected": false
+          },
+          {
+            "name": "ROSARIO FRANKI PAREDES CHIPANA",
+            "votes": 113,
+            "lista": 8,
             "elected": false
           }
         ]
-      },
+      }
+    },
+    "Lambayeque": {
       "AHORA NACIÓN - AN": {
         "seats_won": 0,
         "candidates": [
@@ -2639,6 +2598,41 @@
           {
             "name": "ARASELI ORTIZ ACUÑA",
             "votes": 106,
+            "lista": 6,
+            "elected": false
+          }
+        ]
+      },
+      "PARTIDO CÍVICO OBRAS": {
+        "seats_won": 0,
+        "candidates": [
+          {
+            "name": "ROLANDO INGA AQUINO",
+            "votes": 3194,
+            "lista": 1,
+            "elected": false
+          },
+          {
+            "name": "ALEX DEISER NUÑEZ CONSTANTINO",
+            "votes": 999,
+            "lista": 3,
+            "elected": false
+          },
+          {
+            "name": "GLORIA ELENSITH LIZANA BANCES",
+            "votes": 729,
+            "lista": 4,
+            "elected": false
+          },
+          {
+            "name": "JOSE ELISAR FRIAS CONSTANTINO",
+            "votes": 325,
+            "lista": 5,
+            "elected": false
+          },
+          {
+            "name": "MARIA CONSUELO CONSTANTINO VILLANUEVA",
+            "votes": 142,
             "lista": 6,
             "elected": false
           }
@@ -2720,41 +2714,6 @@
           }
         ]
       },
-      "PARTIDO CÍVICO OBRAS": {
-        "seats_won": 0,
-        "candidates": [
-          {
-            "name": "ROLANDO INGA AQUINO",
-            "votes": 3194,
-            "lista": 1,
-            "elected": false
-          },
-          {
-            "name": "ALEX DEISER NUÑEZ CONSTANTINO",
-            "votes": 999,
-            "lista": 3,
-            "elected": false
-          },
-          {
-            "name": "GLORIA ELENSITH LIZANA BANCES",
-            "votes": 729,
-            "lista": 4,
-            "elected": false
-          },
-          {
-            "name": "JOSE ELISAR FRIAS CONSTANTINO",
-            "votes": 325,
-            "lista": 5,
-            "elected": false
-          },
-          {
-            "name": "MARIA CONSUELO CONSTANTINO VILLANUEVA",
-            "votes": 142,
-            "lista": 6,
-            "elected": false
-          }
-        ]
-      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 1,
         "candidates": [
@@ -2795,200 +2754,50 @@
             "elected": false
           }
         ]
-      }
-    },
-    "Lima": {
+      },
       "FUERZA POPULAR": {
-        "seats_won": 7,
+        "seats_won": 3,
         "candidates": [
           {
-            "name": "CECILIA ISABEL CHACON DE VETTORI",
-            "votes": 71901,
+            "name": "JOSE MARVIN PALMA MENDOZA",
+            "votes": 18809,
             "lista": 1,
             "elected": true
           },
           {
-            "name": "DIETHELL COLUMBUS MURATA",
-            "votes": 30340,
-            "lista": 2,
-            "elected": true
-          },
-          {
-            "name": "ROSANGELLA ANDREA BARBARAN REYES",
-            "votes": 25118,
-            "lista": 3,
-            "elected": true
-          },
-          {
-            "name": "PIER PAOLO FIGARI MENDOZA",
-            "votes": 15580,
-            "lista": 4,
-            "elected": true
-          },
-          {
-            "name": "MARCO ANTONIO PACHECO QUISPE",
-            "votes": 12355,
-            "lista": 6,
-            "elected": true
-          },
-          {
-            "name": "PIERANGELI DANIELA DODERO JOVICH",
-            "votes": 11057,
+            "name": "JAVIER ALEJANDRO CASTRO CRUZ",
+            "votes": 5663,
             "lista": 5,
             "elected": true
           },
           {
-            "name": "FLOR DE JESUS MEZA RIVERA",
-            "votes": 6684,
-            "lista": 7,
+            "name": "LILIANA MILAGROS TAKAYAMA JIMENEZ",
+            "votes": 4032,
+            "lista": 2,
             "elected": true
           },
           {
-            "name": "KONNIE MICHELLE VIDAURRE TORRES",
-            "votes": 5844,
-            "lista": 9,
+            "name": "RAFAEL ANTONIO AITA CAMPODONICO",
+            "votes": 2295,
+            "lista": 3,
             "elected": false
           },
           {
-            "name": "JUAN ASDRUBAL RABASA LAVARELLO",
-            "votes": 4069,
-            "lista": 8,
+            "name": "SEGUNDA DALILA BRAVO VALLADOLID",
+            "votes": 1685,
+            "lista": 4,
             "elected": false
           },
           {
-            "name": "ANTONIO DONGO FRASSON",
-            "votes": 3860,
-            "lista": 10,
-            "elected": false
-          },
-          {
-            "name": "LUIS ENRIQUE OTOYA TRELLES",
-            "votes": 2338,
-            "lista": 12,
-            "elected": false
-          },
-          {
-            "name": "LILIANA ROJAS ESPINOZA",
-            "votes": 2063,
-            "lista": 15,
-            "elected": false
-          },
-          {
-            "name": "MARIA HELENA MENDOZA DEL SOLAR",
-            "votes": 1944,
-            "lista": 11,
-            "elected": false
-          },
-          {
-            "name": "ABRAHAM DIONICIO PACHECO CAJALEON",
-            "votes": 1821,
-            "lista": 14,
-            "elected": false
-          },
-          {
-            "name": "LOURDES CAROLINA CARMELO ANCAYA",
-            "votes": 1237,
-            "lista": 13,
-            "elected": false
-          },
-          {
-            "name": "MARCO ANTONIO URBINA RAMOS",
-            "votes": 1117,
-            "lista": 16,
-            "elected": false
-          },
-          {
-            "name": "BRATZO WHITTEMBURY BIANCHI",
-            "votes": 911,
-            "lista": 18,
-            "elected": false
-          },
-          {
-            "name": "OBED BERNUY ATACHAGUA",
-            "votes": 853,
-            "lista": 22,
-            "elected": false
-          },
-          {
-            "name": "CARMEN BALABARCA FLORES",
-            "votes": 851,
-            "lista": 19,
-            "elected": false
-          },
-          {
-            "name": "JULIO ALFONSO CABALLERO MALDONADO",
-            "votes": 833,
-            "lista": 20,
-            "elected": false
-          },
-          {
-            "name": "AMELIA ELENA GARCIA NORIEGA",
-            "votes": 541,
-            "lista": 23,
-            "elected": false
-          },
-          {
-            "name": "JUAN PEDRO SANCHEZ CARRILLO",
-            "votes": 526,
-            "lista": 24,
-            "elected": false
-          },
-          {
-            "name": "HUGO DANIEL GARAY MATOS",
-            "votes": 526,
-            "lista": 32,
-            "elected": false
-          },
-          {
-            "name": "ANGELINE PAOLA BIONDI ROJAS",
-            "votes": 524,
-            "lista": 21,
-            "elected": false
-          },
-          {
-            "name": "BELICA JULIA BRAVO ALCANTARA",
-            "votes": 523,
-            "lista": 31,
-            "elected": false
-          },
-          {
-            "name": "VILMA GRACIELA PACHECO CRIBILLERO",
-            "votes": 487,
-            "lista": 17,
-            "elected": false
-          },
-          {
-            "name": "MIRTHA ANA BALDEON LOSTAUNAU",
-            "votes": 360,
-            "lista": 27,
-            "elected": false
-          },
-          {
-            "name": "LESLIE NICOL CUBILLAS FLORES",
-            "votes": 327,
-            "lista": 29,
-            "elected": false
-          },
-          {
-            "name": "MIGUEL ANGEL ARCAYA SALDAÑA",
-            "votes": 318,
-            "lista": 30,
-            "elected": false
-          },
-          {
-            "name": "CLAUDIO ROBERTO MENDOZA NAVARRO",
-            "votes": 229,
-            "lista": 26,
-            "elected": false
-          },
-          {
-            "name": "JULIAN RAMOS MENDEZ",
-            "votes": 194,
-            "lista": 28,
+            "name": "ALEJANDRINA DEL ROSARIO ORDOÑEZ CONDEZO",
+            "votes": 759,
+            "lista": 6,
             "elected": false
           }
         ]
-      },
+      }
+    },
+    "Lima": {
       "AHORA NACIÓN - AN": {
         "seats_won": 4,
         "candidates": [
@@ -3170,6 +2979,191 @@
             "name": "YESENIA JUDITH LEIVA BRAVO",
             "votes": 101,
             "lista": 30,
+            "elected": false
+          }
+        ]
+      },
+      "PARTIDO CÍVICO OBRAS": {
+        "seats_won": 4,
+        "candidates": [
+          {
+            "name": "JEENNY CRISTINA SAMANEZ GONZALES VIGIL",
+            "votes": 17498,
+            "lista": 2,
+            "elected": true
+          },
+          {
+            "name": "VICTOR EDUARDO PIÑAN MAMANI",
+            "votes": 13043,
+            "lista": 3,
+            "elected": true
+          },
+          {
+            "name": "ANDREA DAYNA MEDINA STEIN",
+            "votes": 7455,
+            "lista": 4,
+            "elected": true
+          },
+          {
+            "name": "RAUL JESUS CAMARGO PORTA",
+            "votes": 6704,
+            "lista": 5,
+            "elected": true
+          },
+          {
+            "name": "RAFAEL ROMERO VASQUEZ",
+            "votes": 5718,
+            "lista": 7,
+            "elected": false
+          },
+          {
+            "name": "EDUARDO TÚLLUME GAMARRA",
+            "votes": 4238,
+            "lista": 11,
+            "elected": false
+          },
+          {
+            "name": "MARGARITA ISABEL PAJARES FLORES",
+            "votes": 3798,
+            "lista": 6,
+            "elected": false
+          },
+          {
+            "name": "SONIA MARIA ROSADIO ANGELES",
+            "votes": 2093,
+            "lista": 8,
+            "elected": false
+          },
+          {
+            "name": "SISSI DEL PILAR ANGULO RIVAS",
+            "votes": 1561,
+            "lista": 10,
+            "elected": false
+          },
+          {
+            "name": "ALISON MADELEY GUEVARA BERMUDEZ",
+            "votes": 1551,
+            "lista": 14,
+            "elected": false
+          },
+          {
+            "name": "RAUL ADOLFO ARIAS RAMOS",
+            "votes": 1117,
+            "lista": 13,
+            "elected": false
+          },
+          {
+            "name": "JOHNNY ALBERTO VILLON MACEDO",
+            "votes": 1039,
+            "lista": 15,
+            "elected": false
+          },
+          {
+            "name": "NICOLLE BRIGITT HUAMANI PUPUCHE",
+            "votes": 858,
+            "lista": 12,
+            "elected": false
+          },
+          {
+            "name": "NOE VARA UZURIAGA",
+            "votes": 578,
+            "lista": 17,
+            "elected": false
+          },
+          {
+            "name": "ALEJANDRO HIPOLITO RAMOS RIVERA",
+            "votes": 527,
+            "lista": 21,
+            "elected": false
+          },
+          {
+            "name": "NELIDA KCALLA RIOS",
+            "votes": 459,
+            "lista": 22,
+            "elected": false
+          },
+          {
+            "name": "JAIME JAVIER FRIAS REYMUNDO",
+            "votes": 415,
+            "lista": 29,
+            "elected": false
+          },
+          {
+            "name": "ROSSANA LUZ ARNAO LINARES",
+            "votes": 400,
+            "lista": 20,
+            "elected": false
+          },
+          {
+            "name": "ALBERTINA TAPIA CORONEL",
+            "votes": 393,
+            "lista": 24,
+            "elected": false
+          },
+          {
+            "name": "MARISOL VERONICA GIORDANO SILVA",
+            "votes": 350,
+            "lista": 30,
+            "elected": false
+          },
+          {
+            "name": "ROSMERY HUAMANI ACOSTA",
+            "votes": 332,
+            "lista": 18,
+            "elected": false
+          },
+          {
+            "name": "FELICITA VILLALOBOS CORTES",
+            "votes": 321,
+            "lista": 16,
+            "elected": false
+          },
+          {
+            "name": "RONALD ROMAN ZARAVIA ALDAVE",
+            "votes": 256,
+            "lista": 27,
+            "elected": false
+          },
+          {
+            "name": "CARLOS ENRIQUE CASTILLA SALAS",
+            "votes": 252,
+            "lista": 23,
+            "elected": false
+          },
+          {
+            "name": "MARIANO DIAZ CHAVEZ",
+            "votes": 251,
+            "lista": 19,
+            "elected": false
+          },
+          {
+            "name": "RAMON BUENDIA POCCO",
+            "votes": 232,
+            "lista": 31,
+            "elected": false
+          },
+          {
+            "name": "JORGE LUIS SOCSO HUAMAN",
+            "votes": 147,
+            "lista": 25,
+            "elected": false
+          },
+          {
+            "name": "CRISBELL KIMBERLEY MENDEZ FAJARDO",
+            "votes": 126,
+            "lista": 26,
+            "elected": false
+          },
+          {
+            "name": "EMPERATRIZ HUAMAN TUMI",
+            "votes": 78,
+            "lista": 28,
+            "elected": false
+          },
+          {
+            "name": "INGRI FIORELLA VARA AYRE",
+            "votes": 76,
+            "lista": 32,
             "elected": false
           }
         ]
@@ -3538,191 +3532,6 @@
           }
         ]
       },
-      "PARTIDO CÍVICO OBRAS": {
-        "seats_won": 4,
-        "candidates": [
-          {
-            "name": "JEENNY CRISTINA SAMANEZ GONZALES VIGIL",
-            "votes": 17498,
-            "lista": 2,
-            "elected": true
-          },
-          {
-            "name": "VICTOR EDUARDO PIÑAN MAMANI",
-            "votes": 13043,
-            "lista": 3,
-            "elected": true
-          },
-          {
-            "name": "ANDREA DAYNA MEDINA STEIN",
-            "votes": 7455,
-            "lista": 4,
-            "elected": true
-          },
-          {
-            "name": "RAUL JESUS CAMARGO PORTA",
-            "votes": 6704,
-            "lista": 5,
-            "elected": true
-          },
-          {
-            "name": "RAFAEL ROMERO VASQUEZ",
-            "votes": 5718,
-            "lista": 7,
-            "elected": false
-          },
-          {
-            "name": "EDUARDO TÚLLUME GAMARRA",
-            "votes": 4238,
-            "lista": 11,
-            "elected": false
-          },
-          {
-            "name": "MARGARITA ISABEL PAJARES FLORES",
-            "votes": 3798,
-            "lista": 6,
-            "elected": false
-          },
-          {
-            "name": "SONIA MARIA ROSADIO ANGELES",
-            "votes": 2093,
-            "lista": 8,
-            "elected": false
-          },
-          {
-            "name": "SISSI DEL PILAR ANGULO RIVAS",
-            "votes": 1561,
-            "lista": 10,
-            "elected": false
-          },
-          {
-            "name": "ALISON MADELEY GUEVARA BERMUDEZ",
-            "votes": 1551,
-            "lista": 14,
-            "elected": false
-          },
-          {
-            "name": "RAUL ADOLFO ARIAS RAMOS",
-            "votes": 1117,
-            "lista": 13,
-            "elected": false
-          },
-          {
-            "name": "JOHNNY ALBERTO VILLON MACEDO",
-            "votes": 1039,
-            "lista": 15,
-            "elected": false
-          },
-          {
-            "name": "NICOLLE BRIGITT HUAMANI PUPUCHE",
-            "votes": 858,
-            "lista": 12,
-            "elected": false
-          },
-          {
-            "name": "NOE VARA UZURIAGA",
-            "votes": 578,
-            "lista": 17,
-            "elected": false
-          },
-          {
-            "name": "ALEJANDRO HIPOLITO RAMOS RIVERA",
-            "votes": 527,
-            "lista": 21,
-            "elected": false
-          },
-          {
-            "name": "NELIDA KCALLA RIOS",
-            "votes": 459,
-            "lista": 22,
-            "elected": false
-          },
-          {
-            "name": "JAIME JAVIER FRIAS REYMUNDO",
-            "votes": 415,
-            "lista": 29,
-            "elected": false
-          },
-          {
-            "name": "ROSSANA LUZ ARNAO LINARES",
-            "votes": 400,
-            "lista": 20,
-            "elected": false
-          },
-          {
-            "name": "ALBERTINA TAPIA CORONEL",
-            "votes": 393,
-            "lista": 24,
-            "elected": false
-          },
-          {
-            "name": "MARISOL VERONICA GIORDANO SILVA",
-            "votes": 350,
-            "lista": 30,
-            "elected": false
-          },
-          {
-            "name": "ROSMERY HUAMANI ACOSTA",
-            "votes": 332,
-            "lista": 18,
-            "elected": false
-          },
-          {
-            "name": "FELICITA VILLALOBOS CORTES",
-            "votes": 321,
-            "lista": 16,
-            "elected": false
-          },
-          {
-            "name": "RONALD ROMAN ZARAVIA ALDAVE",
-            "votes": 256,
-            "lista": 27,
-            "elected": false
-          },
-          {
-            "name": "CARLOS ENRIQUE CASTILLA SALAS",
-            "votes": 252,
-            "lista": 23,
-            "elected": false
-          },
-          {
-            "name": "MARIANO DIAZ CHAVEZ",
-            "votes": 251,
-            "lista": 19,
-            "elected": false
-          },
-          {
-            "name": "RAMON BUENDIA POCCO",
-            "votes": 232,
-            "lista": 31,
-            "elected": false
-          },
-          {
-            "name": "JORGE LUIS SOCSO HUAMAN",
-            "votes": 147,
-            "lista": 25,
-            "elected": false
-          },
-          {
-            "name": "CRISBELL KIMBERLEY MENDEZ FAJARDO",
-            "votes": 126,
-            "lista": 26,
-            "elected": false
-          },
-          {
-            "name": "EMPERATRIZ HUAMAN TUMI",
-            "votes": 78,
-            "lista": 28,
-            "elected": false
-          },
-          {
-            "name": "INGRI FIORELLA VARA AYRE",
-            "votes": 76,
-            "lista": 32,
-            "elected": false
-          }
-        ]
-      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 7,
         "candidates": [
@@ -3907,38 +3716,200 @@
             "elected": false
           }
         ]
-      }
-    },
-    "Lima Provincias": {
+      },
       "FUERZA POPULAR": {
-        "seats_won": 2,
+        "seats_won": 7,
         "candidates": [
           {
-            "name": "GLADYS GRISELDA ANDRADE SALGUERO DE ALVAREZ",
-            "votes": 7732,
+            "name": "CECILIA ISABEL CHACON DE VETTORI",
+            "votes": 71901,
             "lista": 1,
             "elected": true
           },
           {
-            "name": "ALEXANDER SALAS RIVERA",
-            "votes": 4019,
+            "name": "DIETHELL COLUMBUS MURATA",
+            "votes": 30340,
             "lista": 2,
             "elected": true
           },
           {
-            "name": "ANGELICA ELIZABETH GOICOCHEA PINEDO",
-            "votes": 2910,
+            "name": "ROSANGELLA ANDREA BARBARAN REYES",
+            "votes": 25118,
             "lista": 3,
+            "elected": true
+          },
+          {
+            "name": "PIER PAOLO FIGARI MENDOZA",
+            "votes": 15580,
+            "lista": 4,
+            "elected": true
+          },
+          {
+            "name": "MARCO ANTONIO PACHECO QUISPE",
+            "votes": 12355,
+            "lista": 6,
+            "elected": true
+          },
+          {
+            "name": "PIERANGELI DANIELA DODERO JOVICH",
+            "votes": 11057,
+            "lista": 5,
+            "elected": true
+          },
+          {
+            "name": "FLOR DE JESUS MEZA RIVERA",
+            "votes": 6684,
+            "lista": 7,
+            "elected": true
+          },
+          {
+            "name": "KONNIE MICHELLE VIDAURRE TORRES",
+            "votes": 5844,
+            "lista": 9,
             "elected": false
           },
           {
-            "name": "ESMIFFLIN NEFTALIN RETUERTO PALOMARES",
-            "votes": 1361,
-            "lista": 4,
+            "name": "JUAN ASDRUBAL RABASA LAVARELLO",
+            "votes": 4069,
+            "lista": 8,
+            "elected": false
+          },
+          {
+            "name": "ANTONIO DONGO FRASSON",
+            "votes": 3860,
+            "lista": 10,
+            "elected": false
+          },
+          {
+            "name": "LUIS ENRIQUE OTOYA TRELLES",
+            "votes": 2338,
+            "lista": 12,
+            "elected": false
+          },
+          {
+            "name": "LILIANA ROJAS ESPINOZA",
+            "votes": 2063,
+            "lista": 15,
+            "elected": false
+          },
+          {
+            "name": "MARIA HELENA MENDOZA DEL SOLAR",
+            "votes": 1944,
+            "lista": 11,
+            "elected": false
+          },
+          {
+            "name": "ABRAHAM DIONICIO PACHECO CAJALEON",
+            "votes": 1821,
+            "lista": 14,
+            "elected": false
+          },
+          {
+            "name": "LOURDES CAROLINA CARMELO ANCAYA",
+            "votes": 1237,
+            "lista": 13,
+            "elected": false
+          },
+          {
+            "name": "MARCO ANTONIO URBINA RAMOS",
+            "votes": 1117,
+            "lista": 16,
+            "elected": false
+          },
+          {
+            "name": "BRATZO WHITTEMBURY BIANCHI",
+            "votes": 911,
+            "lista": 18,
+            "elected": false
+          },
+          {
+            "name": "OBED BERNUY ATACHAGUA",
+            "votes": 853,
+            "lista": 22,
+            "elected": false
+          },
+          {
+            "name": "CARMEN BALABARCA FLORES",
+            "votes": 851,
+            "lista": 19,
+            "elected": false
+          },
+          {
+            "name": "JULIO ALFONSO CABALLERO MALDONADO",
+            "votes": 833,
+            "lista": 20,
+            "elected": false
+          },
+          {
+            "name": "AMELIA ELENA GARCIA NORIEGA",
+            "votes": 541,
+            "lista": 23,
+            "elected": false
+          },
+          {
+            "name": "JUAN PEDRO SANCHEZ CARRILLO",
+            "votes": 526,
+            "lista": 24,
+            "elected": false
+          },
+          {
+            "name": "HUGO DANIEL GARAY MATOS",
+            "votes": 526,
+            "lista": 32,
+            "elected": false
+          },
+          {
+            "name": "ANGELINE PAOLA BIONDI ROJAS",
+            "votes": 524,
+            "lista": 21,
+            "elected": false
+          },
+          {
+            "name": "BELICA JULIA BRAVO ALCANTARA",
+            "votes": 523,
+            "lista": 31,
+            "elected": false
+          },
+          {
+            "name": "VILMA GRACIELA PACHECO CRIBILLERO",
+            "votes": 487,
+            "lista": 17,
+            "elected": false
+          },
+          {
+            "name": "MIRTHA ANA BALDEON LOSTAUNAU",
+            "votes": 360,
+            "lista": 27,
+            "elected": false
+          },
+          {
+            "name": "LESLIE NICOL CUBILLAS FLORES",
+            "votes": 327,
+            "lista": 29,
+            "elected": false
+          },
+          {
+            "name": "MIGUEL ANGEL ARCAYA SALDAÑA",
+            "votes": 318,
+            "lista": 30,
+            "elected": false
+          },
+          {
+            "name": "CLAUDIO ROBERTO MENDOZA NAVARRO",
+            "votes": 229,
+            "lista": 26,
+            "elected": false
+          },
+          {
+            "name": "JULIAN RAMOS MENDEZ",
+            "votes": 194,
+            "lista": 28,
             "elected": false
           }
         ]
-      },
+      }
+    },
+    "Lima Provincias": {
       "AHORA NACIÓN - AN": {
         "seats_won": 0,
         "candidates": [
@@ -3958,6 +3929,35 @@
             "name": "MARCO DAVID URBANO GALIANO",
             "votes": 1295,
             "lista": 3,
+            "elected": false
+          }
+        ]
+      },
+      "PARTIDO CÍVICO OBRAS": {
+        "seats_won": 1,
+        "candidates": [
+          {
+            "name": "ARTURO CESAR EUSEBIO PADILLA",
+            "votes": 3247,
+            "lista": 1,
+            "elected": true
+          },
+          {
+            "name": "JUDITH MARLENE APOLINAR MELENDEZ",
+            "votes": 2227,
+            "lista": 2,
+            "elected": false
+          },
+          {
+            "name": "MAXIMO RAUL ESPINOZA CAQUIPOMA",
+            "votes": 1161,
+            "lista": 3,
+            "elected": false
+          },
+          {
+            "name": "NATALY HERLINDA TEJEDA CIERTO",
+            "votes": 677,
+            "lista": 4,
             "elected": false
           }
         ]
@@ -4020,35 +4020,6 @@
           }
         ]
       },
-      "PARTIDO CÍVICO OBRAS": {
-        "seats_won": 1,
-        "candidates": [
-          {
-            "name": "ARTURO CESAR EUSEBIO PADILLA",
-            "votes": 3247,
-            "lista": 1,
-            "elected": true
-          },
-          {
-            "name": "JUDITH MARLENE APOLINAR MELENDEZ",
-            "votes": 2227,
-            "lista": 2,
-            "elected": false
-          },
-          {
-            "name": "MAXIMO RAUL ESPINOZA CAQUIPOMA",
-            "votes": 1161,
-            "lista": 3,
-            "elected": false
-          },
-          {
-            "name": "NATALY HERLINDA TEJEDA CIERTO",
-            "votes": 677,
-            "lista": 4,
-            "elected": false
-          }
-        ]
-      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 1,
         "candidates": [
@@ -4077,32 +4048,38 @@
             "elected": false
           }
         ]
-      }
-    },
-    "Loreto": {
+      },
       "FUERZA POPULAR": {
-        "seats_won": 3,
+        "seats_won": 2,
         "candidates": [
           {
-            "name": "NARY BENVINDA PINASCO MONTENEGRO",
-            "votes": 3209,
+            "name": "GLADYS GRISELDA ANDRADE SALGUERO DE ALVAREZ",
+            "votes": 7732,
+            "lista": 1,
+            "elected": true
+          },
+          {
+            "name": "ALEXANDER SALAS RIVERA",
+            "votes": 4019,
             "lista": 2,
             "elected": true
           },
           {
-            "name": "CESAR MANUEL VIDAURRE FLORIDAS",
-            "votes": 2845,
+            "name": "ANGELICA ELIZABETH GOICOCHEA PINEDO",
+            "votes": 2910,
             "lista": 3,
-            "elected": true
+            "elected": false
           },
           {
-            "name": "ANA LUISA YUFFRA LUGO",
-            "votes": 758,
+            "name": "ESMIFFLIN NEFTALIN RETUERTO PALOMARES",
+            "votes": 1361,
             "lista": 4,
-            "elected": true
+            "elected": false
           }
         ]
-      },
+      }
+    },
+    "Loreto": {
       "AHORA NACIÓN - AN": {
         "seats_won": 0,
         "candidates": [
@@ -4121,6 +4098,35 @@
           {
             "name": "ALDI ALIDA GUERRA TEIXEIRA",
             "votes": 322,
+            "lista": 4,
+            "elected": false
+          }
+        ]
+      },
+      "PARTIDO CÍVICO OBRAS": {
+        "seats_won": 0,
+        "candidates": [
+          {
+            "name": "ALEJANDRO ESQUIVEL PEREZ",
+            "votes": 703,
+            "lista": 1,
+            "elected": false
+          },
+          {
+            "name": "DICIRE PATRICIA ALVAREZ SANCHEZ",
+            "votes": 410,
+            "lista": 2,
+            "elected": false
+          },
+          {
+            "name": "JOSE ADRIAN LAVI PIÑA",
+            "votes": 158,
+            "lista": 3,
+            "elected": false
+          },
+          {
+            "name": "ROSA MELENDEZ CARDENAS",
+            "votes": 88,
             "lista": 4,
             "elected": false
           }
@@ -4178,35 +4184,6 @@
           }
         ]
       },
-      "PARTIDO CÍVICO OBRAS": {
-        "seats_won": 0,
-        "candidates": [
-          {
-            "name": "ALEJANDRO ESQUIVEL PEREZ",
-            "votes": 703,
-            "lista": 1,
-            "elected": false
-          },
-          {
-            "name": "DICIRE PATRICIA ALVAREZ SANCHEZ",
-            "votes": 410,
-            "lista": 2,
-            "elected": false
-          },
-          {
-            "name": "JOSE ADRIAN LAVI PIÑA",
-            "votes": 158,
-            "lista": 3,
-            "elected": false
-          },
-          {
-            "name": "ROSA MELENDEZ CARDENAS",
-            "votes": 88,
-            "lista": 4,
-            "elected": false
-          }
-        ]
-      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 0,
         "candidates": [
@@ -4235,26 +4212,32 @@
             "elected": false
           }
         ]
-      }
-    },
-    "Madre de Dios": {
+      },
       "FUERZA POPULAR": {
-        "seats_won": 1,
+        "seats_won": 3,
         "candidates": [
           {
-            "name": "AMERICO OROSCO OSORIO",
-            "votes": 713,
-            "lista": 1,
+            "name": "NARY BENVINDA PINASCO MONTENEGRO",
+            "votes": 3209,
+            "lista": 2,
             "elected": true
           },
           {
-            "name": "KATIA ELENA TUANAMA CARO",
-            "votes": 104,
+            "name": "CESAR MANUEL VIDAURRE FLORIDAS",
+            "votes": 2845,
+            "lista": 3,
+            "elected": true
+          },
+          {
+            "name": "ANA LUISA YUFFRA LUGO",
+            "votes": 758,
             "lista": 4,
-            "elected": false
+            "elected": true
           }
         ]
-      },
+      }
+    },
+    "Madre de Dios": {
       "AHORA NACIÓN - AN": {
         "seats_won": 0,
         "candidates": [
@@ -4279,6 +4262,35 @@
           {
             "name": "KATHLEEN KINMONT CHAVEZ HURTADO",
             "votes": 48,
+            "lista": 4,
+            "elected": false
+          }
+        ]
+      },
+      "PARTIDO CÍVICO OBRAS": {
+        "seats_won": 0,
+        "candidates": [
+          {
+            "name": "ANTONIO NUÑEZ JARA",
+            "votes": 591,
+            "lista": 1,
+            "elected": false
+          },
+          {
+            "name": "DIONICIO DALMIRO NUÑEZ ARANIBAR",
+            "votes": 266,
+            "lista": 3,
+            "elected": false
+          },
+          {
+            "name": "MAITE STEFANNY ONOFRE PAREDES",
+            "votes": 231,
+            "lista": 2,
+            "elected": false
+          },
+          {
+            "name": "TERESA AUCCA HUILLCA",
+            "votes": 44,
             "lista": 4,
             "elected": false
           }
@@ -4336,35 +4348,6 @@
           }
         ]
       },
-      "PARTIDO CÍVICO OBRAS": {
-        "seats_won": 0,
-        "candidates": [
-          {
-            "name": "ANTONIO NUÑEZ JARA",
-            "votes": 591,
-            "lista": 1,
-            "elected": false
-          },
-          {
-            "name": "DIONICIO DALMIRO NUÑEZ ARANIBAR",
-            "votes": 266,
-            "lista": 3,
-            "elected": false
-          },
-          {
-            "name": "MAITE STEFANNY ONOFRE PAREDES",
-            "votes": 231,
-            "lista": 2,
-            "elected": false
-          },
-          {
-            "name": "TERESA AUCCA HUILLCA",
-            "votes": 44,
-            "lista": 4,
-            "elected": false
-          }
-        ]
-      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 0,
         "candidates": [
@@ -4393,38 +4376,26 @@
             "elected": false
           }
         ]
-      }
-    },
-    "Moquegua": {
+      },
       "FUERZA POPULAR": {
-        "seats_won": 0,
+        "seats_won": 1,
         "candidates": [
           {
-            "name": "CLARA ASTERIA HIPAHUANCA TAPIA",
-            "votes": 659,
+            "name": "AMERICO OROSCO OSORIO",
+            "votes": 713,
             "lista": 1,
-            "elected": false
+            "elected": true
           },
           {
-            "name": "RAYNIEER MOISES MENDOZA BERNAOLA",
-            "votes": 218,
-            "lista": 2,
-            "elected": false
-          },
-          {
-            "name": "JEAN CARLO MIGUEL GUTIERREZ LOZA",
-            "votes": 148,
+            "name": "KATIA ELENA TUANAMA CARO",
+            "votes": 104,
             "lista": 4,
-            "elected": false
-          },
-          {
-            "name": "SULMA OBDULIA PORTOCARRERO BRUZ",
-            "votes": 66,
-            "lista": 3,
             "elected": false
           }
         ]
-      },
+      }
+    },
+    "Moquegua": {
       "AHORA NACIÓN - AN": {
         "seats_won": 0,
         "candidates": [
@@ -4453,6 +4424,10 @@
             "elected": false
           }
         ]
+      },
+      "PARTIDO CÍVICO OBRAS": {
+        "seats_won": 0,
+        "candidates": []
       },
       "RENOVACIÓN POPULAR": {
         "seats_won": 0,
@@ -4500,10 +4475,6 @@
           }
         ]
       },
-      "PARTIDO CÍVICO OBRAS": {
-        "seats_won": 0,
-        "candidates": []
-      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 1,
         "candidates": [
@@ -4532,38 +4503,38 @@
             "elected": false
           }
         ]
-      }
-    },
-    "Pasco": {
+      },
       "FUERZA POPULAR": {
-        "seats_won": 2,
+        "seats_won": 0,
         "candidates": [
           {
-            "name": "JHONN BRAYAM VALQUI ORDOÑEZ",
-            "votes": 2366,
-            "lista": 2,
-            "elected": true
-          },
-          {
-            "name": "KIM TAMI MUÑOZ YURIVILCA",
-            "votes": 1679,
+            "name": "CLARA ASTERIA HIPAHUANCA TAPIA",
+            "votes": 659,
             "lista": 1,
-            "elected": true
+            "elected": false
           },
           {
-            "name": "CAYO CONDEZO MEZA",
-            "votes": 1007,
+            "name": "RAYNIEER MOISES MENDOZA BERNAOLA",
+            "votes": 218,
+            "lista": 2,
+            "elected": false
+          },
+          {
+            "name": "JEAN CARLO MIGUEL GUTIERREZ LOZA",
+            "votes": 148,
             "lista": 4,
             "elected": false
           },
           {
-            "name": "CIVIA QUIRICA PONCE VDA DE RIVERA",
-            "votes": 217,
+            "name": "SULMA OBDULIA PORTOCARRERO BRUZ",
+            "votes": 66,
             "lista": 3,
             "elected": false
           }
         ]
-      },
+      }
+    },
+    "Pasco": {
       "AHORA NACIÓN - AN": {
         "seats_won": 0,
         "candidates": [
@@ -4588,6 +4559,35 @@
           {
             "name": "VANESA NELLY COPA GUTIERREZ",
             "votes": 119,
+            "lista": 4,
+            "elected": false
+          }
+        ]
+      },
+      "PARTIDO CÍVICO OBRAS": {
+        "seats_won": 0,
+        "candidates": [
+          {
+            "name": "EDIN RICHAR VALENCIO CANANGO",
+            "votes": 831,
+            "lista": 1,
+            "elected": false
+          },
+          {
+            "name": "ERVILA CHONQUIRI QUISICHI",
+            "votes": 443,
+            "lista": 2,
+            "elected": false
+          },
+          {
+            "name": "GEDEON PACHARI PASCUAL",
+            "votes": 194,
+            "lista": 3,
+            "elected": false
+          },
+          {
+            "name": "MAGDA MADELAINE MENDOZA CABALLERO",
+            "votes": 76,
             "lista": 4,
             "elected": false
           }
@@ -4620,94 +4620,41 @@
         "seats_won": 0,
         "candidates": []
       },
-      "PARTIDO CÍVICO OBRAS": {
-        "seats_won": 0,
-        "candidates": [
-          {
-            "name": "EDIN RICHAR VALENCIO CANANGO",
-            "votes": 831,
-            "lista": 1,
-            "elected": false
-          },
-          {
-            "name": "ERVILA CHONQUIRI QUISICHI",
-            "votes": 443,
-            "lista": 2,
-            "elected": false
-          },
-          {
-            "name": "GEDEON PACHARI PASCUAL",
-            "votes": 194,
-            "lista": 3,
-            "elected": false
-          },
-          {
-            "name": "MAGDA MADELAINE MENDOZA CABALLERO",
-            "votes": 76,
-            "lista": 4,
-            "elected": false
-          }
-        ]
-      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 0,
         "candidates": []
-      }
-    },
-    "Piura": {
+      },
       "FUERZA POPULAR": {
-        "seats_won": 4,
+        "seats_won": 2,
         "candidates": [
           {
-            "name": "CESAR MANUEL REVILLA VILLANUEVA",
-            "votes": 15467,
-            "lista": 3,
-            "elected": true
-          },
-          {
-            "name": "EDUARDO ENRIQUE CASTILLO RIVAS",
-            "votes": 14503,
-            "lista": 1,
-            "elected": true
-          },
-          {
-            "name": "CARMELA PAUCARA PAXI",
-            "votes": 5346,
+            "name": "JHONN BRAYAM VALQUI ORDOÑEZ",
+            "votes": 2366,
             "lista": 2,
             "elected": true
           },
           {
-            "name": "MARIA LUISA SILUPU INGA",
-            "votes": 3787,
-            "lista": 6,
+            "name": "KIM TAMI MUÑOZ YURIVILCA",
+            "votes": 1679,
+            "lista": 1,
             "elected": true
           },
           {
-            "name": "MARVIN ALBERTO ALVAREZ ARECHAGA",
-            "votes": 3282,
-            "lista": 5,
-            "elected": false
-          },
-          {
-            "name": "JUAN DIEGO CIEZA ARAMBULO",
-            "votes": 2512,
-            "lista": 7,
-            "elected": false
-          },
-          {
-            "name": "CRUZ MARIA ZETA CHUNGA",
-            "votes": 2347,
+            "name": "CAYO CONDEZO MEZA",
+            "votes": 1007,
             "lista": 4,
             "elected": false
           },
           {
-            "name": "MARIA ESPERANZA SAAVEDRA CHINCHAY DE NIEVES",
-            "votes": 164,
-            "lista": 8,
+            "name": "CIVIA QUIRICA PONCE VDA DE RIVERA",
+            "votes": 217,
+            "lista": 3,
             "elected": false
           }
         ]
-      },
+      }
+    },
+    "Piura": {
       "AHORA NACIÓN - AN": {
         "seats_won": 0,
         "candidates": [
@@ -4756,6 +4703,59 @@
           {
             "name": "ANGELICA MARIA BOULANGGER VALIENTE",
             "votes": 166,
+            "lista": 8,
+            "elected": false
+          }
+        ]
+      },
+      "PARTIDO CÍVICO OBRAS": {
+        "seats_won": 1,
+        "candidates": [
+          {
+            "name": "HENRY ANTONIO ALBAÑIL CARMONA",
+            "votes": 3319,
+            "lista": 1,
+            "elected": true
+          },
+          {
+            "name": "CORAIMA KATHERINE CHIROQUE MORE",
+            "votes": 1384,
+            "lista": 2,
+            "elected": false
+          },
+          {
+            "name": "WILMER CULQUICONDOR CRIOLLO",
+            "votes": 1295,
+            "lista": 3,
+            "elected": false
+          },
+          {
+            "name": "SEGUNDO RAFAEL SULLON GARRIDO",
+            "votes": 507,
+            "lista": 5,
+            "elected": false
+          },
+          {
+            "name": "ERICKA LILIANA CASTILLO IPANAQUE",
+            "votes": 316,
+            "lista": 4,
+            "elected": false
+          },
+          {
+            "name": "YESSENIA MEZA RAMIREZ",
+            "votes": 180,
+            "lista": 6,
+            "elected": false
+          },
+          {
+            "name": "JEHU JEHONADAB CAMACHO PINGO",
+            "votes": 144,
+            "lista": 7,
+            "elected": false
+          },
+          {
+            "name": "MARTHA MARINA SALAZAR DE VASQUEZ",
+            "votes": 81,
             "lista": 8,
             "elected": false
           }
@@ -4818,59 +4818,6 @@
         "seats_won": 0,
         "candidates": []
       },
-      "PARTIDO CÍVICO OBRAS": {
-        "seats_won": 1,
-        "candidates": [
-          {
-            "name": "HENRY ANTONIO ALBAÑIL CARMONA",
-            "votes": 3319,
-            "lista": 1,
-            "elected": true
-          },
-          {
-            "name": "CORAIMA KATHERINE CHIROQUE MORE",
-            "votes": 1384,
-            "lista": 2,
-            "elected": false
-          },
-          {
-            "name": "WILMER CULQUICONDOR CRIOLLO",
-            "votes": 1295,
-            "lista": 3,
-            "elected": false
-          },
-          {
-            "name": "SEGUNDO RAFAEL SULLON GARRIDO",
-            "votes": 507,
-            "lista": 5,
-            "elected": false
-          },
-          {
-            "name": "ERICKA LILIANA CASTILLO IPANAQUE",
-            "votes": 316,
-            "lista": 4,
-            "elected": false
-          },
-          {
-            "name": "YESSENIA MEZA RAMIREZ",
-            "votes": 180,
-            "lista": 6,
-            "elected": false
-          },
-          {
-            "name": "JEHU JEHONADAB CAMACHO PINGO",
-            "votes": 144,
-            "lista": 7,
-            "elected": false
-          },
-          {
-            "name": "MARTHA MARINA SALAZAR DE VASQUEZ",
-            "votes": 81,
-            "lista": 8,
-            "elected": false
-          }
-        ]
-      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 1,
         "candidates": [
@@ -4923,50 +4870,62 @@
             "elected": false
           }
         ]
-      }
-    },
-    "Puno": {
+      },
       "FUERZA POPULAR": {
-        "seats_won": 0,
+        "seats_won": 4,
         "candidates": [
           {
-            "name": "BETTY TINTA CCOA",
-            "votes": 1810,
-            "lista": 1,
-            "elected": false
-          },
-          {
-            "name": "HENRY MÁXIMO SALINAS ACO",
-            "votes": 1053,
-            "lista": 2,
-            "elected": false
-          },
-          {
-            "name": "KATERYN FRANSSI GUERRA MARON",
-            "votes": 588,
+            "name": "CESAR MANUEL REVILLA VILLANUEVA",
+            "votes": 15467,
             "lista": 3,
-            "elected": false
+            "elected": true
           },
           {
-            "name": "JESUS CHURA CUNO",
-            "votes": 377,
-            "lista": 4,
-            "elected": false
+            "name": "EDUARDO ENRIQUE CASTILLO RIVAS",
+            "votes": 14503,
+            "lista": 1,
+            "elected": true
           },
           {
-            "name": "ELISA YOLANDA CHAMBILLA FLORES",
-            "votes": 309,
+            "name": "CARMELA PAUCARA PAXI",
+            "votes": 5346,
+            "lista": 2,
+            "elected": true
+          },
+          {
+            "name": "MARIA LUISA SILUPU INGA",
+            "votes": 3787,
+            "lista": 6,
+            "elected": true
+          },
+          {
+            "name": "MARVIN ALBERTO ALVAREZ ARECHAGA",
+            "votes": 3282,
             "lista": 5,
             "elected": false
           },
           {
-            "name": "JESUS OBED ALVAREZ QUISPE",
-            "votes": 105,
-            "lista": 6,
+            "name": "JUAN DIEGO CIEZA ARAMBULO",
+            "votes": 2512,
+            "lista": 7,
+            "elected": false
+          },
+          {
+            "name": "CRUZ MARIA ZETA CHUNGA",
+            "votes": 2347,
+            "lista": 4,
+            "elected": false
+          },
+          {
+            "name": "MARIA ESPERANZA SAAVEDRA CHINCHAY DE NIEVES",
+            "votes": 164,
+            "lista": 8,
             "elected": false
           }
         ]
-      },
+      }
+    },
+    "Puno": {
       "AHORA NACIÓN - AN": {
         "seats_won": 1,
         "candidates": [
@@ -5004,6 +4963,41 @@
             "name": "LADY ROSMERY CCOPA ACROTA",
             "votes": 612,
             "lista": 6,
+            "elected": false
+          }
+        ]
+      },
+      "PARTIDO CÍVICO OBRAS": {
+        "seats_won": 1,
+        "candidates": [
+          {
+            "name": "DINA IRENE HANCCO HANCCO",
+            "votes": 10302,
+            "lista": 1,
+            "elected": true
+          },
+          {
+            "name": "NICOLE JAZMIN RUIZ PAREDES",
+            "votes": 6890,
+            "lista": 3,
+            "elected": false
+          },
+          {
+            "name": "SALOMON COAQUIRA GOMEZ",
+            "votes": 5924,
+            "lista": 2,
+            "elected": false
+          },
+          {
+            "name": "HECTOR APAZA ÑAUPA",
+            "votes": 4799,
+            "lista": 4,
+            "elected": false
+          },
+          {
+            "name": "SERLY MAMANI CCOLLANA",
+            "votes": 2894,
+            "lista": 5,
             "elected": false
           }
         ]
@@ -5090,41 +5084,6 @@
           }
         ]
       },
-      "PARTIDO CÍVICO OBRAS": {
-        "seats_won": 1,
-        "candidates": [
-          {
-            "name": "DINA IRENE HANCCO HANCCO",
-            "votes": 10302,
-            "lista": 1,
-            "elected": true
-          },
-          {
-            "name": "NICOLE JAZMIN RUIZ PAREDES",
-            "votes": 6890,
-            "lista": 3,
-            "elected": false
-          },
-          {
-            "name": "SALOMON COAQUIRA GOMEZ",
-            "votes": 5924,
-            "lista": 2,
-            "elected": false
-          },
-          {
-            "name": "HECTOR APAZA ÑAUPA",
-            "votes": 4799,
-            "lista": 4,
-            "elected": false
-          },
-          {
-            "name": "SERLY MAMANI CCOLLANA",
-            "votes": 2894,
-            "lista": 5,
-            "elected": false
-          }
-        ]
-      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 0,
         "candidates": [
@@ -5159,38 +5118,50 @@
             "elected": false
           }
         ]
-      }
-    },
-    "San Martín": {
+      },
       "FUERZA POPULAR": {
-        "seats_won": 2,
+        "seats_won": 0,
         "candidates": [
           {
-            "name": "LUIS ARTURO ALEGRIA GARCIA",
-            "votes": 7290,
+            "name": "BETTY TINTA CCOA",
+            "votes": 1810,
             "lista": 1,
-            "elected": true
+            "elected": false
           },
           {
-            "name": "FRANCISCO JAVIER GATICA VEGA",
-            "votes": 3578,
-            "lista": 3,
-            "elected": true
-          },
-          {
-            "name": "ALIBE CARDENAS RIOS",
-            "votes": 1702,
+            "name": "HENRY MÁXIMO SALINAS ACO",
+            "votes": 1053,
             "lista": 2,
             "elected": false
           },
           {
-            "name": "LUZ MARIA MONTENEGRO LEON",
-            "votes": 690,
+            "name": "KATERYN FRANSSI GUERRA MARON",
+            "votes": 588,
+            "lista": 3,
+            "elected": false
+          },
+          {
+            "name": "JESUS CHURA CUNO",
+            "votes": 377,
             "lista": 4,
+            "elected": false
+          },
+          {
+            "name": "ELISA YOLANDA CHAMBILLA FLORES",
+            "votes": 309,
+            "lista": 5,
+            "elected": false
+          },
+          {
+            "name": "JESUS OBED ALVAREZ QUISPE",
+            "votes": 105,
+            "lista": 6,
             "elected": false
           }
         ]
-      },
+      }
+    },
+    "San Martín": {
       "AHORA NACIÓN - AN": {
         "seats_won": 0,
         "candidates": [
@@ -5215,6 +5186,29 @@
           {
             "name": "ELISAMA SANCHEZ CARRASCO",
             "votes": 197,
+            "lista": 4,
+            "elected": false
+          }
+        ]
+      },
+      "PARTIDO CÍVICO OBRAS": {
+        "seats_won": 0,
+        "candidates": [
+          {
+            "name": "ASUNCION ARENAS VELA",
+            "votes": 3746,
+            "lista": 1,
+            "elected": false
+          },
+          {
+            "name": "CHANELY CHAVEZ PORTOCARRERO",
+            "votes": 1554,
+            "lista": 2,
+            "elected": false
+          },
+          {
+            "name": "MERY RIOS GARCIA",
+            "votes": 362,
             "lista": 4,
             "elected": false
           }
@@ -5278,29 +5272,6 @@
           }
         ]
       },
-      "PARTIDO CÍVICO OBRAS": {
-        "seats_won": 0,
-        "candidates": [
-          {
-            "name": "ASUNCION ARENAS VELA",
-            "votes": 3746,
-            "lista": 1,
-            "elected": false
-          },
-          {
-            "name": "CHANELY CHAVEZ PORTOCARRERO",
-            "votes": 1554,
-            "lista": 2,
-            "elected": false
-          },
-          {
-            "name": "MERY RIOS GARCIA",
-            "votes": 362,
-            "lista": 4,
-            "elected": false
-          }
-        ]
-      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 0,
         "candidates": [
@@ -5329,38 +5300,38 @@
             "elected": false
           }
         ]
-      }
-    },
-    "Tacna": {
+      },
       "FUERZA POPULAR": {
-        "seats_won": 0,
+        "seats_won": 2,
         "candidates": [
           {
-            "name": "FAVIO ESPINOZA CHUCUYA",
-            "votes": 1305,
+            "name": "LUIS ARTURO ALEGRIA GARCIA",
+            "votes": 7290,
             "lista": 1,
-            "elected": false
+            "elected": true
           },
           {
-            "name": "ROCIO DEL PILAR CUZCANO CUZCANO",
-            "votes": 563,
+            "name": "FRANCISCO JAVIER GATICA VEGA",
+            "votes": 3578,
+            "lista": 3,
+            "elected": true
+          },
+          {
+            "name": "ALIBE CARDENAS RIOS",
+            "votes": 1702,
             "lista": 2,
             "elected": false
           },
           {
-            "name": "LUIS OMAR CALDERON LUYO",
-            "votes": 405,
-            "lista": 3,
-            "elected": false
-          },
-          {
-            "name": "MARIA NORI GARAYAR ZAMORA",
-            "votes": 120,
+            "name": "LUZ MARIA MONTENEGRO LEON",
+            "votes": 690,
             "lista": 4,
             "elected": false
           }
         ]
-      },
+      }
+    },
+    "Tacna": {
       "AHORA NACIÓN - AN": {
         "seats_won": 0,
         "candidates": [
@@ -5385,6 +5356,29 @@
           {
             "name": "EVELYN MILAGROS VIZCACHO JIMENEZ",
             "votes": 350,
+            "lista": 4,
+            "elected": false
+          }
+        ]
+      },
+      "PARTIDO CÍVICO OBRAS": {
+        "seats_won": 1,
+        "candidates": [
+          {
+            "name": "JUAN CESAR CABRERA NIETO",
+            "votes": 3203,
+            "lista": 1,
+            "elected": true
+          },
+          {
+            "name": "SANDRA VANESA CHURATA LUPACA",
+            "votes": 1575,
+            "lista": 2,
+            "elected": false
+          },
+          {
+            "name": "ALMENDRA LUZ MAMANI DELGADO",
+            "votes": 368,
             "lista": 4,
             "elected": false
           }
@@ -5436,29 +5430,6 @@
           }
         ]
       },
-      "PARTIDO CÍVICO OBRAS": {
-        "seats_won": 1,
-        "candidates": [
-          {
-            "name": "JUAN CESAR CABRERA NIETO",
-            "votes": 3203,
-            "lista": 1,
-            "elected": true
-          },
-          {
-            "name": "SANDRA VANESA CHURATA LUPACA",
-            "votes": 1575,
-            "lista": 2,
-            "elected": false
-          },
-          {
-            "name": "ALMENDRA LUZ MAMANI DELGADO",
-            "votes": 368,
-            "lista": 4,
-            "elected": false
-          }
-        ]
-      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 0,
         "candidates": [
@@ -5487,32 +5458,38 @@
             "elected": false
           }
         ]
-      }
-    },
-    "Tumbes": {
+      },
       "FUERZA POPULAR": {
-        "seats_won": 2,
+        "seats_won": 0,
         "candidates": [
           {
-            "name": "RAFAEL ALDO CELIZ CASTILLO",
-            "votes": 1019,
+            "name": "FAVIO ESPINOZA CHUCUYA",
+            "votes": 1305,
             "lista": 1,
-            "elected": true
+            "elected": false
           },
           {
-            "name": "MARIA CANDELARIA RAMOS ROSALES",
-            "votes": 442,
+            "name": "ROCIO DEL PILAR CUZCANO CUZCANO",
+            "votes": 563,
             "lista": 2,
-            "elected": true
+            "elected": false
           },
           {
-            "name": "FIDELINA SEMBRERA AGUILAR",
-            "votes": 295,
+            "name": "LUIS OMAR CALDERON LUYO",
+            "votes": 405,
+            "lista": 3,
+            "elected": false
+          },
+          {
+            "name": "MARIA NORI GARAYAR ZAMORA",
+            "votes": 120,
             "lista": 4,
             "elected": false
           }
         ]
-      },
+      }
+    },
+    "Tumbes": {
       "AHORA NACIÓN - AN": {
         "seats_won": 0,
         "candidates": [
@@ -5535,6 +5512,10 @@
             "elected": false
           }
         ]
+      },
+      "PARTIDO CÍVICO OBRAS": {
+        "seats_won": 0,
+        "candidates": []
       },
       "RENOVACIÓN POPULAR": {
         "seats_won": 0,
@@ -5588,10 +5569,6 @@
           }
         ]
       },
-      "PARTIDO CÍVICO OBRAS": {
-        "seats_won": 0,
-        "candidates": []
-      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 0,
         "candidates": [
@@ -5614,38 +5591,32 @@
             "elected": false
           }
         ]
-      }
-    },
-    "Ucayali": {
+      },
       "FUERZA POPULAR": {
-        "seats_won": 3,
+        "seats_won": 2,
         "candidates": [
           {
-            "name": "JESSICA LIZBETH NAVAS SANCHEZ",
-            "votes": 3875,
+            "name": "RAFAEL ALDO CELIZ CASTILLO",
+            "votes": 1019,
             "lista": 1,
             "elected": true
           },
           {
-            "name": "JAIME AMERICO ABENSUR PINASCO",
-            "votes": 1416,
+            "name": "MARIA CANDELARIA RAMOS ROSALES",
+            "votes": 442,
             "lista": 2,
             "elected": true
           },
           {
-            "name": "WENDY ASTRID RIOS PALMA",
-            "votes": 456,
-            "lista": 3,
-            "elected": true
-          },
-          {
-            "name": "JHON EDWAR AVILES SANDI",
-            "votes": 210,
+            "name": "FIDELINA SEMBRERA AGUILAR",
+            "votes": 295,
             "lista": 4,
             "elected": false
           }
         ]
-      },
+      }
+    },
+    "Ucayali": {
       "AHORA NACIÓN - AN": {
         "seats_won": 0,
         "candidates": [
@@ -5670,6 +5641,35 @@
           {
             "name": "KARINA YNGRY RODRIGUEZ OCHAVANO",
             "votes": 46,
+            "lista": 4,
+            "elected": false
+          }
+        ]
+      },
+      "PARTIDO CÍVICO OBRAS": {
+        "seats_won": 0,
+        "candidates": [
+          {
+            "name": "CESAR HUAMAN TARICUARIMA",
+            "votes": 665,
+            "lista": 1,
+            "elected": false
+          },
+          {
+            "name": "JANETH SAURI TORRES",
+            "votes": 289,
+            "lista": 2,
+            "elected": false
+          },
+          {
+            "name": "OSCAR RAUL RIOS CHU",
+            "votes": 107,
+            "lista": 3,
+            "elected": false
+          },
+          {
+            "name": "SONIA PRECIADO MANUYAMA",
+            "votes": 40,
             "lista": 4,
             "elected": false
           }
@@ -5727,35 +5727,6 @@
           }
         ]
       },
-      "PARTIDO CÍVICO OBRAS": {
-        "seats_won": 0,
-        "candidates": [
-          {
-            "name": "CESAR HUAMAN TARICUARIMA",
-            "votes": 665,
-            "lista": 1,
-            "elected": false
-          },
-          {
-            "name": "JANETH SAURI TORRES",
-            "votes": 289,
-            "lista": 2,
-            "elected": false
-          },
-          {
-            "name": "OSCAR RAUL RIOS CHU",
-            "votes": 107,
-            "lista": 3,
-            "elected": false
-          },
-          {
-            "name": "SONIA PRECIADO MANUYAMA",
-            "votes": 40,
-            "lista": 4,
-            "elected": false
-          }
-        ]
-      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 0,
         "candidates": [
@@ -5784,38 +5755,38 @@
             "elected": false
           }
         ]
-      }
-    },
-    "PEX": {
+      },
       "FUERZA POPULAR": {
-        "seats_won": 1,
+        "seats_won": 3,
         "candidates": [
           {
-            "name": "LIZ HULI MENDOZA BERNEDO",
-            "votes": 637,
+            "name": "JESSICA LIZBETH NAVAS SANCHEZ",
+            "votes": 3875,
             "lista": 1,
             "elected": true
           },
           {
-            "name": "ROBERTO MARTIN LUNA ENCISO",
-            "votes": 326,
+            "name": "JAIME AMERICO ABENSUR PINASCO",
+            "votes": 1416,
             "lista": 2,
-            "elected": false
+            "elected": true
           },
           {
-            "name": "ELMER ELISEO ALFARO QUIPUSCOA",
-            "votes": 248,
-            "lista": 4,
-            "elected": false
-          },
-          {
-            "name": "MARILUZ MARCELINA AGUILAR CONDOR",
-            "votes": 169,
+            "name": "WENDY ASTRID RIOS PALMA",
+            "votes": 456,
             "lista": 3,
+            "elected": true
+          },
+          {
+            "name": "JHON EDWAR AVILES SANDI",
+            "votes": 210,
+            "lista": 4,
             "elected": false
           }
         ]
-      },
+      }
+    },
+    "PEX": {
       "AHORA NACIÓN - AN": {
         "seats_won": 0,
         "candidates": [
@@ -5841,6 +5812,35 @@
             "name": "ENZO ANTONIO COSTA GONZALEZ",
             "votes": 73,
             "lista": 3,
+            "elected": false
+          }
+        ]
+      },
+      "PARTIDO CÍVICO OBRAS": {
+        "seats_won": 0,
+        "candidates": [
+          {
+            "name": "PEDRO PAREDES CALDERON",
+            "votes": 249,
+            "lista": 1,
+            "elected": false
+          },
+          {
+            "name": "NORMA ELENA VARGAS CACERES",
+            "votes": 187,
+            "lista": 2,
+            "elected": false
+          },
+          {
+            "name": "JULIO CARLOS MANUEL ZUÑIGA RAMOS",
+            "votes": 86,
+            "lista": 3,
+            "elected": false
+          },
+          {
+            "name": "FRANCISCA PEREZ PEREZ",
+            "votes": 43,
+            "lista": 4,
             "elected": false
           }
         ]
@@ -5878,35 +5878,6 @@
         "seats_won": 0,
         "candidates": []
       },
-      "PARTIDO CÍVICO OBRAS": {
-        "seats_won": 0,
-        "candidates": [
-          {
-            "name": "PEDRO PAREDES CALDERON",
-            "votes": 249,
-            "lista": 1,
-            "elected": false
-          },
-          {
-            "name": "NORMA ELENA VARGAS CACERES",
-            "votes": 187,
-            "lista": 2,
-            "elected": false
-          },
-          {
-            "name": "JULIO CARLOS MANUEL ZUÑIGA RAMOS",
-            "votes": 86,
-            "lista": 3,
-            "elected": false
-          },
-          {
-            "name": "FRANCISCA PEREZ PEREZ",
-            "votes": 43,
-            "lista": 4,
-            "elected": false
-          }
-        ]
-      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 0,
         "candidates": [
@@ -5935,28 +5906,40 @@
             "elected": false
           }
         ]
+      },
+      "FUERZA POPULAR": {
+        "seats_won": 1,
+        "candidates": [
+          {
+            "name": "LIZ HULI MENDOZA BERNEDO",
+            "votes": 637,
+            "lista": 1,
+            "elected": true
+          },
+          {
+            "name": "ROBERTO MARTIN LUNA ENCISO",
+            "votes": 326,
+            "lista": 2,
+            "elected": false
+          },
+          {
+            "name": "ELMER ELISEO ALFARO QUIPUSCOA",
+            "votes": 248,
+            "lista": 4,
+            "elected": false
+          },
+          {
+            "name": "MARILUZ MARCELINA AGUILAR CONDOR",
+            "votes": 169,
+            "lista": 3,
+            "elected": false
+          }
+        ]
       }
     }
   },
   "senador": {
     "Amazonas": {
-      "FUERZA POPULAR": {
-        "seats_won": 1,
-        "candidates": [
-          {
-            "name": "JOSE BERLEY ARISTA ARBILDO",
-            "votes": 2474,
-            "lista": 1,
-            "elected": true
-          },
-          {
-            "name": "ANILDA BUSTAMANTE OCAMPO",
-            "votes": 598,
-            "lista": 2,
-            "elected": false
-          }
-        ]
-      },
       "AHORA NACIÓN - AN": {
         "seats_won": 0,
         "candidates": [
@@ -5973,6 +5956,10 @@
             "elected": false
           }
         ]
+      },
+      "PARTIDO CÍVICO OBRAS": {
+        "seats_won": 0,
+        "candidates": []
       },
       "RENOVACIÓN POPULAR": {
         "seats_won": 0,
@@ -5995,10 +5982,6 @@
         "seats_won": 0,
         "candidates": []
       },
-      "PARTIDO CÍVICO OBRAS": {
-        "seats_won": 0,
-        "candidates": []
-      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 0,
         "candidates": [
@@ -6015,26 +5998,26 @@
             "elected": false
           }
         ]
-      }
-    },
-    "Áncash": {
+      },
       "FUERZA POPULAR": {
-        "seats_won": 0,
+        "seats_won": 1,
         "candidates": [
           {
-            "name": "NILZA MERLY CHACON TRUJILLO",
-            "votes": 8197,
+            "name": "JOSE BERLEY ARISTA ARBILDO",
+            "votes": 2474,
             "lista": 1,
-            "elected": false
+            "elected": true
           },
           {
-            "name": "LENIN TAFUR LUCERO",
-            "votes": 2244,
+            "name": "ANILDA BUSTAMANTE OCAMPO",
+            "votes": 598,
             "lista": 2,
             "elected": false
           }
         ]
-      },
+      }
+    },
+    "Áncash": {
       "AHORA NACIÓN - AN": {
         "seats_won": 0,
         "candidates": [
@@ -6047,6 +6030,23 @@
           {
             "name": "BEATRIZ ROSA ARTEAGA TORRES",
             "votes": 1516,
+            "lista": 2,
+            "elected": false
+          }
+        ]
+      },
+      "PARTIDO CÍVICO OBRAS": {
+        "seats_won": 0,
+        "candidates": [
+          {
+            "name": "MARIA ALICIA BARRENECHEA BERNA DE RONDAN",
+            "votes": 3372,
+            "lista": 1,
+            "elected": false
+          },
+          {
+            "name": "JOSE LUIS LEZAMA ZAVALETA",
+            "votes": 1502,
             "lista": 2,
             "elected": false
           }
@@ -6086,23 +6086,6 @@
           }
         ]
       },
-      "PARTIDO CÍVICO OBRAS": {
-        "seats_won": 0,
-        "candidates": [
-          {
-            "name": "MARIA ALICIA BARRENECHEA BERNA DE RONDAN",
-            "votes": 3372,
-            "lista": 1,
-            "elected": false
-          },
-          {
-            "name": "JOSE LUIS LEZAMA ZAVALETA",
-            "votes": 1502,
-            "lista": 2,
-            "elected": false
-          }
-        ]
-      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 0,
         "candidates": [
@@ -6119,26 +6102,26 @@
             "elected": false
           }
         ]
-      }
-    },
-    "Apurímac": {
+      },
       "FUERZA POPULAR": {
         "seats_won": 0,
         "candidates": [
           {
-            "name": "DORINA CACERES YBIAS",
-            "votes": 1419,
+            "name": "NILZA MERLY CHACON TRUJILLO",
+            "votes": 8197,
             "lista": 1,
             "elected": false
           },
           {
-            "name": "ALEX RICHARD LAZO REYES",
-            "votes": 195,
+            "name": "LENIN TAFUR LUCERO",
+            "votes": 2244,
             "lista": 2,
             "elected": false
           }
         ]
-      },
+      }
+    },
+    "Apurímac": {
       "AHORA NACIÓN - AN": {
         "seats_won": 0,
         "candidates": [
@@ -6151,6 +6134,23 @@
           {
             "name": "GLADYS SIERRA YEPEZ",
             "votes": 659,
+            "lista": 2,
+            "elected": false
+          }
+        ]
+      },
+      "PARTIDO CÍVICO OBRAS": {
+        "seats_won": 0,
+        "candidates": [
+          {
+            "name": "JUVENAL CONDOMA RIOS",
+            "votes": 2981,
+            "lista": 1,
+            "elected": false
+          },
+          {
+            "name": "MARIA ALLCCAHUAMAN ARANGO",
+            "votes": 1101,
             "lista": 2,
             "elected": false
           }
@@ -6184,23 +6184,6 @@
           }
         ]
       },
-      "PARTIDO CÍVICO OBRAS": {
-        "seats_won": 0,
-        "candidates": [
-          {
-            "name": "JUVENAL CONDOMA RIOS",
-            "votes": 2981,
-            "lista": 1,
-            "elected": false
-          },
-          {
-            "name": "MARIA ALLCCAHUAMAN ARANGO",
-            "votes": 1101,
-            "lista": 2,
-            "elected": false
-          }
-        ]
-      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 0,
         "candidates": [
@@ -6211,26 +6194,26 @@
             "elected": false
           }
         ]
-      }
-    },
-    "Arequipa": {
+      },
       "FUERZA POPULAR": {
         "seats_won": 0,
         "candidates": [
           {
-            "name": "MAURICIO FERNANDO ARNILLAS GONZALEZ",
-            "votes": 5299,
+            "name": "DORINA CACERES YBIAS",
+            "votes": 1419,
             "lista": 1,
             "elected": false
           },
           {
-            "name": "VICTORIA VILMA TUCO VERA",
-            "votes": 1166,
+            "name": "ALEX RICHARD LAZO REYES",
+            "votes": 195,
             "lista": 2,
             "elected": false
           }
         ]
-      },
+      }
+    },
+    "Arequipa": {
       "AHORA NACIÓN - AN": {
         "seats_won": 0,
         "candidates": [
@@ -6243,6 +6226,23 @@
           {
             "name": "YOBANA JITRUDIS HUISA VARGAS",
             "votes": 2772,
+            "lista": 2,
+            "elected": false
+          }
+        ]
+      },
+      "PARTIDO CÍVICO OBRAS": {
+        "seats_won": 0,
+        "candidates": [
+          {
+            "name": "ROSA LUZ PEREZ RAMIREZ",
+            "votes": 7342,
+            "lista": 1,
+            "elected": false
+          },
+          {
+            "name": "ALFREDO DANIEL MARTINEZ ZEGARRA",
+            "votes": 3665,
             "lista": 2,
             "elected": false
           }
@@ -6276,23 +6276,6 @@
           }
         ]
       },
-      "PARTIDO CÍVICO OBRAS": {
-        "seats_won": 0,
-        "candidates": [
-          {
-            "name": "ROSA LUZ PEREZ RAMIREZ",
-            "votes": 7342,
-            "lista": 1,
-            "elected": false
-          },
-          {
-            "name": "ALFREDO DANIEL MARTINEZ ZEGARRA",
-            "votes": 3665,
-            "lista": 2,
-            "elected": false
-          }
-        ]
-      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 1,
         "candidates": [
@@ -6309,26 +6292,26 @@
             "elected": false
           }
         ]
-      }
-    },
-    "Ayacucho": {
+      },
       "FUERZA POPULAR": {
         "seats_won": 0,
         "candidates": [
           {
-            "name": "YOVANA PATRICIA DIAZ VEGA",
-            "votes": 1248,
+            "name": "MAURICIO FERNANDO ARNILLAS GONZALEZ",
+            "votes": 5299,
             "lista": 1,
             "elected": false
           },
           {
-            "name": "LUIS ALBERTO VELARDE DIAZ",
-            "votes": 591,
+            "name": "VICTORIA VILMA TUCO VERA",
+            "votes": 1166,
             "lista": 2,
             "elected": false
           }
         ]
-      },
+      }
+    },
+    "Ayacucho": {
       "AHORA NACIÓN - AN": {
         "seats_won": 0,
         "candidates": [
@@ -6341,6 +6324,23 @@
           {
             "name": "CONSUELO SAAVEDRA DE LA CRUZ",
             "votes": 2427,
+            "lista": 2,
+            "elected": false
+          }
+        ]
+      },
+      "PARTIDO CÍVICO OBRAS": {
+        "seats_won": 0,
+        "candidates": [
+          {
+            "name": "TULIO ALCIDES CHUCHON TENORIO",
+            "votes": 2841,
+            "lista": 1,
+            "elected": false
+          },
+          {
+            "name": "NORMA VIOLETA PRADO VALDIVIA",
+            "votes": 1195,
             "lista": 2,
             "elected": false
           }
@@ -6380,23 +6380,6 @@
           }
         ]
       },
-      "PARTIDO CÍVICO OBRAS": {
-        "seats_won": 0,
-        "candidates": [
-          {
-            "name": "TULIO ALCIDES CHUCHON TENORIO",
-            "votes": 2841,
-            "lista": 1,
-            "elected": false
-          },
-          {
-            "name": "NORMA VIOLETA PRADO VALDIVIA",
-            "votes": 1195,
-            "lista": 2,
-            "elected": false
-          }
-        ]
-      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 0,
         "candidates": [
@@ -6413,26 +6396,26 @@
             "elected": false
           }
         ]
-      }
-    },
-    "Cajamarca": {
+      },
       "FUERZA POPULAR": {
-        "seats_won": 1,
+        "seats_won": 0,
         "candidates": [
           {
-            "name": "SEGUNDO LEOCADIO TAPIA BERNAL",
-            "votes": 4823,
+            "name": "YOVANA PATRICIA DIAZ VEGA",
+            "votes": 1248,
             "lista": 1,
-            "elected": true
+            "elected": false
           },
           {
-            "name": "ELVA MERCEDES DIAZ SANCHEZ DE VILLEGAS",
-            "votes": 1577,
+            "name": "LUIS ALBERTO VELARDE DIAZ",
+            "votes": 591,
             "lista": 2,
             "elected": false
           }
         ]
-      },
+      }
+    },
+    "Cajamarca": {
       "AHORA NACIÓN - AN": {
         "seats_won": 0,
         "candidates": [
@@ -6445,6 +6428,23 @@
           {
             "name": "NORMA MADALI BARCO RUEDA",
             "votes": 2770,
+            "lista": 2,
+            "elected": false
+          }
+        ]
+      },
+      "PARTIDO CÍVICO OBRAS": {
+        "seats_won": 0,
+        "candidates": [
+          {
+            "name": "GERMAN CERQUIN LUICHO",
+            "votes": 4272,
+            "lista": 1,
+            "elected": false
+          },
+          {
+            "name": "ROSARIO SAUCEDO ESTACIO",
+            "votes": 2369,
             "lista": 2,
             "elected": false
           }
@@ -6471,23 +6471,6 @@
         "seats_won": 0,
         "candidates": []
       },
-      "PARTIDO CÍVICO OBRAS": {
-        "seats_won": 0,
-        "candidates": [
-          {
-            "name": "GERMAN CERQUIN LUICHO",
-            "votes": 4272,
-            "lista": 1,
-            "elected": false
-          },
-          {
-            "name": "ROSARIO SAUCEDO ESTACIO",
-            "votes": 2369,
-            "lista": 2,
-            "elected": false
-          }
-        ]
-      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 0,
         "candidates": [
@@ -6504,26 +6487,26 @@
             "elected": false
           }
         ]
-      }
-    },
-    "Callao": {
+      },
       "FUERZA POPULAR": {
         "seats_won": 1,
         "candidates": [
           {
-            "name": "JACQUES SALOMON RODRICH ACKERMAN",
-            "votes": 9320,
+            "name": "SEGUNDO LEOCADIO TAPIA BERNAL",
+            "votes": 4823,
             "lista": 1,
             "elected": true
           },
           {
-            "name": "MARIA ELENA ROJAS ROMAN",
-            "votes": 2568,
+            "name": "ELVA MERCEDES DIAZ SANCHEZ DE VILLEGAS",
+            "votes": 1577,
             "lista": 2,
             "elected": false
           }
         ]
-      },
+      }
+    },
+    "Callao": {
       "AHORA NACIÓN - AN": {
         "seats_won": 0,
         "candidates": [
@@ -6531,6 +6514,23 @@
             "name": "NEMECIO EDUARDO MARAZO TEJADA",
             "votes": 5486,
             "lista": 1,
+            "elected": false
+          }
+        ]
+      },
+      "PARTIDO CÍVICO OBRAS": {
+        "seats_won": 0,
+        "candidates": [
+          {
+            "name": "LUZ DEL CARMEN BAZALAR MIRANDA",
+            "votes": 3396,
+            "lista": 1,
+            "elected": false
+          },
+          {
+            "name": "GUIDO MANUEL FAJARDO UTRILLA",
+            "votes": 1410,
+            "lista": 2,
             "elected": false
           }
         ]
@@ -6569,23 +6569,6 @@
           }
         ]
       },
-      "PARTIDO CÍVICO OBRAS": {
-        "seats_won": 0,
-        "candidates": [
-          {
-            "name": "LUZ DEL CARMEN BAZALAR MIRANDA",
-            "votes": 3396,
-            "lista": 1,
-            "elected": false
-          },
-          {
-            "name": "GUIDO MANUEL FAJARDO UTRILLA",
-            "votes": 1410,
-            "lista": 2,
-            "elected": false
-          }
-        ]
-      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 0,
         "candidates": [
@@ -6602,20 +6585,26 @@
             "elected": false
           }
         ]
-      }
-    },
-    "Cusco": {
+      },
       "FUERZA POPULAR": {
-        "seats_won": 0,
+        "seats_won": 1,
         "candidates": [
           {
-            "name": "WALTER MISAEL MANCILLA HUAMAN",
-            "votes": 2494,
+            "name": "JACQUES SALOMON RODRICH ACKERMAN",
+            "votes": 9320,
             "lista": 1,
+            "elected": true
+          },
+          {
+            "name": "MARIA ELENA ROJAS ROMAN",
+            "votes": 2568,
+            "lista": 2,
             "elected": false
           }
         ]
-      },
+      }
+    },
+    "Cusco": {
       "AHORA NACIÓN - AN": {
         "seats_won": 0,
         "candidates": [
@@ -6628,6 +6617,23 @@
           {
             "name": "LUCILA ESPITIA CONDORI",
             "votes": 5880,
+            "lista": 2,
+            "elected": false
+          }
+        ]
+      },
+      "PARTIDO CÍVICO OBRAS": {
+        "seats_won": 0,
+        "candidates": [
+          {
+            "name": "MARCO EMILIO URIONA PUMA",
+            "votes": 6711,
+            "lista": 1,
+            "elected": false
+          },
+          {
+            "name": "MARGARITA AUCCAYSI ORTIZ DE ORUE",
+            "votes": 4224,
             "lista": 2,
             "elected": false
           }
@@ -6667,23 +6673,6 @@
           }
         ]
       },
-      "PARTIDO CÍVICO OBRAS": {
-        "seats_won": 0,
-        "candidates": [
-          {
-            "name": "MARCO EMILIO URIONA PUMA",
-            "votes": 6711,
-            "lista": 1,
-            "elected": false
-          },
-          {
-            "name": "MARGARITA AUCCAYSI ORTIZ DE ORUE",
-            "votes": 4224,
-            "lista": 2,
-            "elected": false
-          }
-        ]
-      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 0,
         "candidates": [
@@ -6700,27 +6689,25 @@
             "elected": false
           }
         ]
-      }
-    },
-    "Huancavelica": {
+      },
       "FUERZA POPULAR": {
         "seats_won": 0,
         "candidates": [
           {
-            "name": "MANUEL CASTREJON VALDEZ",
-            "votes": 1632,
+            "name": "WALTER MISAEL MANCILLA HUAMAN",
+            "votes": 2494,
             "lista": 1,
-            "elected": false
-          },
-          {
-            "name": "VILMA MALLCCO LLIUYACC",
-            "votes": 271,
-            "lista": 2,
             "elected": false
           }
         ]
-      },
+      }
+    },
+    "Huancavelica": {
       "AHORA NACIÓN - AN": {
+        "seats_won": 0,
+        "candidates": []
+      },
+      "PARTIDO CÍVICO OBRAS": {
         "seats_won": 0,
         "candidates": []
       },
@@ -6752,39 +6739,52 @@
           }
         ]
       },
-      "PARTIDO CÍVICO OBRAS": {
-        "seats_won": 0,
-        "candidates": []
-      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 0,
         "candidates": []
-      }
-    },
-    "Huánuco": {
+      },
       "FUERZA POPULAR": {
         "seats_won": 0,
         "candidates": [
           {
-            "name": "LUZ MARINA GUTIERREZ VALDIVIA",
-            "votes": 2075,
+            "name": "MANUEL CASTREJON VALDEZ",
+            "votes": 1632,
             "lista": 1,
             "elected": false
           },
           {
-            "name": "CARLOS JOSE QUISPE CAJAS",
-            "votes": 408,
+            "name": "VILMA MALLCCO LLIUYACC",
+            "votes": 271,
             "lista": 2,
             "elected": false
           }
         ]
-      },
+      }
+    },
+    "Huánuco": {
       "AHORA NACIÓN - AN": {
         "seats_won": 0,
         "candidates": [
           {
             "name": "MERI LUZ CRIOLLO MAYLLE",
             "votes": 562,
+            "lista": 2,
+            "elected": false
+          }
+        ]
+      },
+      "PARTIDO CÍVICO OBRAS": {
+        "seats_won": 0,
+        "candidates": [
+          {
+            "name": "CONSTANTINO VIDAL GALEANO OCALIO",
+            "votes": 1471,
+            "lista": 1,
+            "elected": false
+          },
+          {
+            "name": "YSABEL AGÜERO VARA DE CORDOVA",
+            "votes": 594,
             "lista": 2,
             "elected": false
           }
@@ -6824,23 +6824,6 @@
           }
         ]
       },
-      "PARTIDO CÍVICO OBRAS": {
-        "seats_won": 0,
-        "candidates": [
-          {
-            "name": "CONSTANTINO VIDAL GALEANO OCALIO",
-            "votes": 1471,
-            "lista": 1,
-            "elected": false
-          },
-          {
-            "name": "YSABEL AGÜERO VARA DE CORDOVA",
-            "votes": 594,
-            "lista": 2,
-            "elected": false
-          }
-        ]
-      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 0,
         "candidates": [
@@ -6857,26 +6840,26 @@
             "elected": false
           }
         ]
-      }
-    },
-    "Ica": {
+      },
       "FUERZA POPULAR": {
-        "seats_won": 1,
+        "seats_won": 0,
         "candidates": [
           {
-            "name": "RAFAEL GUSTAVO YAMASHIRO ORE",
-            "votes": 1081,
+            "name": "LUZ MARINA GUTIERREZ VALDIVIA",
+            "votes": 2075,
             "lista": 1,
-            "elected": true
+            "elected": false
           },
           {
-            "name": "NORMA LUISA FLORES HERRERA",
-            "votes": 197,
+            "name": "CARLOS JOSE QUISPE CAJAS",
+            "votes": 408,
             "lista": 2,
             "elected": false
           }
         ]
-      },
+      }
+    },
+    "Ica": {
       "AHORA NACIÓN - AN": {
         "seats_won": 0,
         "candidates": [
@@ -6889,6 +6872,23 @@
           {
             "name": "FILIDA CACERES LOPEZ",
             "votes": 148,
+            "lista": 2,
+            "elected": false
+          }
+        ]
+      },
+      "PARTIDO CÍVICO OBRAS": {
+        "seats_won": 0,
+        "candidates": [
+          {
+            "name": "LUIS BERNARDO CORDOVA CAHUA",
+            "votes": 451,
+            "lista": 1,
+            "elected": false
+          },
+          {
+            "name": "MARIA ESTHER SEMINARIO GARCIA",
+            "votes": 172,
             "lista": 2,
             "elected": false
           }
@@ -6922,23 +6922,6 @@
           }
         ]
       },
-      "PARTIDO CÍVICO OBRAS": {
-        "seats_won": 0,
-        "candidates": [
-          {
-            "name": "LUIS BERNARDO CORDOVA CAHUA",
-            "votes": 451,
-            "lista": 1,
-            "elected": false
-          },
-          {
-            "name": "MARIA ESTHER SEMINARIO GARCIA",
-            "votes": 172,
-            "lista": 2,
-            "elected": false
-          }
-        ]
-      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 0,
         "candidates": [
@@ -6955,26 +6938,26 @@
             "elected": false
           }
         ]
-      }
-    },
-    "Junín": {
+      },
       "FUERZA POPULAR": {
         "seats_won": 1,
         "candidates": [
           {
-            "name": "DAVID JULIO JIMENEZ HEREDIA",
-            "votes": 9784,
+            "name": "RAFAEL GUSTAVO YAMASHIRO ORE",
+            "votes": 1081,
             "lista": 1,
             "elected": true
           },
           {
-            "name": "HERMINIA ROBLES CONTRERAS",
-            "votes": 2617,
+            "name": "NORMA LUISA FLORES HERRERA",
+            "votes": 197,
             "lista": 2,
             "elected": false
           }
         ]
-      },
+      }
+    },
+    "Junín": {
       "AHORA NACIÓN - AN": {
         "seats_won": 0,
         "candidates": [
@@ -6987,6 +6970,23 @@
           {
             "name": "YENNY RAIDA LEON ESCALANTE",
             "votes": 6937,
+            "lista": 2,
+            "elected": false
+          }
+        ]
+      },
+      "PARTIDO CÍVICO OBRAS": {
+        "seats_won": 0,
+        "candidates": [
+          {
+            "name": "ROBERTO CARLOS CHAVARRIA VILCATOMA",
+            "votes": 6503,
+            "lista": 1,
+            "elected": false
+          },
+          {
+            "name": "YESICA BEATRIZ ARENALES SALAS",
+            "votes": 2754,
             "lista": 2,
             "elected": false
           }
@@ -7026,23 +7026,6 @@
           }
         ]
       },
-      "PARTIDO CÍVICO OBRAS": {
-        "seats_won": 0,
-        "candidates": [
-          {
-            "name": "ROBERTO CARLOS CHAVARRIA VILCATOMA",
-            "votes": 6503,
-            "lista": 1,
-            "elected": false
-          },
-          {
-            "name": "YESICA BEATRIZ ARENALES SALAS",
-            "votes": 2754,
-            "lista": 2,
-            "elected": false
-          }
-        ]
-      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 0,
         "candidates": [
@@ -7059,26 +7042,26 @@
             "elected": false
           }
         ]
-      }
-    },
-    "La Libertad": {
+      },
       "FUERZA POPULAR": {
         "seats_won": 1,
         "candidates": [
           {
-            "name": "VICTOR SEFERINO FLORES RUIZ",
-            "votes": 6575,
+            "name": "DAVID JULIO JIMENEZ HEREDIA",
+            "votes": 9784,
             "lista": 1,
             "elected": true
           },
           {
-            "name": "ESTELA BELINDA BRICEÑO UCEDA",
-            "votes": 1389,
+            "name": "HERMINIA ROBLES CONTRERAS",
+            "votes": 2617,
             "lista": 2,
             "elected": false
           }
         ]
-      },
+      }
+    },
+    "La Libertad": {
       "AHORA NACIÓN - AN": {
         "seats_won": 0,
         "candidates": [
@@ -7091,6 +7074,23 @@
           {
             "name": "YDA SOTO QUISPE",
             "votes": 493,
+            "lista": 2,
+            "elected": false
+          }
+        ]
+      },
+      "PARTIDO CÍVICO OBRAS": {
+        "seats_won": 0,
+        "candidates": [
+          {
+            "name": "SAMUEL FRANCISCO PONGO PORRAS",
+            "votes": 2362,
+            "lista": 1,
+            "elected": false
+          },
+          {
+            "name": "ELOISA ISABEL VILLOSLADA LINARES",
+            "votes": 1099,
             "lista": 2,
             "elected": false
           }
@@ -7118,23 +7118,6 @@
           }
         ]
       },
-      "PARTIDO CÍVICO OBRAS": {
-        "seats_won": 0,
-        "candidates": [
-          {
-            "name": "SAMUEL FRANCISCO PONGO PORRAS",
-            "votes": 2362,
-            "lista": 1,
-            "elected": false
-          },
-          {
-            "name": "ELOISA ISABEL VILLOSLADA LINARES",
-            "votes": 1099,
-            "lista": 2,
-            "elected": false
-          }
-        ]
-      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 0,
         "candidates": [
@@ -7151,26 +7134,26 @@
             "elected": false
           }
         ]
-      }
-    },
-    "Lambayeque": {
+      },
       "FUERZA POPULAR": {
         "seats_won": 1,
         "candidates": [
           {
-            "name": "ALEJANDRO AURELIO AGUINAGA RECUENCO",
-            "votes": 16933,
+            "name": "VICTOR SEFERINO FLORES RUIZ",
+            "votes": 6575,
             "lista": 1,
             "elected": true
           },
           {
-            "name": "VIOLETA AMELIA FANZO NIQUEN",
-            "votes": 3827,
+            "name": "ESTELA BELINDA BRICEÑO UCEDA",
+            "votes": 1389,
             "lista": 2,
             "elected": false
           }
         ]
-      },
+      }
+    },
+    "Lambayeque": {
       "AHORA NACIÓN - AN": {
         "seats_won": 0,
         "candidates": [
@@ -7183,6 +7166,23 @@
           {
             "name": "BLANCA ELCIRA MARISOL PEREZ VALDEZ",
             "votes": 736,
+            "lista": 2,
+            "elected": false
+          }
+        ]
+      },
+      "PARTIDO CÍVICO OBRAS": {
+        "seats_won": 0,
+        "candidates": [
+          {
+            "name": "HUGO FLORENTINO LAMADRID IBAÑEZ",
+            "votes": 3203,
+            "lista": 1,
+            "elected": false
+          },
+          {
+            "name": "NILDA ELENA MANAY CARRANZA",
+            "votes": 1103,
             "lista": 2,
             "elected": false
           }
@@ -7222,23 +7222,6 @@
           }
         ]
       },
-      "PARTIDO CÍVICO OBRAS": {
-        "seats_won": 0,
-        "candidates": [
-          {
-            "name": "HUGO FLORENTINO LAMADRID IBAÑEZ",
-            "votes": 3203,
-            "lista": 1,
-            "elected": false
-          },
-          {
-            "name": "NILDA ELENA MANAY CARRANZA",
-            "votes": 1103,
-            "lista": 2,
-            "elected": false
-          }
-        ]
-      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 0,
         "candidates": [
@@ -7255,38 +7238,26 @@
             "elected": false
           }
         ]
-      }
-    },
-    "Lima": {
+      },
       "FUERZA POPULAR": {
         "seats_won": 1,
         "candidates": [
           {
-            "name": "MARCO ENRIQUE MIYASHIRO ARASHIRO",
-            "votes": 89087,
+            "name": "ALEJANDRO AURELIO AGUINAGA RECUENCO",
+            "votes": 16933,
             "lista": 1,
             "elected": true
           },
           {
-            "name": "MILAGROS EMPERATRIZ SALAZAR DE LA TORRE",
-            "votes": 17854,
+            "name": "VIOLETA AMELIA FANZO NIQUEN",
+            "votes": 3827,
             "lista": 2,
-            "elected": false
-          },
-          {
-            "name": "CARLOS ERNESTO BUSTAMANTE DONAYRE",
-            "votes": 13863,
-            "lista": 3,
-            "elected": false
-          },
-          {
-            "name": "ROSA ELVIRA SALVATIERRA VALDIVIA",
-            "votes": 7412,
-            "lista": 4,
             "elected": false
           }
         ]
-      },
+      }
+    },
+    "Lima": {
       "AHORA NACIÓN - AN": {
         "seats_won": 0,
         "candidates": [
@@ -7305,6 +7276,35 @@
           {
             "name": "GILMER IBAÑEZ MELENDREZ",
             "votes": 10386,
+            "lista": 4,
+            "elected": false
+          }
+        ]
+      },
+      "PARTIDO CÍVICO OBRAS": {
+        "seats_won": 0,
+        "candidates": [
+          {
+            "name": "IVAN CESAR DIBOS MIER",
+            "votes": 28182,
+            "lista": 1,
+            "elected": false
+          },
+          {
+            "name": "LUZ DORIS SANCHEZ PINEDO DE ROMERO",
+            "votes": 13575,
+            "lista": 2,
+            "elected": false
+          },
+          {
+            "name": "RICARDO PABLO BELMONT CASSINELLI",
+            "votes": 11593,
+            "lista": 3,
+            "elected": false
+          },
+          {
+            "name": "LEONILDA NORMA GUEVARA BERMUDEZ",
+            "votes": 4356,
             "lista": 4,
             "elected": false
           }
@@ -7368,41 +7368,12 @@
           }
         ]
       },
-      "PARTIDO CÍVICO OBRAS": {
-        "seats_won": 0,
-        "candidates": [
-          {
-            "name": "IVAN CESAR DIBOS MIER",
-            "votes": 28182,
-            "lista": 1,
-            "elected": false
-          },
-          {
-            "name": "LUZ DORIS SANCHEZ PINEDO DE ROMERO",
-            "votes": 13575,
-            "lista": 2,
-            "elected": false
-          },
-          {
-            "name": "RICARDO PABLO BELMONT CASSINELLI",
-            "votes": 11593,
-            "lista": 3,
-            "elected": false
-          },
-          {
-            "name": "LEONILDA NORMA GUEVARA BERMUDEZ",
-            "votes": 4356,
-            "lista": 4,
-            "elected": false
-          }
-        ]
-      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 1,
         "candidates": [
           {
             "name": "NORA BONIFAZ CARMONA",
-            "votes": 74177,
+            "votes": 74178,
             "lista": 1,
             "elected": true
           },
@@ -7425,26 +7396,38 @@
             "elected": false
           }
         ]
-      }
-    },
-    "Lima Provincias": {
+      },
       "FUERZA POPULAR": {
         "seats_won": 1,
         "candidates": [
           {
-            "name": "ELARD GALO MELGAR VALDEZ",
-            "votes": 8426,
+            "name": "MARCO ENRIQUE MIYASHIRO ARASHIRO",
+            "votes": 89087,
             "lista": 1,
             "elected": true
           },
           {
-            "name": "LITA ROMAN BUSTINZA",
-            "votes": 1929,
+            "name": "MILAGROS EMPERATRIZ SALAZAR DE LA TORRE",
+            "votes": 17854,
             "lista": 2,
+            "elected": false
+          },
+          {
+            "name": "CARLOS ERNESTO BUSTAMANTE DONAYRE",
+            "votes": 13863,
+            "lista": 3,
+            "elected": false
+          },
+          {
+            "name": "ROSA ELVIRA SALVATIERRA VALDIVIA",
+            "votes": 7412,
+            "lista": 4,
             "elected": false
           }
         ]
-      },
+      }
+    },
+    "Lima Provincias": {
       "AHORA NACIÓN - AN": {
         "seats_won": 0,
         "candidates": [
@@ -7457,6 +7440,23 @@
           {
             "name": "LOURDES OLINDA MOSQUERA BARRETO",
             "votes": 958,
+            "lista": 2,
+            "elected": false
+          }
+        ]
+      },
+      "PARTIDO CÍVICO OBRAS": {
+        "seats_won": 0,
+        "candidates": [
+          {
+            "name": "NACOR TORRES AGUILAR",
+            "votes": 3641,
+            "lista": 1,
+            "elected": false
+          },
+          {
+            "name": "GLORIA ELIZABETH GONZALES ARREDONDO",
+            "votes": 1802,
             "lista": 2,
             "elected": false
           }
@@ -7496,23 +7496,6 @@
           }
         ]
       },
-      "PARTIDO CÍVICO OBRAS": {
-        "seats_won": 0,
-        "candidates": [
-          {
-            "name": "NACOR TORRES AGUILAR",
-            "votes": 3641,
-            "lista": 1,
-            "elected": false
-          },
-          {
-            "name": "GLORIA ELIZABETH GONZALES ARREDONDO",
-            "votes": 1802,
-            "lista": 2,
-            "elected": false
-          }
-        ]
-      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 0,
         "candidates": [
@@ -7523,26 +7506,26 @@
             "elected": false
           }
         ]
-      }
-    },
-    "Loreto": {
+      },
       "FUERZA POPULAR": {
         "seats_won": 1,
         "candidates": [
           {
-            "name": "JUAN CARLOS DEL AGUILA CARDENAS",
-            "votes": 3192,
+            "name": "ELARD GALO MELGAR VALDEZ",
+            "votes": 8426,
             "lista": 1,
             "elected": true
           },
           {
-            "name": "LEDY SONIA ZUBIAURR CERDEIRA",
-            "votes": 824,
+            "name": "LITA ROMAN BUSTINZA",
+            "votes": 1929,
             "lista": 2,
             "elected": false
           }
         ]
-      },
+      }
+    },
+    "Loreto": {
       "AHORA NACIÓN - AN": {
         "seats_won": 0,
         "candidates": [
@@ -7556,6 +7539,17 @@
             "name": "BETTY DEL CARMEN RUIZ RENGIFO",
             "votes": 106,
             "lista": 2,
+            "elected": false
+          }
+        ]
+      },
+      "PARTIDO CÍVICO OBRAS": {
+        "seats_won": 0,
+        "candidates": [
+          {
+            "name": "GASPAR CARDENAS CARDENAS",
+            "votes": 392,
+            "lista": 1,
             "elected": false
           }
         ]
@@ -7588,40 +7582,29 @@
           }
         ]
       },
-      "PARTIDO CÍVICO OBRAS": {
-        "seats_won": 0,
-        "candidates": [
-          {
-            "name": "GASPAR CARDENAS CARDENAS",
-            "votes": 392,
-            "lista": 1,
-            "elected": false
-          }
-        ]
-      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 0,
         "candidates": []
-      }
-    },
-    "Madre de Dios": {
+      },
       "FUERZA POPULAR": {
-        "seats_won": 0,
+        "seats_won": 1,
         "candidates": [
           {
-            "name": "MODESTO FIGUEROA MINAYA",
-            "votes": 948,
+            "name": "JUAN CARLOS DEL AGUILA CARDENAS",
+            "votes": 3192,
             "lista": 1,
-            "elected": false
+            "elected": true
           },
           {
-            "name": "AMPARO LUZ OROSCO OSORIO",
-            "votes": 102,
+            "name": "LEDY SONIA ZUBIAURR CERDEIRA",
+            "votes": 824,
             "lista": 2,
             "elected": false
           }
         ]
-      },
+      }
+    },
+    "Madre de Dios": {
       "AHORA NACIÓN - AN": {
         "seats_won": 0,
         "candidates": [
@@ -7632,6 +7615,10 @@
             "elected": false
           }
         ]
+      },
+      "PARTIDO CÍVICO OBRAS": {
+        "seats_won": 0,
+        "candidates": []
       },
       "RENOVACIÓN POPULAR": {
         "seats_won": 0,
@@ -7667,10 +7654,6 @@
           }
         ]
       },
-      "PARTIDO CÍVICO OBRAS": {
-        "seats_won": 0,
-        "candidates": []
-      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 0,
         "candidates": [
@@ -7687,26 +7670,26 @@
             "elected": false
           }
         ]
-      }
-    },
-    "Moquegua": {
+      },
       "FUERZA POPULAR": {
         "seats_won": 0,
         "candidates": [
           {
-            "name": "MARIO FIDEL MANTILLA MEDINA",
-            "votes": 1089,
+            "name": "MODESTO FIGUEROA MINAYA",
+            "votes": 948,
             "lista": 1,
             "elected": false
           },
           {
-            "name": "CECILIA FILOMENA LAURA MAMANI",
-            "votes": 215,
+            "name": "AMPARO LUZ OROSCO OSORIO",
+            "votes": 102,
             "lista": 2,
             "elected": false
           }
         ]
-      },
+      }
+    },
+    "Moquegua": {
       "AHORA NACIÓN - AN": {
         "seats_won": 0,
         "candidates": [
@@ -7723,6 +7706,10 @@
             "elected": false
           }
         ]
+      },
+      "PARTIDO CÍVICO OBRAS": {
+        "seats_won": 0,
+        "candidates": []
       },
       "RENOVACIÓN POPULAR": {
         "seats_won": 0,
@@ -7752,10 +7739,6 @@
           }
         ]
       },
-      "PARTIDO CÍVICO OBRAS": {
-        "seats_won": 0,
-        "candidates": []
-      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 0,
         "candidates": [
@@ -7766,26 +7749,26 @@
             "elected": false
           }
         ]
-      }
-    },
-    "Pasco": {
+      },
       "FUERZA POPULAR": {
         "seats_won": 0,
         "candidates": [
           {
-            "name": "ROY ERNESTO VENTURA ANGEL",
-            "votes": 2153,
+            "name": "MARIO FIDEL MANTILLA MEDINA",
+            "votes": 1089,
             "lista": 1,
             "elected": false
           },
           {
-            "name": "MADELEINA RIVERA FABIAN",
-            "votes": 1042,
+            "name": "CECILIA FILOMENA LAURA MAMANI",
+            "votes": 215,
             "lista": 2,
             "elected": false
           }
         ]
-      },
+      }
+    },
+    "Pasco": {
       "AHORA NACIÓN - AN": {
         "seats_won": 0,
         "candidates": [
@@ -7802,6 +7785,10 @@
             "elected": false
           }
         ]
+      },
+      "PARTIDO CÍVICO OBRAS": {
+        "seats_won": 0,
+        "candidates": []
       },
       "RENOVACIÓN POPULAR": {
         "seats_won": 0,
@@ -7831,10 +7818,6 @@
           }
         ]
       },
-      "PARTIDO CÍVICO OBRAS": {
-        "seats_won": 0,
-        "candidates": []
-      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 0,
         "candidates": [
@@ -7851,26 +7834,26 @@
             "elected": false
           }
         ]
-      }
-    },
-    "Piura": {
+      },
       "FUERZA POPULAR": {
-        "seats_won": 1,
+        "seats_won": 0,
         "candidates": [
           {
-            "name": "KARLA MELISSA SCHAEFER CUCULIZA",
-            "votes": 5731,
+            "name": "ROY ERNESTO VENTURA ANGEL",
+            "votes": 2153,
             "lista": 1,
-            "elected": true
+            "elected": false
           },
           {
-            "name": "VICTOR HUGO FLORES CARRUITERO",
-            "votes": 991,
+            "name": "MADELEINA RIVERA FABIAN",
+            "votes": 1042,
             "lista": 2,
             "elected": false
           }
         ]
-      },
+      }
+    },
+    "Piura": {
       "AHORA NACIÓN - AN": {
         "seats_won": 0,
         "candidates": [
@@ -7878,6 +7861,23 @@
             "name": "PEDRO ZAPATA MONTEZA",
             "votes": 1503,
             "lista": 1,
+            "elected": false
+          }
+        ]
+      },
+      "PARTIDO CÍVICO OBRAS": {
+        "seats_won": 0,
+        "candidates": [
+          {
+            "name": "PEDRO HUMBERTO SANCARRANCO CAMPOS",
+            "votes": 1111,
+            "lista": 1,
+            "elected": false
+          },
+          {
+            "name": "AMELIA CASTILLO CHANTA DE ALVARADO",
+            "votes": 486,
+            "lista": 2,
             "elected": false
           }
         ]
@@ -7916,23 +7916,6 @@
           }
         ]
       },
-      "PARTIDO CÍVICO OBRAS": {
-        "seats_won": 0,
-        "candidates": [
-          {
-            "name": "PEDRO HUMBERTO SANCARRANCO CAMPOS",
-            "votes": 1111,
-            "lista": 1,
-            "elected": false
-          },
-          {
-            "name": "AMELIA CASTILLO CHANTA DE ALVARADO",
-            "votes": 486,
-            "lista": 2,
-            "elected": false
-          }
-        ]
-      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 0,
         "candidates": [
@@ -7949,26 +7932,26 @@
             "elected": false
           }
         ]
-      }
-    },
-    "Puno": {
+      },
       "FUERZA POPULAR": {
-        "seats_won": 0,
+        "seats_won": 1,
         "candidates": [
           {
-            "name": "ARISTIDES RAMON SERRUTO COLQUE",
-            "votes": 2084,
+            "name": "KARLA MELISSA SCHAEFER CUCULIZA",
+            "votes": 5731,
             "lista": 1,
-            "elected": false
+            "elected": true
           },
           {
-            "name": "MANUELA VELA RENGIFO",
-            "votes": 791,
+            "name": "VICTOR HUGO FLORES CARRUITERO",
+            "votes": 991,
             "lista": 2,
             "elected": false
           }
         ]
-      },
+      }
+    },
+    "Puno": {
       "AHORA NACIÓN - AN": {
         "seats_won": 0,
         "candidates": [
@@ -7981,6 +7964,23 @@
           {
             "name": "ALEJANDRINA QUISPE POMA",
             "votes": 5422,
+            "lista": 2,
+            "elected": false
+          }
+        ]
+      },
+      "PARTIDO CÍVICO OBRAS": {
+        "seats_won": 0,
+        "candidates": [
+          {
+            "name": "JOHN ALEXANDER TORRES ROSELLO",
+            "votes": 17403,
+            "lista": 1,
+            "elected": false
+          },
+          {
+            "name": "JUANA TECLA ALEJO FLORES",
+            "votes": 5723,
             "lista": 2,
             "elected": false
           }
@@ -8014,23 +8014,6 @@
           }
         ]
       },
-      "PARTIDO CÍVICO OBRAS": {
-        "seats_won": 0,
-        "candidates": [
-          {
-            "name": "JOHN ALEXANDER TORRES ROSELLO",
-            "votes": 17403,
-            "lista": 1,
-            "elected": false
-          },
-          {
-            "name": "JUANA TECLA ALEJO FLORES",
-            "votes": 5723,
-            "lista": 2,
-            "elected": false
-          }
-        ]
-      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 0,
         "candidates": [
@@ -8047,20 +8030,26 @@
             "elected": false
           }
         ]
+      },
+      "FUERZA POPULAR": {
+        "seats_won": 0,
+        "candidates": [
+          {
+            "name": "ARISTIDES RAMON SERRUTO COLQUE",
+            "votes": 2084,
+            "lista": 1,
+            "elected": false
+          },
+          {
+            "name": "MANUELA VELA RENGIFO",
+            "votes": 791,
+            "lista": 2,
+            "elected": false
+          }
+        ]
       }
     },
     "San Martín": {
-      "FUERZA POPULAR": {
-        "seats_won": 1,
-        "candidates": [
-          {
-            "name": "VICTOR MANUEL NORIEGA REATEGUI",
-            "votes": 2800,
-            "lista": 1,
-            "elected": true
-          }
-        ]
-      },
       "AHORA NACIÓN - AN": {
         "seats_won": 0,
         "candidates": [
@@ -8073,6 +8062,23 @@
           {
             "name": "FLORA ROSSANA CALDERON COZ",
             "votes": 134,
+            "lista": 2,
+            "elected": false
+          }
+        ]
+      },
+      "PARTIDO CÍVICO OBRAS": {
+        "seats_won": 0,
+        "candidates": [
+          {
+            "name": "ROSSANITH BARTRA ESTRELLA",
+            "votes": 1615,
+            "lista": 1,
+            "elected": false
+          },
+          {
+            "name": "NEXAR BABILONIA TORRES",
+            "votes": 498,
             "lista": 2,
             "elected": false
           }
@@ -8099,46 +8105,23 @@
         "seats_won": 0,
         "candidates": []
       },
-      "PARTIDO CÍVICO OBRAS": {
-        "seats_won": 0,
-        "candidates": [
-          {
-            "name": "ROSSANITH BARTRA ESTRELLA",
-            "votes": 1615,
-            "lista": 1,
-            "elected": false
-          },
-          {
-            "name": "NEXAR BABILONIA TORRES",
-            "votes": 498,
-            "lista": 2,
-            "elected": false
-          }
-        ]
-      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 0,
         "candidates": []
+      },
+      "FUERZA POPULAR": {
+        "seats_won": 1,
+        "candidates": [
+          {
+            "name": "VICTOR MANUEL NORIEGA REATEGUI",
+            "votes": 2800,
+            "lista": 1,
+            "elected": true
+          }
+        ]
       }
     },
     "Tacna": {
-      "FUERZA POPULAR": {
-        "seats_won": 0,
-        "candidates": [
-          {
-            "name": "WALDO MARTIN VALENCIA BERLANGA",
-            "votes": 596,
-            "lista": 1,
-            "elected": false
-          },
-          {
-            "name": "ELSA SANTUSA CONDORI GALLEGOS",
-            "votes": 100,
-            "lista": 2,
-            "elected": false
-          }
-        ]
-      },
       "AHORA NACIÓN - AN": {
         "seats_won": 0,
         "candidates": [
@@ -8151,6 +8134,23 @@
           {
             "name": "JAIME SILVERT MONTALICO CCALLA",
             "votes": 986,
+            "lista": 2,
+            "elected": false
+          }
+        ]
+      },
+      "PARTIDO CÍVICO OBRAS": {
+        "seats_won": 1,
+        "candidates": [
+          {
+            "name": "JUANA GUISELLA TICONA COHAILA",
+            "votes": 1335,
+            "lista": 1,
+            "elected": true
+          },
+          {
+            "name": "PEDROANTONIO DE LA CUBA ORDOÑEZ",
+            "votes": 390,
             "lista": 2,
             "elected": false
           }
@@ -8184,23 +8184,6 @@
           }
         ]
       },
-      "PARTIDO CÍVICO OBRAS": {
-        "seats_won": 1,
-        "candidates": [
-          {
-            "name": "JUANA GUISELLA TICONA COHAILA",
-            "votes": 1335,
-            "lista": 1,
-            "elected": true
-          },
-          {
-            "name": "PEDROANTONIO DE LA CUBA ORDOÑEZ",
-            "votes": 390,
-            "lista": 2,
-            "elected": false
-          }
-        ]
-      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 0,
         "candidates": [
@@ -8217,26 +8200,26 @@
             "elected": false
           }
         ]
-      }
-    },
-    "Tumbes": {
+      },
       "FUERZA POPULAR": {
-        "seats_won": 1,
+        "seats_won": 0,
         "candidates": [
           {
-            "name": "HECTOR JOSE VENTURA ANGEL",
-            "votes": 1376,
+            "name": "WALDO MARTIN VALENCIA BERLANGA",
+            "votes": 596,
             "lista": 1,
-            "elected": true
+            "elected": false
           },
           {
-            "name": "MATILDE COBEÑA DE LAMA",
-            "votes": 623,
+            "name": "ELSA SANTUSA CONDORI GALLEGOS",
+            "votes": 100,
             "lista": 2,
             "elected": false
           }
         ]
-      },
+      }
+    },
+    "Tumbes": {
       "AHORA NACIÓN - AN": {
         "seats_won": 0,
         "candidates": [
@@ -8253,6 +8236,10 @@
             "elected": false
           }
         ]
+      },
+      "PARTIDO CÍVICO OBRAS": {
+        "seats_won": 0,
+        "candidates": []
       },
       "RENOVACIÓN POPULAR": {
         "seats_won": 0,
@@ -8282,10 +8269,6 @@
           }
         ]
       },
-      "PARTIDO CÍVICO OBRAS": {
-        "seats_won": 0,
-        "candidates": []
-      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 0,
         "candidates": [
@@ -8302,26 +8285,26 @@
             "elected": false
           }
         ]
-      }
-    },
-    "Ucayali": {
+      },
       "FUERZA POPULAR": {
         "seats_won": 1,
         "candidates": [
           {
-            "name": "JORGE VELASQUEZ PORTOCARRERO",
-            "votes": 9142,
+            "name": "HECTOR JOSE VENTURA ANGEL",
+            "votes": 1376,
             "lista": 1,
             "elected": true
           },
           {
-            "name": "LICIALAN PINEDO SAAVEDRA",
-            "votes": 1144,
+            "name": "MATILDE COBEÑA DE LAMA",
+            "votes": 623,
             "lista": 2,
             "elected": false
           }
         ]
-      },
+      }
+    },
+    "Ucayali": {
       "AHORA NACIÓN - AN": {
         "seats_won": 0,
         "candidates": [
@@ -8334,6 +8317,23 @@
           {
             "name": "JESSICA KARINA LINARES VARGAS",
             "votes": 191,
+            "lista": 2,
+            "elected": false
+          }
+        ]
+      },
+      "PARTIDO CÍVICO OBRAS": {
+        "seats_won": 0,
+        "candidates": [
+          {
+            "name": "MARTHA HERAS GIRON",
+            "votes": 978,
+            "lista": 1,
+            "elected": false
+          },
+          {
+            "name": "JUAN DIESTRO SUAREZ",
+            "votes": 340,
             "lista": 2,
             "elected": false
           }
@@ -8360,23 +8360,6 @@
         "seats_won": 0,
         "candidates": []
       },
-      "PARTIDO CÍVICO OBRAS": {
-        "seats_won": 0,
-        "candidates": [
-          {
-            "name": "MARTHA HERAS GIRON",
-            "votes": 978,
-            "lista": 1,
-            "elected": false
-          },
-          {
-            "name": "JUAN DIESTRO SUAREZ",
-            "votes": 340,
-            "lista": 2,
-            "elected": false
-          }
-        ]
-      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 0,
         "candidates": [
@@ -8393,26 +8376,26 @@
             "elected": false
           }
         ]
-      }
-    },
-    "PEX": {
+      },
       "FUERZA POPULAR": {
-        "seats_won": 0,
+        "seats_won": 1,
         "candidates": [
           {
-            "name": "ANA ISABEL LEON POMA DE ACOSTA",
-            "votes": 925,
+            "name": "JORGE VELASQUEZ PORTOCARRERO",
+            "votes": 9142,
             "lista": 1,
-            "elected": false
+            "elected": true
           },
           {
-            "name": "JOSE ARMANDO GALVEZ ALTAMIRANO",
-            "votes": 273,
+            "name": "LICIALAN PINEDO SAAVEDRA",
+            "votes": 1144,
             "lista": 2,
             "elected": false
           }
         ]
-      },
+      }
+    },
+    "PEX": {
       "AHORA NACIÓN - AN": {
         "seats_won": 0,
         "candidates": [
@@ -8425,6 +8408,23 @@
           {
             "name": "ROCIO ROCXANA SALINAS GOMEZ",
             "votes": 277,
+            "lista": 2,
+            "elected": false
+          }
+        ]
+      },
+      "PARTIDO CÍVICO OBRAS": {
+        "seats_won": 0,
+        "candidates": [
+          {
+            "name": "JULIO ROBERTO PEREZ YAÑEZ",
+            "votes": 434,
+            "lista": 1,
+            "elected": false
+          },
+          {
+            "name": "MARIA VICTORIA ZAMORA VERCELLI",
+            "votes": 148,
             "lista": 2,
             "elected": false
           }
@@ -8464,23 +8464,6 @@
           }
         ]
       },
-      "PARTIDO CÍVICO OBRAS": {
-        "seats_won": 0,
-        "candidates": [
-          {
-            "name": "JULIO ROBERTO PEREZ YAÑEZ",
-            "votes": 434,
-            "lista": 1,
-            "elected": false
-          },
-          {
-            "name": "MARIA VICTORIA ZAMORA VERCELLI",
-            "votes": 148,
-            "lista": 2,
-            "elected": false
-          }
-        ]
-      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 0,
         "candidates": [
@@ -8497,194 +8480,26 @@
             "elected": false
           }
         ]
-      }
-    },
-    "Nacional": {
+      },
       "FUERZA POPULAR": {
-        "seats_won": 7,
+        "seats_won": 0,
         "candidates": [
           {
-            "name": "MIGUEL ANGEL TORRES MORALES",
-            "votes": 232495,
+            "name": "ANA ISABEL LEON POMA DE ACOSTA",
+            "votes": 925,
             "lista": 1,
-            "elected": true
+            "elected": false
           },
           {
-            "name": "MARTHA GLADYS CHAVEZ COSSIO",
-            "votes": 91747,
+            "name": "JOSE ARMANDO GALVEZ ALTAMIRANO",
+            "votes": 273,
             "lista": 2,
-            "elected": true
-          },
-          {
-            "name": "FERNANDO MIGUEL ROSPIGLIOSI CAPURRO",
-            "votes": 48416,
-            "lista": 3,
-            "elected": true
-          },
-          {
-            "name": "CARMEN PATRICIA JUAREZ GALLEGOS",
-            "votes": 24768,
-            "lista": 4,
-            "elected": true
-          },
-          {
-            "name": "MARTHA LUPE MOYANO DELGADO",
-            "votes": 20584,
-            "lista": 6,
-            "elected": true
-          },
-          {
-            "name": "CESAR AUGUSTO ASTUDILLO SALCEDO",
-            "votes": 19475,
-            "lista": 5,
-            "elected": true
-          },
-          {
-            "name": "CARLOS FERNANDO MESIA RAMIREZ",
-            "votes": 8954,
-            "lista": 9,
-            "elected": true
-          },
-          {
-            "name": "CARLOS MARIO DEL CARMEN TUBINO ARIAS SCHREIBER",
-            "votes": 7628,
-            "lista": 7,
-            "elected": false
-          },
-          {
-            "name": "SITZA LITA ROMERO PERALTA",
-            "votes": 4378,
-            "lista": 10,
-            "elected": false
-          },
-          {
-            "name": "CECILIA ANTONIETA CASTRO TORRES",
-            "votes": 4334,
-            "lista": 8,
-            "elected": false
-          },
-          {
-            "name": "RITA ELENA AYASTA DE DIAZ",
-            "votes": 3439,
-            "lista": 12,
-            "elected": false
-          },
-          {
-            "name": "JAIME AGUSTIN SOBERO TAIRA",
-            "votes": 3206,
-            "lista": 15,
-            "elected": false
-          },
-          {
-            "name": "SANDRO ESPOSITO SHAPIAMA",
-            "votes": 3204,
-            "lista": 11,
-            "elected": false
-          },
-          {
-            "name": "JESUS ALEXANDER ALCALA MATEO",
-            "votes": 2229,
-            "lista": 23,
-            "elected": false
-          },
-          {
-            "name": "RICARDO RIVERA ROMERO",
-            "votes": 2027,
-            "lista": 13,
-            "elected": false
-          },
-          {
-            "name": "JENY LUZ LOPEZ MORALES",
-            "votes": 1866,
-            "lista": 16,
-            "elected": false
-          },
-          {
-            "name": "LILIANA ANGELICA PINEDO ACHACA",
-            "votes": 1852,
-            "lista": 14,
-            "elected": false
-          },
-          {
-            "name": "RAUL HUAMAN CORONADO",
-            "votes": 1343,
-            "lista": 17,
-            "elected": false
-          },
-          {
-            "name": "CESAR MILTON CAMPOS RAMIREZ",
-            "votes": 1267,
-            "lista": 21,
-            "elected": false
-          },
-          {
-            "name": "CARLOS WALTER MEJIA ESCAJADILLO",
-            "votes": 1051,
-            "lista": 29,
-            "elected": false
-          },
-          {
-            "name": "MARIA PILAR PEREZ VILLASANTE",
-            "votes": 957,
-            "lista": 20,
-            "elected": false
-          },
-          {
-            "name": "BETTY GLADYS ANANCULI GOMEZ",
-            "votes": 957,
-            "lista": 22,
-            "elected": false
-          },
-          {
-            "name": "ALEXANDER GALLARDO SANDOVAL",
-            "votes": 791,
-            "lista": 25,
-            "elected": false
-          },
-          {
-            "name": "ERWIN TITO ORTEGA",
-            "votes": 713,
-            "lista": 19,
-            "elected": false
-          },
-          {
-            "name": "SANTUSA ANSIA MAMANI VILCA",
-            "votes": 581,
-            "lista": 18,
-            "elected": false
-          },
-          {
-            "name": "ESTELA MARTHA LEON REQUENA",
-            "votes": 416,
-            "lista": 26,
-            "elected": false
-          },
-          {
-            "name": "JUAN MANUEL ALARCON ATO",
-            "votes": 412,
-            "lista": 27,
-            "elected": false
-          },
-          {
-            "name": "ELSA NORA TUESTA DE NOGUEIRA",
-            "votes": 400,
-            "lista": 24,
-            "elected": false
-          },
-          {
-            "name": "CECILIA ROSARIO VILLANUEVA OSHIRO",
-            "votes": 356,
-            "lista": 28,
-            "elected": false
-          },
-          {
-            "name": "MAGDA LILI MANCO PADILLA",
-            "votes": 324,
-            "lista": 30,
             "elected": false
           }
         ]
-      },
+      }
+    },
+    "Nacional": {
       "AHORA NACIÓN - AN": {
         "seats_won": 4,
         "candidates": [
@@ -8854,370 +8669,6 @@
             "name": "LUZ AURELIA ALVARADO CACERES",
             "votes": 163,
             "lista": 26,
-            "elected": false
-          }
-        ]
-      },
-      "RENOVACIÓN POPULAR": {
-        "seats_won": 5,
-        "candidates": [
-          {
-            "name": "RAFAEL BERNARDO LÓPEZ ALIAGA CAZORLA",
-            "votes": 220333,
-            "lista": 1,
-            "elected": true
-          },
-          {
-            "name": "ALEJANDRO MUÑANTE BARRIOS",
-            "votes": 170689,
-            "lista": 3,
-            "elected": true
-          },
-          {
-            "name": "KATHERINE MILAGROS AMPUERO MEZA",
-            "votes": 155695,
-            "lista": 4,
-            "elected": true
-          },
-          {
-            "name": "MARIA LOURDES PIA LUISA ALCORTA SUERO",
-            "votes": 106777,
-            "lista": 2,
-            "elected": true
-          },
-          {
-            "name": "ESTANISLAO EDGAR MANCHA PINEDA",
-            "votes": 62632,
-            "lista": 9,
-            "elected": true
-          },
-          {
-            "name": "ABSALON VASQUEZ VILLANUEVA",
-            "votes": 61969,
-            "lista": 5,
-            "elected": false
-          },
-          {
-            "name": "GLADYS MARGOT ECHAIZ RAMOS VDA DE NUÑEZ",
-            "votes": 35740,
-            "lista": 6,
-            "elected": false
-          },
-          {
-            "name": "JORGE GUILLERMO SOLIS ESPINOZA",
-            "votes": 14992,
-            "lista": 7,
-            "elected": false
-          },
-          {
-            "name": "SUSANA AYQUIPA SOTO",
-            "votes": 7918,
-            "lista": 10,
-            "elected": false
-          },
-          {
-            "name": "PAOOLO FREDDY MALDONADO FARJE",
-            "votes": 6982,
-            "lista": 19,
-            "elected": false
-          },
-          {
-            "name": "LOURDES NILDA SEBASTIANA ESPINOZA RIVERA",
-            "votes": 6234,
-            "lista": 8,
-            "elected": false
-          },
-          {
-            "name": "EDWARD RODOLFO YABAR GUTIERREZ",
-            "votes": 5914,
-            "lista": 11,
-            "elected": false
-          },
-          {
-            "name": "CESAR ALBERTO JORDAN BRIGNOLE",
-            "votes": 4759,
-            "lista": 23,
-            "elected": false
-          },
-          {
-            "name": "JUAN PABLO FERNANDEZ CHAVEZ",
-            "votes": 4569,
-            "lista": 15,
-            "elected": false
-          },
-          {
-            "name": "MARIA JESUS FUNG LOH",
-            "votes": 4351,
-            "lista": 20,
-            "elected": false
-          },
-          {
-            "name": "CESAR ALFREDO VIGNOLO GONZALES DEL VALLE",
-            "votes": 4341,
-            "lista": 13,
-            "elected": false
-          },
-          {
-            "name": "AHURA HIRES ROCHA SALAZAR DE TRUJILLO",
-            "votes": 3988,
-            "lista": 12,
-            "elected": false
-          },
-          {
-            "name": "DANNY KEVIN MENDOZA LOZANO",
-            "votes": 3833,
-            "lista": 27,
-            "elected": false
-          },
-          {
-            "name": "MARIO OCTAVIO SALOMON MANZUR MERINO",
-            "votes": 3324,
-            "lista": 17,
-            "elected": false
-          },
-          {
-            "name": "RAMON LUCIANETI PAIRAZAMAN LEON",
-            "votes": 2384,
-            "lista": 21,
-            "elected": false
-          },
-          {
-            "name": "MARTHA ROSA PEBE DIAZ",
-            "votes": 1775,
-            "lista": 18,
-            "elected": false
-          },
-          {
-            "name": "WILDER AUGUSTO RUIZ SILVA",
-            "votes": 1752,
-            "lista": 29,
-            "elected": false
-          },
-          {
-            "name": "GELQUI GER GOMEZ GUERRERO",
-            "votes": 1509,
-            "lista": 25,
-            "elected": false
-          },
-          {
-            "name": "SUSANA MARIBEL REVILLA TELLO",
-            "votes": 1210,
-            "lista": 16,
-            "elected": false
-          },
-          {
-            "name": "RUTH MARIA GUERRA VELASQUEZ",
-            "votes": 1186,
-            "lista": 26,
-            "elected": false
-          },
-          {
-            "name": "RINA SILVANA HUACRE MEZA",
-            "votes": 1088,
-            "lista": 24,
-            "elected": false
-          },
-          {
-            "name": "ANGELICA CAPUÑAY RIOS",
-            "votes": 970,
-            "lista": 22,
-            "elected": false
-          },
-          {
-            "name": "YULISA YOVANA PUERTAS GORDILLO",
-            "votes": 706,
-            "lista": 30,
-            "elected": false
-          },
-          {
-            "name": "CELMIRA ZALDAÑA SEVALLOS",
-            "votes": 470,
-            "lista": 28,
-            "elected": false
-          }
-        ]
-      },
-      "JUNTOS POR EL PERÚ": {
-        "seats_won": 5,
-        "candidates": [
-          {
-            "name": "JOSE MERCEDES CASTILLO TERRONES",
-            "votes": 222057,
-            "lista": 1,
-            "elected": true
-          },
-          {
-            "name": "SILVANA EMPERATRIZ ROBLES ARAUJO",
-            "votes": 125736,
-            "lista": 2,
-            "elected": true
-          },
-          {
-            "name": "BERNARDO JAIME QUITO SARMIENTO",
-            "votes": 75902,
-            "lista": 7,
-            "elected": true
-          },
-          {
-            "name": "SAUL ANDRES ARMACANQUI MORALES",
-            "votes": 26255,
-            "lista": 3,
-            "elected": true
-          },
-          {
-            "name": "IBER ANTENOR MARAVI OLARTE",
-            "votes": 22929,
-            "lista": 13,
-            "elected": true
-          },
-          {
-            "name": "MARGOT PALACIOS HUAMAN",
-            "votes": 20807,
-            "lista": 8,
-            "elected": false
-          },
-          {
-            "name": "MARTIN COLAN TORRES",
-            "votes": 19384,
-            "lista": 25,
-            "elected": false
-          },
-          {
-            "name": "JOSE CARLOS ABARCA CALLO",
-            "votes": 16563,
-            "lista": 5,
-            "elected": false
-          },
-          {
-            "name": "ANAHI DURAND GUEVARA",
-            "votes": 15879,
-            "lista": 4,
-            "elected": false
-          },
-          {
-            "name": "HERNANDO ISMAEL CEVALLOS FLORES",
-            "votes": 13215,
-            "lista": 11,
-            "elected": false
-          },
-          {
-            "name": "PASION NEOMIAS DAVILA ATANACIO",
-            "votes": 11079,
-            "lista": 15,
-            "elected": false
-          },
-          {
-            "name": "ISAAC HUMALA NUÑEZ",
-            "votes": 9238,
-            "lista": 9,
-            "elected": false
-          },
-          {
-            "name": "JOSE PRAXEDES FERIA MADRID",
-            "votes": 6512,
-            "lista": 19,
-            "elected": false
-          },
-          {
-            "name": "JANET PATRICIA MARIN RIVERA",
-            "votes": 5627,
-            "lista": 6,
-            "elected": false
-          },
-          {
-            "name": "EDELMIRA CRISTINA ROCILLO TELLO",
-            "votes": 3408,
-            "lista": 12,
-            "elected": false
-          },
-          {
-            "name": "CESAR COPA TIJUTANI",
-            "votes": 3114,
-            "lista": 17,
-            "elected": false
-          },
-          {
-            "name": "PAULA HONORIA O'HIGGINS LUYO",
-            "votes": 1585,
-            "lista": 10,
-            "elected": false
-          },
-          {
-            "name": "CARMEN CELINDA YALICO MONCADA",
-            "votes": 1318,
-            "lista": 16,
-            "elected": false
-          },
-          {
-            "name": "LUZ MARINA RODRIGUEZ CHAVEZ",
-            "votes": 1273,
-            "lista": 14,
-            "elected": false
-          },
-          {
-            "name": "LAURA MICAELA RIVAS QUIROZ",
-            "votes": 1226,
-            "lista": 22,
-            "elected": false
-          },
-          {
-            "name": "EVILA SANGAMA TUANAMA DE SALDAÑA",
-            "votes": 772,
-            "lista": 18,
-            "elected": false
-          },
-          {
-            "name": "JAVIER AUGUSTO DONAYRE ROJAS",
-            "votes": 720,
-            "lista": 23,
-            "elected": false
-          },
-          {
-            "name": "PRUDENCIA PAULA CAYETANO SUAREZ",
-            "votes": 720,
-            "lista": 24,
-            "elected": false
-          },
-          {
-            "name": "DANTE ALFONSO CASTRO ARRASCO",
-            "votes": 697,
-            "lista": 21,
-            "elected": false
-          },
-          {
-            "name": "LUIS MAMANI MAMANI",
-            "votes": 561,
-            "lista": 27,
-            "elected": false
-          },
-          {
-            "name": "MARIA DEL ROSARIO RAMOS GUTIERREZ",
-            "votes": 324,
-            "lista": 20,
-            "elected": false
-          },
-          {
-            "name": "VILMA ROSA VEGA FLORES",
-            "votes": 287,
-            "lista": 26,
-            "elected": false
-          },
-          {
-            "name": "MANUEL EUGENIO TORBISCO JUAREZ",
-            "votes": 185,
-            "lista": 29,
-            "elected": false
-          },
-          {
-            "name": "DALILA CUSTODIO CACHAY",
-            "votes": 163,
-            "lista": 30,
-            "elected": false
-          },
-          {
-            "name": "NELLY AYSANOA HUALLPA",
-            "votes": 102,
-            "lista": 28,
             "elected": false
           }
         ]
@@ -9407,6 +8858,370 @@
           }
         ]
       },
+      "RENOVACIÓN POPULAR": {
+        "seats_won": 5,
+        "candidates": [
+          {
+            "name": "RAFAEL BERNARDO LÓPEZ ALIAGA CAZORLA",
+            "votes": 220333,
+            "lista": 1,
+            "elected": true
+          },
+          {
+            "name": "ALEJANDRO MUÑANTE BARRIOS",
+            "votes": 170689,
+            "lista": 3,
+            "elected": true
+          },
+          {
+            "name": "KATHERINE MILAGROS AMPUERO MEZA",
+            "votes": 155695,
+            "lista": 4,
+            "elected": true
+          },
+          {
+            "name": "MARIA LOURDES PIA LUISA ALCORTA SUERO",
+            "votes": 106777,
+            "lista": 2,
+            "elected": true
+          },
+          {
+            "name": "ESTANISLAO EDGAR MANCHA PINEDA",
+            "votes": 62632,
+            "lista": 9,
+            "elected": true
+          },
+          {
+            "name": "ABSALON VASQUEZ VILLANUEVA",
+            "votes": 61969,
+            "lista": 5,
+            "elected": false
+          },
+          {
+            "name": "GLADYS MARGOT ECHAIZ RAMOS VDA DE NUÑEZ",
+            "votes": 35740,
+            "lista": 6,
+            "elected": false
+          },
+          {
+            "name": "JORGE GUILLERMO SOLIS ESPINOZA",
+            "votes": 14992,
+            "lista": 7,
+            "elected": false
+          },
+          {
+            "name": "SUSANA AYQUIPA SOTO",
+            "votes": 7918,
+            "lista": 10,
+            "elected": false
+          },
+          {
+            "name": "PAOOLO FREDDY MALDONADO FARJE",
+            "votes": 6982,
+            "lista": 19,
+            "elected": false
+          },
+          {
+            "name": "LOURDES NILDA SEBASTIANA ESPINOZA RIVERA",
+            "votes": 6234,
+            "lista": 8,
+            "elected": false
+          },
+          {
+            "name": "EDWARD RODOLFO YABAR GUTIERREZ",
+            "votes": 5914,
+            "lista": 11,
+            "elected": false
+          },
+          {
+            "name": "CESAR ALBERTO JORDAN BRIGNOLE",
+            "votes": 4759,
+            "lista": 23,
+            "elected": false
+          },
+          {
+            "name": "JUAN PABLO FERNANDEZ CHAVEZ",
+            "votes": 4569,
+            "lista": 15,
+            "elected": false
+          },
+          {
+            "name": "MARIA JESUS FUNG LOH",
+            "votes": 4351,
+            "lista": 20,
+            "elected": false
+          },
+          {
+            "name": "CESAR ALFREDO VIGNOLO GONZALES DEL VALLE",
+            "votes": 4341,
+            "lista": 13,
+            "elected": false
+          },
+          {
+            "name": "AHURA HIRES ROCHA SALAZAR DE TRUJILLO",
+            "votes": 3988,
+            "lista": 12,
+            "elected": false
+          },
+          {
+            "name": "DANNY KEVIN MENDOZA LOZANO",
+            "votes": 3833,
+            "lista": 27,
+            "elected": false
+          },
+          {
+            "name": "MARIO OCTAVIO SALOMON MANZUR MERINO",
+            "votes": 3324,
+            "lista": 17,
+            "elected": false
+          },
+          {
+            "name": "RAMON LUCIANETI PAIRAZAMAN LEON",
+            "votes": 2384,
+            "lista": 21,
+            "elected": false
+          },
+          {
+            "name": "MARTHA ROSA PEBE DIAZ",
+            "votes": 1775,
+            "lista": 18,
+            "elected": false
+          },
+          {
+            "name": "WILDER AUGUSTO RUIZ SILVA",
+            "votes": 1752,
+            "lista": 29,
+            "elected": false
+          },
+          {
+            "name": "GELQUI GER GOMEZ GUERRERO",
+            "votes": 1509,
+            "lista": 25,
+            "elected": false
+          },
+          {
+            "name": "SUSANA MARIBEL REVILLA TELLO",
+            "votes": 1210,
+            "lista": 16,
+            "elected": false
+          },
+          {
+            "name": "RUTH MARIA GUERRA VELASQUEZ",
+            "votes": 1186,
+            "lista": 26,
+            "elected": false
+          },
+          {
+            "name": "RINA SILVANA HUACRE MEZA",
+            "votes": 1088,
+            "lista": 24,
+            "elected": false
+          },
+          {
+            "name": "ANGELICA CAPUÑAY RIOS",
+            "votes": 970,
+            "lista": 22,
+            "elected": false
+          },
+          {
+            "name": "YULISA YOVANA PUERTAS GORDILLO",
+            "votes": 706,
+            "lista": 30,
+            "elected": false
+          },
+          {
+            "name": "CELMIRA ZALDAÑA SEVALLOS",
+            "votes": 470,
+            "lista": 28,
+            "elected": false
+          }
+        ]
+      },
+      "JUNTOS POR EL PERÚ": {
+        "seats_won": 5,
+        "candidates": [
+          {
+            "name": "JOSE MERCEDES CASTILLO TERRONES",
+            "votes": 222696,
+            "lista": 1,
+            "elected": true
+          },
+          {
+            "name": "SILVANA EMPERATRIZ ROBLES ARAUJO",
+            "votes": 126124,
+            "lista": 2,
+            "elected": true
+          },
+          {
+            "name": "BERNARDO JAIME QUITO SARMIENTO",
+            "votes": 76077,
+            "lista": 7,
+            "elected": true
+          },
+          {
+            "name": "SAUL ANDRES ARMACANQUI MORALES",
+            "votes": 26327,
+            "lista": 3,
+            "elected": true
+          },
+          {
+            "name": "IBER ANTENOR MARAVI OLARTE",
+            "votes": 22991,
+            "lista": 13,
+            "elected": true
+          },
+          {
+            "name": "MARGOT PALACIOS HUAMAN",
+            "votes": 20843,
+            "lista": 8,
+            "elected": false
+          },
+          {
+            "name": "MARTIN COLAN TORRES",
+            "votes": 19435,
+            "lista": 25,
+            "elected": false
+          },
+          {
+            "name": "JOSE CARLOS ABARCA CALLO",
+            "votes": 16608,
+            "lista": 5,
+            "elected": false
+          },
+          {
+            "name": "ANAHI DURAND GUEVARA",
+            "votes": 15917,
+            "lista": 4,
+            "elected": false
+          },
+          {
+            "name": "HERNANDO ISMAEL CEVALLOS FLORES",
+            "votes": 13254,
+            "lista": 11,
+            "elected": false
+          },
+          {
+            "name": "PASION NEOMIAS DAVILA ATANACIO",
+            "votes": 11103,
+            "lista": 15,
+            "elected": false
+          },
+          {
+            "name": "ISAAC HUMALA NUÑEZ",
+            "votes": 9253,
+            "lista": 9,
+            "elected": false
+          },
+          {
+            "name": "JOSE PRAXEDES FERIA MADRID",
+            "votes": 6534,
+            "lista": 19,
+            "elected": false
+          },
+          {
+            "name": "JANET PATRICIA MARIN RIVERA",
+            "votes": 5633,
+            "lista": 6,
+            "elected": false
+          },
+          {
+            "name": "EDELMIRA CRISTINA ROCILLO TELLO",
+            "votes": 3420,
+            "lista": 12,
+            "elected": false
+          },
+          {
+            "name": "CESAR COPA TIJUTANI",
+            "votes": 3121,
+            "lista": 17,
+            "elected": false
+          },
+          {
+            "name": "PAULA HONORIA O'HIGGINS LUYO",
+            "votes": 1586,
+            "lista": 10,
+            "elected": false
+          },
+          {
+            "name": "CARMEN CELINDA YALICO MONCADA",
+            "votes": 1324,
+            "lista": 16,
+            "elected": false
+          },
+          {
+            "name": "LUZ MARINA RODRIGUEZ CHAVEZ",
+            "votes": 1276,
+            "lista": 14,
+            "elected": false
+          },
+          {
+            "name": "LAURA MICAELA RIVAS QUIROZ",
+            "votes": 1231,
+            "lista": 22,
+            "elected": false
+          },
+          {
+            "name": "EVILA SANGAMA TUANAMA DE SALDAÑA",
+            "votes": 773,
+            "lista": 18,
+            "elected": false
+          },
+          {
+            "name": "JAVIER AUGUSTO DONAYRE ROJAS",
+            "votes": 723,
+            "lista": 23,
+            "elected": false
+          },
+          {
+            "name": "PRUDENCIA PAULA CAYETANO SUAREZ",
+            "votes": 721,
+            "lista": 24,
+            "elected": false
+          },
+          {
+            "name": "DANTE ALFONSO CASTRO ARRASCO",
+            "votes": 701,
+            "lista": 21,
+            "elected": false
+          },
+          {
+            "name": "LUIS MAMANI MAMANI",
+            "votes": 561,
+            "lista": 27,
+            "elected": false
+          },
+          {
+            "name": "MARIA DEL ROSARIO RAMOS GUTIERREZ",
+            "votes": 324,
+            "lista": 20,
+            "elected": false
+          },
+          {
+            "name": "VILMA ROSA VEGA FLORES",
+            "votes": 287,
+            "lista": 26,
+            "elected": false
+          },
+          {
+            "name": "MANUEL EUGENIO TORBISCO JUAREZ",
+            "votes": 186,
+            "lista": 29,
+            "elected": false
+          },
+          {
+            "name": "DALILA CUSTODIO CACHAY",
+            "votes": 164,
+            "lista": 30,
+            "elected": false
+          },
+          {
+            "name": "NELLY AYSANOA HUALLPA",
+            "votes": 102,
+            "lista": 28,
+            "elected": false
+          }
+        ]
+      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 5,
         "candidates": [
@@ -9582,6 +9397,191 @@
             "name": "HEBE ISABEL ECHE PALACIOS DE SAAVEDRA",
             "votes": 105,
             "lista": 28,
+            "elected": false
+          }
+        ]
+      },
+      "FUERZA POPULAR": {
+        "seats_won": 7,
+        "candidates": [
+          {
+            "name": "MIGUEL ANGEL TORRES MORALES",
+            "votes": 232495,
+            "lista": 1,
+            "elected": true
+          },
+          {
+            "name": "MARTHA GLADYS CHAVEZ COSSIO",
+            "votes": 91747,
+            "lista": 2,
+            "elected": true
+          },
+          {
+            "name": "FERNANDO MIGUEL ROSPIGLIOSI CAPURRO",
+            "votes": 48416,
+            "lista": 3,
+            "elected": true
+          },
+          {
+            "name": "CARMEN PATRICIA JUAREZ GALLEGOS",
+            "votes": 24768,
+            "lista": 4,
+            "elected": true
+          },
+          {
+            "name": "MARTHA LUPE MOYANO DELGADO",
+            "votes": 20584,
+            "lista": 6,
+            "elected": true
+          },
+          {
+            "name": "CESAR AUGUSTO ASTUDILLO SALCEDO",
+            "votes": 19475,
+            "lista": 5,
+            "elected": true
+          },
+          {
+            "name": "CARLOS FERNANDO MESIA RAMIREZ",
+            "votes": 8954,
+            "lista": 9,
+            "elected": true
+          },
+          {
+            "name": "CARLOS MARIO DEL CARMEN TUBINO ARIAS SCHREIBER",
+            "votes": 7628,
+            "lista": 7,
+            "elected": false
+          },
+          {
+            "name": "SITZA LITA ROMERO PERALTA",
+            "votes": 4378,
+            "lista": 10,
+            "elected": false
+          },
+          {
+            "name": "CECILIA ANTONIETA CASTRO TORRES",
+            "votes": 4334,
+            "lista": 8,
+            "elected": false
+          },
+          {
+            "name": "RITA ELENA AYASTA DE DIAZ",
+            "votes": 3439,
+            "lista": 12,
+            "elected": false
+          },
+          {
+            "name": "JAIME AGUSTIN SOBERO TAIRA",
+            "votes": 3206,
+            "lista": 15,
+            "elected": false
+          },
+          {
+            "name": "SANDRO ESPOSITO SHAPIAMA",
+            "votes": 3204,
+            "lista": 11,
+            "elected": false
+          },
+          {
+            "name": "JESUS ALEXANDER ALCALA MATEO",
+            "votes": 2229,
+            "lista": 23,
+            "elected": false
+          },
+          {
+            "name": "RICARDO RIVERA ROMERO",
+            "votes": 2027,
+            "lista": 13,
+            "elected": false
+          },
+          {
+            "name": "JENY LUZ LOPEZ MORALES",
+            "votes": 1866,
+            "lista": 16,
+            "elected": false
+          },
+          {
+            "name": "LILIANA ANGELICA PINEDO ACHACA",
+            "votes": 1852,
+            "lista": 14,
+            "elected": false
+          },
+          {
+            "name": "RAUL HUAMAN CORONADO",
+            "votes": 1343,
+            "lista": 17,
+            "elected": false
+          },
+          {
+            "name": "CESAR MILTON CAMPOS RAMIREZ",
+            "votes": 1267,
+            "lista": 21,
+            "elected": false
+          },
+          {
+            "name": "CARLOS WALTER MEJIA ESCAJADILLO",
+            "votes": 1051,
+            "lista": 29,
+            "elected": false
+          },
+          {
+            "name": "MARIA PILAR PEREZ VILLASANTE",
+            "votes": 957,
+            "lista": 20,
+            "elected": false
+          },
+          {
+            "name": "BETTY GLADYS ANANCULI GOMEZ",
+            "votes": 957,
+            "lista": 22,
+            "elected": false
+          },
+          {
+            "name": "ALEXANDER GALLARDO SANDOVAL",
+            "votes": 791,
+            "lista": 25,
+            "elected": false
+          },
+          {
+            "name": "ERWIN TITO ORTEGA",
+            "votes": 713,
+            "lista": 19,
+            "elected": false
+          },
+          {
+            "name": "SANTUSA ANSIA MAMANI VILCA",
+            "votes": 581,
+            "lista": 18,
+            "elected": false
+          },
+          {
+            "name": "ESTELA MARTHA LEON REQUENA",
+            "votes": 416,
+            "lista": 26,
+            "elected": false
+          },
+          {
+            "name": "JUAN MANUEL ALARCON ATO",
+            "votes": 412,
+            "lista": 27,
+            "elected": false
+          },
+          {
+            "name": "ELSA NORA TUESTA DE NOGUEIRA",
+            "votes": 400,
+            "lista": 24,
+            "elected": false
+          },
+          {
+            "name": "CECILIA ROSARIO VILLANUEVA OSHIRO",
+            "votes": 356,
+            "lista": 28,
+            "elected": false
+          },
+          {
+            "name": "MAGDA LILI MANCO PADILLA",
+            "votes": 324,
+            "lista": 30,
             "elected": false
           }
         ]
