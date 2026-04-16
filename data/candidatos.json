@@ -1,6 +1,14 @@
 {
   "diputado": {
     "Amazonas": {
+      "JUNTOS POR EL PERÚ": {
+        "seats_won": 0,
+        "candidates": []
+      },
+      "PARTIDO CÍVICO OBRAS": {
+        "seats_won": 0,
+        "candidates": []
+      },
       "FUERZA POPULAR": {
         "seats_won": 2,
         "candidates": [
@@ -30,10 +38,6 @@
           }
         ]
       },
-      "PARTIDO CÍVICO OBRAS": {
-        "seats_won": 0,
-        "candidates": []
-      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 0,
         "candidates": [
@@ -62,10 +66,6 @@
             "elected": false
           }
         ]
-      },
-      "JUNTOS POR EL PERÚ": {
-        "seats_won": 0,
-        "candidates": []
       },
       "AHORA NACIÓN - AN": {
         "seats_won": 0,
@@ -127,42 +127,30 @@
       }
     },
     "Áncash": {
-      "FUERZA POPULAR": {
-        "seats_won": 1,
+      "JUNTOS POR EL PERÚ": {
+        "seats_won": 2,
         "candidates": [
           {
-            "name": "LUZMILA MARIA DEL CARMEN GAMARRA PITA",
-            "votes": 3628,
+            "name": "LURDES MARLENE NATIVIDAD RIVERA",
+            "votes": 4158,
+            "lista": 2,
+            "elected": true
+          },
+          {
+            "name": "DANIEL JEFFERSON VARAS SEGUIN",
+            "votes": 3722,
             "lista": 1,
             "elected": true
           },
           {
-            "name": "LUIS FERNANDO ZAMBRANO ORTIZ",
-            "votes": 1095,
-            "lista": 2,
-            "elected": false
-          },
-          {
-            "name": "HUBER WILLIAM BUENO CERNA",
-            "votes": 869,
-            "lista": 6,
-            "elected": false
-          },
-          {
-            "name": "CARLOS ALBERTO DOMINGUEZ HERRERA",
-            "votes": 802,
+            "name": "SHARON LIZBETH HUATANGARI ALVA",
+            "votes": 580,
             "lista": 4,
             "elected": false
           },
           {
-            "name": "MARIA CRISTINA MELGAREJO PAUCAR",
-            "votes": 787,
-            "lista": 3,
-            "elected": false
-          },
-          {
-            "name": "LILIANA JEANNINE OTERO SALINAS",
-            "votes": 248,
+            "name": "JOSE ANTONIO MONZON MENDOZA",
+            "votes": 482,
             "lista": 5,
             "elected": false
           }
@@ -209,6 +197,47 @@
           }
         ]
       },
+      "FUERZA POPULAR": {
+        "seats_won": 1,
+        "candidates": [
+          {
+            "name": "LUZMILA MARIA DEL CARMEN GAMARRA PITA",
+            "votes": 3628,
+            "lista": 1,
+            "elected": true
+          },
+          {
+            "name": "LUIS FERNANDO ZAMBRANO ORTIZ",
+            "votes": 1095,
+            "lista": 2,
+            "elected": false
+          },
+          {
+            "name": "HUBER WILLIAM BUENO CERNA",
+            "votes": 869,
+            "lista": 6,
+            "elected": false
+          },
+          {
+            "name": "CARLOS ALBERTO DOMINGUEZ HERRERA",
+            "votes": 802,
+            "lista": 4,
+            "elected": false
+          },
+          {
+            "name": "MARIA CRISTINA MELGAREJO PAUCAR",
+            "votes": 787,
+            "lista": 3,
+            "elected": false
+          },
+          {
+            "name": "LILIANA JEANNINE OTERO SALINAS",
+            "votes": 248,
+            "lista": 5,
+            "elected": false
+          }
+        ]
+      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 0,
         "candidates": [
@@ -246,35 +275,6 @@
             "name": "ANTONELLA ARIANA OVIEDO FEIJOO",
             "votes": 122,
             "lista": 6,
-            "elected": false
-          }
-        ]
-      },
-      "JUNTOS POR EL PERÚ": {
-        "seats_won": 2,
-        "candidates": [
-          {
-            "name": "LURDES MARLENE NATIVIDAD RIVERA",
-            "votes": 4158,
-            "lista": 2,
-            "elected": true
-          },
-          {
-            "name": "DANIEL JEFFERSON VARAS SEGUIN",
-            "votes": 3722,
-            "lista": 1,
-            "elected": true
-          },
-          {
-            "name": "SHARON LIZBETH HUATANGARI ALVA",
-            "votes": 580,
-            "lista": 4,
-            "elected": false
-          },
-          {
-            "name": "JOSE ANTONIO MONZON MENDOZA",
-            "votes": 482,
-            "lista": 5,
             "elected": false
           }
         ]
@@ -363,18 +363,24 @@
       }
     },
     "Apurímac": {
-      "FUERZA POPULAR": {
-        "seats_won": 0,
+      "JUNTOS POR EL PERÚ": {
+        "seats_won": 2,
         "candidates": [
           {
-            "name": "URIEL CARRION HERRERA",
-            "votes": 1460,
+            "name": "JESUS PEREZ ALCCAHUAMAN",
+            "votes": 8997,
             "lista": 1,
-            "elected": false
+            "elected": true
           },
           {
-            "name": "HERNAN PALOMINO PILLACA",
-            "votes": 181,
+            "name": "LUZ MERIDA SOTO FERRARI",
+            "votes": 3795,
+            "lista": 2,
+            "elected": true
+          },
+          {
+            "name": "ALEJO WILTON SANCHEZ ROSSELL",
+            "votes": 1316,
             "lista": 3,
             "elected": false
           }
@@ -399,6 +405,23 @@
             "name": "ELISEO CARRION UMERES",
             "votes": 248,
             "lista": 4,
+            "elected": false
+          }
+        ]
+      },
+      "FUERZA POPULAR": {
+        "seats_won": 0,
+        "candidates": [
+          {
+            "name": "URIEL CARRION HERRERA",
+            "votes": 1460,
+            "lista": 1,
+            "elected": false
+          },
+          {
+            "name": "HERNAN PALOMINO PILLACA",
+            "votes": 181,
+            "lista": 3,
             "elected": false
           }
         ]
@@ -428,29 +451,6 @@
             "name": "JULEMI SOLIS NAVIO",
             "votes": 37,
             "lista": 4,
-            "elected": false
-          }
-        ]
-      },
-      "JUNTOS POR EL PERÚ": {
-        "seats_won": 2,
-        "candidates": [
-          {
-            "name": "JESUS PEREZ ALCCAHUAMAN",
-            "votes": 8997,
-            "lista": 1,
-            "elected": true
-          },
-          {
-            "name": "LUZ MERIDA SOTO FERRARI",
-            "votes": 3795,
-            "lista": 2,
-            "elected": true
-          },
-          {
-            "name": "ALEJO WILTON SANCHEZ ROSSELL",
-            "votes": 1316,
-            "lista": 3,
             "elected": false
           }
         ]
@@ -509,36 +509,36 @@
       }
     },
     "Arequipa": {
-      "FUERZA POPULAR": {
-        "seats_won": 0,
+      "JUNTOS POR EL PERÚ": {
+        "seats_won": 1,
         "candidates": [
           {
-            "name": "CARLOS RAUL PAREDES PONCE",
-            "votes": 1262,
+            "name": "AMALIA EMILIA PALOMINO PACHECO",
+            "votes": 2928,
+            "lista": 2,
+            "elected": true
+          },
+          {
+            "name": "ANDRES ELOY ANTALLACA GINEZ",
+            "votes": 2645,
             "lista": 1,
             "elected": false
           },
           {
-            "name": "DIANA PATRICIA ESQUINARILA ANAYA",
-            "votes": 626,
-            "lista": 2,
-            "elected": false
-          },
-          {
-            "name": "PERCY EMILIO ZUÑIGA NUÑEZ",
-            "votes": 244,
+            "name": "PABLO SALAS CHARCA",
+            "votes": 1051,
             "lista": 3,
             "elected": false
           },
           {
-            "name": "YURICO MARGOT OVIEDO RUIZ",
-            "votes": 151,
+            "name": "LUISA EDITH VELARDE ALVAREZ",
+            "votes": 687,
             "lista": 4,
             "elected": false
           },
           {
-            "name": "NELLY ELSA LIMA CHAVEZ",
-            "votes": 67,
+            "name": "KARINA MAMANI MENESES",
+            "votes": 194,
             "lista": 6,
             "elected": false
           }
@@ -585,6 +585,41 @@
           }
         ]
       },
+      "FUERZA POPULAR": {
+        "seats_won": 0,
+        "candidates": [
+          {
+            "name": "CARLOS RAUL PAREDES PONCE",
+            "votes": 1262,
+            "lista": 1,
+            "elected": false
+          },
+          {
+            "name": "DIANA PATRICIA ESQUINARILA ANAYA",
+            "votes": 626,
+            "lista": 2,
+            "elected": false
+          },
+          {
+            "name": "PERCY EMILIO ZUÑIGA NUÑEZ",
+            "votes": 244,
+            "lista": 3,
+            "elected": false
+          },
+          {
+            "name": "YURICO MARGOT OVIEDO RUIZ",
+            "votes": 151,
+            "lista": 4,
+            "elected": false
+          },
+          {
+            "name": "NELLY ELSA LIMA CHAVEZ",
+            "votes": 67,
+            "lista": 6,
+            "elected": false
+          }
+        ]
+      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 2,
         "candidates": [
@@ -621,41 +656,6 @@
           {
             "name": "FLOR ELISA ROXANA NEIRA TEJADA",
             "votes": 248,
-            "lista": 6,
-            "elected": false
-          }
-        ]
-      },
-      "JUNTOS POR EL PERÚ": {
-        "seats_won": 1,
-        "candidates": [
-          {
-            "name": "AMALIA EMILIA PALOMINO PACHECO",
-            "votes": 2928,
-            "lista": 2,
-            "elected": true
-          },
-          {
-            "name": "ANDRES ELOY ANTALLACA GINEZ",
-            "votes": 2645,
-            "lista": 1,
-            "elected": false
-          },
-          {
-            "name": "PABLO SALAS CHARCA",
-            "votes": 1051,
-            "lista": 3,
-            "elected": false
-          },
-          {
-            "name": "LUISA EDITH VELARDE ALVAREZ",
-            "votes": 687,
-            "lista": 4,
-            "elected": false
-          },
-          {
-            "name": "KARINA MAMANI MENESES",
-            "votes": 194,
             "lista": 6,
             "elected": false
           }
@@ -733,26 +733,20 @@
       }
     },
     "Ayacucho": {
-      "FUERZA POPULAR": {
-        "seats_won": 0,
+      "JUNTOS POR EL PERÚ": {
+        "seats_won": 2,
         "candidates": [
           {
-            "name": "JOSE CARLOS ALARCON CARDENAS",
-            "votes": 1086,
+            "name": "ALEJANDRO JOSÉ MANAY PILLACA",
+            "votes": 7065,
             "lista": 1,
-            "elected": false
+            "elected": true
           },
           {
-            "name": "MARITZA SACCSARA MEZA",
-            "votes": 867,
-            "lista": 2,
-            "elected": false
-          },
-          {
-            "name": "QUINTILIANO DELGADO ANDRADE",
-            "votes": 190,
-            "lista": 3,
-            "elected": false
+            "name": "PILAR SULCA CASTILLO",
+            "votes": 1259,
+            "lista": 4,
+            "elected": true
           }
         ]
       },
@@ -775,6 +769,29 @@
             "name": "KELLY ROXANA GARCIA GARIBAY",
             "votes": 263,
             "lista": 4,
+            "elected": false
+          }
+        ]
+      },
+      "FUERZA POPULAR": {
+        "seats_won": 0,
+        "candidates": [
+          {
+            "name": "JOSE CARLOS ALARCON CARDENAS",
+            "votes": 1086,
+            "lista": 1,
+            "elected": false
+          },
+          {
+            "name": "MARITZA SACCSARA MEZA",
+            "votes": 867,
+            "lista": 2,
+            "elected": false
+          },
+          {
+            "name": "QUINTILIANO DELGADO ANDRADE",
+            "votes": 190,
+            "lista": 3,
             "elected": false
           }
         ]
@@ -805,23 +822,6 @@
             "votes": 111,
             "lista": 4,
             "elected": false
-          }
-        ]
-      },
-      "JUNTOS POR EL PERÚ": {
-        "seats_won": 2,
-        "candidates": [
-          {
-            "name": "ALEJANDRO JOSÉ MANAY PILLACA",
-            "votes": 7065,
-            "lista": 1,
-            "elected": true
-          },
-          {
-            "name": "PILAR SULCA CASTILLO",
-            "votes": 1259,
-            "lista": 4,
-            "elected": true
           }
         ]
       },
@@ -885,42 +885,42 @@
       }
     },
     "Cajamarca": {
-      "FUERZA POPULAR": {
-        "seats_won": 1,
+      "JUNTOS POR EL PERÚ": {
+        "seats_won": 5,
         "candidates": [
           {
-            "name": "SEGUNDO SENOVIO TICLLA RAFAEL",
-            "votes": 3194,
+            "name": "YENIFER NOELIA PAREDES NAVARRO",
+            "votes": 29750,
+            "lista": 2,
+            "elected": true
+          },
+          {
+            "name": "GABRIEL ROBERTINO GONZALES DELGADO",
+            "votes": 10119,
             "lista": 1,
             "elected": true
           },
           {
-            "name": "TANIA ESTEFANY RAMIREZ GARCIA",
-            "votes": 1348,
-            "lista": 2,
-            "elected": false
-          },
-          {
-            "name": "WILMER AGUILAR MONTENEGRO",
-            "votes": 702,
-            "lista": 3,
-            "elected": false
-          },
-          {
-            "name": "WIDMAN NAPOLEON VIGO GUTIERREZ",
-            "votes": 555,
-            "lista": 5,
-            "elected": false
-          },
-          {
-            "name": "LUZ MARIELA AREVALO NUÑEZ",
-            "votes": 249,
+            "name": "JESSICA ROXANA GUEVARA RAMIREZ",
+            "votes": 2422,
             "lista": 4,
-            "elected": false
+            "elected": true
           },
           {
-            "name": "INELDA MABEL BRIONES VALLEJOS",
-            "votes": 81,
+            "name": "JUAN AMILCAR VILLANUEVA CALDERON",
+            "votes": 1610,
+            "lista": 3,
+            "elected": true
+          },
+          {
+            "name": "LUIS ANGEL JIBAJA RAMOS",
+            "votes": 1560,
+            "lista": 5,
+            "elected": true
+          },
+          {
+            "name": "FLORESMILA ATINELA ALVA FARCEQUE",
+            "votes": 554,
             "lista": 6,
             "elected": false
           }
@@ -967,6 +967,47 @@
           }
         ]
       },
+      "FUERZA POPULAR": {
+        "seats_won": 1,
+        "candidates": [
+          {
+            "name": "SEGUNDO SENOVIO TICLLA RAFAEL",
+            "votes": 3194,
+            "lista": 1,
+            "elected": true
+          },
+          {
+            "name": "TANIA ESTEFANY RAMIREZ GARCIA",
+            "votes": 1348,
+            "lista": 2,
+            "elected": false
+          },
+          {
+            "name": "WILMER AGUILAR MONTENEGRO",
+            "votes": 702,
+            "lista": 3,
+            "elected": false
+          },
+          {
+            "name": "WIDMAN NAPOLEON VIGO GUTIERREZ",
+            "votes": 555,
+            "lista": 5,
+            "elected": false
+          },
+          {
+            "name": "LUZ MARIELA AREVALO NUÑEZ",
+            "votes": 249,
+            "lista": 4,
+            "elected": false
+          },
+          {
+            "name": "INELDA MABEL BRIONES VALLEJOS",
+            "votes": 81,
+            "lista": 6,
+            "elected": false
+          }
+        ]
+      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 0,
         "candidates": [
@@ -1004,47 +1045,6 @@
             "name": "EMMA GARCIA SALDAÑA",
             "votes": 54,
             "lista": 4,
-            "elected": false
-          }
-        ]
-      },
-      "JUNTOS POR EL PERÚ": {
-        "seats_won": 5,
-        "candidates": [
-          {
-            "name": "YENIFER NOELIA PAREDES NAVARRO",
-            "votes": 29750,
-            "lista": 2,
-            "elected": true
-          },
-          {
-            "name": "GABRIEL ROBERTINO GONZALES DELGADO",
-            "votes": 10119,
-            "lista": 1,
-            "elected": true
-          },
-          {
-            "name": "JESSICA ROXANA GUEVARA RAMIREZ",
-            "votes": 2422,
-            "lista": 4,
-            "elected": true
-          },
-          {
-            "name": "JUAN AMILCAR VILLANUEVA CALDERON",
-            "votes": 1610,
-            "lista": 3,
-            "elected": true
-          },
-          {
-            "name": "LUIS ANGEL JIBAJA RAMOS",
-            "votes": 1560,
-            "lista": 5,
-            "elected": true
-          },
-          {
-            "name": "FLORESMILA ATINELA ALVA FARCEQUE",
-            "votes": 554,
-            "lista": 6,
             "elected": false
           }
         ]
@@ -1133,31 +1133,31 @@
       }
     },
     "Callao": {
-      "FUERZA POPULAR": {
-        "seats_won": 2,
+      "JUNTOS POR EL PERÚ": {
+        "seats_won": 0,
         "candidates": [
           {
-            "name": "AURISTELA ANA OBANDO MORGAN",
-            "votes": 8618,
-            "lista": 1,
-            "elected": true
-          },
-          {
-            "name": "ANGEL BRUNO BOBADILLA GALINDO",
-            "votes": 3588,
+            "name": "CLEDIN VASQUEZ CASTILLO",
+            "votes": 2225,
             "lista": 2,
-            "elected": true
-          },
-          {
-            "name": "GRACIELA SONIA VENTOCILLA YAURI",
-            "votes": 1925,
-            "lista": 3,
             "elected": false
           },
           {
-            "name": "MARCOS ANTONIO PICHILINGUE GOMEZ",
-            "votes": 1740,
+            "name": "LUZMILA YALU AYAY CASAS",
+            "votes": 1500,
+            "lista": 1,
+            "elected": false
+          },
+          {
+            "name": "EDUARDO FRANCISCO HERRERA AYAY",
+            "votes": 493,
             "lista": 4,
+            "elected": false
+          },
+          {
+            "name": "LUCINDA VASQUEZ GOICOCHEA",
+            "votes": 445,
+            "lista": 3,
             "elected": false
           }
         ]
@@ -1191,6 +1191,35 @@
           }
         ]
       },
+      "FUERZA POPULAR": {
+        "seats_won": 2,
+        "candidates": [
+          {
+            "name": "AURISTELA ANA OBANDO MORGAN",
+            "votes": 8618,
+            "lista": 1,
+            "elected": true
+          },
+          {
+            "name": "ANGEL BRUNO BOBADILLA GALINDO",
+            "votes": 3588,
+            "lista": 2,
+            "elected": true
+          },
+          {
+            "name": "GRACIELA SONIA VENTOCILLA YAURI",
+            "votes": 1925,
+            "lista": 3,
+            "elected": false
+          },
+          {
+            "name": "MARCOS ANTONIO PICHILINGUE GOMEZ",
+            "votes": 1740,
+            "lista": 4,
+            "elected": false
+          }
+        ]
+      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 1,
         "candidates": [
@@ -1216,35 +1245,6 @@
             "name": "RUBY ESTEPHANI ZEVALLOS LAMILLA",
             "votes": 774,
             "lista": 4,
-            "elected": false
-          }
-        ]
-      },
-      "JUNTOS POR EL PERÚ": {
-        "seats_won": 0,
-        "candidates": [
-          {
-            "name": "CLEDIN VASQUEZ CASTILLO",
-            "votes": 2225,
-            "lista": 2,
-            "elected": false
-          },
-          {
-            "name": "LUZMILA YALU AYAY CASAS",
-            "votes": 1500,
-            "lista": 1,
-            "elected": false
-          },
-          {
-            "name": "EDUARDO FRANCISCO HERRERA AYAY",
-            "votes": 493,
-            "lista": 4,
-            "elected": false
-          },
-          {
-            "name": "LUCINDA VASQUEZ GOICOCHEA",
-            "votes": 445,
-            "lista": 3,
             "elected": false
           }
         ]
@@ -1309,6 +1309,76 @@
       }
     },
     "Cusco": {
+      "JUNTOS POR EL PERÚ": {
+        "seats_won": 2,
+        "candidates": [
+          {
+            "name": "ANALI MARQUEZ HUANCA",
+            "votes": 15465,
+            "lista": 1,
+            "elected": true
+          },
+          {
+            "name": "JULIAN LUIS PEREZ MALLQUI",
+            "votes": 10279,
+            "lista": 2,
+            "elected": true
+          },
+          {
+            "name": "MARIA LUZ HUACAC ESPINOZA",
+            "votes": 3958,
+            "lista": 3,
+            "elected": false
+          },
+          {
+            "name": "SIMON MAMANI CARDONA",
+            "votes": 2707,
+            "lista": 4,
+            "elected": false
+          },
+          {
+            "name": "TANIA CARDEÑA ZUNIGA",
+            "votes": 2224,
+            "lista": 5,
+            "elected": false
+          },
+          {
+            "name": "JORGE EPIFANIO PACHECO ROZAS",
+            "votes": 1441,
+            "lista": 6,
+            "elected": false
+          }
+        ]
+      },
+      "PARTIDO CÍVICO OBRAS": {
+        "seats_won": 1,
+        "candidates": [
+          {
+            "name": "HEBER LOPEZ LETONA",
+            "votes": 6463,
+            "lista": 1,
+            "elected": true
+          },
+          {
+            "name": "CARLOS AGUILAR ORTIZ",
+            "votes": 3161,
+            "lista": 3,
+            "elected": false
+          },
+          {
+            "name": "TOLEMAIDA RHODESIA HUAMAN LIMACO",
+            "votes": 1233,
+            "lista": 4,
+            "elected": false
+          },
+          {
+            "name": "ANEL QUINTANILLA GUTIERREZ",
+            "votes": 501,
+            "lista": 6,
+            "elected": false
+          }
+        ]
+      },
       "FUERZA POPULAR": {
         "seats_won": 0,
         "candidates": [
@@ -1339,35 +1409,6 @@
           {
             "name": "ROXANA ABARCA LUCANA",
             "votes": 102,
-            "lista": 6,
-            "elected": false
-          }
-        ]
-      },
-      "PARTIDO CÍVICO OBRAS": {
-        "seats_won": 1,
-        "candidates": [
-          {
-            "name": "HEBER LOPEZ LETONA",
-            "votes": 6463,
-            "lista": 1,
-            "elected": true
-          },
-          {
-            "name": "CARLOS AGUILAR ORTIZ",
-            "votes": 3161,
-            "lista": 3,
-            "elected": false
-          },
-          {
-            "name": "TOLEMAIDA RHODESIA HUAMAN LIMACO",
-            "votes": 1233,
-            "lista": 4,
-            "elected": false
-          },
-          {
-            "name": "ANEL QUINTANILLA GUTIERREZ",
-            "votes": 501,
             "lista": 6,
             "elected": false
           }
@@ -1409,47 +1450,6 @@
           {
             "name": "CRESENSIA DORA QUILLAY PALOMARES",
             "votes": 335,
-            "lista": 6,
-            "elected": false
-          }
-        ]
-      },
-      "JUNTOS POR EL PERÚ": {
-        "seats_won": 2,
-        "candidates": [
-          {
-            "name": "ANALI MARQUEZ HUANCA",
-            "votes": 15465,
-            "lista": 1,
-            "elected": true
-          },
-          {
-            "name": "JULIAN LUIS PEREZ MALLQUI",
-            "votes": 10279,
-            "lista": 2,
-            "elected": true
-          },
-          {
-            "name": "MARIA LUZ HUACAC ESPINOZA",
-            "votes": 3958,
-            "lista": 3,
-            "elected": false
-          },
-          {
-            "name": "SIMON MAMANI CARDONA",
-            "votes": 2707,
-            "lista": 4,
-            "elected": false
-          },
-          {
-            "name": "TANIA CARDEÑA ZUNIGA",
-            "votes": 2224,
-            "lista": 5,
-            "elected": false
-          },
-          {
-            "name": "JORGE EPIFANIO PACHECO ROZAS",
-            "votes": 1441,
             "lista": 6,
             "elected": false
           }
@@ -1533,6 +1533,39 @@
       }
     },
     "Huancavelica": {
+      "JUNTOS POR EL PERÚ": {
+        "seats_won": 2,
+        "candidates": [
+          {
+            "name": "CATHERIN NORMA PALOMINO CASAVILCA",
+            "votes": 11881,
+            "lista": 1,
+            "elected": true
+          },
+          {
+            "name": "HECTOR GUILLEN VALENCIA",
+            "votes": 6328,
+            "lista": 2,
+            "elected": true
+          },
+          {
+            "name": "HERLINDA BETZABE ALMIDON ROMERO",
+            "votes": 3607,
+            "lista": 3,
+            "elected": false
+          },
+          {
+            "name": "ESAUD REQUENA BOZA",
+            "votes": 964,
+            "lista": 4,
+            "elected": false
+          }
+        ]
+      },
+      "PARTIDO CÍVICO OBRAS": {
+        "seats_won": 0,
+        "candidates": []
+      },
       "FUERZA POPULAR": {
         "seats_won": 0,
         "candidates": [
@@ -1562,10 +1595,6 @@
           }
         ]
       },
-      "PARTIDO CÍVICO OBRAS": {
-        "seats_won": 0,
-        "candidates": []
-      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 0,
         "candidates": [
@@ -1590,35 +1619,6 @@
           {
             "name": "LEYDY VELA ARMAS",
             "votes": 48,
-            "lista": 4,
-            "elected": false
-          }
-        ]
-      },
-      "JUNTOS POR EL PERÚ": {
-        "seats_won": 2,
-        "candidates": [
-          {
-            "name": "CATHERIN NORMA PALOMINO CASAVILCA",
-            "votes": 11881,
-            "lista": 1,
-            "elected": true
-          },
-          {
-            "name": "HECTOR GUILLEN VALENCIA",
-            "votes": 6328,
-            "lista": 2,
-            "elected": true
-          },
-          {
-            "name": "HERLINDA BETZABE ALMIDON ROMERO",
-            "votes": 3607,
-            "lista": 3,
-            "elected": false
-          },
-          {
-            "name": "ESAUD REQUENA BOZA",
-            "votes": 964,
             "lista": 4,
             "elected": false
           }
@@ -1684,31 +1684,25 @@
       }
     },
     "Huánuco": {
-      "FUERZA POPULAR": {
-        "seats_won": 1,
+      "JUNTOS POR EL PERÚ": {
+        "seats_won": 2,
         "candidates": [
           {
-            "name": "KARINA JULIZA BETETA RUBIN",
-            "votes": 2013,
-            "lista": 1,
+            "name": "YULI LILIANA AMBROSIO DOMINGUEZ",
+            "votes": 3068,
+            "lista": 2,
             "elected": true
           },
           {
-            "name": "WILSON NAU ARIZA MENDOZA",
-            "votes": 775,
-            "lista": 4,
-            "elected": false
-          },
-          {
-            "name": "ANA CECILIA CERPA DEL CASTILLO",
-            "votes": 581,
+            "name": "MARCO ANTONIO FLORES VALDIZAN",
+            "votes": 1235,
             "lista": 3,
-            "elected": false
+            "elected": true
           },
           {
-            "name": "JAVIER DAVID MEZA AYALA",
-            "votes": 392,
-            "lista": 2,
+            "name": "ANA MARIA BEATRIZ CRUZ ESTEBAN",
+            "votes": 458,
+            "lista": 4,
             "elected": false
           }
         ]
@@ -1742,6 +1736,35 @@
           }
         ]
       },
+      "FUERZA POPULAR": {
+        "seats_won": 1,
+        "candidates": [
+          {
+            "name": "KARINA JULIZA BETETA RUBIN",
+            "votes": 2013,
+            "lista": 1,
+            "elected": true
+          },
+          {
+            "name": "WILSON NAU ARIZA MENDOZA",
+            "votes": 775,
+            "lista": 4,
+            "elected": false
+          },
+          {
+            "name": "ANA CECILIA CERPA DEL CASTILLO",
+            "votes": 581,
+            "lista": 3,
+            "elected": false
+          },
+          {
+            "name": "JAVIER DAVID MEZA AYALA",
+            "votes": 392,
+            "lista": 2,
+            "elected": false
+          }
+        ]
+      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 0,
         "candidates": [
@@ -1766,29 +1789,6 @@
           {
             "name": "KENY PINCO MENDOZA",
             "votes": 27,
-            "lista": 4,
-            "elected": false
-          }
-        ]
-      },
-      "JUNTOS POR EL PERÚ": {
-        "seats_won": 2,
-        "candidates": [
-          {
-            "name": "YULI LILIANA AMBROSIO DOMINGUEZ",
-            "votes": 3068,
-            "lista": 2,
-            "elected": true
-          },
-          {
-            "name": "MARCO ANTONIO FLORES VALDIZAN",
-            "votes": 1235,
-            "lista": 3,
-            "elected": true
-          },
-          {
-            "name": "ANA MARIA BEATRIZ CRUZ ESTEBAN",
-            "votes": 458,
             "lista": 4,
             "elected": false
           }
@@ -1854,30 +1854,30 @@
       }
     },
     "Ica": {
-      "FUERZA POPULAR": {
-        "seats_won": 1,
+      "JUNTOS POR EL PERÚ": {
+        "seats_won": 0,
         "candidates": [
           {
-            "name": "CARLOS ALBERTO ZEGARRA SANCHEZ",
-            "votes": 4421,
+            "name": "AMERICO JIMENEZ RODRIGUEZ",
+            "votes": 2620,
             "lista": 1,
-            "elected": true
+            "elected": false
           },
           {
-            "name": "MARIA ROSSANA VERA PARIONA",
-            "votes": 1640,
+            "name": "JENNY ARSENIA CONDORI TAMPI",
+            "votes": 1920,
             "lista": 2,
             "elected": false
           },
           {
-            "name": "CESAR ANTONIO SEGURA IZQUIERDO",
-            "votes": 912,
+            "name": "PABLO CASTILLA PACHAS",
+            "votes": 652,
             "lista": 3,
             "elected": false
           },
           {
-            "name": "YULIANA MELCHORITA ZEVALLOS QUIJAITE",
-            "votes": 470,
+            "name": "BLANCA FABIOLA VARA TACAS",
+            "votes": 432,
             "lista": 4,
             "elected": false
           }
@@ -1912,6 +1912,35 @@
           }
         ]
       },
+      "FUERZA POPULAR": {
+        "seats_won": 1,
+        "candidates": [
+          {
+            "name": "CARLOS ALBERTO ZEGARRA SANCHEZ",
+            "votes": 4421,
+            "lista": 1,
+            "elected": true
+          },
+          {
+            "name": "MARIA ROSSANA VERA PARIONA",
+            "votes": 1640,
+            "lista": 2,
+            "elected": false
+          },
+          {
+            "name": "CESAR ANTONIO SEGURA IZQUIERDO",
+            "votes": 912,
+            "lista": 3,
+            "elected": false
+          },
+          {
+            "name": "YULIANA MELCHORITA ZEVALLOS QUIJAITE",
+            "votes": 470,
+            "lista": 4,
+            "elected": false
+          }
+        ]
+      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 1,
         "candidates": [
@@ -1936,35 +1965,6 @@
           {
             "name": "EDWIN RAMIREZ VILLAGARAY",
             "votes": 157,
-            "lista": 4,
-            "elected": false
-          }
-        ]
-      },
-      "JUNTOS POR EL PERÚ": {
-        "seats_won": 0,
-        "candidates": [
-          {
-            "name": "AMERICO JIMENEZ RODRIGUEZ",
-            "votes": 2620,
-            "lista": 1,
-            "elected": false
-          },
-          {
-            "name": "JENNY ARSENIA CONDORI TAMPI",
-            "votes": 1920,
-            "lista": 2,
-            "elected": false
-          },
-          {
-            "name": "PABLO CASTILLA PACHAS",
-            "votes": 652,
-            "lista": 3,
-            "elected": false
-          },
-          {
-            "name": "BLANCA FABIOLA VARA TACAS",
-            "votes": 432,
             "lista": 4,
             "elected": false
           }
@@ -2018,42 +2018,42 @@
       }
     },
     "Junín": {
-      "FUERZA POPULAR": {
+      "JUNTOS POR EL PERÚ": {
         "seats_won": 1,
         "candidates": [
           {
-            "name": "ANA BERTHA PATIÑO URCO",
-            "votes": 7112,
-            "lista": 1,
+            "name": "MARLON ALBERTO AGUIRRE RAMOS",
+            "votes": 6774,
+            "lista": 2,
             "elected": true
           },
           {
-            "name": "ISRAEL TITO LAZO JULCA",
-            "votes": 2727,
-            "lista": 2,
+            "name": "NELLY ESTHER AVENDAÑO ROCA",
+            "votes": 5666,
+            "lista": 1,
             "elected": false
           },
           {
-            "name": "EMMA CHONG VALLES",
-            "votes": 1782,
-            "lista": 3,
-            "elected": false
-          },
-          {
-            "name": "JUANITA LAURETTI CARVO BARRIOS",
-            "votes": 1230,
-            "lista": 5,
-            "elected": false
-          },
-          {
-            "name": "CESAR AUGUSTO CUESTAS MENESES",
-            "votes": 834,
+            "name": "OSMAN EUCLIDES ILDEFONSO MUÑOZ",
+            "votes": 1889,
             "lista": 4,
             "elected": false
           },
           {
-            "name": "CARLOS EDUARDO VILCAHUAMAN DE LA CRUZ",
-            "votes": 568,
+            "name": "SENDY LUZ SULLCA CARDENAS",
+            "votes": 1546,
+            "lista": 3,
+            "elected": false
+          },
+          {
+            "name": "MARIA DOLORES VILLAVERDE HILARIO",
+            "votes": 733,
+            "lista": 5,
+            "elected": false
+          },
+          {
+            "name": "YAWAR RAULI SOLIS DAVILA",
+            "votes": 584,
             "lista": 6,
             "elected": false
           }
@@ -2100,6 +2100,47 @@
           }
         ]
       },
+      "FUERZA POPULAR": {
+        "seats_won": 1,
+        "candidates": [
+          {
+            "name": "ANA BERTHA PATIÑO URCO",
+            "votes": 7112,
+            "lista": 1,
+            "elected": true
+          },
+          {
+            "name": "ISRAEL TITO LAZO JULCA",
+            "votes": 2727,
+            "lista": 2,
+            "elected": false
+          },
+          {
+            "name": "EMMA CHONG VALLES",
+            "votes": 1782,
+            "lista": 3,
+            "elected": false
+          },
+          {
+            "name": "JUANITA LAURETTI CARVO BARRIOS",
+            "votes": 1230,
+            "lista": 5,
+            "elected": false
+          },
+          {
+            "name": "CESAR AUGUSTO CUESTAS MENESES",
+            "votes": 834,
+            "lista": 4,
+            "elected": false
+          },
+          {
+            "name": "CARLOS EDUARDO VILCAHUAMAN DE LA CRUZ",
+            "votes": 568,
+            "lista": 6,
+            "elected": false
+          }
+        ]
+      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 1,
         "candidates": [
@@ -2136,47 +2177,6 @@
           {
             "name": "JOSE AQUILES CASAS CORDOVA",
             "votes": 452,
-            "lista": 6,
-            "elected": false
-          }
-        ]
-      },
-      "JUNTOS POR EL PERÚ": {
-        "seats_won": 1,
-        "candidates": [
-          {
-            "name": "MARLON ALBERTO AGUIRRE RAMOS",
-            "votes": 6774,
-            "lista": 2,
-            "elected": true
-          },
-          {
-            "name": "NELLY ESTHER AVENDAÑO ROCA",
-            "votes": 5666,
-            "lista": 1,
-            "elected": false
-          },
-          {
-            "name": "OSMAN EUCLIDES ILDEFONSO MUÑOZ",
-            "votes": 1889,
-            "lista": 4,
-            "elected": false
-          },
-          {
-            "name": "SENDY LUZ SULLCA CARDENAS",
-            "votes": 1546,
-            "lista": 3,
-            "elected": false
-          },
-          {
-            "name": "MARIA DOLORES VILLAVERDE HILARIO",
-            "votes": 733,
-            "lista": 5,
-            "elected": false
-          },
-          {
-            "name": "YAWAR RAULI SOLIS DAVILA",
-            "votes": 584,
             "lista": 6,
             "elected": false
           }
@@ -2260,55 +2260,55 @@
       }
     },
     "La Libertad": {
-      "FUERZA POPULAR": {
+      "JUNTOS POR EL PERÚ": {
         "seats_won": 2,
         "candidates": [
           {
-            "name": "GILMER TRUJILLO ZEGARRA",
-            "votes": 1640,
-            "lista": 1,
-            "elected": true
-          },
-          {
-            "name": "LETICIA MARUJA LEIVA BAYLON",
-            "votes": 552,
+            "name": "MARINO TEOFILO LAVADO VALDIVIA",
+            "votes": 1768,
             "lista": 2,
             "elected": true
           },
           {
-            "name": "GEANMARCO ANTONIO QUEZADA CASTRO",
-            "votes": 399,
-            "lista": 5,
-            "elected": false
+            "name": "KEYLA DENIS PONCE LOLOY",
+            "votes": 1318,
+            "lista": 1,
+            "elected": true
           },
           {
-            "name": "MIGUEL ANGEL VIVANCO REYES",
-            "votes": 366,
-            "lista": 3,
-            "elected": false
-          },
-          {
-            "name": "MARY LUZ VILCA FLORES",
-            "votes": 208,
-            "lista": 4,
-            "elected": false
-          },
-          {
-            "name": "JAVIER EDWART ESTRADA POZO",
-            "votes": 160,
-            "lista": 7,
-            "elected": false
-          },
-          {
-            "name": "EVELYN MARISOL SICCHA RODRIGUEZ",
-            "votes": 117,
+            "name": "MILTON JHON RUIZ CARRANZA",
+            "votes": 270,
             "lista": 6,
             "elected": false
           },
           {
-            "name": "ROSARIO FRANKI PAREDES CHIPANA",
-            "votes": 36,
+            "name": "ALEX COLBERT CHANG BRIONES",
+            "votes": 251,
+            "lista": 4,
+            "elected": false
+          },
+          {
+            "name": "FANI LILIAN QUIÑONES CARLOS",
+            "votes": 249,
+            "lista": 3,
+            "elected": false
+          },
+          {
+            "name": "ALICIA ESTHER SOLES GARCIA",
+            "votes": 184,
+            "lista": 5,
+            "elected": false
+          },
+          {
+            "name": "JOSE FELIPE DOMINGUEZ TRUJILLO",
+            "votes": 142,
             "lista": 8,
+            "elected": false
+          },
+          {
+            "name": "MARCELINA PASTOR VASQUEZ",
+            "votes": 108,
+            "lista": 7,
             "elected": false
           }
         ]
@@ -2366,6 +2366,59 @@
           }
         ]
       },
+      "FUERZA POPULAR": {
+        "seats_won": 2,
+        "candidates": [
+          {
+            "name": "GILMER TRUJILLO ZEGARRA",
+            "votes": 1640,
+            "lista": 1,
+            "elected": true
+          },
+          {
+            "name": "LETICIA MARUJA LEIVA BAYLON",
+            "votes": 552,
+            "lista": 2,
+            "elected": true
+          },
+          {
+            "name": "GEANMARCO ANTONIO QUEZADA CASTRO",
+            "votes": 399,
+            "lista": 5,
+            "elected": false
+          },
+          {
+            "name": "MIGUEL ANGEL VIVANCO REYES",
+            "votes": 366,
+            "lista": 3,
+            "elected": false
+          },
+          {
+            "name": "MARY LUZ VILCA FLORES",
+            "votes": 208,
+            "lista": 4,
+            "elected": false
+          },
+          {
+            "name": "JAVIER EDWART ESTRADA POZO",
+            "votes": 160,
+            "lista": 7,
+            "elected": false
+          },
+          {
+            "name": "EVELYN MARISOL SICCHA RODRIGUEZ",
+            "votes": 117,
+            "lista": 6,
+            "elected": false
+          },
+          {
+            "name": "ROSARIO FRANKI PAREDES CHIPANA",
+            "votes": 36,
+            "lista": 8,
+            "elected": false
+          }
+        ]
+      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 1,
         "candidates": [
@@ -2396,59 +2449,6 @@
           {
             "name": "CHRIS LIZETH QUIROZ SORALUZ",
             "votes": 43,
-            "lista": 7,
-            "elected": false
-          }
-        ]
-      },
-      "JUNTOS POR EL PERÚ": {
-        "seats_won": 2,
-        "candidates": [
-          {
-            "name": "MARINO TEOFILO LAVADO VALDIVIA",
-            "votes": 1768,
-            "lista": 2,
-            "elected": true
-          },
-          {
-            "name": "KEYLA DENIS PONCE LOLOY",
-            "votes": 1318,
-            "lista": 1,
-            "elected": true
-          },
-          {
-            "name": "MILTON JHON RUIZ CARRANZA",
-            "votes": 270,
-            "lista": 6,
-            "elected": false
-          },
-          {
-            "name": "ALEX COLBERT CHANG BRIONES",
-            "votes": 251,
-            "lista": 4,
-            "elected": false
-          },
-          {
-            "name": "FANI LILIAN QUIÑONES CARLOS",
-            "votes": 249,
-            "lista": 3,
-            "elected": false
-          },
-          {
-            "name": "ALICIA ESTHER SOLES GARCIA",
-            "votes": 184,
-            "lista": 5,
-            "elected": false
-          },
-          {
-            "name": "JOSE FELIPE DOMINGUEZ TRUJILLO",
-            "votes": 142,
-            "lista": 8,
-            "elected": false
-          },
-          {
-            "name": "MARCELINA PASTOR VASQUEZ",
-            "votes": 108,
             "lista": 7,
             "elected": false
           }
@@ -2562,6 +2562,76 @@
       }
     },
     "Lambayeque": {
+      "JUNTOS POR EL PERÚ": {
+        "seats_won": 1,
+        "candidates": [
+          {
+            "name": "ERNESTO ALONZO ZUNINI YERREN",
+            "votes": 7247,
+            "lista": 1,
+            "elected": true
+          },
+          {
+            "name": "MARGARITA FLOR DE MARIA ANGELES ALBURQUERQUE",
+            "votes": 4963,
+            "lista": 2,
+            "elected": false
+          },
+          {
+            "name": "WILMER ANTON MAYANGA",
+            "votes": 818,
+            "lista": 5,
+            "elected": false
+          },
+          {
+            "name": "SUSANA DOLORES BURGA ALVAREZ",
+            "votes": 714,
+            "lista": 4,
+            "elected": false
+          },
+          {
+            "name": "ELVA CORDOVA RAMIREZ",
+            "votes": 613,
+            "lista": 6,
+            "elected": false
+          }
+        ]
+      },
+      "PARTIDO CÍVICO OBRAS": {
+        "seats_won": 0,
+        "candidates": [
+          {
+            "name": "ROLANDO INGA AQUINO",
+            "votes": 2641,
+            "lista": 1,
+            "elected": false
+          },
+          {
+            "name": "ALEX DEISER NUÑEZ CONSTANTINO",
+            "votes": 822,
+            "lista": 3,
+            "elected": false
+          },
+          {
+            "name": "GLORIA ELENSITH LIZANA BANCES",
+            "votes": 640,
+            "lista": 4,
+            "elected": false
+          },
+          {
+            "name": "JOSE ELISAR FRIAS CONSTANTINO",
+            "votes": 272,
+            "lista": 5,
+            "elected": false
+          },
+          {
+            "name": "MARIA CONSUELO CONSTANTINO VILLANUEVA",
+            "votes": 118,
+            "lista": 6,
+            "elected": false
+          }
+        ]
+      },
       "FUERZA POPULAR": {
         "seats_won": 3,
         "candidates": [
@@ -2598,41 +2668,6 @@
           {
             "name": "ALEJANDRINA DEL ROSARIO ORDOÑEZ CONDEZO",
             "votes": 608,
-            "lista": 6,
-            "elected": false
-          }
-        ]
-      },
-      "PARTIDO CÍVICO OBRAS": {
-        "seats_won": 0,
-        "candidates": [
-          {
-            "name": "ROLANDO INGA AQUINO",
-            "votes": 2641,
-            "lista": 1,
-            "elected": false
-          },
-          {
-            "name": "ALEX DEISER NUÑEZ CONSTANTINO",
-            "votes": 822,
-            "lista": 3,
-            "elected": false
-          },
-          {
-            "name": "GLORIA ELENSITH LIZANA BANCES",
-            "votes": 640,
-            "lista": 4,
-            "elected": false
-          },
-          {
-            "name": "JOSE ELISAR FRIAS CONSTANTINO",
-            "votes": 272,
-            "lista": 5,
-            "elected": false
-          },
-          {
-            "name": "MARIA CONSUELO CONSTANTINO VILLANUEVA",
-            "votes": 118,
             "lista": 6,
             "elected": false
           }
@@ -2675,41 +2710,6 @@
             "name": "DEBORATH MAYRA BALDERRAMA ESPARZA",
             "votes": 408,
             "lista": 4,
-            "elected": false
-          }
-        ]
-      },
-      "JUNTOS POR EL PERÚ": {
-        "seats_won": 1,
-        "candidates": [
-          {
-            "name": "ERNESTO ALONZO ZUNINI YERREN",
-            "votes": 7247,
-            "lista": 1,
-            "elected": true
-          },
-          {
-            "name": "MARGARITA FLOR DE MARIA ANGELES ALBURQUERQUE",
-            "votes": 4963,
-            "lista": 2,
-            "elected": false
-          },
-          {
-            "name": "WILMER ANTON MAYANGA",
-            "votes": 818,
-            "lista": 5,
-            "elected": false
-          },
-          {
-            "name": "SUSANA DOLORES BURGA ALVAREZ",
-            "votes": 714,
-            "lista": 4,
-            "elected": false
-          },
-          {
-            "name": "ELVA CORDOVA RAMIREZ",
-            "votes": 613,
-            "lista": 6,
             "elected": false
           }
         ]
@@ -2798,6 +2798,358 @@
       }
     },
     "Lima": {
+      "JUNTOS POR EL PERÚ": {
+        "seats_won": 1,
+        "candidates": [
+          {
+            "name": "GIANNINA IRIS AVENDAÑO VILCA",
+            "votes": 19628,
+            "lista": 2,
+            "elected": true
+          },
+          {
+            "name": "ROBERTO HELBERT SANCHEZ PALOMINO",
+            "votes": 13448,
+            "lista": 1,
+            "elected": false
+          },
+          {
+            "name": "IRMA CASTILLO TERRONES",
+            "votes": 6361,
+            "lista": 4,
+            "elected": false
+          },
+          {
+            "name": "ZAIRA PAULA ARIAS BERROCAL",
+            "votes": 5823,
+            "lista": 8,
+            "elected": false
+          },
+          {
+            "name": "HILSO CLADIO RAMOS COSME",
+            "votes": 4952,
+            "lista": 3,
+            "elected": false
+          },
+          {
+            "name": "ZOILA SOLEDAD YAURI AQUINO",
+            "votes": 2440,
+            "lista": 6,
+            "elected": false
+          },
+          {
+            "name": "ROGER GOMEZ SARMIENTO",
+            "votes": 2187,
+            "lista": 7,
+            "elected": false
+          },
+          {
+            "name": "EDGAR MARIO RIVADENEYRA MACEDO",
+            "votes": 1122,
+            "lista": 25,
+            "elected": false
+          },
+          {
+            "name": "FREDY CESAR OSORIO LANDA",
+            "votes": 1019,
+            "lista": 15,
+            "elected": false
+          },
+          {
+            "name": "VICENTE RUFINO BRICEÑO JIMENEZ",
+            "votes": 985,
+            "lista": 11,
+            "elected": false
+          },
+          {
+            "name": "JUANA JULIA PACHECO LOPEZ",
+            "votes": 957,
+            "lista": 10,
+            "elected": false
+          },
+          {
+            "name": "NADIA BELEN MONTALVAN NOÑUNCA",
+            "votes": 843,
+            "lista": 12,
+            "elected": false
+          },
+          {
+            "name": "JUAN CARLOS QUISPE MARCA",
+            "votes": 450,
+            "lista": 17,
+            "elected": false
+          },
+          {
+            "name": "JHULIANA ANGELICA CARBONEL CARBONEL",
+            "votes": 448,
+            "lista": 16,
+            "elected": false
+          },
+          {
+            "name": "PAMELA NAHOMI REYES RODRIGUEZ",
+            "votes": 312,
+            "lista": 18,
+            "elected": false
+          },
+          {
+            "name": "JHON ANDERSON SANTA CRUZ LEYVA",
+            "votes": 286,
+            "lista": 23,
+            "elected": false
+          },
+          {
+            "name": "VICTOR MANUEL GUEVARA OSCCO",
+            "votes": 253,
+            "lista": 19,
+            "elected": false
+          },
+          {
+            "name": "DILMA TINEO TINEO",
+            "votes": 252,
+            "lista": 14,
+            "elected": false
+          },
+          {
+            "name": "SOFIA YOVANA MARTINEZ GUERRERO",
+            "votes": 218,
+            "lista": 22,
+            "elected": false
+          },
+          {
+            "name": "LEONEL JAVIER BAUTISTA CAMPO",
+            "votes": 169,
+            "lista": 21,
+            "elected": false
+          },
+          {
+            "name": "WALTER CHIPANA ARHUATA",
+            "votes": 134,
+            "lista": 31,
+            "elected": false
+          },
+          {
+            "name": "BEATRIZ MUNISACA CACERES",
+            "votes": 133,
+            "lista": 20,
+            "elected": false
+          },
+          {
+            "name": "TERESA CASTRO TORRES",
+            "votes": 90,
+            "lista": 24,
+            "elected": false
+          },
+          {
+            "name": "RUFINA SABINA GUERRA LAYME",
+            "votes": 86,
+            "lista": 30,
+            "elected": false
+          },
+          {
+            "name": "LUZ MARINA CHIRA SENCIO",
+            "votes": 44,
+            "lista": 26,
+            "elected": false
+          },
+          {
+            "name": "GABINA INES GARCIA RAMIREZ",
+            "votes": 37,
+            "lista": 32,
+            "elected": false
+          },
+          {
+            "name": "MARIZOL CHIRA SANTISTEBAN",
+            "votes": 30,
+            "lista": 28,
+            "elected": false
+          }
+        ]
+      },
+      "PARTIDO CÍVICO OBRAS": {
+        "seats_won": 4,
+        "candidates": [
+          {
+            "name": "JEENNY CRISTINA SAMANEZ GONZALES VIGIL",
+            "votes": 17243,
+            "lista": 2,
+            "elected": true
+          },
+          {
+            "name": "VICTOR EDUARDO PIÑAN MAMANI",
+            "votes": 12839,
+            "lista": 3,
+            "elected": true
+          },
+          {
+            "name": "ANDREA DAYNA MEDINA STEIN",
+            "votes": 7310,
+            "lista": 4,
+            "elected": true
+          },
+          {
+            "name": "RAUL JESUS CAMARGO PORTA",
+            "votes": 6598,
+            "lista": 5,
+            "elected": true
+          },
+          {
+            "name": "RAFAEL ROMERO VASQUEZ",
+            "votes": 5645,
+            "lista": 7,
+            "elected": false
+          },
+          {
+            "name": "EDUARDO TÚLLUME GAMARRA",
+            "votes": 4181,
+            "lista": 11,
+            "elected": false
+          },
+          {
+            "name": "MARGARITA ISABEL PAJARES FLORES",
+            "votes": 3720,
+            "lista": 6,
+            "elected": false
+          },
+          {
+            "name": "SONIA MARIA ROSADIO ANGELES",
+            "votes": 2057,
+            "lista": 8,
+            "elected": false
+          },
+          {
+            "name": "SISSI DEL PILAR ANGULO RIVAS",
+            "votes": 1535,
+            "lista": 10,
+            "elected": false
+          },
+          {
+            "name": "ALISON MADELEY GUEVARA BERMUDEZ",
+            "votes": 1519,
+            "lista": 14,
+            "elected": false
+          },
+          {
+            "name": "RAUL ADOLFO ARIAS RAMOS",
+            "votes": 1104,
+            "lista": 13,
+            "elected": false
+          },
+          {
+            "name": "JOHNNY ALBERTO VILLON MACEDO",
+            "votes": 1027,
+            "lista": 15,
+            "elected": false
+          },
+          {
+            "name": "NICOLLE BRIGITT HUAMANI PUPUCHE",
+            "votes": 847,
+            "lista": 12,
+            "elected": false
+          },
+          {
+            "name": "NOE VARA UZURIAGA",
+            "votes": 568,
+            "lista": 17,
+            "elected": false
+          },
+          {
+            "name": "ALEJANDRO HIPOLITO RAMOS RIVERA",
+            "votes": 517,
+            "lista": 21,
+            "elected": false
+          },
+          {
+            "name": "NELIDA KCALLA RIOS",
+            "votes": 454,
+            "lista": 22,
+            "elected": false
+          },
+          {
+            "name": "JAIME JAVIER FRIAS REYMUNDO",
+            "votes": 411,
+            "lista": 29,
+            "elected": false
+          },
+          {
+            "name": "ROSSANA LUZ ARNAO LINARES",
+            "votes": 391,
+            "lista": 20,
+            "elected": false
+          },
+          {
+            "name": "ALBERTINA TAPIA CORONEL",
+            "votes": 387,
+            "lista": 24,
+            "elected": false
+          },
+          {
+            "name": "MARISOL VERONICA GIORDANO SILVA",
+            "votes": 348,
+            "lista": 30,
+            "elected": false
+          },
+          {
+            "name": "ROSMERY HUAMANI ACOSTA",
+            "votes": 326,
+            "lista": 18,
+            "elected": false
+          },
+          {
+            "name": "FELICITA VILLALOBOS CORTES",
+            "votes": 315,
+            "lista": 16,
+            "elected": false
+          },
+          {
+            "name": "RONALD ROMAN ZARAVIA ALDAVE",
+            "votes": 252,
+            "lista": 27,
+            "elected": false
+          },
+          {
+            "name": "MARIANO DIAZ CHAVEZ",
+            "votes": 249,
+            "lista": 19,
+            "elected": false
+          },
+          {
+            "name": "CARLOS ENRIQUE CASTILLA SALAS",
+            "votes": 249,
+            "lista": 23,
+            "elected": false
+          },
+          {
+            "name": "RAMON BUENDIA POCCO",
+            "votes": 231,
+            "lista": 31,
+            "elected": false
+          },
+          {
+            "name": "JORGE LUIS SOCSO HUAMAN",
+            "votes": 145,
+            "lista": 25,
+            "elected": false
+          },
+          {
+            "name": "CRISBELL KIMBERLEY MENDEZ FAJARDO",
+            "votes": 124,
+            "lista": 26,
+            "elected": false
+          },
+          {
+            "name": "EMPERATRIZ HUAMAN TUMI",
+            "votes": 77,
+            "lista": 28,
+            "elected": false
+          },
+          {
+            "name": "INGRI FIORELLA VARA AYRE",
+            "votes": 75,
+            "lista": 32,
+            "elected": false
+          }
+        ]
+      },
       "FUERZA POPULAR": {
         "seats_won": 7,
         "candidates": [
@@ -2989,191 +3341,6 @@
           }
         ]
       },
-      "PARTIDO CÍVICO OBRAS": {
-        "seats_won": 4,
-        "candidates": [
-          {
-            "name": "JEENNY CRISTINA SAMANEZ GONZALES VIGIL",
-            "votes": 17243,
-            "lista": 2,
-            "elected": true
-          },
-          {
-            "name": "VICTOR EDUARDO PIÑAN MAMANI",
-            "votes": 12839,
-            "lista": 3,
-            "elected": true
-          },
-          {
-            "name": "ANDREA DAYNA MEDINA STEIN",
-            "votes": 7310,
-            "lista": 4,
-            "elected": true
-          },
-          {
-            "name": "RAUL JESUS CAMARGO PORTA",
-            "votes": 6598,
-            "lista": 5,
-            "elected": true
-          },
-          {
-            "name": "RAFAEL ROMERO VASQUEZ",
-            "votes": 5645,
-            "lista": 7,
-            "elected": false
-          },
-          {
-            "name": "EDUARDO TÚLLUME GAMARRA",
-            "votes": 4181,
-            "lista": 11,
-            "elected": false
-          },
-          {
-            "name": "MARGARITA ISABEL PAJARES FLORES",
-            "votes": 3720,
-            "lista": 6,
-            "elected": false
-          },
-          {
-            "name": "SONIA MARIA ROSADIO ANGELES",
-            "votes": 2057,
-            "lista": 8,
-            "elected": false
-          },
-          {
-            "name": "SISSI DEL PILAR ANGULO RIVAS",
-            "votes": 1535,
-            "lista": 10,
-            "elected": false
-          },
-          {
-            "name": "ALISON MADELEY GUEVARA BERMUDEZ",
-            "votes": 1519,
-            "lista": 14,
-            "elected": false
-          },
-          {
-            "name": "RAUL ADOLFO ARIAS RAMOS",
-            "votes": 1104,
-            "lista": 13,
-            "elected": false
-          },
-          {
-            "name": "JOHNNY ALBERTO VILLON MACEDO",
-            "votes": 1027,
-            "lista": 15,
-            "elected": false
-          },
-          {
-            "name": "NICOLLE BRIGITT HUAMANI PUPUCHE",
-            "votes": 847,
-            "lista": 12,
-            "elected": false
-          },
-          {
-            "name": "NOE VARA UZURIAGA",
-            "votes": 568,
-            "lista": 17,
-            "elected": false
-          },
-          {
-            "name": "ALEJANDRO HIPOLITO RAMOS RIVERA",
-            "votes": 517,
-            "lista": 21,
-            "elected": false
-          },
-          {
-            "name": "NELIDA KCALLA RIOS",
-            "votes": 454,
-            "lista": 22,
-            "elected": false
-          },
-          {
-            "name": "JAIME JAVIER FRIAS REYMUNDO",
-            "votes": 411,
-            "lista": 29,
-            "elected": false
-          },
-          {
-            "name": "ROSSANA LUZ ARNAO LINARES",
-            "votes": 391,
-            "lista": 20,
-            "elected": false
-          },
-          {
-            "name": "ALBERTINA TAPIA CORONEL",
-            "votes": 387,
-            "lista": 24,
-            "elected": false
-          },
-          {
-            "name": "MARISOL VERONICA GIORDANO SILVA",
-            "votes": 348,
-            "lista": 30,
-            "elected": false
-          },
-          {
-            "name": "ROSMERY HUAMANI ACOSTA",
-            "votes": 326,
-            "lista": 18,
-            "elected": false
-          },
-          {
-            "name": "FELICITA VILLALOBOS CORTES",
-            "votes": 315,
-            "lista": 16,
-            "elected": false
-          },
-          {
-            "name": "RONALD ROMAN ZARAVIA ALDAVE",
-            "votes": 252,
-            "lista": 27,
-            "elected": false
-          },
-          {
-            "name": "MARIANO DIAZ CHAVEZ",
-            "votes": 249,
-            "lista": 19,
-            "elected": false
-          },
-          {
-            "name": "CARLOS ENRIQUE CASTILLA SALAS",
-            "votes": 249,
-            "lista": 23,
-            "elected": false
-          },
-          {
-            "name": "RAMON BUENDIA POCCO",
-            "votes": 231,
-            "lista": 31,
-            "elected": false
-          },
-          {
-            "name": "JORGE LUIS SOCSO HUAMAN",
-            "votes": 145,
-            "lista": 25,
-            "elected": false
-          },
-          {
-            "name": "CRISBELL KIMBERLEY MENDEZ FAJARDO",
-            "votes": 124,
-            "lista": 26,
-            "elected": false
-          },
-          {
-            "name": "EMPERATRIZ HUAMAN TUMI",
-            "votes": 77,
-            "lista": 28,
-            "elected": false
-          },
-          {
-            "name": "INGRI FIORELLA VARA AYRE",
-            "votes": 75,
-            "lista": 32,
-            "elected": false
-          }
-        ]
-      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 7,
         "candidates": [
@@ -3355,173 +3522,6 @@
             "name": "EDUARDO DANIEL CASTRO MENDOZA",
             "votes": 78,
             "lista": 29,
-            "elected": false
-          }
-        ]
-      },
-      "JUNTOS POR EL PERÚ": {
-        "seats_won": 1,
-        "candidates": [
-          {
-            "name": "GIANNINA IRIS AVENDAÑO VILCA",
-            "votes": 19628,
-            "lista": 2,
-            "elected": true
-          },
-          {
-            "name": "ROBERTO HELBERT SANCHEZ PALOMINO",
-            "votes": 13448,
-            "lista": 1,
-            "elected": false
-          },
-          {
-            "name": "IRMA CASTILLO TERRONES",
-            "votes": 6361,
-            "lista": 4,
-            "elected": false
-          },
-          {
-            "name": "ZAIRA PAULA ARIAS BERROCAL",
-            "votes": 5823,
-            "lista": 8,
-            "elected": false
-          },
-          {
-            "name": "HILSO CLADIO RAMOS COSME",
-            "votes": 4952,
-            "lista": 3,
-            "elected": false
-          },
-          {
-            "name": "ZOILA SOLEDAD YAURI AQUINO",
-            "votes": 2440,
-            "lista": 6,
-            "elected": false
-          },
-          {
-            "name": "ROGER GOMEZ SARMIENTO",
-            "votes": 2187,
-            "lista": 7,
-            "elected": false
-          },
-          {
-            "name": "EDGAR MARIO RIVADENEYRA MACEDO",
-            "votes": 1122,
-            "lista": 25,
-            "elected": false
-          },
-          {
-            "name": "FREDY CESAR OSORIO LANDA",
-            "votes": 1019,
-            "lista": 15,
-            "elected": false
-          },
-          {
-            "name": "VICENTE RUFINO BRICEÑO JIMENEZ",
-            "votes": 985,
-            "lista": 11,
-            "elected": false
-          },
-          {
-            "name": "JUANA JULIA PACHECO LOPEZ",
-            "votes": 957,
-            "lista": 10,
-            "elected": false
-          },
-          {
-            "name": "NADIA BELEN MONTALVAN NOÑUNCA",
-            "votes": 843,
-            "lista": 12,
-            "elected": false
-          },
-          {
-            "name": "JUAN CARLOS QUISPE MARCA",
-            "votes": 450,
-            "lista": 17,
-            "elected": false
-          },
-          {
-            "name": "JHULIANA ANGELICA CARBONEL CARBONEL",
-            "votes": 448,
-            "lista": 16,
-            "elected": false
-          },
-          {
-            "name": "PAMELA NAHOMI REYES RODRIGUEZ",
-            "votes": 312,
-            "lista": 18,
-            "elected": false
-          },
-          {
-            "name": "JHON ANDERSON SANTA CRUZ LEYVA",
-            "votes": 286,
-            "lista": 23,
-            "elected": false
-          },
-          {
-            "name": "VICTOR MANUEL GUEVARA OSCCO",
-            "votes": 253,
-            "lista": 19,
-            "elected": false
-          },
-          {
-            "name": "DILMA TINEO TINEO",
-            "votes": 252,
-            "lista": 14,
-            "elected": false
-          },
-          {
-            "name": "SOFIA YOVANA MARTINEZ GUERRERO",
-            "votes": 218,
-            "lista": 22,
-            "elected": false
-          },
-          {
-            "name": "LEONEL JAVIER BAUTISTA CAMPO",
-            "votes": 169,
-            "lista": 21,
-            "elected": false
-          },
-          {
-            "name": "WALTER CHIPANA ARHUATA",
-            "votes": 134,
-            "lista": 31,
-            "elected": false
-          },
-          {
-            "name": "BEATRIZ MUNISACA CACERES",
-            "votes": 133,
-            "lista": 20,
-            "elected": false
-          },
-          {
-            "name": "TERESA CASTRO TORRES",
-            "votes": 90,
-            "lista": 24,
-            "elected": false
-          },
-          {
-            "name": "RUFINA SABINA GUERRA LAYME",
-            "votes": 86,
-            "lista": 30,
-            "elected": false
-          },
-          {
-            "name": "LUZ MARINA CHIRA SENCIO",
-            "votes": 44,
-            "lista": 26,
-            "elected": false
-          },
-          {
-            "name": "GABINA INES GARCIA RAMIREZ",
-            "votes": 37,
-            "lista": 32,
-            "elected": false
-          },
-          {
-            "name": "MARIZOL CHIRA SANTISTEBAN",
-            "votes": 30,
-            "lista": 28,
             "elected": false
           }
         ]
@@ -3910,31 +3910,31 @@
       }
     },
     "Lima Provincias": {
-      "FUERZA POPULAR": {
-        "seats_won": 2,
+      "JUNTOS POR EL PERÚ": {
+        "seats_won": 0,
         "candidates": [
           {
-            "name": "GLADYS GRISELDA ANDRADE SALGUERO DE ALVAREZ",
-            "votes": 6486,
-            "lista": 1,
-            "elected": true
-          },
-          {
-            "name": "ALEXANDER SALAS RIVERA",
-            "votes": 3612,
+            "name": "YSABEL GABRIELA SOTA MALDONADO",
+            "votes": 3572,
             "lista": 2,
-            "elected": true
-          },
-          {
-            "name": "ANGELICA ELIZABETH GOICOCHEA PINEDO",
-            "votes": 2619,
-            "lista": 3,
             "elected": false
           },
           {
-            "name": "ESMIFFLIN NEFTALIN RETUERTO PALOMARES",
-            "votes": 943,
+            "name": "ADAN EFREY BECERRA GARAY",
+            "votes": 2923,
+            "lista": 1,
+            "elected": false
+          },
+          {
+            "name": "LILIANA ISABEL SUSANIBAR SANDOVAL",
+            "votes": 1290,
             "lista": 4,
+            "elected": false
+          },
+          {
+            "name": "ANDRES CESAR SANCHEZ MARTINEZ",
+            "votes": 876,
+            "lista": 3,
             "elected": false
           }
         ]
@@ -3968,6 +3968,35 @@
           }
         ]
       },
+      "FUERZA POPULAR": {
+        "seats_won": 2,
+        "candidates": [
+          {
+            "name": "GLADYS GRISELDA ANDRADE SALGUERO DE ALVAREZ",
+            "votes": 6486,
+            "lista": 1,
+            "elected": true
+          },
+          {
+            "name": "ALEXANDER SALAS RIVERA",
+            "votes": 3612,
+            "lista": 2,
+            "elected": true
+          },
+          {
+            "name": "ANGELICA ELIZABETH GOICOCHEA PINEDO",
+            "votes": 2619,
+            "lista": 3,
+            "elected": false
+          },
+          {
+            "name": "ESMIFFLIN NEFTALIN RETUERTO PALOMARES",
+            "votes": 943,
+            "lista": 4,
+            "elected": false
+          }
+        ]
+      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 1,
         "candidates": [
@@ -3993,35 +4022,6 @@
             "name": "PERCY LUIS PAUCAR MAGUIÑA",
             "votes": 392,
             "lista": 4,
-            "elected": false
-          }
-        ]
-      },
-      "JUNTOS POR EL PERÚ": {
-        "seats_won": 0,
-        "candidates": [
-          {
-            "name": "YSABEL GABRIELA SOTA MALDONADO",
-            "votes": 3572,
-            "lista": 2,
-            "elected": false
-          },
-          {
-            "name": "ADAN EFREY BECERRA GARAY",
-            "votes": 2923,
-            "lista": 1,
-            "elected": false
-          },
-          {
-            "name": "LILIANA ISABEL SUSANIBAR SANDOVAL",
-            "votes": 1290,
-            "lista": 4,
-            "elected": false
-          },
-          {
-            "name": "ANDRES CESAR SANCHEZ MARTINEZ",
-            "votes": 876,
-            "lista": 3,
             "elected": false
           }
         ]
@@ -4080,26 +4080,32 @@
       }
     },
     "Loreto": {
-      "FUERZA POPULAR": {
-        "seats_won": 3,
+      "JUNTOS POR EL PERÚ": {
+        "seats_won": 1,
         "candidates": [
           {
-            "name": "NARY BENVINDA PINASCO MONTENEGRO",
-            "votes": 2921,
+            "name": "AZUCENA ISLA ROJAS",
+            "votes": 1934,
+            "lista": 1,
+            "elected": true
+          },
+          {
+            "name": "MATUSAEL ZAMBRANO SANDOVAL",
+            "votes": 1409,
             "lista": 2,
-            "elected": true
+            "elected": false
           },
           {
-            "name": "CESAR MANUEL VIDAURRE FLORIDAS",
-            "votes": 2517,
+            "name": "LINDOMIRA SANTANA MARTINEZ",
+            "votes": 309,
             "lista": 3,
-            "elected": true
+            "elected": false
           },
           {
-            "name": "ANA LUISA YUFFRA LUGO",
-            "votes": 686,
+            "name": "HECTOR MINGUILLO CHANAME",
+            "votes": 284,
             "lista": 4,
-            "elected": true
+            "elected": false
           }
         ]
       },
@@ -4132,6 +4138,29 @@
           }
         ]
       },
+      "FUERZA POPULAR": {
+        "seats_won": 3,
+        "candidates": [
+          {
+            "name": "NARY BENVINDA PINASCO MONTENEGRO",
+            "votes": 2921,
+            "lista": 2,
+            "elected": true
+          },
+          {
+            "name": "CESAR MANUEL VIDAURRE FLORIDAS",
+            "votes": 2517,
+            "lista": 3,
+            "elected": true
+          },
+          {
+            "name": "ANA LUISA YUFFRA LUGO",
+            "votes": 686,
+            "lista": 4,
+            "elected": true
+          }
+        ]
+      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 0,
         "candidates": [
@@ -4156,35 +4185,6 @@
           {
             "name": "CESAR GONZALES ARROYO",
             "votes": 49,
-            "lista": 4,
-            "elected": false
-          }
-        ]
-      },
-      "JUNTOS POR EL PERÚ": {
-        "seats_won": 1,
-        "candidates": [
-          {
-            "name": "AZUCENA ISLA ROJAS",
-            "votes": 1934,
-            "lista": 1,
-            "elected": true
-          },
-          {
-            "name": "MATUSAEL ZAMBRANO SANDOVAL",
-            "votes": 1409,
-            "lista": 2,
-            "elected": false
-          },
-          {
-            "name": "LINDOMIRA SANTANA MARTINEZ",
-            "votes": 309,
-            "lista": 3,
-            "elected": false
-          },
-          {
-            "name": "HECTOR MINGUILLO CHANAME",
-            "votes": 284,
             "lista": 4,
             "elected": false
           }
@@ -4238,18 +4238,30 @@
       }
     },
     "Madre de Dios": {
-      "FUERZA POPULAR": {
+      "JUNTOS POR EL PERÚ": {
         "seats_won": 1,
         "candidates": [
           {
-            "name": "AMERICO OROSCO OSORIO",
-            "votes": 713,
+            "name": "JAMES ARTURO HOLGUIN AGUIRRE",
+            "votes": 1292,
             "lista": 1,
             "elected": true
           },
           {
-            "name": "KATIA ELENA TUANAMA CARO",
-            "votes": 104,
+            "name": "HAYDEE CELINDA POMA HUAMANI",
+            "votes": 883,
+            "lista": 2,
+            "elected": false
+          },
+          {
+            "name": "WASHINGTON ALBERTO YABAR BECERRA",
+            "votes": 521,
+            "lista": 3,
+            "elected": false
+          },
+          {
+            "name": "JUANA DELIA HUESEMBE BERMUDEZ",
+            "votes": 107,
             "lista": 4,
             "elected": false
           }
@@ -4284,6 +4296,23 @@
           }
         ]
       },
+      "FUERZA POPULAR": {
+        "seats_won": 1,
+        "candidates": [
+          {
+            "name": "AMERICO OROSCO OSORIO",
+            "votes": 713,
+            "lista": 1,
+            "elected": true
+          },
+          {
+            "name": "KATIA ELENA TUANAMA CARO",
+            "votes": 104,
+            "lista": 4,
+            "elected": false
+          }
+        ]
+      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 0,
         "candidates": [
@@ -4308,35 +4337,6 @@
           {
             "name": "ANA MARGARITA PORTAL PEREZ",
             "votes": 24,
-            "lista": 4,
-            "elected": false
-          }
-        ]
-      },
-      "JUNTOS POR EL PERÚ": {
-        "seats_won": 1,
-        "candidates": [
-          {
-            "name": "JAMES ARTURO HOLGUIN AGUIRRE",
-            "votes": 1292,
-            "lista": 1,
-            "elected": true
-          },
-          {
-            "name": "HAYDEE CELINDA POMA HUAMANI",
-            "votes": 883,
-            "lista": 2,
-            "elected": false
-          },
-          {
-            "name": "WASHINGTON ALBERTO YABAR BECERRA",
-            "votes": 521,
-            "lista": 3,
-            "elected": false
-          },
-          {
-            "name": "JUANA DELIA HUESEMBE BERMUDEZ",
-            "votes": 107,
             "lista": 4,
             "elected": false
           }
@@ -4396,6 +4396,27 @@
       }
     },
     "Moquegua": {
+      "JUNTOS POR EL PERÚ": {
+        "seats_won": 1,
+        "candidates": [
+          {
+            "name": "GRACIELA CHIPANA CONDORI",
+            "votes": 2186,
+            "lista": 2,
+            "elected": true
+          },
+          {
+            "name": "KAREN CECILIA RODRIGUEZ DEL CARPIO",
+            "votes": 609,
+            "lista": 4,
+            "elected": false
+          }
+        ]
+      },
+      "PARTIDO CÍVICO OBRAS": {
+        "seats_won": 0,
+        "candidates": []
+      },
       "FUERZA POPULAR": {
         "seats_won": 0,
         "candidates": [
@@ -4425,10 +4446,6 @@
           }
         ]
       },
-      "PARTIDO CÍVICO OBRAS": {
-        "seats_won": 0,
-        "candidates": []
-      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 1,
         "candidates": [
@@ -4453,23 +4470,6 @@
           {
             "name": "YESICA YUREMA QUISPE MAMANI",
             "votes": 105,
-            "lista": 4,
-            "elected": false
-          }
-        ]
-      },
-      "JUNTOS POR EL PERÚ": {
-        "seats_won": 1,
-        "candidates": [
-          {
-            "name": "GRACIELA CHIPANA CONDORI",
-            "votes": 2186,
-            "lista": 2,
-            "elected": true
-          },
-          {
-            "name": "KAREN CECILIA RODRIGUEZ DEL CARPIO",
-            "votes": 609,
             "lista": 4,
             "elected": false
           }
@@ -4535,34 +4535,9 @@
       }
     },
     "Pasco": {
-      "FUERZA POPULAR": {
-        "seats_won": 2,
-        "candidates": [
-          {
-            "name": "JHONN BRAYAM VALQUI ORDOÑEZ",
-            "votes": 2116,
-            "lista": 2,
-            "elected": true
-          },
-          {
-            "name": "KIM TAMI MUÑOZ YURIVILCA",
-            "votes": 1383,
-            "lista": 1,
-            "elected": true
-          },
-          {
-            "name": "CAYO CONDEZO MEZA",
-            "votes": 810,
-            "lista": 4,
-            "elected": false
-          },
-          {
-            "name": "CIVIA QUIRICA PONCE VDA DE RIVERA",
-            "votes": 174,
-            "lista": 3,
-            "elected": false
-          }
-        ]
+      "JUNTOS POR EL PERÚ": {
+        "seats_won": 0,
+        "candidates": []
       },
       "PARTIDO CÍVICO OBRAS": {
         "seats_won": 0,
@@ -4593,11 +4568,36 @@
           }
         ]
       },
-      "PARTIDO DEL BUEN GOBIERNO": {
-        "seats_won": 0,
-        "candidates": []
+      "FUERZA POPULAR": {
+        "seats_won": 2,
+        "candidates": [
+          {
+            "name": "JHONN BRAYAM VALQUI ORDOÑEZ",
+            "votes": 2116,
+            "lista": 2,
+            "elected": true
+          },
+          {
+            "name": "KIM TAMI MUÑOZ YURIVILCA",
+            "votes": 1383,
+            "lista": 1,
+            "elected": true
+          },
+          {
+            "name": "CAYO CONDEZO MEZA",
+            "votes": 810,
+            "lista": 4,
+            "elected": false
+          },
+          {
+            "name": "CIVIA QUIRICA PONCE VDA DE RIVERA",
+            "votes": 174,
+            "lista": 3,
+            "elected": false
+          }
+        ]
       },
-      "JUNTOS POR EL PERÚ": {
+      "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 0,
         "candidates": []
       },
@@ -4655,58 +4655,9 @@
       }
     },
     "Piura": {
-      "FUERZA POPULAR": {
-        "seats_won": 4,
-        "candidates": [
-          {
-            "name": "CESAR MANUEL REVILLA VILLANUEVA",
-            "votes": 6321,
-            "lista": 3,
-            "elected": true
-          },
-          {
-            "name": "EDUARDO ENRIQUE CASTILLO RIVAS",
-            "votes": 5028,
-            "lista": 1,
-            "elected": true
-          },
-          {
-            "name": "CARMELA PAUCARA PAXI",
-            "votes": 1632,
-            "lista": 2,
-            "elected": true
-          },
-          {
-            "name": "MARVIN ALBERTO ALVAREZ ARECHAGA",
-            "votes": 1141,
-            "lista": 5,
-            "elected": true
-          },
-          {
-            "name": "CRUZ MARIA ZETA CHUNGA",
-            "votes": 853,
-            "lista": 4,
-            "elected": false
-          },
-          {
-            "name": "MARIA LUISA SILUPU INGA",
-            "votes": 732,
-            "lista": 6,
-            "elected": false
-          },
-          {
-            "name": "JUAN DIEGO CIEZA ARAMBULO",
-            "votes": 707,
-            "lista": 7,
-            "elected": false
-          },
-          {
-            "name": "MARIA ESPERANZA SAAVEDRA CHINCHAY DE NIEVES",
-            "votes": 46,
-            "lista": 8,
-            "elected": false
-          }
-        ]
+      "JUNTOS POR EL PERÚ": {
+        "seats_won": 0,
+        "candidates": []
       },
       "PARTIDO CÍVICO OBRAS": {
         "seats_won": 1,
@@ -4756,6 +4707,59 @@
           {
             "name": "MARTHA MARINA SALAZAR DE VASQUEZ",
             "votes": 35,
+            "lista": 8,
+            "elected": false
+          }
+        ]
+      },
+      "FUERZA POPULAR": {
+        "seats_won": 4,
+        "candidates": [
+          {
+            "name": "CESAR MANUEL REVILLA VILLANUEVA",
+            "votes": 6321,
+            "lista": 3,
+            "elected": true
+          },
+          {
+            "name": "EDUARDO ENRIQUE CASTILLO RIVAS",
+            "votes": 5028,
+            "lista": 1,
+            "elected": true
+          },
+          {
+            "name": "CARMELA PAUCARA PAXI",
+            "votes": 1632,
+            "lista": 2,
+            "elected": true
+          },
+          {
+            "name": "MARVIN ALBERTO ALVAREZ ARECHAGA",
+            "votes": 1141,
+            "lista": 5,
+            "elected": true
+          },
+          {
+            "name": "CRUZ MARIA ZETA CHUNGA",
+            "votes": 853,
+            "lista": 4,
+            "elected": false
+          },
+          {
+            "name": "MARIA LUISA SILUPU INGA",
+            "votes": 732,
+            "lista": 6,
+            "elected": false
+          },
+          {
+            "name": "JUAN DIEGO CIEZA ARAMBULO",
+            "votes": 707,
+            "lista": 7,
+            "elected": false
+          },
+          {
+            "name": "MARIA ESPERANZA SAAVEDRA CHINCHAY DE NIEVES",
+            "votes": 46,
             "lista": 8,
             "elected": false
           }
@@ -4813,10 +4817,6 @@
             "elected": false
           }
         ]
-      },
-      "JUNTOS POR EL PERÚ": {
-        "seats_won": 0,
-        "candidates": []
       },
       "AHORA NACIÓN - AN": {
         "seats_won": 0,
@@ -4926,6 +4926,82 @@
       }
     },
     "Puno": {
+      "JUNTOS POR EL PERÚ": {
+        "seats_won": 3,
+        "candidates": [
+          {
+            "name": "JESSICA SADITH PEREZ QUISPE",
+            "votes": 15902,
+            "lista": 2,
+            "elected": true
+          },
+          {
+            "name": "CESAR HUGO TITO ROJAS",
+            "votes": 14299,
+            "lista": 3,
+            "elected": true
+          },
+          {
+            "name": "REMIGIO CONDORI FLORES",
+            "votes": 13011,
+            "lista": 1,
+            "elected": true
+          },
+          {
+            "name": "BRIGIDA CURO BUSTINCIO",
+            "votes": 7182,
+            "lista": 4,
+            "elected": false
+          },
+          {
+            "name": "HENRY CALIZAYA MAMANI",
+            "votes": 5382,
+            "lista": 5,
+            "elected": false
+          },
+          {
+            "name": "SAMMY YESSICA CHECA AMANQUI",
+            "votes": 665,
+            "lista": 6,
+            "elected": false
+          }
+        ]
+      },
+      "PARTIDO CÍVICO OBRAS": {
+        "seats_won": 1,
+        "candidates": [
+          {
+            "name": "DINA IRENE HANCCO HANCCO",
+            "votes": 8919,
+            "lista": 1,
+            "elected": true
+          },
+          {
+            "name": "NICOLE JAZMIN RUIZ PAREDES",
+            "votes": 5886,
+            "lista": 3,
+            "elected": false
+          },
+          {
+            "name": "SALOMON COAQUIRA GOMEZ",
+            "votes": 5144,
+            "lista": 2,
+            "elected": false
+          },
+          {
+            "name": "HECTOR APAZA ÑAUPA",
+            "votes": 4238,
+            "lista": 4,
+            "elected": false
+          },
+          {
+            "name": "SERLY MAMANI CCOLLANA",
+            "votes": 2528,
+            "lista": 5,
+            "elected": false
+          }
+        ]
+      },
       "FUERZA POPULAR": {
         "seats_won": 0,
         "candidates": [
@@ -4967,41 +5043,6 @@
           }
         ]
       },
-      "PARTIDO CÍVICO OBRAS": {
-        "seats_won": 1,
-        "candidates": [
-          {
-            "name": "DINA IRENE HANCCO HANCCO",
-            "votes": 8919,
-            "lista": 1,
-            "elected": true
-          },
-          {
-            "name": "NICOLE JAZMIN RUIZ PAREDES",
-            "votes": 5886,
-            "lista": 3,
-            "elected": false
-          },
-          {
-            "name": "SALOMON COAQUIRA GOMEZ",
-            "votes": 5144,
-            "lista": 2,
-            "elected": false
-          },
-          {
-            "name": "HECTOR APAZA ÑAUPA",
-            "votes": 4238,
-            "lista": 4,
-            "elected": false
-          },
-          {
-            "name": "SERLY MAMANI CCOLLANA",
-            "votes": 2528,
-            "lista": 5,
-            "elected": false
-          }
-        ]
-      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 0,
         "candidates": [
@@ -5032,47 +5073,6 @@
           {
             "name": "NANCY YANET CRUZ ZEGARRA",
             "votes": 181,
-            "lista": 6,
-            "elected": false
-          }
-        ]
-      },
-      "JUNTOS POR EL PERÚ": {
-        "seats_won": 3,
-        "candidates": [
-          {
-            "name": "JESSICA SADITH PEREZ QUISPE",
-            "votes": 15902,
-            "lista": 2,
-            "elected": true
-          },
-          {
-            "name": "CESAR HUGO TITO ROJAS",
-            "votes": 14299,
-            "lista": 3,
-            "elected": true
-          },
-          {
-            "name": "REMIGIO CONDORI FLORES",
-            "votes": 13011,
-            "lista": 1,
-            "elected": true
-          },
-          {
-            "name": "BRIGIDA CURO BUSTINCIO",
-            "votes": 7182,
-            "lista": 4,
-            "elected": false
-          },
-          {
-            "name": "HENRY CALIZAYA MAMANI",
-            "votes": 5382,
-            "lista": 5,
-            "elected": false
-          },
-          {
-            "name": "SAMMY YESSICA CHECA AMANQUI",
-            "votes": 665,
             "lista": 6,
             "elected": false
           }
@@ -5162,6 +5162,58 @@
       }
     },
     "San Martín": {
+      "JUNTOS POR EL PERÚ": {
+        "seats_won": 2,
+        "candidates": [
+          {
+            "name": "OLVER PEÑA CORDOVA",
+            "votes": 6845,
+            "lista": 1,
+            "elected": true
+          },
+          {
+            "name": "JACQUELINE VIVIANA TAPULLIMA INSAPILLO",
+            "votes": 4483,
+            "lista": 2,
+            "elected": true
+          },
+          {
+            "name": "PABLO MORI SALDAÑA",
+            "votes": 3039,
+            "lista": 3,
+            "elected": false
+          },
+          {
+            "name": "ROSA MARIS ALTAMIRANO CARRANZA",
+            "votes": 1636,
+            "lista": 4,
+            "elected": false
+          }
+        ]
+      },
+      "PARTIDO CÍVICO OBRAS": {
+        "seats_won": 0,
+        "candidates": [
+          {
+            "name": "ASUNCION ARENAS VELA",
+            "votes": 3474,
+            "lista": 1,
+            "elected": false
+          },
+          {
+            "name": "CHANELY CHAVEZ PORTOCARRERO",
+            "votes": 1439,
+            "lista": 2,
+            "elected": false
+          },
+          {
+            "name": "MERY RIOS GARCIA",
+            "votes": 339,
+            "lista": 4,
+            "elected": false
+          }
+        ]
+      },
       "FUERZA POPULAR": {
         "seats_won": 2,
         "candidates": [
@@ -5191,29 +5243,6 @@
           }
         ]
       },
-      "PARTIDO CÍVICO OBRAS": {
-        "seats_won": 0,
-        "candidates": [
-          {
-            "name": "ASUNCION ARENAS VELA",
-            "votes": 3474,
-            "lista": 1,
-            "elected": false
-          },
-          {
-            "name": "CHANELY CHAVEZ PORTOCARRERO",
-            "votes": 1439,
-            "lista": 2,
-            "elected": false
-          },
-          {
-            "name": "MERY RIOS GARCIA",
-            "votes": 339,
-            "lista": 4,
-            "elected": false
-          }
-        ]
-      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 0,
         "candidates": [
@@ -5238,35 +5267,6 @@
           {
             "name": "HAIDY PIERINA CASTRO CALLE",
             "votes": 91,
-            "lista": 4,
-            "elected": false
-          }
-        ]
-      },
-      "JUNTOS POR EL PERÚ": {
-        "seats_won": 2,
-        "candidates": [
-          {
-            "name": "OLVER PEÑA CORDOVA",
-            "votes": 6845,
-            "lista": 1,
-            "elected": true
-          },
-          {
-            "name": "JACQUELINE VIVIANA TAPULLIMA INSAPILLO",
-            "votes": 4483,
-            "lista": 2,
-            "elected": true
-          },
-          {
-            "name": "PABLO MORI SALDAÑA",
-            "votes": 3039,
-            "lista": 3,
-            "elected": false
-          },
-          {
-            "name": "ROSA MARIS ALTAMIRANO CARRANZA",
-            "votes": 1636,
             "lista": 4,
             "elected": false
           }
@@ -5332,6 +5332,52 @@
       }
     },
     "Tacna": {
+      "JUNTOS POR EL PERÚ": {
+        "seats_won": 0,
+        "candidates": [
+          {
+            "name": "SVIETA VALIA FERNANDEZ GONZALEZ",
+            "votes": 652,
+            "lista": 1,
+            "elected": false
+          },
+          {
+            "name": "RENE NICOLAS LOMA TONCONI",
+            "votes": 512,
+            "lista": 2,
+            "elected": false
+          },
+          {
+            "name": "LILA MILUSKA VIZA CONDORI",
+            "votes": 427,
+            "lista": 3,
+            "elected": false
+          }
+        ]
+      },
+      "PARTIDO CÍVICO OBRAS": {
+        "seats_won": 1,
+        "candidates": [
+          {
+            "name": "JUAN CESAR CABRERA NIETO",
+            "votes": 739,
+            "lista": 1,
+            "elected": true
+          },
+          {
+            "name": "SANDRA VANESA CHURATA LUPACA",
+            "votes": 377,
+            "lista": 2,
+            "elected": false
+          },
+          {
+            "name": "ALMENDRA LUZ MAMANI DELGADO",
+            "votes": 91,
+            "lista": 4,
+            "elected": false
+          }
+        ]
+      },
       "FUERZA POPULAR": {
         "seats_won": 0,
         "candidates": [
@@ -5356,29 +5402,6 @@
           {
             "name": "MARIA NORI GARAYAR ZAMORA",
             "votes": 24,
-            "lista": 4,
-            "elected": false
-          }
-        ]
-      },
-      "PARTIDO CÍVICO OBRAS": {
-        "seats_won": 1,
-        "candidates": [
-          {
-            "name": "JUAN CESAR CABRERA NIETO",
-            "votes": 739,
-            "lista": 1,
-            "elected": true
-          },
-          {
-            "name": "SANDRA VANESA CHURATA LUPACA",
-            "votes": 377,
-            "lista": 2,
-            "elected": false
-          },
-          {
-            "name": "ALMENDRA LUZ MAMANI DELGADO",
-            "votes": 91,
             "lista": 4,
             "elected": false
           }
@@ -5409,29 +5432,6 @@
             "name": "VANESSA TONE GOMEZ",
             "votes": 87,
             "lista": 4,
-            "elected": false
-          }
-        ]
-      },
-      "JUNTOS POR EL PERÚ": {
-        "seats_won": 0,
-        "candidates": [
-          {
-            "name": "SVIETA VALIA FERNANDEZ GONZALEZ",
-            "votes": 652,
-            "lista": 1,
-            "elected": false
-          },
-          {
-            "name": "RENE NICOLAS LOMA TONCONI",
-            "votes": 512,
-            "lista": 2,
-            "elected": false
-          },
-          {
-            "name": "LILA MILUSKA VIZA CONDORI",
-            "votes": 427,
-            "lista": 3,
             "elected": false
           }
         ]
@@ -5490,6 +5490,33 @@
       }
     },
     "Tumbes": {
+      "JUNTOS POR EL PERÚ": {
+        "seats_won": 0,
+        "candidates": [
+          {
+            "name": "ELVIS ERKMAN MENDOZA AGUILAR",
+            "votes": 447,
+            "lista": 1,
+            "elected": false
+          },
+          {
+            "name": "CINTHIA LISETTE SERNAQUE OLIVOS",
+            "votes": 153,
+            "lista": 2,
+            "elected": false
+          },
+          {
+            "name": "LUZ ANGELICA MEDINA ELIZALDE",
+            "votes": 43,
+            "lista": 4,
+            "elected": false
+          }
+        ]
+      },
+      "PARTIDO CÍVICO OBRAS": {
+        "seats_won": 0,
+        "candidates": []
+      },
       "FUERZA POPULAR": {
         "seats_won": 2,
         "candidates": [
@@ -5513,10 +5540,6 @@
           }
         ]
       },
-      "PARTIDO CÍVICO OBRAS": {
-        "seats_won": 0,
-        "candidates": []
-      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 0,
         "candidates": [
@@ -5536,29 +5559,6 @@
             "name": "MONICA LISETH ALEMAN ZARATE",
             "votes": 25,
             "lista": 3,
-            "elected": false
-          }
-        ]
-      },
-      "JUNTOS POR EL PERÚ": {
-        "seats_won": 0,
-        "candidates": [
-          {
-            "name": "ELVIS ERKMAN MENDOZA AGUILAR",
-            "votes": 447,
-            "lista": 1,
-            "elected": false
-          },
-          {
-            "name": "CINTHIA LISETTE SERNAQUE OLIVOS",
-            "votes": 153,
-            "lista": 2,
-            "elected": false
-          },
-          {
-            "name": "LUZ ANGELICA MEDINA ELIZALDE",
-            "votes": 43,
-            "lista": 4,
             "elected": false
           }
         ]
@@ -5617,30 +5617,24 @@
       }
     },
     "Ucayali": {
-      "FUERZA POPULAR": {
-        "seats_won": 3,
+      "JUNTOS POR EL PERÚ": {
+        "seats_won": 0,
         "candidates": [
           {
-            "name": "JESSICA LIZBETH NAVAS SANCHEZ",
-            "votes": 3875,
+            "name": "OSWAR ELBIS CAHUAZA MITIVIRE",
+            "votes": 762,
             "lista": 1,
-            "elected": true
+            "elected": false
           },
           {
-            "name": "JAIME AMERICO ABENSUR PINASCO",
-            "votes": 1416,
+            "name": "BERITA FLORES GONZALES",
+            "votes": 585,
             "lista": 2,
-            "elected": true
+            "elected": false
           },
           {
-            "name": "WENDY ASTRID RIOS PALMA",
-            "votes": 456,
-            "lista": 3,
-            "elected": true
-          },
-          {
-            "name": "JHON EDWAR AVILES SANDI",
-            "votes": 210,
+            "name": "ISABEL RAMIREZ SALAS",
+            "votes": 84,
             "lista": 4,
             "elected": false
           }
@@ -5675,6 +5669,35 @@
           }
         ]
       },
+      "FUERZA POPULAR": {
+        "seats_won": 3,
+        "candidates": [
+          {
+            "name": "JESSICA LIZBETH NAVAS SANCHEZ",
+            "votes": 3875,
+            "lista": 1,
+            "elected": true
+          },
+          {
+            "name": "JAIME AMERICO ABENSUR PINASCO",
+            "votes": 1416,
+            "lista": 2,
+            "elected": true
+          },
+          {
+            "name": "WENDY ASTRID RIOS PALMA",
+            "votes": 456,
+            "lista": 3,
+            "elected": true
+          },
+          {
+            "name": "JHON EDWAR AVILES SANDI",
+            "votes": 210,
+            "lista": 4,
+            "elected": false
+          }
+        ]
+      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 0,
         "candidates": [
@@ -5699,29 +5722,6 @@
           {
             "name": "ROSARIO DEL CARMEN REATEGUI FLORES",
             "votes": 37,
-            "lista": 4,
-            "elected": false
-          }
-        ]
-      },
-      "JUNTOS POR EL PERÚ": {
-        "seats_won": 0,
-        "candidates": [
-          {
-            "name": "OSWAR ELBIS CAHUAZA MITIVIRE",
-            "votes": 762,
-            "lista": 1,
-            "elected": false
-          },
-          {
-            "name": "BERITA FLORES GONZALES",
-            "votes": 585,
-            "lista": 2,
-            "elected": false
-          },
-          {
-            "name": "ISABEL RAMIREZ SALAS",
-            "votes": 84,
             "lista": 4,
             "elected": false
           }
@@ -5787,34 +5787,9 @@
       }
     },
     "PEX": {
-      "FUERZA POPULAR": {
-        "seats_won": 1,
-        "candidates": [
-          {
-            "name": "LIZ HULI MENDOZA BERNEDO",
-            "votes": 637,
-            "lista": 1,
-            "elected": true
-          },
-          {
-            "name": "ROBERTO MARTIN LUNA ENCISO",
-            "votes": 326,
-            "lista": 2,
-            "elected": false
-          },
-          {
-            "name": "ELMER ELISEO ALFARO QUIPUSCOA",
-            "votes": 248,
-            "lista": 4,
-            "elected": false
-          },
-          {
-            "name": "MARILUZ MARCELINA AGUILAR CONDOR",
-            "votes": 169,
-            "lista": 3,
-            "elected": false
-          }
-        ]
+      "JUNTOS POR EL PERÚ": {
+        "seats_won": 0,
+        "candidates": []
       },
       "PARTIDO CÍVICO OBRAS": {
         "seats_won": 0,
@@ -5841,6 +5816,35 @@
             "name": "FRANCISCA PEREZ PEREZ",
             "votes": 43,
             "lista": 4,
+            "elected": false
+          }
+        ]
+      },
+      "FUERZA POPULAR": {
+        "seats_won": 1,
+        "candidates": [
+          {
+            "name": "LIZ HULI MENDOZA BERNEDO",
+            "votes": 637,
+            "lista": 1,
+            "elected": true
+          },
+          {
+            "name": "ROBERTO MARTIN LUNA ENCISO",
+            "votes": 326,
+            "lista": 2,
+            "elected": false
+          },
+          {
+            "name": "ELMER ELISEO ALFARO QUIPUSCOA",
+            "votes": 248,
+            "lista": 4,
+            "elected": false
+          },
+          {
+            "name": "MARILUZ MARCELINA AGUILAR CONDOR",
+            "votes": 169,
+            "lista": 3,
             "elected": false
           }
         ]
@@ -5873,10 +5877,6 @@
             "elected": false
           }
         ]
-      },
-      "JUNTOS POR EL PERÚ": {
-        "seats_won": 0,
-        "candidates": []
       },
       "AHORA NACIÓN - AN": {
         "seats_won": 0,
@@ -5940,6 +5940,14 @@
   },
   "senador": {
     "Amazonas": {
+      "JUNTOS POR EL PERÚ": {
+        "seats_won": 0,
+        "candidates": []
+      },
+      "PARTIDO CÍVICO OBRAS": {
+        "seats_won": 0,
+        "candidates": []
+      },
       "FUERZA POPULAR": {
         "seats_won": 1,
         "candidates": [
@@ -5957,10 +5965,6 @@
           }
         ]
       },
-      "PARTIDO CÍVICO OBRAS": {
-        "seats_won": 0,
-        "candidates": []
-      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 0,
         "candidates": [
@@ -5977,10 +5981,6 @@
             "elected": false
           }
         ]
-      },
-      "JUNTOS POR EL PERÚ": {
-        "seats_won": 0,
-        "candidates": []
       },
       "AHORA NACIÓN - AN": {
         "seats_won": 0,
@@ -6018,18 +6018,18 @@
       }
     },
     "Áncash": {
-      "FUERZA POPULAR": {
-        "seats_won": 0,
+      "JUNTOS POR EL PERÚ": {
+        "seats_won": 1,
         "candidates": [
           {
-            "name": "NILZA MERLY CHACON TRUJILLO",
-            "votes": 4351,
+            "name": "ELIAS MARCIAL VARAS MELENDEZ",
+            "votes": 4330,
             "lista": 1,
-            "elected": false
+            "elected": true
           },
           {
-            "name": "LENIN TAFUR LUCERO",
-            "votes": 1382,
+            "name": "DOMITILA GINA SILVA POMA VDA DE CASTILLO",
+            "votes": 2977,
             "lista": 2,
             "elected": false
           }
@@ -6052,6 +6052,23 @@
           }
         ]
       },
+      "FUERZA POPULAR": {
+        "seats_won": 0,
+        "candidates": [
+          {
+            "name": "NILZA MERLY CHACON TRUJILLO",
+            "votes": 4351,
+            "lista": 1,
+            "elected": false
+          },
+          {
+            "name": "LENIN TAFUR LUCERO",
+            "votes": 1382,
+            "lista": 2,
+            "elected": false
+          }
+        ]
+      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 0,
         "candidates": [
@@ -6064,23 +6081,6 @@
           {
             "name": "JACQUELINE BRAVO MENDOZA",
             "votes": 401,
-            "lista": 2,
-            "elected": false
-          }
-        ]
-      },
-      "JUNTOS POR EL PERÚ": {
-        "seats_won": 1,
-        "candidates": [
-          {
-            "name": "ELIAS MARCIAL VARAS MELENDEZ",
-            "votes": 4330,
-            "lista": 1,
-            "elected": true
-          },
-          {
-            "name": "DOMITILA GINA SILVA POMA VDA DE CASTILLO",
-            "votes": 2977,
             "lista": 2,
             "elected": false
           }
@@ -6122,18 +6122,18 @@
       }
     },
     "Apurímac": {
-      "FUERZA POPULAR": {
-        "seats_won": 0,
+      "JUNTOS POR EL PERÚ": {
+        "seats_won": 1,
         "candidates": [
           {
-            "name": "DORINA CACERES YBIAS",
-            "votes": 643,
+            "name": "ANDRES AVELINO RAMOS HUILLCAS",
+            "votes": 7158,
             "lista": 1,
-            "elected": false
+            "elected": true
           },
           {
-            "name": "ALEX RICHARD LAZO REYES",
-            "votes": 83,
+            "name": "SONIA VIRGINIA RIMASCCA MOSQUEIRA",
+            "votes": 2321,
             "lista": 2,
             "elected": false
           }
@@ -6156,6 +6156,23 @@
           }
         ]
       },
+      "FUERZA POPULAR": {
+        "seats_won": 0,
+        "candidates": [
+          {
+            "name": "DORINA CACERES YBIAS",
+            "votes": 643,
+            "lista": 1,
+            "elected": false
+          },
+          {
+            "name": "ALEX RICHARD LAZO REYES",
+            "votes": 83,
+            "lista": 2,
+            "elected": false
+          }
+        ]
+      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 0,
         "candidates": [
@@ -6163,23 +6180,6 @@
             "name": "FREDY SUCÑER INQUIL",
             "votes": 618,
             "lista": 1,
-            "elected": false
-          }
-        ]
-      },
-      "JUNTOS POR EL PERÚ": {
-        "seats_won": 1,
-        "candidates": [
-          {
-            "name": "ANDRES AVELINO RAMOS HUILLCAS",
-            "votes": 7158,
-            "lista": 1,
-            "elected": true
-          },
-          {
-            "name": "SONIA VIRGINIA RIMASCCA MOSQUEIRA",
-            "votes": 2321,
-            "lista": 2,
             "elected": false
           }
         ]
@@ -6214,19 +6214,13 @@
       }
     },
     "Arequipa": {
-      "FUERZA POPULAR": {
+      "JUNTOS POR EL PERÚ": {
         "seats_won": 0,
         "candidates": [
           {
-            "name": "MAURICIO FERNANDO ARNILLAS GONZALEZ",
-            "votes": 3376,
+            "name": "RONAL HAMILTON FERNANDEZ BRAVO",
+            "votes": 6082,
             "lista": 1,
-            "elected": false
-          },
-          {
-            "name": "VICTORIA VILMA TUCO VERA",
-            "votes": 742,
-            "lista": 2,
             "elected": false
           }
         ]
@@ -6248,6 +6242,23 @@
           }
         ]
       },
+      "FUERZA POPULAR": {
+        "seats_won": 0,
+        "candidates": [
+          {
+            "name": "MAURICIO FERNANDO ARNILLAS GONZALEZ",
+            "votes": 3376,
+            "lista": 1,
+            "elected": false
+          },
+          {
+            "name": "VICTORIA VILMA TUCO VERA",
+            "votes": 742,
+            "lista": 2,
+            "elected": false
+          }
+        ]
+      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 1,
         "candidates": [
@@ -6261,17 +6272,6 @@
             "name": "AGRIPINA LIMA HUISA",
             "votes": 2070,
             "lista": 2,
-            "elected": false
-          }
-        ]
-      },
-      "JUNTOS POR EL PERÚ": {
-        "seats_won": 0,
-        "candidates": [
-          {
-            "name": "RONAL HAMILTON FERNANDEZ BRAVO",
-            "votes": 6082,
-            "lista": 1,
             "elected": false
           }
         ]
@@ -6312,18 +6312,18 @@
       }
     },
     "Ayacucho": {
-      "FUERZA POPULAR": {
-        "seats_won": 0,
+      "JUNTOS POR EL PERÚ": {
+        "seats_won": 1,
         "candidates": [
           {
-            "name": "YOVANA PATRICIA DIAZ VEGA",
-            "votes": 1248,
+            "name": "EDYSON HUMBERTO MORALES RAMIREZ",
+            "votes": 8194,
             "lista": 1,
-            "elected": false
+            "elected": true
           },
           {
-            "name": "LUIS ALBERTO VELARDE DIAZ",
-            "votes": 591,
+            "name": "EUDOCIA LICLA PILLACA",
+            "votes": 3254,
             "lista": 2,
             "elected": false
           }
@@ -6346,6 +6346,23 @@
           }
         ]
       },
+      "FUERZA POPULAR": {
+        "seats_won": 0,
+        "candidates": [
+          {
+            "name": "YOVANA PATRICIA DIAZ VEGA",
+            "votes": 1248,
+            "lista": 1,
+            "elected": false
+          },
+          {
+            "name": "LUIS ALBERTO VELARDE DIAZ",
+            "votes": 591,
+            "lista": 2,
+            "elected": false
+          }
+        ]
+      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 0,
         "candidates": [
@@ -6358,23 +6375,6 @@
           {
             "name": "ROCIO ELMA VARGAS MEZA",
             "votes": 334,
-            "lista": 2,
-            "elected": false
-          }
-        ]
-      },
-      "JUNTOS POR EL PERÚ": {
-        "seats_won": 1,
-        "candidates": [
-          {
-            "name": "EDYSON HUMBERTO MORALES RAMIREZ",
-            "votes": 8194,
-            "lista": 1,
-            "elected": true
-          },
-          {
-            "name": "EUDOCIA LICLA PILLACA",
-            "votes": 3254,
             "lista": 2,
             "elected": false
           }
@@ -6416,22 +6416,9 @@
       }
     },
     "Cajamarca": {
-      "FUERZA POPULAR": {
-        "seats_won": 1,
-        "candidates": [
-          {
-            "name": "SEGUNDO LEOCADIO TAPIA BERNAL",
-            "votes": 3689,
-            "lista": 1,
-            "elected": true
-          },
-          {
-            "name": "ELVA MERCEDES DIAZ SANCHEZ DE VILLEGAS",
-            "votes": 1149,
-            "lista": 2,
-            "elected": false
-          }
-        ]
+      "JUNTOS POR EL PERÚ": {
+        "seats_won": 0,
+        "candidates": []
       },
       "PARTIDO CÍVICO OBRAS": {
         "seats_won": 0,
@@ -6445,6 +6432,23 @@
           {
             "name": "ROSARIO SAUCEDO ESTACIO",
             "votes": 1744,
+            "lista": 2,
+            "elected": false
+          }
+        ]
+      },
+      "FUERZA POPULAR": {
+        "seats_won": 1,
+        "candidates": [
+          {
+            "name": "SEGUNDO LEOCADIO TAPIA BERNAL",
+            "votes": 3689,
+            "lista": 1,
+            "elected": true
+          },
+          {
+            "name": "ELVA MERCEDES DIAZ SANCHEZ DE VILLEGAS",
+            "votes": 1149,
             "lista": 2,
             "elected": false
           }
@@ -6466,10 +6470,6 @@
             "elected": false
           }
         ]
-      },
-      "JUNTOS POR EL PERÚ": {
-        "seats_won": 0,
-        "candidates": []
       },
       "AHORA NACIÓN - AN": {
         "seats_won": 0,
@@ -6507,18 +6507,18 @@
       }
     },
     "Callao": {
-      "FUERZA POPULAR": {
-        "seats_won": 1,
+      "JUNTOS POR EL PERÚ": {
+        "seats_won": 0,
         "candidates": [
           {
-            "name": "JACQUES SALOMON RODRICH ACKERMAN",
-            "votes": 9320,
+            "name": "VITTORIO ALFONSO BRISSOLESE PAZ",
+            "votes": 1592,
             "lista": 1,
-            "elected": true
+            "elected": false
           },
           {
-            "name": "MARIA ELENA ROJAS ROMAN",
-            "votes": 2568,
+            "name": "DELIA ISABEL CORNELIO DE TORRES",
+            "votes": 1145,
             "lista": 2,
             "elected": false
           }
@@ -6541,6 +6541,23 @@
           }
         ]
       },
+      "FUERZA POPULAR": {
+        "seats_won": 1,
+        "candidates": [
+          {
+            "name": "JACQUES SALOMON RODRICH ACKERMAN",
+            "votes": 9320,
+            "lista": 1,
+            "elected": true
+          },
+          {
+            "name": "MARIA ELENA ROJAS ROMAN",
+            "votes": 2568,
+            "lista": 2,
+            "elected": false
+          }
+        ]
+      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 0,
         "candidates": [
@@ -6553,23 +6570,6 @@
           {
             "name": "BRISAIDA DEL CARMEN ANAYA PEREZ",
             "votes": 1665,
-            "lista": 2,
-            "elected": false
-          }
-        ]
-      },
-      "JUNTOS POR EL PERÚ": {
-        "seats_won": 0,
-        "candidates": [
-          {
-            "name": "VITTORIO ALFONSO BRISSOLESE PAZ",
-            "votes": 1592,
-            "lista": 1,
-            "elected": false
-          },
-          {
-            "name": "DELIA ISABEL CORNELIO DE TORRES",
-            "votes": 1145,
             "lista": 2,
             "elected": false
           }
@@ -6605,13 +6605,19 @@
       }
     },
     "Cusco": {
-      "FUERZA POPULAR": {
-        "seats_won": 0,
+      "JUNTOS POR EL PERÚ": {
+        "seats_won": 1,
         "candidates": [
           {
-            "name": "WALTER MISAEL MANCILLA HUAMAN",
-            "votes": 1794,
+            "name": "WILFREDO VERANO SARAVIA",
+            "votes": 12626,
             "lista": 1,
+            "elected": true
+          },
+          {
+            "name": "JUANA JANCCO ESPINOZA",
+            "votes": 6291,
+            "lista": 2,
             "elected": false
           }
         ]
@@ -6633,6 +6639,17 @@
           }
         ]
       },
+      "FUERZA POPULAR": {
+        "seats_won": 0,
+        "candidates": [
+          {
+            "name": "WALTER MISAEL MANCILLA HUAMAN",
+            "votes": 1794,
+            "lista": 1,
+            "elected": false
+          }
+        ]
+      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 0,
         "candidates": [
@@ -6645,23 +6662,6 @@
           {
             "name": "WASINGTON LOAIZA CUBA",
             "votes": 924,
-            "lista": 2,
-            "elected": false
-          }
-        ]
-      },
-      "JUNTOS POR EL PERÚ": {
-        "seats_won": 1,
-        "candidates": [
-          {
-            "name": "WILFREDO VERANO SARAVIA",
-            "votes": 12626,
-            "lista": 1,
-            "elected": true
-          },
-          {
-            "name": "JUANA JANCCO ESPINOZA",
-            "votes": 6291,
             "lista": 2,
             "elected": false
           }
@@ -6703,6 +6703,27 @@
       }
     },
     "Huancavelica": {
+      "JUNTOS POR EL PERÚ": {
+        "seats_won": 1,
+        "candidates": [
+          {
+            "name": "JOAQUIN YAURI TUNQUE",
+            "votes": 14486,
+            "lista": 1,
+            "elected": true
+          },
+          {
+            "name": "CARMEN LAURA VILLAVERDE HILARIO",
+            "votes": 4396,
+            "lista": 2,
+            "elected": false
+          }
+        ]
+      },
+      "PARTIDO CÍVICO OBRAS": {
+        "seats_won": 0,
+        "candidates": []
+      },
       "FUERZA POPULAR": {
         "seats_won": 0,
         "candidates": [
@@ -6720,30 +6741,9 @@
           }
         ]
       },
-      "PARTIDO CÍVICO OBRAS": {
-        "seats_won": 0,
-        "candidates": []
-      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 0,
         "candidates": []
-      },
-      "JUNTOS POR EL PERÚ": {
-        "seats_won": 1,
-        "candidates": [
-          {
-            "name": "JOAQUIN YAURI TUNQUE",
-            "votes": 14486,
-            "lista": 1,
-            "elected": true
-          },
-          {
-            "name": "CARMEN LAURA VILLAVERDE HILARIO",
-            "votes": 4396,
-            "lista": 2,
-            "elected": false
-          }
-        ]
       },
       "AHORA NACIÓN - AN": {
         "seats_won": 0,
@@ -6762,18 +6762,18 @@
       }
     },
     "Huánuco": {
-      "FUERZA POPULAR": {
-        "seats_won": 0,
+      "JUNTOS POR EL PERÚ": {
+        "seats_won": 1,
         "candidates": [
           {
-            "name": "LUZ MARINA GUTIERREZ VALDIVIA",
-            "votes": 2075,
+            "name": "SERAFIN ANDRES LUJAN",
+            "votes": 3844,
             "lista": 1,
-            "elected": false
+            "elected": true
           },
           {
-            "name": "CARLOS JOSE QUISPE CAJAS",
-            "votes": 408,
+            "name": "ELIZABETH CANTEÑO ALBORNOZ",
+            "votes": 2041,
             "lista": 2,
             "elected": false
           }
@@ -6796,6 +6796,23 @@
           }
         ]
       },
+      "FUERZA POPULAR": {
+        "seats_won": 0,
+        "candidates": [
+          {
+            "name": "LUZ MARINA GUTIERREZ VALDIVIA",
+            "votes": 2075,
+            "lista": 1,
+            "elected": false
+          },
+          {
+            "name": "CARLOS JOSE QUISPE CAJAS",
+            "votes": 408,
+            "lista": 2,
+            "elected": false
+          }
+        ]
+      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 0,
         "candidates": [
@@ -6808,23 +6825,6 @@
           {
             "name": "TERESA MERCEDES RODRIGUEZ PACHECO BENAVIDES",
             "votes": 102,
-            "lista": 2,
-            "elected": false
-          }
-        ]
-      },
-      "JUNTOS POR EL PERÚ": {
-        "seats_won": 1,
-        "candidates": [
-          {
-            "name": "SERAFIN ANDRES LUJAN",
-            "votes": 3844,
-            "lista": 1,
-            "elected": true
-          },
-          {
-            "name": "ELIZABETH CANTEÑO ALBORNOZ",
-            "votes": 2041,
             "lista": 2,
             "elected": false
           }
@@ -6860,18 +6860,18 @@
       }
     },
     "Ica": {
-      "FUERZA POPULAR": {
-        "seats_won": 1,
+      "JUNTOS POR EL PERÚ": {
+        "seats_won": 0,
         "candidates": [
           {
-            "name": "RAFAEL GUSTAVO YAMASHIRO ORE",
-            "votes": 1081,
+            "name": "VICTOR LORENZO CAMASCA ZAPATA",
+            "votes": 423,
             "lista": 1,
-            "elected": true
+            "elected": false
           },
           {
-            "name": "NORMA LUISA FLORES HERRERA",
-            "votes": 197,
+            "name": "JULIA YSABEL VEGA CABRERA",
+            "votes": 174,
             "lista": 2,
             "elected": false
           }
@@ -6894,6 +6894,23 @@
           }
         ]
       },
+      "FUERZA POPULAR": {
+        "seats_won": 1,
+        "candidates": [
+          {
+            "name": "RAFAEL GUSTAVO YAMASHIRO ORE",
+            "votes": 1081,
+            "lista": 1,
+            "elected": true
+          },
+          {
+            "name": "NORMA LUISA FLORES HERRERA",
+            "votes": 197,
+            "lista": 2,
+            "elected": false
+          }
+        ]
+      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 0,
         "candidates": [
@@ -6906,23 +6923,6 @@
           {
             "name": "ENA MARLENE ORTIZ VERGARA",
             "votes": 127,
-            "lista": 2,
-            "elected": false
-          }
-        ]
-      },
-      "JUNTOS POR EL PERÚ": {
-        "seats_won": 0,
-        "candidates": [
-          {
-            "name": "VICTOR LORENZO CAMASCA ZAPATA",
-            "votes": 423,
-            "lista": 1,
-            "elected": false
-          },
-          {
-            "name": "JULIA YSABEL VEGA CABRERA",
-            "votes": 174,
             "lista": 2,
             "elected": false
           }
@@ -6958,18 +6958,18 @@
       }
     },
     "Junín": {
-      "FUERZA POPULAR": {
-        "seats_won": 1,
+      "JUNTOS POR EL PERÚ": {
+        "seats_won": 0,
         "candidates": [
           {
-            "name": "DAVID JULIO JIMENEZ HEREDIA",
-            "votes": 4032,
+            "name": "MARIA LUZ MORALES SERPA",
+            "votes": 2921,
             "lista": 1,
-            "elected": true
+            "elected": false
           },
           {
-            "name": "HERMINIA ROBLES CONTRERAS",
-            "votes": 1117,
+            "name": "JHONNY FLORENCIO GOMEZ ECHEVARRIA",
+            "votes": 2642,
             "lista": 2,
             "elected": false
           }
@@ -6992,6 +6992,23 @@
           }
         ]
       },
+      "FUERZA POPULAR": {
+        "seats_won": 1,
+        "candidates": [
+          {
+            "name": "DAVID JULIO JIMENEZ HEREDIA",
+            "votes": 4032,
+            "lista": 1,
+            "elected": true
+          },
+          {
+            "name": "HERMINIA ROBLES CONTRERAS",
+            "votes": 1117,
+            "lista": 2,
+            "elected": false
+          }
+        ]
+      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 0,
         "candidates": [
@@ -7004,23 +7021,6 @@
           {
             "name": "MARIA ELENA ARIAS MAYER",
             "votes": 717,
-            "lista": 2,
-            "elected": false
-          }
-        ]
-      },
-      "JUNTOS POR EL PERÚ": {
-        "seats_won": 0,
-        "candidates": [
-          {
-            "name": "MARIA LUZ MORALES SERPA",
-            "votes": 2921,
-            "lista": 1,
-            "elected": false
-          },
-          {
-            "name": "JHONNY FLORENCIO GOMEZ ECHEVARRIA",
-            "votes": 2642,
             "lista": 2,
             "elected": false
           }
@@ -7062,18 +7062,12 @@
       }
     },
     "La Libertad": {
-      "FUERZA POPULAR": {
-        "seats_won": 1,
+      "JUNTOS POR EL PERÚ": {
+        "seats_won": 0,
         "candidates": [
           {
-            "name": "VICTOR SEFERINO FLORES RUIZ",
-            "votes": 6575,
-            "lista": 1,
-            "elected": true
-          },
-          {
-            "name": "ESTELA BELINDA BRICEÑO UCEDA",
-            "votes": 1389,
+            "name": "NELLY CHAVEZ VILCHEZ",
+            "votes": 3452,
             "lista": 2,
             "elected": false
           }
@@ -7096,6 +7090,23 @@
           }
         ]
       },
+      "FUERZA POPULAR": {
+        "seats_won": 1,
+        "candidates": [
+          {
+            "name": "VICTOR SEFERINO FLORES RUIZ",
+            "votes": 6575,
+            "lista": 1,
+            "elected": true
+          },
+          {
+            "name": "ESTELA BELINDA BRICEÑO UCEDA",
+            "votes": 1389,
+            "lista": 2,
+            "elected": false
+          }
+        ]
+      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 0,
         "candidates": [
@@ -7108,17 +7119,6 @@
           {
             "name": "SILVIA ODALIS SANCHEZ LOPEZ",
             "votes": 817,
-            "lista": 2,
-            "elected": false
-          }
-        ]
-      },
-      "JUNTOS POR EL PERÚ": {
-        "seats_won": 0,
-        "candidates": [
-          {
-            "name": "NELLY CHAVEZ VILCHEZ",
-            "votes": 3452,
             "lista": 2,
             "elected": false
           }
@@ -7154,18 +7154,18 @@
       }
     },
     "Lambayeque": {
-      "FUERZA POPULAR": {
-        "seats_won": 1,
+      "JUNTOS POR EL PERÚ": {
+        "seats_won": 0,
         "candidates": [
           {
-            "name": "ALEJANDRO AURELIO AGUINAGA RECUENCO",
-            "votes": 7824,
+            "name": "FRANCISCO JAVIER TARRILLO PAICO",
+            "votes": 3023,
             "lista": 1,
-            "elected": true
+            "elected": false
           },
           {
-            "name": "VIOLETA AMELIA FANZO NIQUEN",
-            "votes": 1577,
+            "name": "REINA OLIVERA PEREZ",
+            "votes": 1293,
             "lista": 2,
             "elected": false
           }
@@ -7188,6 +7188,23 @@
           }
         ]
       },
+      "FUERZA POPULAR": {
+        "seats_won": 1,
+        "candidates": [
+          {
+            "name": "ALEJANDRO AURELIO AGUINAGA RECUENCO",
+            "votes": 7824,
+            "lista": 1,
+            "elected": true
+          },
+          {
+            "name": "VIOLETA AMELIA FANZO NIQUEN",
+            "votes": 1577,
+            "lista": 2,
+            "elected": false
+          }
+        ]
+      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 0,
         "candidates": [
@@ -7200,23 +7217,6 @@
           {
             "name": "MAGALI BRAVO MENDOZA",
             "votes": 519,
-            "lista": 2,
-            "elected": false
-          }
-        ]
-      },
-      "JUNTOS POR EL PERÚ": {
-        "seats_won": 0,
-        "candidates": [
-          {
-            "name": "FRANCISCO JAVIER TARRILLO PAICO",
-            "votes": 3023,
-            "lista": 1,
-            "elected": false
-          },
-          {
-            "name": "REINA OLIVERA PEREZ",
-            "votes": 1293,
             "lista": 2,
             "elected": false
           }
@@ -7258,30 +7258,30 @@
       }
     },
     "Lima": {
-      "FUERZA POPULAR": {
-        "seats_won": 1,
+      "JUNTOS POR EL PERÚ": {
+        "seats_won": 0,
         "candidates": [
           {
-            "name": "MARCO ENRIQUE MIYASHIRO ARASHIRO",
-            "votes": 87763,
+            "name": "WALTER EDISON AYALA GONZALES",
+            "votes": 14999,
             "lista": 1,
-            "elected": true
+            "elected": false
           },
           {
-            "name": "MILAGROS EMPERATRIZ SALAZAR DE LA TORRE",
-            "votes": 17586,
+            "name": "JULIA ELIZABETH HUACAN RAMIREZ",
+            "votes": 10247,
             "lista": 2,
             "elected": false
           },
           {
-            "name": "CARLOS ERNESTO BUSTAMANTE DONAYRE",
-            "votes": 13622,
+            "name": "WALTER AMILCAR FLORES CHOCO",
+            "votes": 3763,
             "lista": 3,
             "elected": false
           },
           {
-            "name": "ROSA ELVIRA SALVATIERRA VALDIVIA",
-            "votes": 7293,
+            "name": "JUSTIBEL NILOVNA ROMERO ZELA",
+            "votes": 2361,
             "lista": 4,
             "elected": false
           }
@@ -7316,6 +7316,35 @@
           }
         ]
       },
+      "FUERZA POPULAR": {
+        "seats_won": 1,
+        "candidates": [
+          {
+            "name": "MARCO ENRIQUE MIYASHIRO ARASHIRO",
+            "votes": 87763,
+            "lista": 1,
+            "elected": true
+          },
+          {
+            "name": "MILAGROS EMPERATRIZ SALAZAR DE LA TORRE",
+            "votes": 17586,
+            "lista": 2,
+            "elected": false
+          },
+          {
+            "name": "CARLOS ERNESTO BUSTAMANTE DONAYRE",
+            "votes": 13622,
+            "lista": 3,
+            "elected": false
+          },
+          {
+            "name": "ROSA ELVIRA SALVATIERRA VALDIVIA",
+            "votes": 7293,
+            "lista": 4,
+            "elected": false
+          }
+        ]
+      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 1,
         "candidates": [
@@ -7340,35 +7369,6 @@
           {
             "name": "JOSE ANTONIO PINEDA BARRIOS",
             "votes": 4296,
-            "lista": 4,
-            "elected": false
-          }
-        ]
-      },
-      "JUNTOS POR EL PERÚ": {
-        "seats_won": 0,
-        "candidates": [
-          {
-            "name": "WALTER EDISON AYALA GONZALES",
-            "votes": 14999,
-            "lista": 1,
-            "elected": false
-          },
-          {
-            "name": "JULIA ELIZABETH HUACAN RAMIREZ",
-            "votes": 10247,
-            "lista": 2,
-            "elected": false
-          },
-          {
-            "name": "WALTER AMILCAR FLORES CHOCO",
-            "votes": 3763,
-            "lista": 3,
-            "elected": false
-          },
-          {
-            "name": "JUSTIBEL NILOVNA ROMERO ZELA",
-            "votes": 2361,
             "lista": 4,
             "elected": false
           }
@@ -7428,18 +7428,18 @@
       }
     },
     "Lima Provincias": {
-      "FUERZA POPULAR": {
-        "seats_won": 1,
+      "JUNTOS POR EL PERÚ": {
+        "seats_won": 0,
         "candidates": [
           {
-            "name": "ELARD GALO MELGAR VALDEZ",
-            "votes": 4142,
+            "name": "WILLIAM RICARDO SANCHEZ PALOMINO",
+            "votes": 2014,
             "lista": 1,
-            "elected": true
+            "elected": false
           },
           {
-            "name": "LITA ROMAN BUSTINZA",
-            "votes": 968,
+            "name": "YOLANDA VARGAS CHOQUE",
+            "votes": 1269,
             "lista": 2,
             "elected": false
           }
@@ -7462,29 +7462,29 @@
           }
         ]
       },
+      "FUERZA POPULAR": {
+        "seats_won": 1,
+        "candidates": [
+          {
+            "name": "ELARD GALO MELGAR VALDEZ",
+            "votes": 4142,
+            "lista": 1,
+            "elected": true
+          },
+          {
+            "name": "LITA ROMAN BUSTINZA",
+            "votes": 968,
+            "lista": 2,
+            "elected": false
+          }
+        ]
+      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 0,
         "candidates": [
           {
             "name": "LIDIA CONSUELO MONTEBLANCO RIOS",
             "votes": 612,
-            "lista": 2,
-            "elected": false
-          }
-        ]
-      },
-      "JUNTOS POR EL PERÚ": {
-        "seats_won": 0,
-        "candidates": [
-          {
-            "name": "WILLIAM RICARDO SANCHEZ PALOMINO",
-            "votes": 2014,
-            "lista": 1,
-            "elected": false
-          },
-          {
-            "name": "YOLANDA VARGAS CHOQUE",
-            "votes": 1269,
             "lista": 2,
             "elected": false
           }
@@ -7526,6 +7526,34 @@
       }
     },
     "Loreto": {
+      "JUNTOS POR EL PERÚ": {
+        "seats_won": 0,
+        "candidates": [
+          {
+            "name": "JANINA DENISSE DEL AGUILA GALLARDO",
+            "votes": 1038,
+            "lista": 1,
+            "elected": false
+          },
+          {
+            "name": "DARWIN AVENDAÑO TUANAMA",
+            "votes": 812,
+            "lista": 2,
+            "elected": false
+          }
+        ]
+      },
+      "PARTIDO CÍVICO OBRAS": {
+        "seats_won": 0,
+        "candidates": [
+          {
+            "name": "GASPAR CARDENAS CARDENAS",
+            "votes": 392,
+            "lista": 1,
+            "elected": false
+          }
+        ]
+      },
       "FUERZA POPULAR": {
         "seats_won": 1,
         "candidates": [
@@ -7543,37 +7571,9 @@
           }
         ]
       },
-      "PARTIDO CÍVICO OBRAS": {
-        "seats_won": 0,
-        "candidates": [
-          {
-            "name": "GASPAR CARDENAS CARDENAS",
-            "votes": 392,
-            "lista": 1,
-            "elected": false
-          }
-        ]
-      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 0,
         "candidates": []
-      },
-      "JUNTOS POR EL PERÚ": {
-        "seats_won": 0,
-        "candidates": [
-          {
-            "name": "JANINA DENISSE DEL AGUILA GALLARDO",
-            "votes": 1038,
-            "lista": 1,
-            "elected": false
-          },
-          {
-            "name": "DARWIN AVENDAÑO TUANAMA",
-            "votes": 812,
-            "lista": 2,
-            "elected": false
-          }
-        ]
       },
       "AHORA NACIÓN - AN": {
         "seats_won": 0,
@@ -7605,6 +7605,27 @@
       }
     },
     "Madre de Dios": {
+      "JUNTOS POR EL PERÚ": {
+        "seats_won": 1,
+        "candidates": [
+          {
+            "name": "HUGO ISAAC CCAHUANA AYMACHOQUE",
+            "votes": 1376,
+            "lista": 2,
+            "elected": true
+          },
+          {
+            "name": "JESSICA CHOQUE VELA",
+            "votes": 1304,
+            "lista": 1,
+            "elected": false
+          }
+        ]
+      },
+      "PARTIDO CÍVICO OBRAS": {
+        "seats_won": 0,
+        "candidates": []
+      },
       "FUERZA POPULAR": {
         "seats_won": 0,
         "candidates": [
@@ -7622,10 +7643,6 @@
           }
         ]
       },
-      "PARTIDO CÍVICO OBRAS": {
-        "seats_won": 0,
-        "candidates": []
-      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 0,
         "candidates": [
@@ -7639,23 +7656,6 @@
             "name": "DALIA ELIZABETH CHUQUIMARCA TOCTO",
             "votes": 122,
             "lista": 2,
-            "elected": false
-          }
-        ]
-      },
-      "JUNTOS POR EL PERÚ": {
-        "seats_won": 1,
-        "candidates": [
-          {
-            "name": "HUGO ISAAC CCAHUANA AYMACHOQUE",
-            "votes": 1376,
-            "lista": 2,
-            "elected": true
-          },
-          {
-            "name": "JESSICA CHOQUE VELA",
-            "votes": 1304,
-            "lista": 1,
             "elected": false
           }
         ]
@@ -7690,6 +7690,21 @@
       }
     },
     "Moquegua": {
+      "JUNTOS POR EL PERÚ": {
+        "seats_won": 1,
+        "candidates": [
+          {
+            "name": "VICTOR RAUL CUTIPA CCAMA",
+            "votes": 1921,
+            "lista": 1,
+            "elected": true
+          }
+        ]
+      },
+      "PARTIDO CÍVICO OBRAS": {
+        "seats_won": 0,
+        "candidates": []
+      },
       "FUERZA POPULAR": {
         "seats_won": 0,
         "candidates": [
@@ -7707,10 +7722,6 @@
           }
         ]
       },
-      "PARTIDO CÍVICO OBRAS": {
-        "seats_won": 0,
-        "candidates": []
-      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 0,
         "candidates": [
@@ -7719,17 +7730,6 @@
             "votes": 468,
             "lista": 2,
             "elected": false
-          }
-        ]
-      },
-      "JUNTOS POR EL PERÚ": {
-        "seats_won": 1,
-        "candidates": [
-          {
-            "name": "VICTOR RAUL CUTIPA CCAMA",
-            "votes": 1921,
-            "lista": 1,
-            "elected": true
           }
         ]
       },
@@ -7769,6 +7769,21 @@
       }
     },
     "Pasco": {
+      "JUNTOS POR EL PERÚ": {
+        "seats_won": 1,
+        "candidates": [
+          {
+            "name": "PERCY HERBERT OSORIO PALPAN",
+            "votes": 2940,
+            "lista": 1,
+            "elected": true
+          }
+        ]
+      },
+      "PARTIDO CÍVICO OBRAS": {
+        "seats_won": 0,
+        "candidates": []
+      },
       "FUERZA POPULAR": {
         "seats_won": 0,
         "candidates": [
@@ -7786,10 +7801,6 @@
           }
         ]
       },
-      "PARTIDO CÍVICO OBRAS": {
-        "seats_won": 0,
-        "candidates": []
-      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 0,
         "candidates": [
@@ -7804,17 +7815,6 @@
             "votes": 123,
             "lista": 2,
             "elected": false
-          }
-        ]
-      },
-      "JUNTOS POR EL PERÚ": {
-        "seats_won": 1,
-        "candidates": [
-          {
-            "name": "PERCY HERBERT OSORIO PALPAN",
-            "votes": 2940,
-            "lista": 1,
-            "elected": true
           }
         ]
       },
@@ -7854,18 +7854,18 @@
       }
     },
     "Piura": {
-      "FUERZA POPULAR": {
-        "seats_won": 1,
+      "JUNTOS POR EL PERÚ": {
+        "seats_won": 0,
         "candidates": [
           {
-            "name": "KARLA MELISSA SCHAEFER CUCULIZA",
-            "votes": 5731,
+            "name": "BRANLY ALBERTO MORALES ROSAS",
+            "votes": 1373,
             "lista": 1,
-            "elected": true
+            "elected": false
           },
           {
-            "name": "VICTOR HUGO FLORES CARRUITERO",
-            "votes": 991,
+            "name": "GINA MARIBEL LLENQUE MORAN",
+            "votes": 774,
             "lista": 2,
             "elected": false
           }
@@ -7888,6 +7888,23 @@
           }
         ]
       },
+      "FUERZA POPULAR": {
+        "seats_won": 1,
+        "candidates": [
+          {
+            "name": "KARLA MELISSA SCHAEFER CUCULIZA",
+            "votes": 5731,
+            "lista": 1,
+            "elected": true
+          },
+          {
+            "name": "VICTOR HUGO FLORES CARRUITERO",
+            "votes": 991,
+            "lista": 2,
+            "elected": false
+          }
+        ]
+      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 0,
         "candidates": [
@@ -7900,23 +7917,6 @@
           {
             "name": "DANISA DALEINE OTERO PERALTA",
             "votes": 453,
-            "lista": 2,
-            "elected": false
-          }
-        ]
-      },
-      "JUNTOS POR EL PERÚ": {
-        "seats_won": 0,
-        "candidates": [
-          {
-            "name": "BRANLY ALBERTO MORALES ROSAS",
-            "votes": 1373,
-            "lista": 1,
-            "elected": false
-          },
-          {
-            "name": "GINA MARIBEL LLENQUE MORAN",
-            "votes": 774,
             "lista": 2,
             "elected": false
           }
@@ -7952,18 +7952,18 @@
       }
     },
     "Puno": {
-      "FUERZA POPULAR": {
-        "seats_won": 0,
+      "JUNTOS POR EL PERÚ": {
+        "seats_won": 1,
         "candidates": [
           {
-            "name": "ARISTIDES RAMON SERRUTO COLQUE",
-            "votes": 1270,
+            "name": "JOSE MOISES CHIPANA CHIPANA",
+            "votes": 21947,
             "lista": 1,
-            "elected": false
+            "elected": true
           },
           {
-            "name": "MANUELA VELA RENGIFO",
-            "votes": 461,
+            "name": "ROSA EMILIANA LUQUE SANDOVAL",
+            "votes": 8756,
             "lista": 2,
             "elected": false
           }
@@ -7986,6 +7986,23 @@
           }
         ]
       },
+      "FUERZA POPULAR": {
+        "seats_won": 0,
+        "candidates": [
+          {
+            "name": "ARISTIDES RAMON SERRUTO COLQUE",
+            "votes": 1270,
+            "lista": 1,
+            "elected": false
+          },
+          {
+            "name": "MANUELA VELA RENGIFO",
+            "votes": 461,
+            "lista": 2,
+            "elected": false
+          }
+        ]
+      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 0,
         "candidates": [
@@ -7998,23 +8015,6 @@
           {
             "name": "JULIO ERNESTO CASTRO HUAYAPA",
             "votes": 881,
-            "lista": 2,
-            "elected": false
-          }
-        ]
-      },
-      "JUNTOS POR EL PERÚ": {
-        "seats_won": 1,
-        "candidates": [
-          {
-            "name": "JOSE MOISES CHIPANA CHIPANA",
-            "votes": 21947,
-            "lista": 1,
-            "elected": true
-          },
-          {
-            "name": "ROSA EMILIANA LUQUE SANDOVAL",
-            "votes": 8756,
             "lista": 2,
             "elected": false
           }
@@ -8050,16 +8050,9 @@
       }
     },
     "San Martín": {
-      "FUERZA POPULAR": {
-        "seats_won": 1,
-        "candidates": [
-          {
-            "name": "VICTOR MANUEL NORIEGA REATEGUI",
-            "votes": 2800,
-            "lista": 1,
-            "elected": true
-          }
-        ]
+      "JUNTOS POR EL PERÚ": {
+        "seats_won": 0,
+        "candidates": []
       },
       "PARTIDO CÍVICO OBRAS": {
         "seats_won": 0,
@@ -8078,11 +8071,18 @@
           }
         ]
       },
-      "PARTIDO DEL BUEN GOBIERNO": {
-        "seats_won": 0,
-        "candidates": []
+      "FUERZA POPULAR": {
+        "seats_won": 1,
+        "candidates": [
+          {
+            "name": "VICTOR MANUEL NORIEGA REATEGUI",
+            "votes": 2800,
+            "lista": 1,
+            "elected": true
+          }
+        ]
       },
-      "JUNTOS POR EL PERÚ": {
+      "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 0,
         "candidates": []
       },
@@ -8122,18 +8122,18 @@
       }
     },
     "Tacna": {
-      "FUERZA POPULAR": {
+      "JUNTOS POR EL PERÚ": {
         "seats_won": 0,
         "candidates": [
           {
-            "name": "WALDO MARTIN VALENCIA BERLANGA",
-            "votes": 596,
+            "name": "CARLOS FRANKO LLANOS",
+            "votes": 1188,
             "lista": 1,
             "elected": false
           },
           {
-            "name": "ELSA SANTUSA CONDORI GALLEGOS",
-            "votes": 100,
+            "name": "PATRICIA YENNYFER NAVARRO PEÑA",
+            "votes": 544,
             "lista": 2,
             "elected": false
           }
@@ -8156,6 +8156,23 @@
           }
         ]
       },
+      "FUERZA POPULAR": {
+        "seats_won": 0,
+        "candidates": [
+          {
+            "name": "WALDO MARTIN VALENCIA BERLANGA",
+            "votes": 596,
+            "lista": 1,
+            "elected": false
+          },
+          {
+            "name": "ELSA SANTUSA CONDORI GALLEGOS",
+            "votes": 100,
+            "lista": 2,
+            "elected": false
+          }
+        ]
+      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 0,
         "candidates": [
@@ -8168,23 +8185,6 @@
           {
             "name": "FERDINAN ANGEL CUADROS MONTOYA",
             "votes": 441,
-            "lista": 2,
-            "elected": false
-          }
-        ]
-      },
-      "JUNTOS POR EL PERÚ": {
-        "seats_won": 0,
-        "candidates": [
-          {
-            "name": "CARLOS FRANKO LLANOS",
-            "votes": 1188,
-            "lista": 1,
-            "elected": false
-          },
-          {
-            "name": "PATRICIA YENNYFER NAVARRO PEÑA",
-            "votes": 544,
             "lista": 2,
             "elected": false
           }
@@ -8220,6 +8220,27 @@
       }
     },
     "Tumbes": {
+      "JUNTOS POR EL PERÚ": {
+        "seats_won": 0,
+        "candidates": [
+          {
+            "name": "PASCUALA ISABEL HEREDIA MARCHAN",
+            "votes": 502,
+            "lista": 1,
+            "elected": false
+          },
+          {
+            "name": "LUIS FERNANDO ZUÑIGA MARQUEZ",
+            "votes": 77,
+            "lista": 2,
+            "elected": false
+          }
+        ]
+      },
+      "PARTIDO CÍVICO OBRAS": {
+        "seats_won": 0,
+        "candidates": []
+      },
       "FUERZA POPULAR": {
         "seats_won": 1,
         "candidates": [
@@ -8237,10 +8258,6 @@
           }
         ]
       },
-      "PARTIDO CÍVICO OBRAS": {
-        "seats_won": 0,
-        "candidates": []
-      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 0,
         "candidates": [
@@ -8253,23 +8270,6 @@
           {
             "name": "ANDREA IMAN YARLEQUE",
             "votes": 47,
-            "lista": 2,
-            "elected": false
-          }
-        ]
-      },
-      "JUNTOS POR EL PERÚ": {
-        "seats_won": 0,
-        "candidates": [
-          {
-            "name": "PASCUALA ISABEL HEREDIA MARCHAN",
-            "votes": 502,
-            "lista": 1,
-            "elected": false
-          },
-          {
-            "name": "LUIS FERNANDO ZUÑIGA MARQUEZ",
-            "votes": 77,
             "lista": 2,
             "elected": false
           }
@@ -8305,22 +8305,9 @@
       }
     },
     "Ucayali": {
-      "FUERZA POPULAR": {
-        "seats_won": 1,
-        "candidates": [
-          {
-            "name": "JORGE VELASQUEZ PORTOCARRERO",
-            "votes": 9142,
-            "lista": 1,
-            "elected": true
-          },
-          {
-            "name": "LICIALAN PINEDO SAAVEDRA",
-            "votes": 1144,
-            "lista": 2,
-            "elected": false
-          }
-        ]
+      "JUNTOS POR EL PERÚ": {
+        "seats_won": 0,
+        "candidates": []
       },
       "PARTIDO CÍVICO OBRAS": {
         "seats_won": 0,
@@ -8334,6 +8321,23 @@
           {
             "name": "JUAN DIESTRO SUAREZ",
             "votes": 340,
+            "lista": 2,
+            "elected": false
+          }
+        ]
+      },
+      "FUERZA POPULAR": {
+        "seats_won": 1,
+        "candidates": [
+          {
+            "name": "JORGE VELASQUEZ PORTOCARRERO",
+            "votes": 9142,
+            "lista": 1,
+            "elected": true
+          },
+          {
+            "name": "LICIALAN PINEDO SAAVEDRA",
+            "votes": 1144,
             "lista": 2,
             "elected": false
           }
@@ -8355,10 +8359,6 @@
             "elected": false
           }
         ]
-      },
-      "JUNTOS POR EL PERÚ": {
-        "seats_won": 0,
-        "candidates": []
       },
       "AHORA NACIÓN - AN": {
         "seats_won": 0,
@@ -8396,18 +8396,18 @@
       }
     },
     "PEX": {
-      "FUERZA POPULAR": {
+      "JUNTOS POR EL PERÚ": {
         "seats_won": 0,
         "candidates": [
           {
-            "name": "ANA ISABEL LEON POMA DE ACOSTA",
-            "votes": 569,
+            "name": "MANUELA KARINE BASTIDAS ROMERO",
+            "votes": 147,
             "lista": 1,
             "elected": false
           },
           {
-            "name": "JOSE ARMANDO GALVEZ ALTAMIRANO",
-            "votes": 172,
+            "name": "MARCIAL BERARDO MAYDANA VILCA",
+            "votes": 77,
             "lista": 2,
             "elected": false
           }
@@ -8430,6 +8430,23 @@
           }
         ]
       },
+      "FUERZA POPULAR": {
+        "seats_won": 0,
+        "candidates": [
+          {
+            "name": "ANA ISABEL LEON POMA DE ACOSTA",
+            "votes": 569,
+            "lista": 1,
+            "elected": false
+          },
+          {
+            "name": "JOSE ARMANDO GALVEZ ALTAMIRANO",
+            "votes": 172,
+            "lista": 2,
+            "elected": false
+          }
+        ]
+      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 0,
         "candidates": [
@@ -8442,23 +8459,6 @@
           {
             "name": "MARGARITA LILIAN VEGA CABIESES",
             "votes": 102,
-            "lista": 2,
-            "elected": false
-          }
-        ]
-      },
-      "JUNTOS POR EL PERÚ": {
-        "seats_won": 0,
-        "candidates": [
-          {
-            "name": "MANUELA KARINE BASTIDAS ROMERO",
-            "votes": 147,
-            "lista": 1,
-            "elected": false
-          },
-          {
-            "name": "MARCIAL BERARDO MAYDANA VILCA",
-            "votes": 77,
             "lista": 2,
             "elected": false
           }
@@ -8500,187 +8500,187 @@
       }
     },
     "Nacional": {
-      "FUERZA POPULAR": {
-        "seats_won": 6,
+      "JUNTOS POR EL PERÚ": {
+        "seats_won": 5,
         "candidates": [
           {
-            "name": "MIGUEL ANGEL TORRES MORALES",
-            "votes": 200181,
+            "name": "JOSE MERCEDES CASTILLO TERRONES",
+            "votes": 181631,
             "lista": 1,
             "elected": true
           },
           {
-            "name": "MARTHA GLADYS CHAVEZ COSSIO",
-            "votes": 81952,
+            "name": "SILVANA EMPERATRIZ ROBLES ARAUJO",
+            "votes": 100921,
             "lista": 2,
             "elected": true
           },
           {
-            "name": "FERNANDO MIGUEL ROSPIGLIOSI CAPURRO",
-            "votes": 42353,
+            "name": "BERNARDO JAIME QUITO SARMIENTO",
+            "votes": 64221,
+            "lista": 7,
+            "elected": true
+          },
+          {
+            "name": "SAUL ANDRES ARMACANQUI MORALES",
+            "votes": 21684,
             "lista": 3,
             "elected": true
           },
           {
-            "name": "CARMEN PATRICIA JUAREZ GALLEGOS",
-            "votes": 22756,
-            "lista": 4,
+            "name": "IBER ANTENOR MARAVI OLARTE",
+            "votes": 18946,
+            "lista": 13,
             "elected": true
           },
           {
-            "name": "MARTHA LUPE MOYANO DELGADO",
-            "votes": 19133,
-            "lista": 6,
-            "elected": true
-          },
-          {
-            "name": "CESAR AUGUSTO ASTUDILLO SALCEDO",
-            "votes": 17405,
-            "lista": 5,
-            "elected": true
-          },
-          {
-            "name": "CARLOS FERNANDO MESIA RAMIREZ",
-            "votes": 8435,
-            "lista": 9,
-            "elected": false
-          },
-          {
-            "name": "CARLOS MARIO DEL CARMEN TUBINO ARIAS SCHREIBER",
-            "votes": 6844,
-            "lista": 7,
-            "elected": false
-          },
-          {
-            "name": "SITZA LITA ROMERO PERALTA",
-            "votes": 4088,
-            "lista": 10,
-            "elected": false
-          },
-          {
-            "name": "CECILIA ANTONIETA CASTRO TORRES",
-            "votes": 4050,
+            "name": "MARGOT PALACIOS HUAMAN",
+            "votes": 18404,
             "lista": 8,
             "elected": false
           },
           {
-            "name": "JAIME AGUSTIN SOBERO TAIRA",
-            "votes": 2914,
-            "lista": 15,
-            "elected": false
-          },
-          {
-            "name": "RITA ELENA AYASTA DE DIAZ",
-            "votes": 2901,
-            "lista": 12,
-            "elected": false
-          },
-          {
-            "name": "SANDRO ESPOSITO SHAPIAMA",
-            "votes": 2844,
-            "lista": 11,
-            "elected": false
-          },
-          {
-            "name": "JESUS ALEXANDER ALCALA MATEO",
-            "votes": 2069,
-            "lista": 23,
-            "elected": false
-          },
-          {
-            "name": "RICARDO RIVERA ROMERO",
-            "votes": 1877,
-            "lista": 13,
-            "elected": false
-          },
-          {
-            "name": "LILIANA ANGELICA PINEDO ACHACA",
-            "votes": 1757,
-            "lista": 14,
-            "elected": false
-          },
-          {
-            "name": "JENY LUZ LOPEZ MORALES",
-            "votes": 1606,
-            "lista": 16,
-            "elected": false
-          },
-          {
-            "name": "CESAR MILTON CAMPOS RAMIREZ",
-            "votes": 1132,
-            "lista": 21,
-            "elected": false
-          },
-          {
-            "name": "RAUL HUAMAN CORONADO",
-            "votes": 1113,
-            "lista": 17,
-            "elected": false
-          },
-          {
-            "name": "CARLOS WALTER MEJIA ESCAJADILLO",
-            "votes": 1017,
-            "lista": 29,
-            "elected": false
-          },
-          {
-            "name": "MARIA PILAR PEREZ VILLASANTE",
-            "votes": 893,
-            "lista": 20,
-            "elected": false
-          },
-          {
-            "name": "BETTY GLADYS ANANCULI GOMEZ",
-            "votes": 831,
-            "lista": 22,
-            "elected": false
-          },
-          {
-            "name": "ALEXANDER GALLARDO SANDOVAL",
-            "votes": 706,
+            "name": "MARTIN COLAN TORRES",
+            "votes": 16435,
             "lista": 25,
             "elected": false
           },
           {
-            "name": "ERWIN TITO ORTEGA",
-            "votes": 647,
+            "name": "JOSE CARLOS ABARCA CALLO",
+            "votes": 13713,
+            "lista": 5,
+            "elected": false
+          },
+          {
+            "name": "ANAHI DURAND GUEVARA",
+            "votes": 13145,
+            "lista": 4,
+            "elected": false
+          },
+          {
+            "name": "HERNANDO ISMAEL CEVALLOS FLORES",
+            "votes": 11160,
+            "lista": 11,
+            "elected": false
+          },
+          {
+            "name": "PASION NEOMIAS DAVILA ATANACIO",
+            "votes": 9651,
+            "lista": 15,
+            "elected": false
+          },
+          {
+            "name": "ISAAC HUMALA NUÑEZ",
+            "votes": 8051,
+            "lista": 9,
+            "elected": false
+          },
+          {
+            "name": "JOSE PRAXEDES FERIA MADRID",
+            "votes": 5375,
             "lista": 19,
             "elected": false
           },
           {
-            "name": "SANTUSA ANSIA MAMANI VILCA",
-            "votes": 522,
+            "name": "JANET PATRICIA MARIN RIVERA",
+            "votes": 4643,
+            "lista": 6,
+            "elected": false
+          },
+          {
+            "name": "EDELMIRA CRISTINA ROCILLO TELLO",
+            "votes": 2719,
+            "lista": 12,
+            "elected": false
+          },
+          {
+            "name": "CESAR COPA TIJUTANI",
+            "votes": 2511,
+            "lista": 17,
+            "elected": false
+          },
+          {
+            "name": "PAULA HONORIA O'HIGGINS LUYO",
+            "votes": 1347,
+            "lista": 10,
+            "elected": false
+          },
+          {
+            "name": "CARMEN CELINDA YALICO MONCADA",
+            "votes": 1086,
+            "lista": 16,
+            "elected": false
+          },
+          {
+            "name": "LUZ MARINA RODRIGUEZ CHAVEZ",
+            "votes": 1042,
+            "lista": 14,
+            "elected": false
+          },
+          {
+            "name": "LAURA MICAELA RIVAS QUIROZ",
+            "votes": 960,
+            "lista": 22,
+            "elected": false
+          },
+          {
+            "name": "EVILA SANGAMA TUANAMA DE SALDAÑA",
+            "votes": 664,
             "lista": 18,
             "elected": false
           },
           {
-            "name": "ESTELA MARTHA LEON REQUENA",
-            "votes": 396,
-            "lista": 26,
-            "elected": false
-          },
-          {
-            "name": "ELSA NORA TUESTA DE NOGUEIRA",
-            "votes": 373,
+            "name": "PRUDENCIA PAULA CAYETANO SUAREZ",
+            "votes": 639,
             "lista": 24,
             "elected": false
           },
           {
-            "name": "JUAN MANUEL ALARCON ATO",
-            "votes": 373,
+            "name": "JAVIER AUGUSTO DONAYRE ROJAS",
+            "votes": 623,
+            "lista": 23,
+            "elected": false
+          },
+          {
+            "name": "DANTE ALFONSO CASTRO ARRASCO",
+            "votes": 611,
+            "lista": 21,
+            "elected": false
+          },
+          {
+            "name": "LUIS MAMANI MAMANI",
+            "votes": 499,
             "lista": 27,
             "elected": false
           },
           {
-            "name": "CECILIA ROSARIO VILLANUEVA OSHIRO",
-            "votes": 336,
-            "lista": 28,
+            "name": "MARIA DEL ROSARIO RAMOS GUTIERREZ",
+            "votes": 275,
+            "lista": 20,
             "elected": false
           },
           {
-            "name": "MAGDA LILI MANCO PADILLA",
-            "votes": 307,
+            "name": "VILMA ROSA VEGA FLORES",
+            "votes": 232,
+            "lista": 26,
+            "elected": false
+          },
+          {
+            "name": "MANUEL EUGENIO TORBISCO JUAREZ",
+            "votes": 170,
+            "lista": 29,
+            "elected": false
+          },
+          {
+            "name": "DALILA CUSTODIO CACHAY",
+            "votes": 138,
             "lista": 30,
+            "elected": false
+          },
+          {
+            "name": "NELLY AYSANOA HUALLPA",
+            "votes": 92,
+            "lista": 28,
             "elected": false
           }
         ]
@@ -8870,6 +8870,191 @@
           }
         ]
       },
+      "FUERZA POPULAR": {
+        "seats_won": 6,
+        "candidates": [
+          {
+            "name": "MIGUEL ANGEL TORRES MORALES",
+            "votes": 200181,
+            "lista": 1,
+            "elected": true
+          },
+          {
+            "name": "MARTHA GLADYS CHAVEZ COSSIO",
+            "votes": 81952,
+            "lista": 2,
+            "elected": true
+          },
+          {
+            "name": "FERNANDO MIGUEL ROSPIGLIOSI CAPURRO",
+            "votes": 42353,
+            "lista": 3,
+            "elected": true
+          },
+          {
+            "name": "CARMEN PATRICIA JUAREZ GALLEGOS",
+            "votes": 22756,
+            "lista": 4,
+            "elected": true
+          },
+          {
+            "name": "MARTHA LUPE MOYANO DELGADO",
+            "votes": 19133,
+            "lista": 6,
+            "elected": true
+          },
+          {
+            "name": "CESAR AUGUSTO ASTUDILLO SALCEDO",
+            "votes": 17405,
+            "lista": 5,
+            "elected": true
+          },
+          {
+            "name": "CARLOS FERNANDO MESIA RAMIREZ",
+            "votes": 8435,
+            "lista": 9,
+            "elected": false
+          },
+          {
+            "name": "CARLOS MARIO DEL CARMEN TUBINO ARIAS SCHREIBER",
+            "votes": 6844,
+            "lista": 7,
+            "elected": false
+          },
+          {
+            "name": "SITZA LITA ROMERO PERALTA",
+            "votes": 4088,
+            "lista": 10,
+            "elected": false
+          },
+          {
+            "name": "CECILIA ANTONIETA CASTRO TORRES",
+            "votes": 4050,
+            "lista": 8,
+            "elected": false
+          },
+          {
+            "name": "JAIME AGUSTIN SOBERO TAIRA",
+            "votes": 2914,
+            "lista": 15,
+            "elected": false
+          },
+          {
+            "name": "RITA ELENA AYASTA DE DIAZ",
+            "votes": 2901,
+            "lista": 12,
+            "elected": false
+          },
+          {
+            "name": "SANDRO ESPOSITO SHAPIAMA",
+            "votes": 2844,
+            "lista": 11,
+            "elected": false
+          },
+          {
+            "name": "JESUS ALEXANDER ALCALA MATEO",
+            "votes": 2069,
+            "lista": 23,
+            "elected": false
+          },
+          {
+            "name": "RICARDO RIVERA ROMERO",
+            "votes": 1877,
+            "lista": 13,
+            "elected": false
+          },
+          {
+            "name": "LILIANA ANGELICA PINEDO ACHACA",
+            "votes": 1757,
+            "lista": 14,
+            "elected": false
+          },
+          {
+            "name": "JENY LUZ LOPEZ MORALES",
+            "votes": 1606,
+            "lista": 16,
+            "elected": false
+          },
+          {
+            "name": "CESAR MILTON CAMPOS RAMIREZ",
+            "votes": 1132,
+            "lista": 21,
+            "elected": false
+          },
+          {
+            "name": "RAUL HUAMAN CORONADO",
+            "votes": 1113,
+            "lista": 17,
+            "elected": false
+          },
+          {
+            "name": "CARLOS WALTER MEJIA ESCAJADILLO",
+            "votes": 1017,
+            "lista": 29,
+            "elected": false
+          },
+          {
+            "name": "MARIA PILAR PEREZ VILLASANTE",
+            "votes": 893,
+            "lista": 20,
+            "elected": false
+          },
+          {
+            "name": "BETTY GLADYS ANANCULI GOMEZ",
+            "votes": 831,
+            "lista": 22,
+            "elected": false
+          },
+          {
+            "name": "ALEXANDER GALLARDO SANDOVAL",
+            "votes": 706,
+            "lista": 25,
+            "elected": false
+          },
+          {
+            "name": "ERWIN TITO ORTEGA",
+            "votes": 647,
+            "lista": 19,
+            "elected": false
+          },
+          {
+            "name": "SANTUSA ANSIA MAMANI VILCA",
+            "votes": 522,
+            "lista": 18,
+            "elected": false
+          },
+          {
+            "name": "ESTELA MARTHA LEON REQUENA",
+            "votes": 396,
+            "lista": 26,
+            "elected": false
+          },
+          {
+            "name": "ELSA NORA TUESTA DE NOGUEIRA",
+            "votes": 373,
+            "lista": 24,
+            "elected": false
+          },
+          {
+            "name": "JUAN MANUEL ALARCON ATO",
+            "votes": 373,
+            "lista": 27,
+            "elected": false
+          },
+          {
+            "name": "CECILIA ROSARIO VILLANUEVA OSHIRO",
+            "votes": 336,
+            "lista": 28,
+            "elected": false
+          },
+          {
+            "name": "MAGDA LILI MANCO PADILLA",
+            "votes": 307,
+            "lista": 30,
+            "elected": false
+          }
+        ]
+      },
       "PARTIDO DEL BUEN GOBIERNO": {
         "seats_won": 5,
         "candidates": [
@@ -9044,191 +9229,6 @@
           {
             "name": "HEBE ISABEL ECHE PALACIOS DE SAAVEDRA",
             "votes": 96,
-            "lista": 28,
-            "elected": false
-          }
-        ]
-      },
-      "JUNTOS POR EL PERÚ": {
-        "seats_won": 5,
-        "candidates": [
-          {
-            "name": "JOSE MERCEDES CASTILLO TERRONES",
-            "votes": 181631,
-            "lista": 1,
-            "elected": true
-          },
-          {
-            "name": "SILVANA EMPERATRIZ ROBLES ARAUJO",
-            "votes": 100921,
-            "lista": 2,
-            "elected": true
-          },
-          {
-            "name": "BERNARDO JAIME QUITO SARMIENTO",
-            "votes": 64221,
-            "lista": 7,
-            "elected": true
-          },
-          {
-            "name": "SAUL ANDRES ARMACANQUI MORALES",
-            "votes": 21684,
-            "lista": 3,
-            "elected": true
-          },
-          {
-            "name": "IBER ANTENOR MARAVI OLARTE",
-            "votes": 18946,
-            "lista": 13,
-            "elected": true
-          },
-          {
-            "name": "MARGOT PALACIOS HUAMAN",
-            "votes": 18404,
-            "lista": 8,
-            "elected": false
-          },
-          {
-            "name": "MARTIN COLAN TORRES",
-            "votes": 16435,
-            "lista": 25,
-            "elected": false
-          },
-          {
-            "name": "JOSE CARLOS ABARCA CALLO",
-            "votes": 13713,
-            "lista": 5,
-            "elected": false
-          },
-          {
-            "name": "ANAHI DURAND GUEVARA",
-            "votes": 13145,
-            "lista": 4,
-            "elected": false
-          },
-          {
-            "name": "HERNANDO ISMAEL CEVALLOS FLORES",
-            "votes": 11160,
-            "lista": 11,
-            "elected": false
-          },
-          {
-            "name": "PASION NEOMIAS DAVILA ATANACIO",
-            "votes": 9651,
-            "lista": 15,
-            "elected": false
-          },
-          {
-            "name": "ISAAC HUMALA NUÑEZ",
-            "votes": 8051,
-            "lista": 9,
-            "elected": false
-          },
-          {
-            "name": "JOSE PRAXEDES FERIA MADRID",
-            "votes": 5375,
-            "lista": 19,
-            "elected": false
-          },
-          {
-            "name": "JANET PATRICIA MARIN RIVERA",
-            "votes": 4643,
-            "lista": 6,
-            "elected": false
-          },
-          {
-            "name": "EDELMIRA CRISTINA ROCILLO TELLO",
-            "votes": 2719,
-            "lista": 12,
-            "elected": false
-          },
-          {
-            "name": "CESAR COPA TIJUTANI",
-            "votes": 2511,
-            "lista": 17,
-            "elected": false
-          },
-          {
-            "name": "PAULA HONORIA O'HIGGINS LUYO",
-            "votes": 1347,
-            "lista": 10,
-            "elected": false
-          },
-          {
-            "name": "CARMEN CELINDA YALICO MONCADA",
-            "votes": 1086,
-            "lista": 16,
-            "elected": false
-          },
-          {
-            "name": "LUZ MARINA RODRIGUEZ CHAVEZ",
-            "votes": 1042,
-            "lista": 14,
-            "elected": false
-          },
-          {
-            "name": "LAURA MICAELA RIVAS QUIROZ",
-            "votes": 960,
-            "lista": 22,
-            "elected": false
-          },
-          {
-            "name": "EVILA SANGAMA TUANAMA DE SALDAÑA",
-            "votes": 664,
-            "lista": 18,
-            "elected": false
-          },
-          {
-            "name": "PRUDENCIA PAULA CAYETANO SUAREZ",
-            "votes": 639,
-            "lista": 24,
-            "elected": false
-          },
-          {
-            "name": "JAVIER AUGUSTO DONAYRE ROJAS",
-            "votes": 623,
-            "lista": 23,
-            "elected": false
-          },
-          {
-            "name": "DANTE ALFONSO CASTRO ARRASCO",
-            "votes": 611,
-            "lista": 21,
-            "elected": false
-          },
-          {
-            "name": "LUIS MAMANI MAMANI",
-            "votes": 499,
-            "lista": 27,
-            "elected": false
-          },
-          {
-            "name": "MARIA DEL ROSARIO RAMOS GUTIERREZ",
-            "votes": 275,
-            "lista": 20,
-            "elected": false
-          },
-          {
-            "name": "VILMA ROSA VEGA FLORES",
-            "votes": 232,
-            "lista": 26,
-            "elected": false
-          },
-          {
-            "name": "MANUEL EUGENIO TORBISCO JUAREZ",
-            "votes": 170,
-            "lista": 29,
-            "elected": false
-          },
-          {
-            "name": "DALILA CUSTODIO CACHAY",
-            "votes": 138,
-            "lista": 30,
-            "elected": false
-          },
-          {
-            "name": "NELLY AYSANOA HUALLPA",
-            "votes": 92,
             "lista": 28,
             "elected": false
           }
